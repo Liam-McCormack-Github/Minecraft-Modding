@@ -631,7 +631,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <en
 
 mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 250, <tp:ender_dust>, 16000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:mana> * 250, <thermalfoundation:geode>, 2000);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:mana> * 144, <minecraft:dirt>, 2000);
 
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:water> * 10000, <projecte:item.pe_evertide_amulet>, 200, <projecte:item.pe_evertide_amulet>);
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 10000, <projecte:item.pe_volcanite_amulet>, 600, <projecte:item.pe_volcanite_amulet>);
@@ -770,7 +769,7 @@ mods.thermalexpansion.Centrifuge.addRecipe([<alchemistry:element:92>, <enderio:b
 
 mods.thermalexpansion.EnervationDynamo.addFuel(<zcontent:rf_fe_flux_power_energy>, 1000000);
 
-mods.thermalexpansion.Refinery.addRecipe(<liquid:potion>.withTag({Potion: "techguns:radpotion"}) * 10000, <zcontent:enricheduranium>, <liquid:uranium> * 144, 120000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:potion>.withTag({Potion: "techguns:radpotion"}) * 10000, <zcontent:enricheduranium>, <liquid:uranium> * 9216, 120000);
 
 mods.thermalexpansion.Refinery.addRecipe(null, <zcontent:rf_fe_flux_power_energy>, <liquid:redstone> * 100, 6000);
 
