@@ -1,0 +1,30 @@
+{
+	x: -4.0d,
+	y: 5.5d,
+	shape: "rsquare",
+	dependencies: [
+		"d141d960"
+	],
+	tasks: [{
+		uid: "86d84adf",
+		type: "item",
+		items: [{
+			item: "zcontent:purple_alloy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "f2360490",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "2333b52a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

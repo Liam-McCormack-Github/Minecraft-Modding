@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	dependencies: [
+		"84b14054"
+	],
+	tasks: [{
+		uid: "3631bc22",
+		type: "item",
+		items: [{
+			item: "zcontent:substrate"
+		}]
+	}],
+	rewards: [{
+		uid: "ebb6f0d7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "88423d60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

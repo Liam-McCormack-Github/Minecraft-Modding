@@ -1,0 +1,29 @@
+{
+	x: 10.5d,
+	y: 17.0d,
+	dependencies: [
+		"ed059de3"
+	],
+	tasks: [{
+		uid: "47c492a7",
+		type: "item",
+		items: [{
+			item: "zcontent:evil_terraglaz_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "a6d0a67d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "6b268bc5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

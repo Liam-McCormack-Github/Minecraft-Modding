@@ -1,0 +1,36 @@
+{
+	x: -3.0d,
+	y: 4.5d,
+	dependencies: [
+		"37956d4e"
+	],
+	tasks: [{
+		uid: "4313a11b",
+		type: "item",
+		title: "Any dustCoal",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustCoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "530bdc7f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "03d0cc83",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

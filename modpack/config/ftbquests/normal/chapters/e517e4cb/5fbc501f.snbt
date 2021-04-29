@@ -1,0 +1,31 @@
+{
+	x: 0.5d,
+	y: 19.0d,
+	shape: "rsquare",
+	dependencies: [
+		"4df5ccab",
+		"07605393"
+	],
+	tasks: [{
+		uid: "0a710f4f",
+		type: "item",
+		items: [{
+			item: "projectex:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "9cff40ae",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "28223030",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

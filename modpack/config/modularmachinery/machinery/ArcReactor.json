@@ -1,0 +1,2965 @@
+{
+    "registryname": "ArcReactor",
+    "localizedname": "Advanced Fusion Reactor",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": "modularmachinery:blockoutputbus"
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": "modularmachinery:blockenergyinputhatch"
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": "modularmachinery:blockenergyoutputhatch"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": "modularmachinery:blockenergyinputhatch"
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": "modularmachinery:blockfluidinputhatch"
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": "modularmachinery:blockinputbus"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "modularmachinery:blockenergyinputhatch"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": "modularmachinery:blockenergyinputhatch"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "enderio:block_fluid_vapor_of_levity"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "quark:iron_plate_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        }
+    ]}

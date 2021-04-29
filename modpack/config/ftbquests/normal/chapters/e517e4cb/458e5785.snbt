@@ -1,0 +1,30 @@
+{
+	x: -6.0d,
+	y: 4.5d,
+	shape: "rsquare",
+	dependencies: [
+		"66a460e2"
+	],
+	tasks: [{
+		uid: "48c86c73",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}],
+	rewards: [{
+		uid: "b9dcc342",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "91a0be46",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

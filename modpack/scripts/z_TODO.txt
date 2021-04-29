@@ -1,0 +1,174 @@
+
+
+
+change IE Cloche compat via rebuild mod
+
+
+
+
+
+
+
+
+
+
+
+projecte 
+	emc - TODO
+	life and body stone in anvil
+	check recipes - cant auto craft
+	buff projectE tools
+
+
+	crystal block not gem from seeds!!!
+
+	prosperity shards - souls
+
+	rebalance zWands
+	quests
+	check recipes
+	money balancing
+
+
+
+Change quest rewards
+	add items to shop
+	glithced loot box (blue and yellow)???
+
+
+
+
+
+MOB GRINDING UTILS MUCH HARDER RECIPES !!!
+
+
+
+
+
+
+Mystical coals work in blast furnace
+
+<thermalinnovation:drill>
+<thermalinnovation:drill:1>
+<thermalinnovation:drill:2>
+<thermalinnovation:drill:3>
+<thermalinnovation:drill:4>
+<thermalinnovation:drill:32000>
+
+<mysticalagriculture:inferium_pickaxe>
+<mysticalagriculture:prudentium_pickaxe>
+<mysticalagriculture:intermedium_pickaxe>
+<mysticalagriculture:superium_pickaxe>
+<mysticalagriculture:supremium_pickaxe>
+<mysticaladaptations:insanium_pickaxe>
+
+<minecraft:paper>.withTag({display: {Lore: ["Unlocks Kikoku Quest Line"], Name: "Kikoku"}})
+<minecraft:paper>.withTag({display: {Lore: ["Unlocks Compound Bow Quest Line"], Name: "Compound Bow"}})
+<minecraft:paper>.withTag({display: {Lore: ["Unlocks Fire Axe Quest Line"], Name: "Fire Axe"}})
+
+enchanted metal
+
+vat --> thermal recipes
+
+jaopca
+	denseplate
+	coin
+	molten
+	BLACK EVIL METAL
+
+dust crafting
+	WIP
+
+
+
+
+
+ingot | dust | gem | ore | block | nugget | ender | wire | @immersive | flint | @refined | @guns | star | ash | flux | clathrate
+
+
+///////////////////////////
+auto crafting fix with un-shaped recipes
+////////////////////////////
+
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:CokeOven"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:AlloySmelter"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnace"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnaceAdvanced"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:MetalPress"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Crusher"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:SheetmetalTank"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Silo"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Assembler"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:AutoWorkbench"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BottlingMachine"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Squeezer"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Fermenter"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Refinery"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:DieselGenerator"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:ArcFurnace"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Lightningrod"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Mixer"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IP:DistillationTower"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IP:Pumpjack"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:CokeOvenAdvanced"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Boiler"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Distiller"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarTower"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarReflector"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Alternator"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SteamTurbine"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SteelSheetmetalTank"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:ExcavatorDemo"})
+
+
+
+
+
+
+
+
+
+
+
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:CokeOven"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:AlloySmelter"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnace"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnaceAdvanced"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:MetalPress"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Crusher"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:SheetmetalTank"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Silo"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Assembler"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:AutoWorkbench"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BottlingMachine"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Squeezer"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Fermenter"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Refinery"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:DieselGenerator"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:ArcFurnace"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Lightningrod"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Mixer"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IP:DistillationTower"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IP:Pumpjack"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:CokeOvenAdvanced"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Boiler"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Distiller"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarTower"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarReflector"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Alternator"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SteamTurbine"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SteelSheetmetalTank"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:ExcavatorDemo"})
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+{
+	title: "Wires",
+	icon: "immersiveengineering:material 1 20",
+	x: -5.0d,
+	y: 2.5d,
+	dependencies: [
+		"7397134d"
+	],
+	tasks: [{
+		uid: "9910311d",
+		type: "item",
+		title: "Any wireCopper",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wireCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "540a53a4",
+		type: "item",
+		title: "Any wireElectrum",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wireElectrum",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "4536108c",
+		type: "item",
+		title: "Any wireAluminium",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wireAluminium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "c355331b",
+		type: "item",
+		title: "Any wireSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wireSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "cbb0fcec",
+		type: "item",
+		title: "Any wireGold",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wireGold",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "eb7dbcda",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "d712da40",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

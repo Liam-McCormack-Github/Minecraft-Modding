@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: 15.0d,
+	dependencies: [
+		"5b2007b8"
+	],
+	tasks: [{
+		uid: "d840503b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "db06239a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "76115922",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

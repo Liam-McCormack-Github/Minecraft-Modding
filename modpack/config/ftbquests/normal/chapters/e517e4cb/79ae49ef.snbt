@@ -1,0 +1,14 @@
+{
+	title: "Pumpjack",
+	icon: "immersiveengineering:metal_decoration1 1 1",
+	x: 0.0d,
+	y: -2.0d,
+	shape: "square",
+	dependencies: [
+		"6d231b02"
+	],
+	tasks: [{
+		uid: "8ed3b97d",
+		type: "checkmark"
+	}]
+}

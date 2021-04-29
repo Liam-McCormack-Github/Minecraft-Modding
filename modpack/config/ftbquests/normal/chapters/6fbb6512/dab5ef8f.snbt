@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "fa4571a3",
+		type: "checkmark",
+		title: "Ultimate Tier Quests",
+		icon: "extendedcrafting:material 1 32"
+	}],
+	rewards: [{
+		uid: "e43bd38d",
+		type: "item",
+		item: "playerstorage:apple 1 2"
+	}]
+}

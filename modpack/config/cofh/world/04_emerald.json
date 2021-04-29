@@ -1,0 +1,25 @@
+{
+	"dependencies": "minecraft",
+	"populate": {
+		"emerald_all": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "emerald_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 28,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

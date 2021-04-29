@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"4b0a1fb2"
+	],
+	tasks: [{
+		uid: "2c1624d6",
+		type: "item",
+		items: [{
+			item: "arcanearchives:shaped_quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "29257430",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "ced87402",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

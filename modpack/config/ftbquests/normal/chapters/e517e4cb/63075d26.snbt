@@ -1,0 +1,32 @@
+{
+	x: 10.5d,
+	y: 12.0d,
+	shape: "rsquare",
+	dependencies: [
+		"557ce2bc"
+	],
+	tasks: [{
+		uid: "882fbc0d",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_enderman"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e6ae1f9",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "3c468f65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

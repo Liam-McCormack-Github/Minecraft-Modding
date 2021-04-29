@@ -1,0 +1,228 @@
+[
+  {
+    "targetBlock": "extendedcrafting:trimmed",
+    "heldItem": "zcontent:extended_tier1",
+    "replacementBlock": "extendedcrafting:table_basic",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "extendedcrafting:trimmed:1",
+    "heldItem": "zcontent:extended_tier2",
+    "replacementBlock": "extendedcrafting:table_advanced",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "extendedcrafting:trimmed:2",
+    "heldItem": "zcontent:extended_tier3",
+    "replacementBlock": "extendedcrafting:table_elite",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "extendedcrafting:trimmed:3",
+    "heldItem": "zcontent:extended_tier4",
+    "replacementBlock": "extendedcrafting:table_ultimate",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:2",
+    "heldItem": "extrautils2:ingredients:5",
+    "replacementBlock": "chisel:energizedvoidstone:4"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:15",
+    "heldItem": "zcontent:black_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:3",
+    "heldItem": "zcontent:blue_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:5",
+    "heldItem": "zcontent:green_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:11",
+    "heldItem": "zcontent:indigo_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:1",
+    "heldItem": "zcontent:orange_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:14",
+    "heldItem": "zcontent:red_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:2",
+    "heldItem": "zcontent:violet_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune",
+    "heldItem": "zcontent:white_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "chisel:energizedvoidstone:4",
+    "dropItem": "quark:rune:4",
+    "heldItem": "zcontent:yellow_gem",
+    "replacementBlock": "chisel:energizedvoidstone:2",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "techguns:simplemachine:9",
+    "heldItem": "quark:rune:16",
+    "replacementBlock": "techguns:simplemachine:8",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "futuremc:stripped_oak_log",
+    "heldItem": "minecraft:stick",
+    "replacementBlock": "minecraft:fire",
+    "replacementChance": "1:16",
+    "dropItem": "minecraft:coal:1",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "futuremc:stripped_spruce_log",
+    "heldItem": "minecraft:stick",
+    "replacementBlock": "minecraft:fire",
+    "replacementChance": "1:16",
+    "dropItem": "minecraft:coal:1",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "futuremc:stripped_birch_log",
+    "heldItem": "minecraft:stick",
+    "replacementBlock": "minecraft:fire",
+    "replacementChance": "1:16",
+    "dropItem": "minecraft:coal:1",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "futuremc:stripped_jungle_log",
+    "heldItem": "minecraft:stick",
+    "replacementBlock": "minecraft:fire",
+    "replacementChance": "1:16",
+    "dropItem": "minecraft:coal:1",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "futuremc:stripped_acacia_log",
+    "heldItem": "minecraft:stick",
+    "replacementBlock": "minecraft:fire",
+    "replacementChance": "1:16",
+    "dropItem": "minecraft:coal:1",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "futuremc:stripped_dark_oak_log",
+    "heldItem": "minecraft:stick",
+    "replacementBlock": "minecraft:fire",
+    "replacementChance": "1:16",
+    "dropItem": "minecraft:coal:1",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "thermalexpansion:strongbox",
+    "heldItem": "draconicevolution:draconic_core",
+    "replacementBlock": "draconicevolution:draconium_chest",
+	"damage": "1"
+  },
+  {
+    "heldItem": "techguns:itemshared:65",
+    "targetBlock": "deepmoblearning:infused_ingot_block",
+    "replacementBlock": "extrautils2:quarryproxy",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:gem_ore:1",
+    "heldItem": "jaopca:item_sticktitanium",
+    "replacementBlock": "minecraft:stone",
+    "replacementChance": "1:32",
+    "dropItem": "projecte:item.pe_body_stone",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:gem_ore:6",
+    "heldItem": "jaopca:item_sticktitanium",
+    "replacementBlock": "minecraft:stone",
+    "replacementChance": "1:32",
+    "dropItem": "projecte:item.pe_soul_stone",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:emerald_ore",
+    "heldItem": "jaopca:item_sticktitanium",
+    "replacementBlock": "minecraft:stone",
+    "replacementChance": "1:16",
+    "dropItem": "projecte:item.pe_mind_stone",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:gem_ore:4",
+    "heldItem": "jaopca:item_sticktitanium",
+    "replacementBlock": "minecraft:stone",
+    "replacementChance": "1:256",
+    "dropItem": "projecte:item.pe_life_stone",
+    "dropOnlyOnSuccess": "true",
+	"damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:frosted_ice",
+    "replacementBlock": "minecraft:ice",
+    "heldItem": "zcontent:icesword"
+  },
+  {
+    "targetBlock": "minecraft:ice",
+    "replacementBlock": "minecraft:packed_ice",
+    "heldItem": "zcontent:icesword"
+  },
+  {
+    "targetBlock": "minecraft:packed_ice",
+    "replacementBlock": "futuremc:blue_ice",
+    "heldItem": "zcontent:icesword"
+  },
+  {
+    "targetBlock": "minecraft:bredrock",
+    "replacementBlock": "minecraft:air",
+    "heldItem": "alchemistry:obsidian_breaker"
+  },
+  {
+    "targetBlock": "actuallyadditions:block_misc:6",
+    "replacementBlock": "simplevoidworld:portal",
+    "heldItem": "actuallyadditions:item_crystal:3",
+	"damage": "1"
+  }
+]

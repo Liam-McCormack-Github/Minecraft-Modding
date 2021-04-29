@@ -1,0 +1,31 @@
+{
+	x: 7.0d,
+	y: 7.0d,
+	shape: "rsquare",
+	dependencies: [
+		"72e3d843",
+		"a494d7a1"
+	],
+	tasks: [{
+		uid: "a46c2a0e",
+		type: "item",
+		items: [{
+			item: "zcontent:server1"
+		}]
+	}],
+	rewards: [{
+		uid: "553fdaac",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "3bfd97c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

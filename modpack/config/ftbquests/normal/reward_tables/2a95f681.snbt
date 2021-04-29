@@ -1,0 +1,62 @@
+{
+	title: "Ultimate Loot Crate",
+	icon: "jaopca:item_plateemerald",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "thermalinnovation:quiver",
+			tag: {},
+			Damage: 32000s
+		}
+	},
+	{
+		item: {
+			id: "thermalinnovation:injector",
+			tag: {},
+			Damage: 32000s
+		}
+	},
+	{
+		item: {
+			id: "techguns:alienblaster",
+			tag: {
+				ammo: 10s,
+				ammovariant: "default",
+				camo: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				"Quark:RuneColor": 16,
+				ench: [{
+					lvl: 1s,
+					id: 0s
+				}],
+				HideFlags: 1,
+				display: {
+					Lore: [
+						"It Apears To Radiate Pure Knowledge!"
+					]
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	},
+	{
+		item: "projecte:item.pe_repair_talisman"
+	}],
+	loot_crate: {
+		string_id: "tier_4",
+		color: 6679422,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

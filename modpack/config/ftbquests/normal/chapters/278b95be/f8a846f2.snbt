@@ -1,0 +1,44 @@
+{
+	title: "Some Sawmill Recipes",
+	x: -10.0d,
+	y: -1.5d,
+	dependencies: [
+		"d0cb7916"
+	],
+	tasks: [{
+		uid: "df905f24",
+		type: "item",
+		items: [{
+			item: "zcontent:wood_plate"
+		}]
+	},
+	{
+		uid: "7be76cb3",
+		type: "item",
+		items: [{
+			item: "extrautils2:endershard"
+		}]
+	},
+	{
+		uid: "8b7a79aa",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 800"
+		}]
+	}],
+	rewards: [{
+		uid: "7f3f0ee1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "b2b51219",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

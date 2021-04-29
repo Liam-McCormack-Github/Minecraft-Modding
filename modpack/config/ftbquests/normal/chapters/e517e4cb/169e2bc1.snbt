@@ -1,0 +1,30 @@
+{
+	x: 11.0d,
+	y: 7.0d,
+	dependencies: [
+		"e2ef1d42",
+		"a6a67ce5"
+	],
+	tasks: [{
+		uid: "f91e155f",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	}],
+	rewards: [{
+		uid: "03f04e0a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "ace2c52d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

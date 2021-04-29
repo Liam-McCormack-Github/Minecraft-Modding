@@ -1,0 +1,29 @@
+{
+	x: 2.5d,
+	y: 19.0d,
+	dependencies: [
+		"5fbc501f"
+	],
+	tasks: [{
+		uid: "e806074f",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit"
+		}]
+	}],
+	rewards: [{
+		uid: "66ac873a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "84a24cff",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -8.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"f8a846f2"
+	],
+	tasks: [{
+		uid: "65034fe7",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}],
+	rewards: [{
+		uid: "440ad2a4",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "7420cadf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

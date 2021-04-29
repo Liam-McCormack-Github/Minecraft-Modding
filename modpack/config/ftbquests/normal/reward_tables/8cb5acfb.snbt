@@ -1,0 +1,42 @@
+{
+	title: "Supply Crate",
+	icon: "techguns:military_crate 1 5",
+	loot_size: 12,
+	use_title: true,
+	rewards: [{
+		item: "techguns:military_crate"
+	},
+	{
+		item: "techguns:military_crate 1 1"
+	},
+	{
+		item: "techguns:military_crate 1 2"
+	},
+	{
+		item: "techguns:military_crate 1 4"
+	},
+	{
+		item: "techguns:military_crate 1 3"
+	},
+	{
+		item: "techguns:military_crate 1 5"
+	},
+	{
+		item: "techguns:military_crate 1 6"
+	},
+	{
+		item: "techguns:military_crate 1 7"
+	},
+	{
+		item: "techguns:military_crate 1 8"
+	}],
+	loot_crate: {
+		string_id: "supply_crate",
+		color: 78368,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

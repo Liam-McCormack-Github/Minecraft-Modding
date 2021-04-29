@@ -1,0 +1,16 @@
+{
+	title: "Crusher",
+	icon: "immersiveengineering:metal_multiblock 1 1",
+	x: -3.0d,
+	y: 1.5d,
+	shape: "square",
+	dependencies: [
+		"f2838243",
+		"78dfc298"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b8c110ae",
+		type: "checkmark"
+	}]
+}

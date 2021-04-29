@@ -1,0 +1,30 @@
+{
+	x: 0.5d,
+	y: 14.0d,
+	shape: "rsquare",
+	dependencies: [
+		"6dddcb04"
+	],
+	tasks: [{
+		uid: "eb16b84e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	}],
+	rewards: [{
+		uid: "a1af6a09",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "38226f3a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

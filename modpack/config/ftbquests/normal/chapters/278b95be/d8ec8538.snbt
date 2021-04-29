@@ -1,0 +1,38 @@
+{
+	title: "Obsidian Dust",
+	icon: "thermalfoundation:material 1 770",
+	x: -3.0d,
+	y: 2.5d,
+	dependencies: [
+		"37956d4e"
+	],
+	tasks: [{
+		uid: "43a134a2",
+		type: "item",
+		title: "Any dustObsidian",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustObsidian",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "1767cd29",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "4f8d5629",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

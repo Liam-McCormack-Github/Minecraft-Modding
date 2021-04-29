@@ -1,0 +1,33 @@
+{
+	x: -11.0d,
+	y: 4.5d,
+	dependencies: [
+		"24799920",
+		"5f5259a9",
+		"fe69513e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "5b668064",
+		type: "item",
+		items: [{
+			item: "zcontent:extended_tier2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6617d48",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "fecda966",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

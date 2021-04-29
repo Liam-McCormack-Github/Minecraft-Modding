@@ -1,0 +1,30 @@
+{
+	x: 7.0d,
+	y: 5.0d,
+	shape: "rsquare",
+	dependencies: [
+		"cc307e04"
+	],
+	tasks: [{
+		uid: "7d7760b2",
+		type: "item",
+		items: [{
+			item: "zcontent:chip1"
+		}]
+	}],
+	rewards: [{
+		uid: "530deb62",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "eb98108b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

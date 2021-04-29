@@ -1,0 +1,36 @@
+{
+	x: -3.5d,
+	y: -4.0d,
+	shape: "octagon",
+	dependencies: [
+		"de5a6329"
+	],
+	tasks: [{
+		uid: "676aed34",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "lubricant",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "8750ae82",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "fe6b40dd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

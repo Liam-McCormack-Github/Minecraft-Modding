@@ -1,0 +1,112 @@
+{
+	title: "Elite Loot Crate",
+	icon: "jaopca:item_platediamond",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "randomthings:spectrecoil_number"
+	},
+	{
+		item: "mob_grinding_utils:mob_swab"
+	},
+	{
+		item: {
+			id: "futuremc:netherite_helmet",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Helm"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_chestplate",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Chestplate"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_leggings",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Leggings"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_boots",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Boots"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				display: {
+					Lore: [
+						"Contains knowledge of a Eloquent Weapon"
+					],
+					Name: "Ethereal Tome"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				display: {
+					Lore: [
+						"Contains knowledge of a Majestic Weapon"
+					],
+					Name: "Ethereal Tome"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				display: {
+					Lore: [
+						"Contains knowledge of a Mighty Tool"
+					],
+					Name: "Ethereal Tome"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "tier_3",
+		color: 3473407,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	x: -2.5d,
+	y: -4.0d,
+	shape: "octagon",
+	dependencies: [
+		"de5a6329"
+	],
+	tasks: [{
+		uid: "d826fd09",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "refined_oil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "273efddb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "b9f8b3e6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

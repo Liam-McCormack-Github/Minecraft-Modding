@@ -1,0 +1,30 @@
+{
+	x: 12.5d,
+	y: 19.0d,
+	dependencies: [
+		"addcadc9",
+		"fd653182"
+	],
+	tasks: [{
+		uid: "9c330403",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c4bdaed3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "718e5fa6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

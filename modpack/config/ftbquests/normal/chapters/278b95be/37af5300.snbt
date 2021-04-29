@@ -1,0 +1,28 @@
+{
+	x: -17.0d,
+	y: 1.5d,
+	shape: "pentagon",
+	dependencies: [
+		"fcdfc252"
+	],
+	tasks: [{
+		uid: "17468210",
+		type: "item",
+		title: "Mining Level: Mana Infused",
+		items: [{
+			item: "unstabletools:unstable_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad73e1b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_4"
+			}
+		}
+	}]
+}

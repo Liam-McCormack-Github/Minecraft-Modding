@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	dependencies: [
+		"4eca4e2b",
+		"760db038"
+	],
+	tasks: [{
+		uid: "da1f5d46",
+		type: "item",
+		items: [{
+			item: "zcontent:graphite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "017dda50",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "44f00a63",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 5.0d,
+	y: 12.0d,
+	shape: "rsquare",
+	dependencies: [
+		"a020af34"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d71446ce",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 64"
+		}]
+	}],
+	rewards: [{
+		uid: "57235096",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d8768344",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 4.5d,
+	y: 19.0d,
+	dependencies: [
+		"9d54f474"
+	],
+	tasks: [{
+		uid: "014b5bba",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_chorus_block"
+		}]
+	}],
+	rewards: [{
+		uid: "431d4459",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "2efcc062",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6d231b02"
+	],
+	tasks: [{
+		uid: "2e82b7ab",
+		type: "item",
+		items: [{
+			item: "zcontent:redstone_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "14158ef5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "69b92ac1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "projecte:collector_mk1",
+  "target-item": "projecte:collector_mk1",
+  "target-count": 1,
+
+  "catalyst": "zcontent:collector_star",
+  "catalyst-meta": 0,
+
+  "duration": 200,
+
+  "input-types": {
+    "a": {
+      "id": "minecraft:glowstone",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:beacon",
+      "meta": 0
+    },
+    "c": {
+      "id": "actuallyadditions:block_crystal_empowered",
+      "meta": 2
+    }
+  },
+  
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}

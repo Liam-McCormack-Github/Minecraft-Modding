@@ -1,0 +1,29 @@
+{
+	x: -14.0d,
+	y: -3.5d,
+	dependencies: [
+		"f53318a1"
+	],
+	tasks: [{
+		uid: "af3f356e",
+		type: "item",
+		items: [{
+			item: "futuremc:smoker"
+		}]
+	}],
+	rewards: [{
+		uid: "01255757",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "77d261dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	}]
+}

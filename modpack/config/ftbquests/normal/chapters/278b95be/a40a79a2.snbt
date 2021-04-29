@@ -1,0 +1,73 @@
+{
+	x: -17.0d,
+	y: -3.5d,
+	shape: "pentagon",
+	dependencies: [
+		"82c60c5e"
+	],
+	tasks: [{
+		uid: "f98da81d",
+		type: "item",
+		title: "Mining Level: Iron",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		},
+		{
+			item: "actuallyadditions:item_pickaxe_quartz"
+		},
+		{
+			item: "actuallyadditions:item_pickaxe_crystal_red"
+		},
+		{
+			item: "actuallyadditions:item_pickaxe_crystal_blue"
+		},
+		{
+			item: "actuallyadditions:item_pickaxe_crystal_black"
+		},
+		{
+			item: "actuallyadditions:item_pickaxe_crystal_white"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_invar"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_nickel"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_bronze"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_constantan"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_iron"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_invar"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_nickel"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_bronze"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_constantan"
+		},
+		{
+			item: "mysticalagriculture:intermedium_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0f57066",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

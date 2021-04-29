@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "item": "projecte:item.pe_matter|0",
+      "emc": 4096000
+    },
+    {
+      "item": "projecte:item.pe_matter|1",
+      "emc": 16384000
+    },
+    {
+      "item": "projectex:matter|0",
+      "emc": 65536000
+    },
+    {
+      "item": "projectex:matter|1",
+      "emc": 262144000
+    },
+    {
+      "item": "projectex:matter|2",
+      "emc": 1048576000
+    },
+    {
+      "item": "projectex:matter|3",
+      "emc": 4194304000
+    },
+    {
+      "item": "projectex:matter|4",
+      "emc": 16777216000
+    },
+    {
+      "item": "projectex:matter|5",
+      "emc": 67108864000
+    },
+    {
+      "item": "projectex:matter|6",
+      "emc": 268435456000
+    },
+    {
+      "item": "projectex:matter|7",
+      "emc": 1073741824000
+    },
+    {
+      "item": "projectex:matter|8",
+      "emc": 4294967296000
+    },
+    {
+      "item": "projectex:matter|9",
+      "emc": 17179869184000
+    },
+    {
+      "item": "projectex:matter|10",
+      "emc": 68719476736000
+    },
+    {
+      "item": "projectex:matter|11",
+      "emc": 274877906944000
+    },
+    {
+      "item": "projecte:item.pe_fuel|2",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:item.pe_fuel|1",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:item.pe_fuel|0",
+      "emc": 512
+    },
+    {
+      "item": "projecte:item.pe_klein_star|0",
+      "emc": 20480
+    },
+    {
+      "item": "minecraft:coal|0",
+      "emc": 128
+    }
+  ]
+}

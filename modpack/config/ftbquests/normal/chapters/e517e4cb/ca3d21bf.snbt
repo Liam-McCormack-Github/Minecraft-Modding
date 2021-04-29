@@ -1,0 +1,36 @@
+{
+	x: 7.5d,
+	y: 12.0d,
+	shape: "octagon",
+	dependencies: [
+		"0370ccb5"
+	],
+	tasks: [{
+		uid: "18a96eea",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "petrotheum",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "cbca2b42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "76eba5e5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

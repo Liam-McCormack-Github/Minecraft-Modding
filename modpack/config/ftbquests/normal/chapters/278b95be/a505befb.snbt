@@ -1,0 +1,29 @@
+{
+	x: -11.0d,
+	y: -0.5d,
+	dependencies: [
+		"af6e3a1e"
+	],
+	tasks: [{
+		uid: "1aa187a3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "dabaed3a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "aaef3803",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	}]
+}

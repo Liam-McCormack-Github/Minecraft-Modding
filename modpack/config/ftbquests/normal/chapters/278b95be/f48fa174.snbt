@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 3.5d,
+	dependencies: [
+		"4febed61"
+	],
+	tasks: [{
+		uid: "d167586c",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}]
+	}],
+	rewards: [{
+		uid: "8302d6b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "aa07744f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

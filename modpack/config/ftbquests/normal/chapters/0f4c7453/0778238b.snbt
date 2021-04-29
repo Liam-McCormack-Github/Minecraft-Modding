@@ -1,0 +1,34 @@
+{
+	title: "Extended Crafting Tables",
+	icon: "extendedcrafting:table_basic",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"Right Click a Trimmed Block of Black Iron with the corresponding Crafting Circuit to create that crafting table. Consumes the Crafting Circuit.",
+		"",
+		"Example:",
+		"Right Click a Iron Trimmed Block of Black Iron with a Basic Crafting Circuit to create a Basic Crafting Table."
+	],
+	dependencies: [
+		"91fa472e"
+	],
+	tasks: [{
+		uid: "894db9db",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:trimmed"
+		}]
+	},
+	{
+		uid: "0293021d",
+		type: "item",
+		items: [{
+			item: "zcontent:extended_tier1"
+		}]
+	}],
+	rewards: [{
+		uid: "153cc40a",
+		type: "item",
+		item: "extendedcrafting:table_basic"
+	}]
+}

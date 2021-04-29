@@ -1,0 +1,35 @@
+{
+	title: "Blast Furnace",
+	icon: "immersiveengineering:stone_device 1 1",
+	x: -7.0d,
+	y: -2.5d,
+	shape: "rsquare",
+	dependencies: [
+		"50b62e58",
+		"e12e3dad"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e55f035a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "59e5a8d5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "0d7c22db",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "Apples",
+	icon: "minecraft:apple",
+	loot_size: 3,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		item: "cyclicmagic:apple_lapis"
+	},
+	{
+		item: "cyclicmagic:food_step"
+	},
+	{
+		item: "cyclicmagic:apple_emerald"
+	},
+	{
+		item: "tp:cooked_apple"
+	},
+	{
+		item: "mysticalagriculture:inferium_apple"
+	},
+	{
+		item: "mysticalagriculture:prudentium_apple"
+	},
+	{
+		item: "mysticalagriculture:intermedium_apple"
+	},
+	{
+		item: "mysticalagriculture:superium_apple"
+	},
+	{
+		item: "mysticalagriculture:supremium_apple"
+	},
+	{
+		item: "mysticaladaptations:insanium_apple"
+	},
+	{
+		item: "extrautils2:magicapple"
+	},
+	{
+		item: "playerstorage:apple 1 3"
+	}],
+	loot_crate: {
+		string_id: "apples",
+		color: 16711680,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

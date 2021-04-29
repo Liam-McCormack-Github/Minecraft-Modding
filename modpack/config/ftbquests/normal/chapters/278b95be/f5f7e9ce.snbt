@@ -1,0 +1,18 @@
+{
+	title: "Get Excavatinator",
+	icon: "zcontent:excavation_wand",
+	x: -11.0d,
+	y: -6.0d,
+	shape: "hexagon",
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "1bc190bc",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b2072da1",
+		type: "item",
+		item: "zcontent:excavation_wand"
+	}]
+}

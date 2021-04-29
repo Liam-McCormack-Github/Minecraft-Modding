@@ -1,0 +1,51 @@
+{
+	title: "Fire Axe",
+	icon: "extrautils2:fireaxe",
+	x: -2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "b01f7fd3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.axe_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "92b0eaa8",
+		type: "xp",
+		value: 242845L,
+		points: true
+	},
+	{
+		uid: "8e99e94b",
+		type: "kill",
+		entity: "minecraft:vindication_illager",
+		value: 100L
+	},
+	{
+		uid: "9d7db215",
+		type: "item",
+		items: [{
+			id: "akashictome:tome",
+			tag: {
+				display: {
+					Lore: [
+						"Contains knowledge of a Mighty Tool"
+					],
+					Name: "Ethereal Tome"
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "ecfa78f5",
+		type: "item",
+		item: "extrautils2:fireaxe"
+	}]
+}

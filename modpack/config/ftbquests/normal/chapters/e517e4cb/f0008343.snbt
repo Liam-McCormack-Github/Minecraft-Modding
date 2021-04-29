@@ -1,0 +1,29 @@
+{
+	x: 2.5d,
+	y: 13.5d,
+	dependencies: [
+		"ee3684c5"
+	],
+	tasks: [{
+		uid: "b1f968a9",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 71"
+		}]
+	}],
+	rewards: [{
+		uid: "278b997e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "4476cd16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

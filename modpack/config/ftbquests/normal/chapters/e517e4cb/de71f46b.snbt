@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: 19.0d,
+	dependencies: [
+		"d0e2b97f"
+	],
+	tasks: [{
+		uid: "cbd5d02c",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "51b0e731",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "92bc4452",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -17.0d,
+	y: -0.5d,
+	shape: "pentagon",
+	dependencies: [
+		"27fb7de7"
+	],
+	tasks: [{
+		uid: "744d02df",
+		type: "item",
+		title: "Mining Level: Cobalt",
+		items: [{
+			item: "enderio:item_end_steel_pickaxe"
+		},
+		{
+			item: "futuremc:netherite_pickaxe"
+		},
+		{
+			item: "zcontent:stainless_steel_pick"
+		},
+		{
+			id: "mysticaladaptations:insanium_pickaxe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c1030e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

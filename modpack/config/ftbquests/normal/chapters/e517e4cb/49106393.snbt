@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"e58215f4"
+	],
+	tasks: [{
+		uid: "dd777174",
+		type: "item",
+		items: [{
+			item: "refinedstorage:processor 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6de616fd",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "bb793c9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

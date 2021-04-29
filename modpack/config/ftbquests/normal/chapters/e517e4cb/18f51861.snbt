@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"You can find Plastic sheets in Techguns Structure scattered through out the World such as Outpost, Aircraft Carriers and Military Bases."
+	],
+	dependencies: [
+		"6d231b02"
+	],
+	tasks: [{
+		uid: "36b3927c",
+		type: "checkmark",
+		title: "Plastic????"
+	}]
+}

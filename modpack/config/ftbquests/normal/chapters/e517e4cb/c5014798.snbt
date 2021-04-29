@@ -1,0 +1,30 @@
+{
+	x: 2.5d,
+	y: 17.0d,
+	shape: "rsquare",
+	dependencies: [
+		"5b2007b8"
+	],
+	tasks: [{
+		uid: "b5fab5ec",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}],
+	rewards: [{
+		uid: "115e599e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "3ef780d9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

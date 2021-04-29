@@ -1,0 +1,36 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	shape: "octagon",
+	dependencies: [
+		"6c1c07be"
+	],
+	tasks: [{
+		uid: "0db1a880",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "napalm",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "e62a6cf9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "8a7ef207",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

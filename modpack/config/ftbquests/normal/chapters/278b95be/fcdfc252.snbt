@@ -1,0 +1,37 @@
+{
+	x: -17.0d,
+	y: 0.5d,
+	shape: "pentagon",
+	dependencies: [
+		"43773e22"
+	],
+	tasks: [{
+		uid: "6dadd9ce",
+		type: "item",
+		title: "Mining Level: Meteor",
+		items: [{
+			id: "redstonearsenal:tool.pickaxe_flux",
+			tag: {
+				Energy: 0
+			}
+		},
+		{
+			id: "redstonearsenal:tool.hammer_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e8eaa91",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_4"
+			}
+		}
+	}]
+}

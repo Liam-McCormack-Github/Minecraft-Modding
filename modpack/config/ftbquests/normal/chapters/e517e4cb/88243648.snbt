@@ -1,0 +1,29 @@
+{
+	x: 10.5d,
+	y: 14.0d,
+	dependencies: [
+		"63075d26"
+	],
+	tasks: [{
+		uid: "dc55d921",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "9cf25926",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "227fd455",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

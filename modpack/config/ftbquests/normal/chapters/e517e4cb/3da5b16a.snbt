@@ -1,0 +1,30 @@
+{
+	x: 8.5d,
+	y: 17.0d,
+	shape: "rsquare",
+	dependencies: [
+		"b98358c1"
+	],
+	tasks: [{
+		uid: "58b17690",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "814cbe5d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "0a103ff5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

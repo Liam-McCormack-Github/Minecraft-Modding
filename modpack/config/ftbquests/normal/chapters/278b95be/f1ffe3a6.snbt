@@ -1,0 +1,35 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	dependencies: [
+		"48ca40be"
+	],
+	tasks: [{
+		uid: "4c990474",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nutrient_distillation",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfd55f54",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "89308e2f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,67 @@
+[
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_block",
+        "catalyst": "draconicevolution:draconium_block",
+        "energy": 40000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:dragon_heart"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "avaritia:block_resource,1,2",
+        "catalyst": "extendedcrafting:storage,1,2",
+        "energy": 1500000,
+        "tier": 0,
+        "ingredients": [
+			"zcontent:black_gem",
+			"avaritia:resource",
+			"zcontent:blue_gem",
+			"avaritia:resource",
+			"zcontent:green_gem",
+			"avaritia:resource",
+			"zcontent:indigo_gem",
+			"avaritia:resource",
+			"zcontent:orange_gem",
+			"avaritia:resource",
+			"zcontent:red_gem",
+			"avaritia:resource",
+			"zcontent:violet_gem",
+			"avaritia:resource",
+			"zcontent:white_gem",
+			"avaritia:resource",
+			"zcontent:yellow_gem",
+			"avaritia:resource"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_block",
+        "catalyst": "draconicevolution:draconium_block"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconium_chest",
+        "catalyst": "minecraft:chest"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    }        
+]

@@ -1,0 +1,30 @@
+{
+	x: -11.0d,
+	y: 6.5d,
+	shape: "rsquare",
+	dependencies: [
+		"46843378"
+	],
+	tasks: [{
+		uid: "2b59c406",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "a625962e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a773cad2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

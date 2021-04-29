@@ -1,0 +1,30 @@
+{
+	x: 5.0d,
+	y: 10.0d,
+	dependencies: [
+		"d44f7dd2"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ff3a681a",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e1727457",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d413584f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

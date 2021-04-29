@@ -1,0 +1,38 @@
+{
+	title: "Furnus and Pulvus",
+	x: -15.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"a4cb69ea"
+	],
+	tasks: [{
+		uid: "a7027c53",
+		type: "item",
+		items: [{
+			item: "furnus:pulvus"
+		}]
+	},
+	{
+		uid: "da85cf23",
+		type: "item",
+		items: [{
+			item: "furnus:furnus"
+		}]
+	}],
+	rewards: [{
+		uid: "41da50ae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "8c3bba14",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

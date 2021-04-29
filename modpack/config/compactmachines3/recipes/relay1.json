@@ -1,0 +1,80 @@
+{
+  "name": "projecte:relay_mk1",
+  "target-item": "projecte:relay_mk1",
+  "target-count": 1,
+
+  "catalyst": "zcontent:collector_star",
+  "catalyst-meta": 0,
+
+  "duration": 200,
+
+  "input-types": {
+    "a": {
+      "id": "tp:colored_glowstone",
+      "meta": 14
+    },
+    "b": {
+      "id": "minecraft:beacon",
+      "meta": 0
+    },
+    "c": {
+      "id": "actuallyadditions:block_crystal_empowered",
+      "meta": 4
+    }
+  },
+  
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}

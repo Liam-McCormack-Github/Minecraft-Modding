@@ -1,0 +1,36 @@
+{
+	title: "Fire/Charcoal",
+	icon: "minecraft:coal 1 1",
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"Right Click a Stripped Wood Log with a Wooden Stick for a 1:16 chance of the Log catching Fire and dropping some Charcoal. Consumes a Stick on each Click.",
+		"",
+		"Example:",
+		"Right Click a Stripped Oak Log with a 10 Wooden Stick and it catches fire and drops 1 Charcoal."
+	],
+	dependencies: [
+		"91fa472e"
+	],
+	tasks: [{
+		uid: "f75f9ed1",
+		type: "item",
+		title: "Wooden Stick",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 16L
+	},
+	{
+		uid: "065c9977",
+		type: "item",
+		items: [{
+			item: "futuremc:stripped_oak_log"
+		}]
+	}],
+	rewards: [{
+		uid: "12fd9f48",
+		type: "item",
+		item: "minecraft:coal 1 1"
+	}]
+}

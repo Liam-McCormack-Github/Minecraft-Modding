@@ -1,0 +1,16 @@
+{
+  "name": "biomesoplenty:grass_2",
+  "mod": "biomesoplenty",
+  "soil": {
+    "name": "biomesoplenty:grass",
+    "data": 3,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.9,
+    "dropChance": 1.1
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

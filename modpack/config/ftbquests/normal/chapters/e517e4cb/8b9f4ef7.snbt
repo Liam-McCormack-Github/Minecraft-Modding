@@ -1,0 +1,39 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	dependencies: [
+		"3a93b7d7"
+	],
+	tasks: [{
+		uid: "295c6450",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "77ba7802",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5eb42ba1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "0ccb43c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "augments"
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "alchemistry:wet_sand",
+  "mod": "alchemistry",
+  "soil": {
+    "name": "alchemistry:wet_sand",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.1,
+    "dropChance": 1.0
+  },
+
+  "providedTags": [ "sand" ]
+}

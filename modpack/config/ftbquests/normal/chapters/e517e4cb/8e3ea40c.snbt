@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: 9.0d,
+	dependencies: [
+		"1ddccafb"
+	],
+	tasks: [{
+		uid: "00a76038",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "ed1c974d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "0c778858",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

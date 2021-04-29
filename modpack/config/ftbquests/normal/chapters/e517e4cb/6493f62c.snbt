@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: 9.0d,
+	dependencies: [
+		"1ddccafb"
+	],
+	tasks: [{
+		uid: "d9cf586b",
+		type: "item",
+		items: [{
+			item: "extrautils2:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "3c32e196",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "9c5930f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

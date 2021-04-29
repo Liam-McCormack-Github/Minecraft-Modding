@@ -1,0 +1,31 @@
+{
+	title: "Camo Bench",
+	icon: "techguns:simplemachine 1 8",
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"Right Click a Repiar Bench with a Rainbow Rune to create a Camo Bench. Consumes the Rainbow Rune."
+	],
+	dependencies: [
+		"91fa472e"
+	],
+	tasks: [{
+		uid: "0ce58cdb",
+		type: "item",
+		items: [{
+			item: "techguns:simplemachine 1 9"
+		}]
+	},
+	{
+		uid: "873c3b0e",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "61b0e7fc",
+		type: "item",
+		item: "techguns:simplemachine 1 8"
+	}]
+}

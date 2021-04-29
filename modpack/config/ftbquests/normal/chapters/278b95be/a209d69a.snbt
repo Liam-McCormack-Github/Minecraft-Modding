@@ -1,0 +1,46 @@
+{
+	x: -7.0d,
+	y: 1.5d,
+	dependencies: [
+		"b7e49850"
+	],
+	tasks: [{
+		uid: "70ba1d54",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold"
+		},
+		{
+			item: "immersiveengineering:mold 1 1"
+		},
+		{
+			item: "immersiveengineering:mold 1 2"
+		},
+		{
+			item: "immersiveengineering:mold 1 4"
+		},
+		{
+			item: "zcontent:mold"
+		},
+		{
+			item: "zcontent:mold_proc"
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "daf9972e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "af622e2b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

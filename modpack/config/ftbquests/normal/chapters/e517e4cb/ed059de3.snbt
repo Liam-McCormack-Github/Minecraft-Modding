@@ -1,0 +1,32 @@
+{
+	x: 10.5d,
+	y: 15.0d,
+	shape: "rsquare",
+	dependencies: [
+		"88243648"
+	],
+	tasks: [{
+		uid: "55ffa29c",
+		type: "item",
+		items: [{
+			item: "unstabletools:division_sign"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "057c3e0c",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "10b10d01",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_3"
+			}
+		}
+	}]
+}

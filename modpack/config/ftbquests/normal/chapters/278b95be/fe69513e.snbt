@@ -1,0 +1,29 @@
+{
+	x: -11.0d,
+	y: 3.5d,
+	dependencies: [
+		"68302161"
+	],
+	tasks: [{
+		uid: "cdc8a76b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "1107dabc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "cb1a1ae4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

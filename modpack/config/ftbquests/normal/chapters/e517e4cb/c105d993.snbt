@@ -1,0 +1,29 @@
+{
+	x: 10.5d,
+	y: 21.0d,
+	dependencies: [
+		"fd653182"
+	],
+	tasks: [{
+		uid: "8c6659dc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}],
+	rewards: [{
+		uid: "117b37f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	},
+	{
+		uid: "3750c52b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

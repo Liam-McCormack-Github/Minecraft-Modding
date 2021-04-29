@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	dependencies: [
+		"54448192"
+	],
+	tasks: [{
+		uid: "46a07e56",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_combiner"
+		}]
+	}],
+	rewards: [{
+		uid: "5235c36d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d6593063",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_2"
+			}
+		}
+	}]
+}

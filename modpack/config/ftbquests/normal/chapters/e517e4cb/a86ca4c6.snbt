@@ -1,0 +1,36 @@
+{
+	x: 14.5d,
+	y: 19.0d,
+	shape: "square",
+	dependencies: [
+		"38379ec9"
+	],
+	tasks: [{
+		uid: "25ad4ca0",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mana",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ff44e16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tier_1"
+			}
+		}
+	},
+	{
+		uid: "42508f3d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}
