@@ -1,6 +1,0 @@
-{
-  "parent": "zcontent:custom/ice_sword",
-  "textures": {
-    "3": "zcontent:blocks/ice_sword"
-  }
-}

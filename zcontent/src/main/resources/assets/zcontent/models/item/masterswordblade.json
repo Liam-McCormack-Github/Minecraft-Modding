@@ -1,6 +1,0 @@
-{
-  "parent": "zcontent:custom/master_blade",
-  "textures": {
-    "1": "zcontent:blocks/master_sword"
-  }
-}
