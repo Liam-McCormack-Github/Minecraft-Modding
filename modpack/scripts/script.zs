@@ -439,7 +439,7 @@ mods.inworldcrafting.FluidToItem.transform(<arcanearchives:storage_shaped_quartz
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:angelring:1>, <liquid:hot_spring_water>, [<zcontent:angel_wing> * 2, <extrautils2:chickenring>, <extrautils2:chickenring:1>, <eternalsingularity:combined_singularity:14>], true);
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:angelring:4>, <liquid:hot_spring_water>, [<zcontent:gold_feather> * 2, <extrautils2:chickenring>, <extrautils2:chickenring:1>, <eternalsingularity:combined_singularity:14>], true);
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:angelring:5>, <liquid:hot_spring_water>, [<zcontent:bat_wing> * 2, <extrautils2:chickenring>, <extrautils2:chickenring:1>, <eternalsingularity:combined_singularity:14>], true);
-mods.inworldcrafting.FluidToItem.transform(<zcontent:fertilizer>, <liquid:hot_spring_water>, [<industrialforegoing:fertilizer>, <thermalfoundation:fertilizer:2>, <alchemistry:fertilizer>, <mysticalagriculture:mystical_fertilizer>], true);
+mods.inworldcrafting.FluidToItem.transform(<zcontent:magic_fertilizer>, <liquid:hot_spring_water>, [<industrialforegoing:fertilizer>, <thermalfoundation:fertilizer:2>, <alchemistry:fertilizer>, <mysticalagriculture:mystical_fertilizer>], true);
 mods.inworldcrafting.FluidToItem.transform(<chisel:energizedvoidstone:2>, <liquid:mana>, [<chisel:voidstone:2>]);
 mods.inworldcrafting.FluidToItem.transform(<randomthings:ingredient:3>, <liquid:hot_spring_water>, [<randomthings:ingredient:2>, <ore:ingotIridium>]);
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:suncrystal:250>, <liquid:liquid_sunshine>, [<ore:gemDiamond>], true);

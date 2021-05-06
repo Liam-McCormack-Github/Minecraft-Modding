@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+modpack/config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json
+modpack/config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json
+modpack/config/BiomeTweaker/output/entity/BiomeTweaker - Dimension Status Report.json
+modpack/config/BiomeTweaker/output/entity/BiomeTweaker - EntityLiving Status Report.json
+modpack/config/InvTweaks/InvTweaks.cfg
+modpack/config/jei/worldSettings.cfg
+modpack/config/splash.properties
+modpack/config/worldedit/worldedit.properties

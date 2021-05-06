@@ -24,6 +24,7 @@ recipes.addShaped(<zcontent:paralysis>, [[<randomthings:ingredient:2>, <minecraf
 recipes.addShaped(<zcontent:instantkill>, [[<randomthings:ingredient:2>, <minecraft:paper>.withTag({display: {Name: "instantkill"}}), <randomthings:ingredient:2>],[<randomthings:ingredient:2>,<zcontent:magic>,<randomthings:ingredient:2>],[<randomthings:ingredient:2>,<quark:ancient_tome>,<randomthings:ingredient:2>]]);       
 recipes.addShaped(<zcontent:disarm>, [[<randomthings:ingredient:2>, <minecraft:paper>.withTag({display: {Name: "disarm"}}), <randomthings:ingredient:2>],[<randomthings:ingredient:2>,<zcontent:magic>,<randomthings:ingredient:2>],[<randomthings:ingredient:2>,<quark:ancient_tome>,<randomthings:ingredient:2>]]);                 
 recipes.addShaped(<zcontent:weaken>, [[<randomthings:ingredient:2>, <minecraft:paper>.withTag({display: {Name: "weaken"}}), <randomthings:ingredient:2>],[<randomthings:ingredient:2>,<zcontent:magic>,<randomthings:ingredient:2>],[<randomthings:ingredient:2>,<quark:ancient_tome>,<randomthings:ingredient:2>]]);                 
+recipes.addShaped(<zcontent:fertilizer>, [[<randomthings:ingredient:2>, <minecraft:paper>.withTag({display: {Name: "fertilizer"}}), <randomthings:ingredient:2>],[<randomthings:ingredient:2>,<zcontent:magic>,<randomthings:ingredient:2>],[<randomthings:ingredient:2>,<quark:ancient_tome>,<randomthings:ingredient:2>]]);                 
 
 var mapjumpboost as IData = {};
 var maplevitation as IData = {};
@@ -47,6 +48,7 @@ var mapparalysis as IData = {};
 var mapdisarm as IData = {};
 var mapweaken as IData = {};
 var mapinstantkill as IData = {};
+var mapfertilizer as IData = {};
 
 
 mapjumpboost += <enchantment:zcontent:jumpboost>.makeEnchantment(1).makeTag();
@@ -71,6 +73,7 @@ mapparalysis += <enchantment:zcontent:paralysis>.makeEnchantment(1).makeTag();
 mapdisarm += <enchantment:zcontent:disarm>.makeEnchantment(1).makeTag();
 mapweaken += <enchantment:zcontent:weaken>.makeEnchantment(1).makeTag();
 mapinstantkill += <enchantment:zcontent:instantkill>.makeEnchantment(1).makeTag();
+mapfertilizer += <enchantment:zcontent:fertilizer>.makeEnchantment(1).makeTag();
 
 recipes.addShapeless("4_zcontent_jumpboost", <zcontent:wand_4>, [<zcontent:wand_4>.marked("add_ench"), <zcontent:jumpboost>],function(out, ins, cInfo) {return out.withTag(mapjumpboost + ins.add_ench.tag);}, null);
 recipes.addShapeless("4_zcontent_levitation", <zcontent:wand_4>, [<zcontent:wand_4>.marked("add_ench"), <zcontent:levitation>],function(out, ins, cInfo) {return out.withTag(maplevitation + ins.add_ench.tag);}, null);
@@ -94,6 +97,7 @@ recipes.addShapeless("4_zcontent_paralysis", <zcontent:wand_4>, [<zcontent:wand_
 recipes.addShapeless("4_zcontent_disarm", <zcontent:wand_4>, [<zcontent:wand_4>.marked("add_ench"), <zcontent:disarm>],function(out, ins, cInfo) {return out.withTag(mapdisarm + ins.add_ench.tag);}, null);
 recipes.addShapeless("4_zcontent_weaken", <zcontent:wand_4>, [<zcontent:wand_4>.marked("add_ench"), <zcontent:weaken>],function(out, ins, cInfo) {return out.withTag(mapweaken + ins.add_ench.tag);}, null);
 recipes.addShapeless("4_zcontent_instantkill", <zcontent:wand_4>, [<zcontent:wand_4>.marked("add_ench"), <zcontent:instantkill>],function(out, ins, cInfo) {return out.withTag(mapinstantkill + ins.add_ench.tag);}, null);
+recipes.addShapeless("4_zcontent_fertilizer", <zcontent:wand_4>, [<zcontent:wand_4>.marked("add_ench"), <zcontent:fertilizer>],function(out, ins, cInfo) {return out.withTag(mapfertilizer + ins.add_ench.tag);}, null);
 
 recipes.addShapeless("3_zcontent_jumpboost", <zcontent:wand_3>, [<zcontent:wand_3>.marked("add_ench"), <zcontent:jumpboost>],function(out, ins, cInfo) {return out.withTag(mapjumpboost + ins.add_ench.tag);}, null);
 recipes.addShapeless("3_zcontent_levitation", <zcontent:wand_3>, [<zcontent:wand_3>.marked("add_ench"), <zcontent:levitation>],function(out, ins, cInfo) {return out.withTag(maplevitation + ins.add_ench.tag);}, null);
@@ -117,6 +121,7 @@ recipes.addShapeless("3_zcontent_paralysis", <zcontent:wand_3>, [<zcontent:wand_
 recipes.addShapeless("3_zcontent_disarm", <zcontent:wand_3>, [<zcontent:wand_3>.marked("add_ench"), <zcontent:disarm>],function(out, ins, cInfo) {return out.withTag(mapdisarm + ins.add_ench.tag);}, null);
 recipes.addShapeless("3_zcontent_weaken", <zcontent:wand_3>, [<zcontent:wand_3>.marked("add_ench"), <zcontent:weaken>],function(out, ins, cInfo) {return out.withTag(mapweaken + ins.add_ench.tag);}, null);
 recipes.addShapeless("3_zcontent_instantkill", <zcontent:wand_3>, [<zcontent:wand_3>.marked("add_ench"), <zcontent:instantkill>],function(out, ins, cInfo) {return out.withTag(mapinstantkill + ins.add_ench.tag);}, null);
+recipes.addShapeless("3_zcontent_fertilizer", <zcontent:wand_3>, [<zcontent:wand_3>.marked("add_ench"), <zcontent:fertilizer>],function(out, ins, cInfo) {return out.withTag(mapfertilizer + ins.add_ench.tag);}, null);
 
 recipes.addShapeless("2_zcontent_jumpboost", <zcontent:wand_2>, [<zcontent:wand_2>.marked("add_ench"), <zcontent:jumpboost>],function(out, ins, cInfo) {return out.withTag(mapjumpboost + ins.add_ench.tag);}, null);
 recipes.addShapeless("2_zcontent_levitation", <zcontent:wand_2>, [<zcontent:wand_2>.marked("add_ench"), <zcontent:levitation>],function(out, ins, cInfo) {return out.withTag(maplevitation + ins.add_ench.tag);}, null);
@@ -140,6 +145,7 @@ recipes.addShapeless("2_zcontent_paralysis", <zcontent:wand_2>, [<zcontent:wand_
 recipes.addShapeless("2_zcontent_disarm", <zcontent:wand_2>, [<zcontent:wand_2>.marked("add_ench"), <zcontent:disarm>],function(out, ins, cInfo) {return out.withTag(mapdisarm + ins.add_ench.tag);}, null);
 recipes.addShapeless("2_zcontent_weaken", <zcontent:wand_2>, [<zcontent:wand_2>.marked("add_ench"), <zcontent:weaken>],function(out, ins, cInfo) {return out.withTag(mapweaken + ins.add_ench.tag);}, null);
 recipes.addShapeless("2_zcontent_instantkill", <zcontent:wand_2>, [<zcontent:wand_2>.marked("add_ench"), <zcontent:instantkill>],function(out, ins, cInfo) {return out.withTag(mapinstantkill + ins.add_ench.tag);}, null);
+recipes.addShapeless("2_zcontent_fertilizer", <zcontent:wand_2>, [<zcontent:wand_2>.marked("add_ench"), <zcontent:fertilizer>],function(out, ins, cInfo) {return out.withTag(mapfertilizer + ins.add_ench.tag);}, null);
 
 recipes.addShapeless("1_zcontent_jumpboost", <zcontent:wand_1>, [<zcontent:wand_1>.marked("add_ench"), <zcontent:jumpboost>],function(out, ins, cInfo) {return out.withTag(mapjumpboost + ins.add_ench.tag);}, null);
 recipes.addShapeless("1_zcontent_levitation", <zcontent:wand_1>, [<zcontent:wand_1>.marked("add_ench"), <zcontent:levitation>],function(out, ins, cInfo) {return out.withTag(maplevitation + ins.add_ench.tag);}, null);
@@ -163,8 +169,4 @@ recipes.addShapeless("1_zcontent_paralysis", <zcontent:wand_1>, [<zcontent:wand_
 recipes.addShapeless("1_zcontent_disarm", <zcontent:wand_1>, [<zcontent:wand_1>.marked("add_ench"), <zcontent:disarm>],function(out, ins, cInfo) {return out.withTag(mapdisarm + ins.add_ench.tag);}, null);
 recipes.addShapeless("1_zcontent_weaken", <zcontent:wand_1>, [<zcontent:wand_1>.marked("add_ench"), <zcontent:weaken>],function(out, ins, cInfo) {return out.withTag(mapweaken + ins.add_ench.tag);}, null);
 recipes.addShapeless("1_zcontent_instantkill", <zcontent:wand_1>, [<zcontent:wand_1>.marked("add_ench"), <zcontent:instantkill>],function(out, ins, cInfo) {return out.withTag(mapinstantkill + ins.add_ench.tag);}, null);
-
-
-
-
-
+recipes.addShapeless("1_zcontent_fertilizer", <zcontent:wand_1>, [<zcontent:wand_1>.marked("add_ench"), <zcontent:fertilizer>],function(out, ins, cInfo) {return out.withTag(mapfertilizer + ins.add_ench.tag);}, null);
