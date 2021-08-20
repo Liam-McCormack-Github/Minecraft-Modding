@@ -120,13 +120,80 @@ mods.jei.JEI.addDescription(<quark:black_ash>, "Monsters cannot spawn on Wither 
 <zcontent:server3>.addShiftTooltip(format.yellow("6 RAM Tier 2"));
 <zcontent:server3>.addShiftTooltip(format.aqua("4 RAM Tier 3"));
 
+
+
+<extrautils2:opinium>.addShiftTooltip("4 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium>.addShiftTooltip(format.red("1 Iron Block"));
+
+<extrautils2:opinium:1>.addShiftTooltip("8 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:1>.addShiftTooltip(format.italic("4 Iron Block"));
+<extrautils2:opinium:1>.addShiftTooltip(format.red("1 Gold Block"));
+
+<extrautils2:opinium:2>.addShiftTooltip("16 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:2>.addShiftTooltip(format.italic("8 Iron Block"));
+<extrautils2:opinium:2>.addShiftTooltip(format.italic("4 Gold Block"));
+<extrautils2:opinium:2>.addShiftTooltip(format.red("1 Diamond Block"));
+
+
+<extrautils2:opinium:3>.addShiftTooltip("32 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:3>.addShiftTooltip(format.italic("16 Iron Block"));
+<extrautils2:opinium:3>.addShiftTooltip(format.italic("8 Gold Block"));
+<extrautils2:opinium:3>.addShiftTooltip(format.italic("4 Diamond Block"));
+<extrautils2:opinium:3>.addShiftTooltip(format.red("1 Emerald Block"));
+
+<extrautils2:opinium:4>.addShiftTooltip("64 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:4>.addShiftTooltip(format.italic("32 Iron Block"));
+<extrautils2:opinium:4>.addShiftTooltip(format.italic("16 Gold Block"));
+<extrautils2:opinium:4>.addShiftTooltip(format.italic("8 Diamond Block"));
+<extrautils2:opinium:4>.addShiftTooltip(format.italic("4 Emerald Block"));
+<extrautils2:opinium:4>.addShiftTooltip(format.red("1 Chorus Flower"));
+
+<extrautils2:opinium:5>.addShiftTooltip("128 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:5>.addShiftTooltip(format.italic("64 Iron Block"));
+<extrautils2:opinium:5>.addShiftTooltip(format.italic("32 Gold Block"));
+<extrautils2:opinium:5>.addShiftTooltip(format.italic("16 Diamond Block"));
+<extrautils2:opinium:5>.addShiftTooltip(format.italic("8 Emerald Block"));
+<extrautils2:opinium:5>.addShiftTooltip(format.italic("4 Chorus Flower"));
+<extrautils2:opinium:5>.addShiftTooltip(format.red("1 Bottle of Enchanting"));
+
+<extrautils2:opinium:6>.addShiftTooltip("256 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:6>.addShiftTooltip(format.italic("128 Iron Block"));
+<extrautils2:opinium:6>.addShiftTooltip(format.italic("64 Gold Block"));
+<extrautils2:opinium:6>.addShiftTooltip(format.italic("32 Diamond Block"));
+<extrautils2:opinium:6>.addShiftTooltip(format.italic("16 Emerald Block"));
+<extrautils2:opinium:6>.addShiftTooltip(format.italic("8 Chorus Flower"));
+<extrautils2:opinium:6>.addShiftTooltip(format.italic("4 Bottle of Enchanting"));
+<extrautils2:opinium:6>.addShiftTooltip(format.red("1 Eltrya"));
+
+<extrautils2:opinium:7>.addShiftTooltip("512 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:7>.addShiftTooltip(format.italic("256 Iron Block"));
+<extrautils2:opinium:7>.addShiftTooltip(format.italic("128 Gold Block"));
+<extrautils2:opinium:7>.addShiftTooltip(format.italic("64 Diamond Block"));
+<extrautils2:opinium:7>.addShiftTooltip(format.italic("32 Emerald Block"));
+<extrautils2:opinium:7>.addShiftTooltip(format.italic("16 Chorus Flower"));
+<extrautils2:opinium:7>.addShiftTooltip(format.italic("8 Bottle of Enchanting"));
+<extrautils2:opinium:7>.addShiftTooltip(format.italic("4 Eltrya"));
+<extrautils2:opinium:7>.addShiftTooltip(format.red("1 Nether Star"));
+
+<extrautils2:opinium:8>.addShiftTooltip("1024 Red Coal", format.italic("<Hold Shift>"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("512 Iron Block"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("256 Gold Block"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("128 Diamond Block"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("64 Emerald Block"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("32 Chorus Flower"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("16 Bottle of Enchanting"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("8 Eltrya"));
+<extrautils2:opinium:8>.addShiftTooltip(format.italic("4 Nether Star"));
+<extrautils2:opinium:8>.addShiftTooltip(format.red("1 Iron Ingot"));
+
+
 <zcontent:terminalserver>.addShiftTooltip(format.italic("15 ALU"), format.italic("<Hold Shift>"));
 <zcontent:terminalserver>.addShiftTooltip(format.italic("9 CU"));
 <zcontent:terminalserver>.addShiftTooltip("22 RAM Tier 1");
 <zcontent:terminalserver>.addShiftTooltip(format.yellow("16 RAM Tier 2"));
 <zcontent:terminalserver>.addShiftTooltip(format.aqua("10 RAM Tier 3"));
 
-<minecraft:mob_spawner>.addTooltip("Break with any tool to turn a Spawner into a "+format.italic("Broken Spawner")+" and some "+format.italic(" Spawner Shards"));
+<minecraft:mob_spawner>.addTooltip("Break with any tool to turn a Spawner into a "+format.italic("Broken Spawner")+" and some "+format.italic("Spawner Shards"));
 <minecraft:mob_spawner>.addTooltip("Right Click with a "+format.italic("Drop of Evil")+" to turn a Spawner into a "+format.italic("Resturbed Spawner"));
 <minecraft:mob_spawner>.addTooltip("Right Click with a "+format.italic("Draconic Core")+" to turn a Spawner into a "+format.italic("Stabilized Spawner"));
 

@@ -1,0 +1,248 @@
+{
+	title: "Anvil Recipe",
+	icon: "minecraft:anvil 1 2",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "zcontent:firesword",
+			tag: {
+				"Quark:RuneColor": 1,
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				},
+				{
+					lvl: 3s,
+					id: 44s
+				}],
+				Unbreakable: 1,
+				"Quark:RuneAttached": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "zcontent:icesword",
+			tag: {
+				"Quark:RuneColor": 9,
+				ench: [{
+					lvl: 2s,
+					id: 9s
+				},
+				{
+					lvl: 3s,
+					id: 44s
+				}],
+				Unbreakable: 1,
+				"Quark:RuneAttached": 1b
+			}
+		}
+	},
+	{
+		item: "randomthings:spectresword"
+	},
+	{
+		item: "randomthings:spectrepickaxe"
+	},
+	{
+		item: "randomthings:spectreshovel"
+	},
+	{
+		item: "randomthings:spectreaxe"
+	},
+	{
+		item: "cyclicmagic:sword_weakness"
+	},
+	{
+		item: "cyclicmagic:sword_slowness"
+	},
+	{
+		item: "cyclicmagic:sword_ender"
+	},
+	{
+		item: {
+			id: "unstabletools:division_sign",
+			tag: {
+				activated: 0b
+			}
+		}
+	},
+	{
+		item: "randomthings:obsidianskullring"
+	},
+	{
+		item: "randomthings:obsidianwaterwalkingboots"
+	},
+	{
+		item: "randomthings:lavawader"
+	},
+	{
+		item: {
+			id: "futuremc:netherite_helmet",
+			tag: {
+				"Quark:RuneColor": 4,
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 4s,
+					id: 0s
+				},
+				{
+					lvl: 5s,
+					id: 29s
+				},
+				{
+					lvl: 1s,
+					id: 40s
+				},
+				{
+					lvl: 1s,
+					id: 36s
+				},
+				{
+					lvl: 1s,
+					id: 6s
+				}],
+				display: {
+					Name: "Heroic Helm"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_chestplate",
+			tag: {
+				"Quark:RuneColor": 4,
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 4s,
+					id: 0s
+				},
+				{
+					lvl: 5s,
+					id: 29s
+				},
+				{
+					lvl: 1s,
+					id: 124s
+				},
+				{
+					lvl: 1s,
+					id: 54s
+				}],
+				display: {
+					Name: "Heroic Chestplate"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_leggings",
+			tag: {
+				"Quark:RuneColor": 4,
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 4s,
+					id: 0s
+				},
+				{
+					lvl: 5s,
+					id: 29s
+				},
+				{
+					lvl: 2s,
+					id: 30s
+				}],
+				display: {
+					Name: "Heroic Leggings"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_boots",
+			tag: {
+				"Quark:RuneColor": 4,
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 4s,
+					id: 0s
+				},
+				{
+					lvl: 5s,
+					id: 29s
+				},
+				{
+					lvl: 4s,
+					id: 2s
+				},
+				{
+					lvl: 5s,
+					id: 119s
+				},
+				{
+					lvl: 4s,
+					id: 56s
+				},
+				{
+					lvl: 1s,
+					id: 126s
+				}],
+				display: {
+					Name: "Heroic Boots"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	}]
+}

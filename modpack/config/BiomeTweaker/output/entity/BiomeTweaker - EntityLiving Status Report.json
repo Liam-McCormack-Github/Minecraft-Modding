@@ -251,11 +251,6 @@
     "Class": "artifacts.common.entity.EntityMimic"
   },
   {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
-  },
-  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -301,12 +296,17 @@
     "Class": "vazkii.quark.world.entity.EntityWraith"
   },
   {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
+  },
+  {
     "Name": "wasp",
     "Registry ID": "biomesoplenty:wasp",
     "Class": "biomesoplenty.common.entities.EntityWasp"
   },
   {
-    "Name": "robot",
+    "Name": "cyclicmagic_robot",
     "Registry ID": "cyclicmagic:robot",
     "Class": "com.lothrazar.cyclicmagic.item.crashtestdummy.EntityRobot"
   },
@@ -536,24 +536,9 @@
     "Class": "meldexun.better_diving.entity.EntityBoomerang"
   },
   {
-    "Name": "enderiozoo.owl",
-    "Registry ID": "enderiozoo:owl",
-    "Class": "crazypants.enderio.zoo.entity.EntityOwl"
-  },
-  {
-    "Name": "enderiozoo.fallenmount",
-    "Registry ID": "enderiozoo:fallenmount",
-    "Class": "crazypants.enderio.zoo.entity.EntityFallenMount"
-  },
-  {
-    "Name": "enderiozoo.concussioncreeper",
-    "Registry ID": "enderiozoo:concussioncreeper",
-    "Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper"
-  },
-  {
-    "Name": "enderiozoo.epicsquid",
-    "Registry ID": "enderiozoo:epicsquid",
-    "Class": "crazypants.enderio.zoo.entity.EntityEpicSquid"
+    "Name": "enderiozoo.witherwitch",
+    "Registry ID": "enderiozoo:witherwitch",
+    "Class": "crazypants.enderio.zoo.entity.EntityWitherWitch"
   },
   {
     "Name": "enderiozoo.direwolf",
@@ -561,14 +546,24 @@
     "Class": "crazypants.enderio.zoo.entity.EntityDireWolf"
   },
   {
+    "Name": "enderiozoo.owl",
+    "Registry ID": "enderiozoo:owl",
+    "Class": "crazypants.enderio.zoo.entity.EntityOwl"
+  },
+  {
+    "Name": "enderiozoo.lovechild",
+    "Registry ID": "enderiozoo:lovechild",
+    "Class": "crazypants.enderio.zoo.entity.EntityLoveChild"
+  },
+  {
+    "Name": "enderiozoo.concussioncreeper",
+    "Registry ID": "enderiozoo:concussioncreeper",
+    "Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper"
+  },
+  {
     "Name": "enderiozoo.direslime",
     "Registry ID": "enderiozoo:direslime",
     "Class": "crazypants.enderio.zoo.entity.EntityDireSlime"
-  },
-  {
-    "Name": "enderiozoo.witherwitch",
-    "Registry ID": "enderiozoo:witherwitch",
-    "Class": "crazypants.enderio.zoo.entity.EntityWitherWitch"
   },
   {
     "Name": "enderiozoo.withercat",
@@ -581,9 +576,14 @@
     "Class": "crazypants.enderio.zoo.entity.EntityEnderminy"
   },
   {
-    "Name": "enderiozoo.lovechild",
-    "Registry ID": "enderiozoo:lovechild",
-    "Class": "crazypants.enderio.zoo.entity.EntityLoveChild"
+    "Name": "enderiozoo.fallenknight",
+    "Registry ID": "enderiozoo:fallenknight",
+    "Class": "crazypants.enderio.zoo.entity.EntityFallenKnight"
+  },
+  {
+    "Name": "enderiozoo.fallenmount",
+    "Registry ID": "enderiozoo:fallenmount",
+    "Class": "crazypants.enderio.zoo.entity.EntityFallenMount"
   },
   {
     "Name": "enderiozoo.voidslime",
@@ -591,9 +591,9 @@
     "Class": "crazypants.enderio.zoo.entity.EntityVoidSlime"
   },
   {
-    "Name": "enderiozoo.fallenknight",
-    "Registry ID": "enderiozoo:fallenknight",
-    "Class": "crazypants.enderio.zoo.entity.EntityFallenKnight"
+    "Name": "enderiozoo.epicsquid",
+    "Registry ID": "enderiozoo:epicsquid",
+    "Class": "crazypants.enderio.zoo.entity.EntityEpicSquid"
   },
   {
     "Name": "merchant",

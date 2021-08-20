@@ -4,14 +4,14 @@ mouseSensitivity:0.5
 fov:1.0
 gamma:1.0
 saturation:0.0
-renderDistance:16
+renderDistance:8
 guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:1
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -89,14 +89,6 @@ key_of.key.zoom:56
 key_keybind.baublesinventory:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:15
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -115,13 +107,20 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:15
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:65
 key_Toggle Magnet:73
 key_key.toggleFoVChanges:0
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:0
 key_key.togglePotionParticles:66:CONTROL
-key_key.death_history:22
 key_cos.key.opencosarmorinventory:0
 key_pe.key.armor_toggle:0
 key_pe.key.charge:47
@@ -259,7 +258,7 @@ key_key.refinedstorageaddons.openWirelessCraftingGrid:34
 key_techguns.key.toggleNightvision:0
 key_techguns.key.toggleSafemode:0
 key_techguns.key.toggleStepassist:0
-key_techguns.key.forceReload:0
+key_techguns.key.forceReload:38
 key_techguns.key.toggleJetpack:0
 key_WorldEdit Reference:0
 key_key.journeymap.zoom_in:13
@@ -301,7 +300,7 @@ key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:0.0
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -42,7 +42,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "15+9*(LVL-1)",
     "max_ench_eval": "(1+10*LVL)+50",
-    "type": "WEAPON",
+    "type": "BREAKABLE",
     "equipment_slots": [
       "MAINHAND"
     ],

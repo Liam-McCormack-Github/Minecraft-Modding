@@ -8,6 +8,3 @@
 <entity:minecraft:wither>.addDrop(<quark:black_ash>, 1, 4);
 <entity:minecraft:wither>.removeDrop(<unstabletools:division_sign>.withTag({activated: 0 as byte}));
 <entity:minecraft:wither>.removeDrop(<unstabletools:division_sign>);
-
-<entity:techguns:alienbug>.addDrop(<alchemistry:element:77>, 0, 1);
-<entity:techguns:alienbug>.removeDrop(<minecraft:web>);

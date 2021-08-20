@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	shape: "circle",
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "da4d5ac4",
+		type: "item",
+		items: [{
+			id: "futuremc:netherite_leggings",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Leggings"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "c306859d",
+		type: "choice",
+		team_reward: false,
+		auto: "disabled",
+		table: 8
+	}]
+}

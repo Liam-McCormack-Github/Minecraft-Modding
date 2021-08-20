@@ -1,0 +1,32 @@
+{
+	title: "Anvil Recipe Glitch?",
+	icon: "minecraft:anvil 1 2",
+	x: 9.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "Sometimes these recipes can fuck up if this happens come here...",
+	can_repeat: true,
+	dependencies: [
+		"6d231b02"
+	],
+	size: 3.0d,
+	optional: true,
+	tasks: [{
+		uid: "a81c147a",
+		type: "checkmark"
+	},
+	{
+		uid: "375ea732",
+		type: "xp",
+		value: 5L,
+		points: false
+	}],
+	rewards: [{
+		uid: "0ce08852",
+		type: "choice",
+		title: "Claim an item!",
+		icon: "minecraft:anvil 1 2",
+		auto: "disabled",
+		table: 9
+	}]
+}

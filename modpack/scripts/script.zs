@@ -319,6 +319,9 @@ mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:6>, 
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:7>, <jaopca:item_dustamber> * 2, 1.0, <jaopca:item_dustamber>, 0.5);
 
 
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:wither_bone>, <zcontent:withered_bone_meal> * 6, 1.0, <zcontent:withered_bone_meal> * 2, 0.5, <zcontent:withered_bone_meal> * 2, 0.5);
+
+
 #alchemistry-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 mods.alchemistry.Electrolyzer.addRecipe(<liquid:water>*1000,<zcontent:biofuel>,95,<zcontent:substrate>, <alchemistry:compound:35>,null,0,null,0);
 mods.alchemistry.Atomizer.addRecipe(<better_diving:lubricant>, <liquid:lubricant>*1000);
@@ -499,6 +502,9 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:7>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<zcontent:red_alloy_ingot>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<zcontent:red_alloy_ingot>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
+
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platecoal>, <minecraft:coal>, <immersiveengineering:mold>, 1024);
 
 mods.immersiveengineering.MetalPress.addRecipe(<extrautils2:ingredients:5>, <jaopca:item_dustmoon>, <zcontent:mold>, 250);
 mods.immersiveengineering.MetalPress.addRecipe(<zcontent:wood_plate>, <thermalfoundation:material:801>, <zcontent:mold>, 250);
@@ -517,7 +523,7 @@ mods.immersiveengineering.Blueprint.addRecipe("Proccessors", <zcontent:proc_2>, 
 mods.immersiveengineering.Blueprint.addRecipe("Proccessors", <zcontent:proc_3>, [<zcontent:proc_raw_3>, <zcontent:proc_base>, <minecraft:redstone> * 2, <minecraft:redstone> * 2]);
 mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold_proc>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
-mods.immersiveengineering.Blueprint.addRecipe("electrode", <immersiveengineering:graphite_electrode>, [<ore:stickHOPGraphite>, <fluxnetworks:flux>, <ore:stickHOPGraphite>, <fluxnetworks:flux>]);
+mods.immersiveengineering.Blueprint.addRecipe("electrode", <immersiveengineering:graphite_electrode>, [<jaopca:item_stickhopgraphite> * 4, <fluxnetworks:flux> * 4]);
 
 
 
@@ -1048,17 +1054,18 @@ mods.futuremc.SmithingTable.addRecipe(<zcontent:silver_obsidian_sword>, <randomt
 mods.futuremc.SmithingTable.addRecipe(<zcontent:silver_obsidian_pick>, <randomthings:ingredient:2>, <randomthings:spectrepickaxe>);
 mods.futuremc.SmithingTable.addRecipe(<zcontent:silver_obsidian_shovel>, <randomthings:ingredient:2>, <randomthings:spectreshovel>);
 mods.futuremc.SmithingTable.addRecipe(<zcontent:silver_obsidian_axe>, <randomthings:ingredient:2>, <randomthings:spectreaxe>);
+mods.futuremc.SmithingTable.addRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"}), <cyclicmagic:sword_weakness>);
+mods.futuremc.SmithingTable.addRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"}), <cyclicmagic:sword_slowness>);
+mods.futuremc.SmithingTable.addRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:ender_pearl>, <cyclicmagic:sword_ender>);
+mods.futuremc.SmithingTable.addRecipe(<minecraft:chest>, <extendedcrafting:material:140>, <compactstorage:compactchest>.withTag({size: [24, 10] as int[], hue: -1}));
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<zcontent:silver_obsidian_sword>, <randomthings:ingredient:2>, <randomthings:spectresword>,25);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<zcontent:silver_obsidian_pick>, <randomthings:ingredient:2>, <randomthings:spectrepickaxe>,25);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<zcontent:silver_obsidian_shovel>, <randomthings:ingredient:2>, <randomthings:spectreshovel>,25);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<zcontent:silver_obsidian_axe>, <randomthings:ingredient:2>, <randomthings:spectreaxe>,25);
-mods.futuremc.SmithingTable.addRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"}), <cyclicmagic:sword_weakness>);
-mods.futuremc.SmithingTable.addRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"}), <cyclicmagic:sword_slowness>);
-mods.futuremc.SmithingTable.addRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:ender_pearl>, <cyclicmagic:sword_ender>);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"}), <cyclicmagic:sword_weakness>,10);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"}), <cyclicmagic:sword_slowness>,10);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<actuallyadditions:item_sword_quartz>, <minecraft:ender_pearl>, <cyclicmagic:sword_ender>,10);
-mods.futuremc.SmithingTable.addRecipe(<minecraft:chest>, <extendedcrafting:material:140>, <compactstorage:compactchest>.withTag({size: [24, 10] as int[], hue: -1}));
+
 mods.futuremc.SmithingTable.addRecipe(<tp:pouch>, <extendedcrafting:material:140>, <compactstorage:backpack>.withTag({size: [24, 10] as int[], hue: -1}));
 mods.futuremc.SmithingTable.addRecipe(<jaopca:item_platedensedemonicmetal>, <mysticalagradditions:stuff:1>, <unstabletools:division_sign>);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<jaopca:item_platedensedemonicmetal>, <mysticalagradditions:stuff:1>, <unstabletools:division_sign>,100);

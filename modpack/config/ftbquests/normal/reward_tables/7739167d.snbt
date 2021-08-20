@@ -1,0 +1,57 @@
+{
+	title: "Heroic Armour",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "futuremc:netherite_helmet",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Helm"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_chestplate",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Chestplate"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_leggings",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Leggings"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "futuremc:netherite_boots",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Gold Ingot in an Anvil"
+					],
+					Name: "Heroic Boots"
+				}
+			}
+		}
+	}]
+}

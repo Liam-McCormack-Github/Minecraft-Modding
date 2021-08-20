@@ -4,9 +4,6 @@
 	loot_size: 1,
 	use_title: true,
 	rewards: [{
-		item: "randomthings:spectrecoil_number"
-	},
-	{
 		item: "mob_grinding_utils:mob_swab"
 	},
 	{
