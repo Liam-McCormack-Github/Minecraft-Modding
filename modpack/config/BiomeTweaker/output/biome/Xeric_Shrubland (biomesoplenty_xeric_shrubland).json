@@ -1,0 +1,195 @@
+
+{
+  "ID": 94,
+  "Name": "Xeric Shrubland",
+  "Resource Location": "biomesoplenty:xeric_shrubland",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenXericShrubland",
+  "Root Height": -0.05882353,
+  "Height Variation": 0.087500006,
+  "Top Block": "minecraft:sand[variant\u003dsand]",
+  "Filler Block": "minecraft:sand[variant\u003dsand]",
+  "Ocean Top Block": "minecraft:gravel",
+  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "5046016",
+  "Foliage Color": "5046016",
+  "Water Color": "65535",
+  "Temperature": 1.75,
+  "Humidity": 0.1,
+  "Water Tint": 65535,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DRY",
+    "SAVANNA",
+    "SANDY",
+    "LUSH",
+    "HOT",
+    "SPARSE"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 95,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 20,
+      "Min Group Count": 10,
+      "Max Group Count": 24
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityLoveChild",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityVoidSlime",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityEpicSquid",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "dead_bushes"
+      },
+      {
+        "ID": "flora",
+        "Name": "desert_sprouts"
+      },
+      {
+        "ID": "flora",
+        "Name": "bromeliad"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "grass",
+        "Name": "dunegrass"
+      },
+      {
+        "ID": "grass",
+        "Name": "desertgrass"
+      }
+    ],
+    "TREE Generators": [
+      {
+        "ID": "weighted",
+        "Name": "trees"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "HOT_DESERT": 3
+  },
+  "BOP Climate Weights": {
+    "HOT_DESERT": [
+      3
+    ]
+  },
+  "BOP Island Weight": 0
+}

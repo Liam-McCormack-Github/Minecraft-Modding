@@ -1,0 +1,236 @@
+
+{
+  "ID": 87,
+  "Name": "Steppe",
+  "Resource Location": "biomesoplenty:steppe",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenSteppe",
+  "Root Height": 1.4705882,
+  "Height Variation": 0.10625,
+  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dsandy]",
+  "Filler Block": "biomesoplenty:dirt[coarse\u003dfalse,variant\u003dsandy]",
+  "Ocean Top Block": "minecraft:gravel",
+  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "5046016",
+  "Foliage Color": "5046016",
+  "Water Color": "65535",
+  "Temperature": 0.75,
+  "Humidity": 0.1,
+  "Water Tint": 65535,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DRY",
+    "PLAINS",
+    "SANDY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityHorse",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityDonkey",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityLlama",
+      "Weight": 5,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 95,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 20,
+      "Min Group Count": 10,
+      "Max Group Count": 24
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityFallenKnight",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityWitherWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityLoveChild",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityVoidSlime",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityEpicSquid",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "DEAD_BUSH Generators": [
+      {
+        "ID": "flora",
+        "Name": "dead_bushes"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "grass",
+        "Name": "desertgrass"
+      }
+    ],
+    "SAND_PASS2 Generators": [
+      {
+        "ID": "waterside",
+        "Name": "sand"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "DRY_TEMPERATE": 5
+  },
+  "BOP Climate Weights": {
+    "DRY_TEMPERATE": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

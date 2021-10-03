@@ -1,4 +1,63 @@
 
+Alchemistry dye only base minecraft stuff
+
+Hammer plate recipes got commented remember
+
+
+silver dense plate check use??
+tin
+
+
+
+
+chests
+	x: -519.0, z: -452.0
+	x: 9.0, z: 235.0
+
+
+check gears
+	electrotine
+
+
+
+change ores to chunk chance big and small deposisits
+
+change chest????
+
+grass
+
+
+
+/*
+
+all = forAllBiomes()
+all.removeDecoration("GRASS")
+all.removeFeature("LAKE")
+all.removeFeature("LAVA")
+all.removeFeature("NETHER_LAVA")
+all.removeFeature("NETHER_LAVA2")
+all.removeFeature("NETHER_MAGMA")
+
+biomeSet1 = forBiomesWithPropertyRange("Grass Color", 5046016, 5046016)
+biomeSet1.set("grassColor", 5046016)
+biomeSet1.set("foliageColor", 5046016)
+biomeSet1.set("waterColor", 65535)
+
+biomeSet2 = forBiomes("biomesoplenty:grassland")
+biomeSet2.remove()
+
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 change IE Cloche compat via rebuild mod

@@ -93,14 +93,14 @@ mods.rt.RandomThingsTweaker.addAnvilRecipe(<thermalfoundation:tool.shield_gold>.
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<zcontent:firesword>, <quark:diamond_heart>, <zcontent:firesword>.withTag(map24 + map23 + {Unbreakable:1, "Quark:RuneColor": 1, "Quark:RuneAttached": 1 as byte}),35);
 mods.rt.RandomThingsTweaker.addAnvilRecipe(<zcontent:icesword>, <quark:diamond_heart>, <zcontent:icesword>.withTag(map25 + map23 + {Unbreakable:1, "Quark:RuneColor": 9, "Quark:RuneAttached": 1 as byte}),35);
 
-recipes.addShaped(<extrautils2:luxsaber:7>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalBlack>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
-recipes.addShaped(<extrautils2:luxsaber:6>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalWhite>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
-recipes.addShaped(<extrautils2:luxsaber:5>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalBlue>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
-recipes.addShaped(<extrautils2:luxsaber:4>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalGreen>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
-recipes.addShaped(<extrautils2:luxsaber:3>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalYellow>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
-recipes.addShaped(<extrautils2:luxsaber:2>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalRed>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
-recipes.addShaped(<extrautils2:luxsaber:1>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalViolet>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
-recipes.addShaped(<extrautils2:luxsaber>.withTag(map27 + map28), [[<ore:ingotStainlesssteel>, <ore:gemCrystalIndigo>, <ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>, <extrautils2:suncrystal>, <ore:ingotStainlesssteel>], [<ore:ingotStainlesssteel>, <thermalfoundation:material:640>, <ore:ingotStainlesssteel>]]);
+recipes.addShaped(<extrautils2:luxsaber:7>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>, <zcontent:black_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
+recipes.addShaped(<extrautils2:luxsaber:6>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>, <zcontent:white_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
+recipes.addShaped(<extrautils2:luxsaber:5>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>, <zcontent:blue_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
+recipes.addShaped(<extrautils2:luxsaber:4>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>, <zcontent:green_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
+recipes.addShaped(<extrautils2:luxsaber:3>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>, <zcontent:yellow_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
+recipes.addShaped(<extrautils2:luxsaber:2>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>, <zcontent:red_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
+recipes.addShaped(<extrautils2:luxsaber:1>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>, <zcontent:violet_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
+recipes.addShaped(<extrautils2:luxsaber>.withTag(map27 + map28), [[<zcontent:stainless_steel_ingot>,   <zcontent:indigo_gem>, <zcontent:stainless_steel_ingot>],[<zcontent:stainless_steel_ingot>, <extrautils2:suncrystal>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <thermalfoundation:material:640>, <zcontent:stainless_steel_ingot>]]);
 
 recipes.addShaped("mob_egg_test_1", <minecraft:spawn_egg>, [[<draconicevolution:mob_soul>.marked("entity")], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<randomthings:ingredient:11>]],
 function(out, ins, cInfo) {
@@ -132,97 +132,6 @@ var creeper_morb = <thermalexpansion:morb>.withTag({powered: 0 as byte, id: "min
 recipes.addShapeless(<zcontent:charged_gunpowder>, [creeper_morb_charged.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
 recipes.addShapeless(<minecraft:gunpowder>, [creeper_morb.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
 recipes.addShapeless("excavation_wand", <zcontent:excavation_wand>.withTag(map30), [<zcontent:excavation_wand>]);
-
-#OreDict Remove-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<ore:dyeGreen>.remove(<enderio:item_material:48>);
-<ore:dyeBrown>.remove(<enderio:item_material:49>);
-<ore:dyeBlack>.remove(<enderio:item_material:50>);
-<ore:dustUranium>.remove(<techguns:itemshared:97>);
-<ore:itemRubber>.remove(<industrialforegoing:plastic>);
-<ore:rawPlastic>.remove(<techguns:itemshared:55>);
-<ore:blockGlassRed>.remove(<extrautils2:decorativesolid:5>);
-<ore:cropMaloberry>.remove(<tp:maloberry_berry>);
-
-#OreDict Add-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<ore:ingotEnderAlloy>.add(<extendedcrafting:material:36>);
-<ore:ingotMud>.add(<biomesoplenty:mud_brick>);
-<ore:leather>.add(<minecraft:rabbit_hide>);
-<ore:itemLeather>.add(<minecraft:rabbit_hide>);
-<ore:itemBall>.add(<minecraft:slime_ball>);
-<ore:itemBall>.add(<minecraft:magma_cream>);
-<ore:itemBall>.add(<actuallyadditions:item_misc:12>);
-<ore:itemBall>.add(<industrialforegoing:pink_slime>);
-<ore:itemBall>.add(<thermalfoundation:material:832>);
-<ore:itemBall>.add(<thermalfoundation:material:833>);
-<ore:sheetPlastic>.add(<industrialforegoing:plastic>);
-<ore:dustAsh>.add(<darkutils:material>);
-<ore:dustAsh>.add(<biomesoplenty:ash>);
-<ore:oreEnder>.add(<tp:ender_ore>);
-<ore:trapdoorWood>.add(<malisisdoors:trapdoor_acacia>);
-<ore:trapdoorWood>.add(<malisisdoors:trapdoor_birch>);
-<ore:trapdoorWood>.add(<malisisdoors:trapdoor_dark_oak>);
-<ore:trapdoorWood>.add(<malisisdoors:trapdoor_jungle>);
-<ore:trapdoorWood>.add(<malisisdoors:trapdoor_spruce>);
-<ore:trapdoorWood>.add(<quark:spruce_trapdoor>);
-<ore:trapdoorWood>.add(<quark:birch_trapdoor>);
-<ore:trapdoorWood>.add(<quark:jungle_trapdoor>);
-<ore:trapdoorWood>.add(<quark:acacia_trapdoor>);
-<ore:trapdoorWood>.add(<quark:dark_oak_trapdoor>);
-<ore:trapdoorWood>.add(<futuremc:acacia_trapdoor>);
-<ore:trapdoorWood>.add(<futuremc:jungle_trapdoor>);
-<ore:trapdoorWood>.add(<futuremc:birch_trapdoor>);
-<ore:trapdoorWood>.add(<futuremc:spruce_trapdoor>);
-<ore:trapdoorWood>.add(<futuremc:dark_oak_trapdoor>);
-<ore:ingotChrome>.add(<alchemistry:ingot:24>);
-<ore:oreMeteor>.add(<zcontent:meteor_block>);
-<ore:blockXp>.add(<zcontent:xp_block>);
-<ore:blockEnder>.add(<zcontent:ender_block>);
-<ore:gemMoonstone>.add(<extrautils2:ingredients:5>);
-<ore:stonePolished>.add(<chisel:stonebrick2:8>);
-<ore:stonePolished>.add(<futuremc:smooth_stone>);
-<ore:stonePolished>.add(<quark:polished_stone>);
-<ore:stonePolished>.add(<chisel:stonebrick2:9>);
-<ore:stone>.add(<chisel:stonebrick2:8>);
-<ore:stone>.add(<futuremc:smooth_stone>);
-<ore:stone>.add(<quark:polished_stone>);
-<ore:stone>.add(<chisel:stonebrick2:9>);
-<ore:brickStone>.add(<chisel:stonebrick2:8>);
-<ore:brickStone>.add(<futuremc:smooth_stone>);
-<ore:brickStone>.add(<quark:polished_stone>);
-<ore:brickStone>.add(<chisel:stonebrick2:9>);
-<ore:bricksStone>.add(<chisel:stonebrick2:8>);
-<ore:bricksStone>.add(<futuremc:smooth_stone>);
-<ore:bricksStone>.add(<quark:polished_stone>);
-<ore:bricksStone>.add(<chisel:stonebrick2:9>);
-<ore:lubricant>.add(<zcontent:substrate>);
-<ore:lubricant>.add(<better_diving:lubricant>);
-<ore:dye>.add(<futuremc:dye>);
-<ore:dye>.add(<futuremc:dye:1>);
-<ore:dye>.add(<futuremc:dye:2>);
-<ore:dye>.add(<futuremc:dye:3>);
-<ore:dragonScale>.add(<mysticalagradditions:stuff:3>);
-<ore:cropStrawberry>.add(<tp:maloberry_berry>);
-<ore:toolShears>.add(<mysticalagriculture:inferium_shears:*>);
-<ore:toolShears>.add(<mysticalagriculture:prudentium_shears:*>);
-<ore:toolShears>.add(<mysticalagriculture:superium_shears:*>);
-<ore:toolShears>.add(<mysticalagriculture:intermedium_shears:*>);
-<ore:toolShears>.add(<mysticalagriculture:supremium_shears:*>);
-<ore:toolShears>.add(<mysticaladaptations:insanium_shears:*>);
-<ore:toolShears>.add(<unstabletools:unstable_shears:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_platinum:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_diamond:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_gold:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_silver:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_lead:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_electrum:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_tin:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_copper:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_aluminum:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_constantan:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_nickel:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_bronze:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_steel:*>);
-<ore:toolShears>.add(<thermalfoundation:tool.shears_invar:*>);
 
 #Rename-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <zcontent:masterswordblade>.maxStackSize = 1;
@@ -269,8 +178,8 @@ recipes.addShapeless("excavation_wand", <zcontent:excavation_wand>.withTag(map30
 <mysticaladaptations:insanium_paxel>.maxDamage = 24000;
 
 #division_sign-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-recipes.addShaped(<zcontent:evil_terraglaz_ingot>, [[<ore:dustTerraglaz>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<ore:ingotEvilMetal>]]);
-recipes.addShaped(<extrautils2:unstableingots>, [[<ore:dustWhiteGlowstone>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<ore:ingotIridium>]]);
+recipes.addShaped(<zcontent:evil_terraglaz_ingot>, [[<ore:dustTerraglaz>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<extrautils2:ingredients:17>]]);
+recipes.addShaped(<extrautils2:unstableingots>, [[<ore:dustWhiteGlowstone>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<thermalfoundation:material:135>]]);
 recipes.addShaped(<extrautils2:ingredients:10>, [[<quark:black_ash>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<mysticalagradditions:insanium:4>]]);
 recipes.addShaped(<jaopca:item_dustmoon>, [[<zcontent:meteor_dust>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<ore:dustLunar>]]);
 recipes.addShaped(<jaopca:item_dustamethyst>, [[<arcanearchives:radiant_dust>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<ore:dustLunar>]]);
@@ -333,6 +242,34 @@ mods.alchemistry.Dissolver.removeRecipe(<techguns:itemshared:53>);
 mods.alchemistry.Dissolver.removeRecipe(<techguns:itemshared:64>);
 mods.alchemistry.Dissolver.removeRecipe(<zcontent:carbon_ingot:0>);
 
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:0>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:1>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:2>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:5>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:6>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:7>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:8>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:9>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:10>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:11>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:12>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:13>);
+mods.alchemistry.Dissolver.removeRecipe(<thermalfoundation:dye:14>);
+
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:0>, true, 1, [[1.0, <alchemistry:compound:48> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:1>, true, 1, [[1.0, <alchemistry:compound:60> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:2>, true, 1, [[1.0, <alchemistry:compound:41> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:5>, true, 1, [[1.0, <alchemistry:compound:42> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:6>, true, 1, [[1.0, <alchemistry:compound:44> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:7>, true, 1, [[1.0, <alchemistry:compound:43> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:8>, true, 1, [[1.0, <alchemistry:compound:51> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:9>, true, 1, [[1.0, <alchemistry:compound:50> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:10>, true, 1, [[1.0, <alchemistry:compound:45> * 2 , <alchemistry:compound:46> * 2 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:11>, true, 1, [[1.0, <alchemistry:compound:25> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:12>, true, 1, [[1.0, <alchemistry:compound:23> * 2 , <alchemistry:compound:47> * 2 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:13>, true, 1, [[1.0, <alchemistry:compound:49> * 4 ]]);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:14>, true, 1, [[1.0, <alchemistry:compound:40> * 4 ]]);
+
 mods.alchemistry.Combiner.removeRecipe(<jaopca:item_dustcarbon:0>);
 mods.alchemistry.Combiner.removeRecipe(<jaopca:block_blockcarbon:0>);
 mods.alchemistry.Combiner.removeRecipe(<jaopca:item_nuggetcarbon:0>);
@@ -342,8 +279,6 @@ mods.alchemistry.Combiner.removeRecipe(<zcontent:carbon_ingot:0>);
 
 mods.alchemistry.Combiner.addRecipe(<minecraft:record_13>,[<alchemistry:compound:53> * 64,<alchemistry:element:82> * 16, <alchemistry:element:48> * 16, <alchemistry:element:79> * 8]);
 mods.alchemistry.Combiner.addRecipe(<zcontent:masterswordcore>,[<alchemistry:element:79> * 8192, <alchemistry:element:79> * 8192, <alchemistry:element:79> * 8192, <alchemistry:element:79> * 8192, <actuallyadditions:item_misc:16>, <alchemistry:element:79> * 8192, <alchemistry:element:79> * 8192, <alchemistry:element:79> * 8192, <alchemistry:element:79> * 8192]);
-
-
 
 
 #arcanearchives-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -379,14 +314,14 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:crafting:16>, <o
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:crafting:22>, <enderio:item_material:8>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, 8000, 100);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:crafting:24>, <ore:feather>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, 8000, 100);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:crafting:23>, <ore:string>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, 8000, 100);
-mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:crafting:32>, <ore:ingotIron>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, 8000, 100);
+mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:crafting:32>, <minecraft:iron_ingot>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, 8000, 100);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:charm>, <extrautils2:ingredients:9>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, 8000, 100);
-mods.actuallyadditions.Empowerer.addRecipe(<draconicevolution:draconic_core>, <virtualmachines:material:2562>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, 16000, 150);
+mods.actuallyadditions.Empowerer.addRecipe(<draconicevolution:draconic_core>, <virtualmachines:material:2562>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, 16000, 150);
 mods.actuallyadditions.Empowerer.addRecipe(<draconicevolution:wyvern_core>, <minecraft:nether_star>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <draconicevolution:draconic_core>, 64000, 300);
 mods.actuallyadditions.Empowerer.addRecipe(<draconicevolution:awakened_core>, <draconicevolution:dragon_heart>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, 256000, 600);
 mods.actuallyadditions.Empowerer.addRecipe(<draconicevolution:chaotic_core>, <draconicevolution:chaos_shard:1>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, 1024000, 1200);
 
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<avaritia:resource>, <ore:gearDiamond>, 100000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<avaritia:resource>, <thermalfoundation:material:26>, 100000);
 
 #chisel-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 mods.chisel.Carving.addVariation("cobblestone", <quark:sturdy_stone>);
@@ -437,15 +372,15 @@ mods.inworldcrafting.FluidToItem.transform(<arcanearchives:shaped_quartz>, <liqu
 mods.inworldcrafting.FluidToItem.transform(<arcanearchives:storage_shaped_quartz>, <liquid:hot_spring_water>, [<jaopca:block_blockcrystalblack> | <jaopca:block_blockcrystalblue> | <jaopca:block_blockcrystalgreen> | <jaopca:block_blockcrystalindigo> | <jaopca:block_blockcrystalorange> | <jaopca:block_blockcrystalred>  | <jaopca:block_blockcrystalviolet> | <jaopca:block_blockcrystalwhite> | <jaopca:block_blockcrystalyellow>, <arcanearchives:storage_raw_quartz>]);
 
 
-mods.inworldcrafting.FluidToItem.transform(<arcanearchives:shaped_quartz>, <liquid:hot_spring_water>, [<biomesoplenty:gem:*>, <ore:nuggetNetherStar>, <arcanearchives:raw_quartz>]);
+mods.inworldcrafting.FluidToItem.transform(<arcanearchives:shaped_quartz>, <liquid:hot_spring_water>, [<biomesoplenty:gem:*>, <extendedcrafting:material:140>, <arcanearchives:raw_quartz>]);
 mods.inworldcrafting.FluidToItem.transform(<arcanearchives:storage_shaped_quartz>, <liquid:hot_spring_water>, [<biomesoplenty:gem_block:*>, <ore:netherStar>, <arcanearchives:storage_raw_quartz>]);
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:angelring:1>, <liquid:hot_spring_water>, [<zcontent:angel_wing> * 2, <extrautils2:chickenring>, <extrautils2:chickenring:1>, <eternalsingularity:combined_singularity:14>], true);
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:angelring:4>, <liquid:hot_spring_water>, [<zcontent:gold_feather> * 2, <extrautils2:chickenring>, <extrautils2:chickenring:1>, <eternalsingularity:combined_singularity:14>], true);
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:angelring:5>, <liquid:hot_spring_water>, [<zcontent:bat_wing> * 2, <extrautils2:chickenring>, <extrautils2:chickenring:1>, <eternalsingularity:combined_singularity:14>], true);
 mods.inworldcrafting.FluidToItem.transform(<zcontent:magic_fertilizer>, <liquid:hot_spring_water>, [<industrialforegoing:fertilizer>, <thermalfoundation:fertilizer:2>, <alchemistry:fertilizer>, <mysticalagriculture:mystical_fertilizer>], true);
 mods.inworldcrafting.FluidToItem.transform(<chisel:energizedvoidstone:2>, <liquid:mana>, [<chisel:voidstone:2>]);
-mods.inworldcrafting.FluidToItem.transform(<randomthings:ingredient:3>, <liquid:hot_spring_water>, [<randomthings:ingredient:2>, <ore:ingotIridium>]);
-mods.inworldcrafting.FluidToItem.transform(<extrautils2:suncrystal:250>, <liquid:liquid_sunshine>, [<ore:gemDiamond>], true);
+mods.inworldcrafting.FluidToItem.transform(<randomthings:ingredient:3>, <liquid:hot_spring_water>, [<randomthings:ingredient:2>, <thermalfoundation:material:135>]);
+mods.inworldcrafting.FluidToItem.transform(<extrautils2:suncrystal:250>, <liquid:liquid_sunshine>, [<minecraft:diamond>], true);
 mods.inworldcrafting.FluidToItem.transform(<zcontent:angel_wing>, <liquid:hot_spring_water>, [<cyclicmagic:tool_warp_spawn>, <cyclicmagic:tool_warp_home>], true);
 mods.inworldcrafting.FluidToItem.transform(<zcontent:wand_1>, <liquid:xpjuice>, [<zcontent:excavation_wand>, <minecraft:gold_ingot>, <extendedcrafting:material:40>], true);
 mods.inworldcrafting.FluidToItem.transform(<zcontent:wand_2>, <liquid:xpjuice>, [<zcontent:excavation_wand>, <zcontent:terraglaz_ingot>, <extendedcrafting:material:40>], true);
@@ -515,21 +450,19 @@ mods.immersiveengineering.MetalPress.addRecipe(<zcontent:proc_raw_1>, <refinedst
 mods.immersiveengineering.MetalPress.addRecipe(<zcontent:proc_raw_2>, <refinedstorage:processor:1>, <zcontent:mold_proc>, 4096);
 mods.immersiveengineering.MetalPress.addRecipe(<zcontent:proc_raw_3>, <refinedstorage:processor:2>, <zcontent:mold_proc>, 8192);
 
-mods.immersiveengineering.Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:57>, [<ore:plateIron>, <ore:nuggetTin> * 3]);
-mods.immersiveengineering.Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:58>, [<ore:plateObsidianSteel>, <ore:nuggetManyullyn> * 3]);
-mods.immersiveengineering.Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:59>, [<ore:plateCarbon>, <ore:nuggetDarkSteel> * 3]);
+mods.immersiveengineering.Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:57>, [<thermalfoundation:material:32>, <thermalfoundation:material:193> * 3]);
+mods.immersiveengineering.Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:58>, [<techguns:itemshared:51>, <jaopca:item_nuggetmanyullyn> * 3]);
+mods.immersiveengineering.Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:59>, [<techguns:itemshared:53>, <enderio:item_alloy_nugget:6> * 3]);
 mods.immersiveengineering.Blueprint.addRecipe("Proccessors", <zcontent:proc_1>, [<zcontent:proc_raw_1>, <zcontent:proc_base>, <minecraft:redstone> * 2, <minecraft:redstone> * 2]);
 mods.immersiveengineering.Blueprint.addRecipe("Proccessors", <zcontent:proc_2>, [<zcontent:proc_raw_2>, <zcontent:proc_base>, <minecraft:redstone> * 2, <minecraft:redstone> * 2]);
 mods.immersiveengineering.Blueprint.addRecipe("Proccessors", <zcontent:proc_3>, [<zcontent:proc_raw_3>, <zcontent:proc_base>, <minecraft:redstone> * 2, <minecraft:redstone> * 2]);
-mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
-mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold_proc>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
+mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold>, [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <immersiveengineering:tool:1>]);
+mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold_proc>, [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <immersiveengineering:tool:1>]);
 mods.immersiveengineering.Blueprint.addRecipe("electrode", <immersiveengineering:graphite_electrode>, [<jaopca:item_stickhopgraphite> * 4, <fluxnetworks:flux> * 4]);
 
 
 
-mods.immersiveengineering.BlastFurnace.addRecipe(<zcontent:graphite_ingot>, <ore:ingotCrudeSteel>, 300);
-mods.immersiveengineering.BlastFurnace.addFuel(<ore:dustAsh>, 150);
-mods.immersiveengineering.BlastFurnace.addFuel(<biomesoplenty:ash_block>, 1500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<zcontent:graphite_ingot>, <enderio:item_alloy_endergy_ingot>, 300);
 
 mods.immersiveengineering.BlastFurnace.addFuel(<mysticalagriculture:coal>, 1800);
 mods.immersiveengineering.BlastFurnace.addFuel(<mysticalagriculture:coal:1>, 3600);
@@ -771,15 +704,15 @@ mods.rt.RandomThingsTweaker.addImbuingRecipe(<biomesoplenty:sapling_0:3>, <rando
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<rftools:infused_enderpearl>, [
-	[<ore:gemDimensionalShard>, <ore:gemDimensionalShard>, <ore:gemDimensionalShard>], 
-	[<ore:gemDimensionalShard>, <ore:enderpearl>, <ore:gemDimensionalShard>], 
-	[<ore:gemDimensionalShard>, <ore:gemDimensionalShard>, <ore:gemDimensionalShard>]
+	[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>], 
+	[<rftools:dimensional_shard>, <minecraft:ender_pearl>, <rftools:dimensional_shard>], 
+	[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<rftools:infused_diamond>, [
-	[<ore:gemDimensionalShard>, <ore:gemDimensionalShard>, <ore:gemDimensionalShard>], 
-	[<ore:gemDimensionalShard>, <ore:gemDiamond>, <ore:gemDimensionalShard>], 
-	[<ore:gemDimensionalShard>, <ore:gemDimensionalShard>, <ore:gemDimensionalShard>]
+	[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>], 
+	[<rftools:dimensional_shard>, <minecraft:diamond>, <rftools:dimensional_shard>], 
+	[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<zcontent:collector_red>, [
@@ -801,45 +734,45 @@ mods.extendedcrafting.EnderCrafting.addShaped(<zcontent:collector_star>, [
  ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<researchtable:table>, [
-	[<ore:ingotCrystalMatrix>, <extrautils2:screen>, <ore:ingotCrystalMatrix>], 
+	[<avaritia:resource:1>, <extrautils2:screen>, <avaritia:resource:1>], 
 	[<refinedstorage:processor:5>, <zcontent:terminalserver>, <refinedstorage:processor:5>], 
-	[<ore:gearInsanium>, <thermalexpansion:frame:128>, <ore:gearInsanium>]
+	[<jaopca:item_gearinsanium>, <thermalexpansion:frame:128>, <jaopca:item_gearinsanium>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<deepmoblearning:deep_learner>, [
-	[<ore:plateCarbon>, <extrautils2:screen>, <ore:plateCarbon>], 
-	[<ore:ingotNeodymium>, <techguns:itemshared:66>, <ore:ingotNeodymium>], 
-	[<ore:plateCarbon>, <ore:ingotNeodymium>, <ore:plateCarbon>]
+	[<techguns:itemshared:53>, <extrautils2:screen>, <techguns:itemshared:53>], 
+	[<alchemistry:ingot:60>, <techguns:itemshared:66>, <alchemistry:ingot:60>], 
+	[<techguns:itemshared:53>, <alchemistry:ingot:60>, <techguns:itemshared:53>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<deepmoblearning:data_model_blank> * 2, [
-	[<ore:nuggetGelidEnderium>, <ore:ingotColdiron>, <ore:nuggetGelidEnderium>], 
+	[<redstonerepository:material:2>, <zcontent:cold_iron_ingot>, <redstonerepository:material:2>], 
 	[<zcontent:datacard3>, <ore:circuitElite>, <zcontent:datacard3>], 
-	[<ore:nuggetGelidEnderium>, <ore:ingotColdiron>, <ore:nuggetGelidEnderium>]
+	[<redstonerepository:material:2>, <zcontent:cold_iron_ingot>, <redstonerepository:material:2>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<deepmoblearning:trial_keystone>, [
 	[null, <enderio:item_broken_spawner>, null], 
 	[<refinedstorage:processor:4>, <deepmoblearning:machine_casing>, <refinedstorage:processor:4>], 
-	[<ore:ingotEnchantedMetal>, <ore:gearGelidEnderium>, <ore:ingotEnchantedMetal>]
+	[<extrautils2:ingredients:12>, <redstonerepository:material:3>, <extrautils2:ingredients:12>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<deepmoblearning:simulation_chamber>, [
 	[<ore:essenceInsanium>, <extrautils2:screen>, <ore:essenceInsanium>], 
 	[<refinedstorage:processor:5>, <deepmoblearning:machine_casing>, <refinedstorage:processor:5>], 
-	[<deepmoblearning:glitch_infused_ingot>, <ore:gearGelidEnderium>, <deepmoblearning:glitch_infused_ingot>]
+	[<deepmoblearning:glitch_infused_ingot>, <redstonerepository:material:3>, <deepmoblearning:glitch_infused_ingot>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<deepmoblearning:extraction_chamber>, [
 	[<ore:essenceInsanium>, <extrautils2:screen>, <ore:essenceInsanium>], 
 	[<refinedstorage:processor:5>, <deepmoblearning:machine_casing>, <refinedstorage:processor:5>], 
-	[<deepmoblearning:glitch_infused_ingot>, <ore:gearLumium>, <deepmoblearning:glitch_infused_ingot>]
+	[<deepmoblearning:glitch_infused_ingot>, <thermalfoundation:material:294>, <deepmoblearning:glitch_infused_ingot>]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<deepmoblearning:glitch_infused_sword>, [
 	[null, null, <deepmoblearning:glitch_infused_ingot>], 
 	[null, <deepmoblearning:glitch_infused_ingot>, null], 
-	[<ore:stickWood>, <ore:nuggetPlutonium>, null]
+	[<minecraft:stick>, null, null]
 ]);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<deepmoblearning:glitch_infused_helmet>, [
@@ -905,7 +838,7 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:end_ess
 #Combination Crafting
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconium_ingot>, 1000000, <zcontent:evil_terraglaz_ingot>, [ <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>,  <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>,  <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>,  <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<eternalsingularity:combined_singularity:14>, 100000, <randomthings:spectreilluminator>, [<chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>, <chisel:blockgold:2>, <chisel:blocksilver:2>]);
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:item_misc:19>, 100000, <extendedcrafting:material:40>, [<ore:blockDemonicMetal>, <ore:ingotEvilMetal>, <ore:ingotEvilMetal>, <ore:blockDemonicMetal>, <ore:ingotEvilMetal>, <ore:ingotEvilMetal>, <ore:blockDemonicMetal>, <ore:ingotEvilMetal>, <ore:ingotEvilMetal>, <ore:blockDemonicMetal>, <ore:ingotEvilMetal>, <ore:ingotEvilMetal>, <ore:blockDemonicMetal>, <ore:ingotEvilMetal>, <ore:ingotEvilMetal>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:item_misc:19>, 100000, <extendedcrafting:material:40>, [<ore:blockDemonicMetal>, <extrautils2:ingredients:17>, <extrautils2:ingredients:17>, <ore:blockDemonicMetal>, <extrautils2:ingredients:17>, <extrautils2:ingredients:17>, <ore:blockDemonicMetal>, <extrautils2:ingredients:17>, <extrautils2:ingredients:17>, <ore:blockDemonicMetal>, <extrautils2:ingredients:17>, <extrautils2:ingredients:17>, <ore:blockDemonicMetal>, <extrautils2:ingredients:17>, <extrautils2:ingredients:17>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_philosophers_stone>, 10000000, <projecte:item.pe_matter>, [<ore:dustMana>, <ore:dustMana>, <ore:dustMana>, <ore:dustMana>, <ore:dustMana>, <ore:dustMana>, <ore:dustMana>, <ore:dustMana>]);
 var stabilizer = <deepmoblearning:polymer_clay>;
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_matter:1>, 1000000, <quark:diamond_heart>, [stabilizer, <projecte:item.pe_matter>, stabilizer, stabilizer, <projecte:item.pe_matter>, stabilizer, stabilizer, <projecte:item.pe_matter>, stabilizer, stabilizer, <projecte:item.pe_matter>, stabilizer]);
@@ -935,7 +868,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_volcanite_
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_evertide_amulet>, 10000000, <mysticalagriculture:water_essence>, [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <projecte:item.pe_matter>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <projecte:item.pe_matter>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <projecte:item.pe_matter>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <projecte:item.pe_matter>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_swrg>, 10000000, <projecte:item.pe_ring_iron_band>, [<minecraft:feather>, <minecraft:feather>, <projecte:item.pe_matter>, <minecraft:feather>, <minecraft:feather>, <projecte:item.pe_matter>, <minecraft:feather>, <minecraft:feather>, <projecte:item.pe_matter>, <minecraft:feather>, <minecraft:feather>, <projecte:item.pe_matter>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_zero_ring>, 10000000, <projecte:item.pe_ring_iron_band>, [<minecraft:snow>, <minecraft:snow>, <minecraft:packed_ice>, <minecraft:snow>, <minecraft:snow>, <projecte:item.pe_matter>, <minecraft:snow>, <minecraft:snow>, <minecraft:packed_ice>, <minecraft:snow>, <minecraft:snow>, <projecte:item.pe_matter>]);
-mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_black_hole>, 10000000, <projecte:item.pe_ring_iron_band>, [<projecte:item.pe_matter>, <ore:string>, <ore:enderpearl>, <ore:string>, <ore:enderpearl>, <ore:string>, <projecte:item.pe_matter>, <ore:string>, <ore:enderpearl>, <ore:string>, <ore:enderpearl>, <ore:string>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_black_hole>, 10000000, <projecte:item.pe_ring_iron_band>, [<projecte:item.pe_matter>, <ore:string>, <minecraft:ender_pearl>, <ore:string>, <minecraft:ender_pearl>, <ore:string>, <projecte:item.pe_matter>, <ore:string>, <minecraft:ender_pearl>, <ore:string>, <minecraft:ender_pearl>, <ore:string>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_archangel_smite>, 10000000, <projecte:item.pe_ring_iron_band>, [<projecte:item.pe_matter>, <ore:arrow>, <minecraft:bow>.withTag(map26), <ore:arrow>, <minecraft:bow>.withTag(map26), <ore:arrow>, <projecte:item.pe_matter>, <ore:arrow>, <minecraft:bow>.withTag(map26), <ore:arrow>, <minecraft:bow>.withTag(map26), <ore:arrow>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_harvest_god>, 10000000, <projecte:item.pe_ring_iron_band>, [<projecte:item.pe_matter>, <ore:treeSapling>, <ore:flowerRed>, <ore:treeSapling>, <ore:flowerPink>, <ore:treeSapling>, <projecte:item.pe_matter>, <ore:treeSapling>, <ore:flowerOrange>, <ore:treeSapling>, <ore:flowerSilver>, <ore:treeSapling>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<projecte:item.pe_ignition>, 10000000, <projecte:item.pe_ring_iron_band>, [<projecte:item.pe_matter>, <minecraft:flint_and_steel>, <projecte:item.pe_fuel:1>, <minecraft:flint_and_steel>, <projecte:item.pe_fuel:1>, <minecraft:flint_and_steel>, <projecte:item.pe_matter>, <minecraft:flint_and_steel>, <projecte:item.pe_fuel:1>, <minecraft:flint_and_steel>, <projecte:item.pe_fuel:1>, <minecraft:flint_and_steel>,]);
@@ -959,14 +892,14 @@ mods.immersiveengineering.Excavator.removeMineral("Cinnabar");
 mods.immersiveengineering.Excavator.removeMineral("Coal");
 mods.immersiveengineering.Excavator.removeMineral("Silt");
 
-mods.immersiveengineering.Excavator.addMineral("Overworld", 1, 0, ["oreGold","oreIron","oreLapis","oreDiamond","oreRedstone","oreEmerald","oreCoal","oreCopper","oreTin","oreSilver","oreLead","oreAluminum","oreNickel","orePlatinum","oreIridium","oreRuby","orePeridot","oreTopaz","oreTanzanite","oreMalachite","oreSapphire","oreAmber","oreUranium","oreTitanium","oreEnder","matChunkStone","matChunkSand","matChunkClay","matChunkDirt","matChunkBasalt","matChunkLimestone","matChunkMarble","matChunkGranite","matChunkDiorite","matChunkAndesite","matChunkGravel","matChunkSlate","matChunkJasper"], [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [0]);
+mods.immersiveengineering.Excavator.addMineral("Overworld", 1, 0, ["oreGold","oreIron","oreLapis","oreDiamond","oreRedstone","oreEmerald","oreCoal","oreCopper","oreTin","oreSilver","oreLead","oreAluminum","oreNickel","orePlatinum","oreIridium","oreRuby","orePeridot","oreTopaz","oreTanzanite","oreMalachite","oreSapphire","oreAmber","oreUranium","oreTitanium","oreEnder","matChunkStone","matChunkSand","matChunkClay","matChunkDirt","matChunkBasalt","matChunkLimestone","matChunkMarble","matChunkGranite","matChunkDiorite","matChunkAndesite","matChunkGravel","matChunkSlate","matChunkJasper"], [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.4, 0.05, 0.02, 0.1, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02], [0]);
 
-mods.immersiveengineering.Excavator.addMineral("Hell", 1, 0, ["oreQuartz","oreCobalt","oreArdite","matChunkNetherrack","matChunkMeteor","matChunkAncientdebris","matChunkSoulStone","matChunkSoulSand"], [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Hell", 1, 0, ["oreQuartz","oreCobalt","oreArdite","matChunkNetherrack","matChunkMeteor","matChunkAncientdebris","matChunkSoulStone","matChunkSoulSand"], [0.15, 0.05 , 0.05 , 0.4 , 0.01 , 0.01 , 0.08 , 0.25], [-1]);
 
-mods.immersiveengineering.Excavator.addMineral("Unkown", 1, 0, ["oreAmethyst","matChunkEndStone","matChunkObsidian"], [0.01, 0.01, 0.01], [1]);
+mods.immersiveengineering.Excavator.addMineral("Unkown", 1, 0, ["oreAmethyst","matChunkEndStone","matChunkObsidian"], [0.05, 0.75, 0.2], [1]);
 
 #avarita-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-mods.extendedcrafting.TableCrafting.addShapeless(0, <extendedcrafting:material:32>, [<ore:ingotGallium>, <ore:ingotGermanium>, <ore:ingotArsenic>, <ore:ingotSelenium>, <ore:ingotRubidium>, <ore:ingotStrontium>, <ore:ingotYttrium>, <ore:ingotZirconium>, <ore:ingotNiobium>, <ore:ingotMolybdenum>, <ore:ingotTechnetium>, <ore:ingotRuthenium>, <ore:ingotRhodium>, <ore:ingotPalladium>, <ore:ingotSilver>, <ore:ingotCadmium>, <ore:ingotIndium>, <ore:ingotTin>, <ore:ingotAntimony>, <ore:ingotTellurium>, <ore:ingotCesium>, <ore:ingotBarium>, <ore:ingotLanthanum>, <ore:ingotCerium>, <ore:ingotPraseodymium>, <ore:ingotNeodymium>, <ore:ingotPromethium>, <ore:ingotSamarium>, <ore:ingotEuropium>, <ore:ingotGadolinium>, <ore:ingotTerbium>, <ore:ingotDysprosium>, <ore:ingotHolmium>, <ore:ingotErbium>, <ore:ingotThulium>, <ore:ingotYtterbium>, <ore:ingotLutetium>, <ore:ingotHafnium>, <ore:ingotTantalum>, <ore:ingotTungsten>, <ore:ingotRhenium>, <ore:ingotOsmium>, <ore:ingotIridium>, <ore:ingotPlatinum>, <ore:ingotThallium>, <ore:ingotLead>, <ore:ingotBismuth>, <ore:ingotPolonium>, <ore:ingotAstatine>, <ore:ingotFrancium>, <ore:ingotRadium>, <ore:ingotActinium>, <ore:ingotThorium>, <ore:ingotProtactinium>, <ore:ingotUranium>, <ore:ingotNeptunium>, <ore:ingotPlutonium>, <ore:ingotAmericium>, <ore:ingotCurium>, <ore:ingotBerkelium>, <ore:ingotCalifornium>, <ore:ingotEinsteinium>, <ore:ingotFermium>, <ore:ingotMendelevium>, <ore:ingotNobelium>, <ore:ingotLawrencium>, <ore:ingotRutherfordium>, <ore:ingotDubnium>, <ore:ingotSeaborgium>, <ore:ingotBohrium>, <ore:ingotHassium>, <ore:ingotMeitnerium>, <ore:ingotDarmstadtium>, <ore:ingotRoentgenium>, <ore:ingotCopernicium>, <ore:ingotNihonium>, <ore:ingotFlerovium>, <ore:ingotMoscovium>, <ore:ingotLivermorium>, <ore:ingotTennessine>, <ore:ingotOganesson>]);
+mods.extendedcrafting.TableCrafting.addShapeless(0, <extendedcrafting:material:32>, [<ore:ingotGallium>, <ore:ingotGermanium>, <ore:ingotArsenic>, <ore:ingotSelenium>, <ore:ingotRubidium>, <ore:ingotStrontium>, <ore:ingotYttrium>, <ore:ingotZirconium>, <alchemistry:ingot:41>, <ore:ingotMolybdenum>, <ore:ingotTechnetium>, <ore:ingotRuthenium>, <ore:ingotRhodium>, <ore:ingotPalladium>, <thermalfoundation:material:130>, <ore:ingotCadmium>, <ore:ingotIndium>, <thermalfoundation:material:129>, <ore:ingotAntimony>, <ore:ingotTellurium>, <ore:ingotCesium>, <ore:ingotBarium>, <ore:ingotLanthanum>, <ore:ingotCerium>, <ore:ingotPraseodymium>, <alchemistry:ingot:60>, <ore:ingotPromethium>, <ore:ingotSamarium>, <ore:ingotEuropium>, <ore:ingotGadolinium>, <ore:ingotTerbium>, <ore:ingotDysprosium>, <ore:ingotHolmium>, <ore:ingotErbium>, <ore:ingotThulium>, <ore:ingotYtterbium>, <ore:ingotLutetium>, <ore:ingotHafnium>, <ore:ingotTantalum>, <alchemistry:ingot:74>, <ore:ingotRhenium>, <ore:ingotOsmium>, <thermalfoundation:material:135>, <thermalfoundation:material:134>, <ore:ingotThallium>, <thermalfoundation:material:131>, <ore:ingotBismuth>, <ore:ingotPolonium>, <ore:ingotAstatine>, <ore:ingotFrancium>, <ore:ingotRadium>, <ore:ingotActinium>, <ore:ingotThorium>, <ore:ingotProtactinium>, <immersiveengineering:metal:5>, <ore:ingotNeptunium>, <ore:ingotPlutonium>, <ore:ingotAmericium>, <ore:ingotCurium>, <ore:ingotBerkelium>, <ore:ingotCalifornium>, <ore:ingotEinsteinium>, <ore:ingotFermium>, <ore:ingotMendelevium>, <ore:ingotNobelium>, <ore:ingotLawrencium>, <ore:ingotRutherfordium>, <ore:ingotDubnium>, <ore:ingotSeaborgium>, <ore:ingotBohrium>, <ore:ingotHassium>, <ore:ingotMeitnerium>, <ore:ingotDarmstadtium>, <ore:ingotRoentgenium>, <ore:ingotCopernicium>, <ore:ingotNihonium>, <ore:ingotFlerovium>, <ore:ingotMoscovium>, <ore:ingotLivermorium>, <ore:ingotTennessine>, <ore:ingotOganesson>]);
 mods.extendedcrafting.EnderCrafting.addShapeless(<quark:rune:16>, [<quark:rune:15>, <quark:rune:3>, <quark:rune:5>, <quark:rune:11>, <quark:rune:1>, <quark:rune:14>, <quark:rune:2>, <quark:rune>, <quark:rune:4>]);
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
@@ -990,15 +923,15 @@ mods.avaritia.ExtremeCrafting.addShaped("new_infinity_catalyst", <avaritia:resou
 	[<projecte:item.pe_matter>, <avaritia:endest_pearl>, <projecte:item.pe_matter>, <ore:dustMana>, <ore:dustMana>, <ore:dustMana>, <projecte:item.pe_matter>, <avaritia:endest_pearl>, <projecte:item.pe_matter>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("new_endest_pearl", <avaritia:endest_pearl>, [
-	[null, null, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, null, null], 
-	[null, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, null], 
-	[<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotCosmicNeutronium>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotEndSteel>, <ore:ingotEndSteel>], 
-	[<ore:ingotEndSteel>, <ore:enderpearl>, <ore:enderpearl>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotEndSteel>], 
-	[<ore:ingotEndSteel>, <ore:enderpearl>, <ore:ingotCosmicNeutronium>, <extendedcrafting:material:48>, <ore:netherStar>, <extendedcrafting:material:48>, <ore:ingotCosmicNeutronium>, <ore:enderpearl>, <ore:ingotEndSteel>], 
-	[<ore:ingotEndSteel>, <ore:enderpearl>, <ore:enderpearl>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotEndSteel>], 
-	[<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotCosmicNeutronium>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotEndSteel>, <ore:ingotEndSteel>], 
-	[null, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, null], 
-	[null, null, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>, null, null]
+	[null, null, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, null, null], 
+	[null, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, null], 
+	[<enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <avaritia:resource:4>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>], 
+	[<enderio:item_alloy_ingot:8>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <enderio:item_alloy_ingot:8>], 
+	[<enderio:item_alloy_ingot:8>, <minecraft:ender_pearl>, <avaritia:resource:4>, <extendedcrafting:material:48>, <ore:netherStar>, <extendedcrafting:material:48>, <avaritia:resource:4>, <minecraft:ender_pearl>, <enderio:item_alloy_ingot:8>], 
+	[<enderio:item_alloy_ingot:8>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <enderio:item_alloy_ingot:8>], 
+	[<enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <avaritia:resource:4>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>], 
+	[null, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, null], 
+	[null, null, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, null, null]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("new_skullfire_sword", <avaritia:skullfire_sword>.withTag({Unbreakable:1}), [
 	[null, null, null, null, null, null, <mysticalagriculture:fire_essence>, <extrautils2:simpledecorative:2>, <extrautils2:simpledecorative:2>], 
@@ -1012,26 +945,26 @@ mods.avaritia.ExtremeCrafting.addShaped("new_skullfire_sword", <avaritia:skullfi
 	[<biomesoplenty:gem_block:1>, null, null, null, null, null, null, null, null]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("new_collector", <avaritia:neutron_collector>, [
-	[<ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>], 
-	[<ore:plateDenseIridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateMithril>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateDenseIridium>], 
-	[<ore:plateDenseIridium>, <ore:fiberCarbon>, <ore:ingotCrystalMatrix>, <ore:fiberCarbon>, <ore:plateMithril>, <ore:fiberCarbon>, <ore:ingotCrystalMatrix>, <ore:fiberCarbon>, <ore:plateDenseIridium>], 
-	[<ore:plateDenseIridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateMithril>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateDenseIridium>], 
-	[<ore:blockStellarAlloy>, <ore:plateMithril>, <ore:plateMithril>, <ore:plateMithril>, <techguns:itemshared:66>, <ore:plateMithril>, <ore:plateMithril>, <ore:plateMithril>, <ore:blockStellarAlloy>], 
-	[<ore:plateDenseIridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateMithril>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateDenseIridium>], 
-	[<ore:plateDenseIridium>, <ore:fiberCarbon>, <ore:ingotCrystalMatrix>, <ore:fiberCarbon>, <ore:plateMithril>, <ore:fiberCarbon>, <ore:ingotCrystalMatrix>, <ore:fiberCarbon>, <ore:plateDenseIridium>], 
-	[<ore:plateDenseIridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateMithril>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:plateDenseIridium>], 
-	[<ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>]
+	[<ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>], 
+	[<jaopca:item_platedenseiridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <thermalfoundation:material:328>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <jaopca:item_platedenseiridium>], 
+	[<jaopca:item_platedenseiridium>, <ore:fiberCarbon>, <avaritia:resource:1>, <ore:fiberCarbon>, <thermalfoundation:material:328>, <ore:fiberCarbon>, <avaritia:resource:1>, <ore:fiberCarbon>, <jaopca:item_platedenseiridium>], 
+	[<jaopca:item_platedenseiridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <thermalfoundation:material:328>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <jaopca:item_platedenseiridium>], 
+	[<ore:blockStellarAlloy>, <thermalfoundation:material:328>, <thermalfoundation:material:328>, <thermalfoundation:material:328>, <techguns:itemshared:66>, <thermalfoundation:material:328>, <thermalfoundation:material:328>, <thermalfoundation:material:328>, <ore:blockStellarAlloy>], 
+	[<jaopca:item_platedenseiridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <thermalfoundation:material:328>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <jaopca:item_platedenseiridium>], 
+	[<jaopca:item_platedenseiridium>, <ore:fiberCarbon>, <avaritia:resource:1>, <ore:fiberCarbon>, <thermalfoundation:material:328>, <ore:fiberCarbon>, <avaritia:resource:1>, <ore:fiberCarbon>, <jaopca:item_platedenseiridium>], 
+	[<jaopca:item_platedenseiridium>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <thermalfoundation:material:328>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:fiberCarbon>, <jaopca:item_platedenseiridium>], 
+	[<ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("new_compressor", <avaritia:neutronium_compressor>, [
-	[<ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>, <ore:blockCrystalMatrix>, <ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>], 
-	[<ore:plateDenseIridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:ingotCosmicNeutronium>, <ore:fiberCarbon>, <ore:ingotCosmicNeutronium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:plateDenseIridium>], 
-	[<ore:plateDenseIridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:ingotCosmicNeutronium>, <ore:fiberCarbon>, <ore:ingotCosmicNeutronium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:plateDenseIridium>], 
-	[<ore:blockStellarAlloy>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockStellarAlloy>], 
+	[<ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>, <ore:blockCrystalMatrix>, <ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>], 
+	[<jaopca:item_platedenseiridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <avaritia:resource:4>, <ore:fiberCarbon>, <avaritia:resource:4>, <techguns:itemshared:131>, <techguns:itemshared:131>, <jaopca:item_platedenseiridium>], 
+	[<jaopca:item_platedenseiridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <avaritia:resource:4>, <ore:fiberCarbon>, <avaritia:resource:4>, <techguns:itemshared:131>, <techguns:itemshared:131>, <jaopca:item_platedenseiridium>], 
+	[<ore:blockStellarAlloy>, <avaritia:resource:4>, <avaritia:resource:4>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <avaritia:resource:4>, <avaritia:resource:4>, <ore:blockStellarAlloy>], 
 	[<ore:blockCrystalMatrix>, <ore:fiberCarbon>, <ore:fiberCarbon>, <enderio:block_infinity_fog>, <projecte:item.pe_matter>, <enderio:block_infinity_fog>, <ore:fiberCarbon>, <ore:fiberCarbon>, <ore:blockCrystalMatrix>], 
-	[<ore:blockStellarAlloy>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockStellarAlloy>], 
-	[<ore:plateDenseIridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:ingotCosmicNeutronium>, <ore:fiberCarbon>, <ore:ingotCosmicNeutronium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:plateDenseIridium>], 
-	[<ore:plateDenseIridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:ingotCosmicNeutronium>, <ore:fiberCarbon>, <ore:ingotCosmicNeutronium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <ore:plateDenseIridium>], 
-	[<ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>, <ore:blockCrystalMatrix>, <ore:blockStellarAlloy>, <ore:plateDenseIridium>, <ore:plateDenseIridium>, <ore:blockStellarAlloy>]
+	[<ore:blockStellarAlloy>, <avaritia:resource:4>, <avaritia:resource:4>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <avaritia:resource:4>, <avaritia:resource:4>, <ore:blockStellarAlloy>], 
+	[<jaopca:item_platedenseiridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <avaritia:resource:4>, <ore:fiberCarbon>, <avaritia:resource:4>, <techguns:itemshared:131>, <techguns:itemshared:131>, <jaopca:item_platedenseiridium>], 
+	[<jaopca:item_platedenseiridium>, <techguns:itemshared:131>, <techguns:itemshared:131>, <avaritia:resource:4>, <ore:fiberCarbon>, <avaritia:resource:4>, <techguns:itemshared:131>, <techguns:itemshared:131>, <jaopca:item_platedenseiridium>], 
+	[<ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>, <ore:blockCrystalMatrix>, <ore:blockStellarAlloy>, <jaopca:item_platedenseiridium>, <jaopca:item_platedenseiridium>, <ore:blockStellarAlloy>]
 ]);
 
 #futuremc-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1077,18 +1010,95 @@ mods.futuremc.SmithingTable.addRecipe(<randomthings:obsidianskull>, <minecraft:f
 mods.futuremc.SmithingTable.addRecipe(<randomthings:obsidianwaterwalkingboots>, <randomthings:lavacharm>, <randomthings:lavawader>);
 
 
+#Misc-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+var hammer = <immersiveengineering:tool> | <tp:stone_hammer>;
+
 val IArray = [<minecraft:diamond_sword>, <thermalfoundation:tool.shield_diamond>, <thermalfoundation:tool.bow_diamond>, <thermalfoundation:tool.hammer_diamond>, <minecraft:diamond_pickaxe>, <thermalfoundation:tool.excavator_diamond>, <minecraft:diamond_shovel>, <minecraft:diamond_axe>, <minecraft:diamond_hoe>, <thermalfoundation:tool.shears_diamond>, <thermalfoundation:tool.fishing_rod_diamond>, <minecraft:diamond_helmet>, <minecraft:diamond_chestplate>, <minecraft:diamond_leggings>, <minecraft:diamond_boots>, <chisel:chisel_diamond>, <extrautils2:sickle_diamond>, <thermalfoundation:tool.sickle_diamond>, <actuallyadditions:diamond_paxel>] as IItemStack[];
 
 for tool in IArray {
 	mods.futuremc.SmithingTable.addRecipe(<quark:diamond_heart>.withTag({Unbreakable:1}), tool, tool);
 }
 
-
-val IArrayPlate = [<jaopca:item_plateobsidian>, <thermalfoundation:material:352>, <thermalfoundation:material:32>, <jaopca:item_platestainlesssteel>, <jaopca:item_platecoal>, <thermalfoundation:material:33>, <jaopca:item_plateblackiron>, <jaopca:item_platequartz>, <jaopca:item_platedemonicmetal>, <thermalfoundation:material:327>, <thermalfoundation:material:324>, <thermalfoundation:material:353>, <thermalfoundation:material:323>, <thermalfoundation:material:322>, <thermalfoundation:material:321>, <jaopca:item_platedarksteel>, <jaopca:item_platehopgraphite>, <jaopca:item_plateelectricalsteel>] as IItemStack[];
-val IArrayDense = [<jaopca:item_platedenseobsidiansteel>, <jaopca:item_platedensesteel>, <jaopca:item_platedenseiron>, <jaopca:item_platedensestainlesssteel>, <jaopca:item_platedensecoal>, <jaopca:item_platedensegold>, <jaopca:item_platedenseblackiron>, <jaopca:item_platedensequartz>, <jaopca:item_platedensedemonicmetal>, <jaopca:item_platedenseiridium>, <jaopca:item_platedensealuminium>, <jaopca:item_platedenseelectrum>, <jaopca:item_platedenselead>, <jaopca:item_platedensesilver>, <jaopca:item_platedensetin>, <jaopca:item_platedensedarksteel>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedenseelectricalsteel>] as IItemStack[];
+val IArrayPlate = [<thermalfoundation:material:320>,
+	<thermalfoundation:material:352>,
+	<thermalfoundation:material:32>,
+	<jaopca:item_platestainlesssteel>,
+	<jaopca:item_platecoal>,
+	<thermalfoundation:material:33>,
+	<jaopca:item_plateblackiron>,
+	<jaopca:item_platequartz>,
+	<jaopca:item_platedemonicmetal>,
+	<thermalfoundation:material:327>,
+	<thermalfoundation:material:324>,
+	<thermalfoundation:material:323>,
+	<jaopca:item_platedarksteel>,
+	<jaopca:item_platehopgraphite>,
+	<jaopca:item_plateelectricalsteel>] as IItemStack[];
+	
+val IArrayDense = [<jaopca:item_platedensecopper>,
+	<jaopca:item_platedensesteel>,
+	<jaopca:item_platedenseiron>,
+	<jaopca:item_platedensestainlesssteel>,
+	<jaopca:item_platedensecoal>,
+	<jaopca:item_platedensegold>,
+	<jaopca:item_platedenseblackiron>,
+	<jaopca:item_platedensequartz>,
+	<jaopca:item_platedensedemonicmetal>,
+	<jaopca:item_platedenseiridium>,
+	<jaopca:item_platedensealuminium>,
+	<jaopca:item_platedenselead>,
+	<jaopca:item_platedensedarksteel>,
+	<jaopca:item_platedensehopgraphite>,
+	<jaopca:item_platedenseelectricalsteel>] as IItemStack[];
 	
 for i, plate in IArrayPlate {
 	mods.immersiveengineering.MetalPress.addRecipe(IArrayDense[i], plate * 8, <zcontent:mold>, 8192);
 	mods.thermalexpansion.Compactor.addPressRecipe(IArrayDense[i], plate * 8, 6000);
-	recipes.addShapeless(IArrayDense[i], [<immersiveengineering:tool> | <tp:stone_hammer>, plate, plate, plate, plate, plate, plate, plate, plate]);
+	recipes.addShapeless(IArrayDense[i], [hammer, plate, plate, plate, plate, plate, plate, plate, plate]);
 }
+
+recipes.addShapeless(<thermalfoundation:material:32>,[hammer,<minecraft:iron_ingot>]);
+recipes.addShapeless(<thermalfoundation:material:33>,[hammer,<minecraft:gold_ingot>]);
+recipes.addShapeless(<thermalfoundation:material:320>,[hammer,<thermalfoundation:material:128>]);
+recipes.addShapeless(<thermalfoundation:material:321>,[hammer,<thermalfoundation:material:129>]);
+recipes.addShapeless(<thermalfoundation:material:322>,[hammer,<thermalfoundation:material:130>]);
+recipes.addShapeless(<thermalfoundation:material:323>,[hammer,<thermalfoundation:material:131>]);
+recipes.addShapeless(<thermalfoundation:material:324>,[hammer,<thermalfoundation:material:132>]);
+recipes.addShapeless(<thermalfoundation:material:325>,[hammer,<thermalfoundation:material:133>]);
+recipes.addShapeless(<thermalfoundation:material:326>,[hammer,<thermalfoundation:material:134>]);
+recipes.addShapeless(<thermalfoundation:material:327>,[hammer,<thermalfoundation:material:135>]);
+recipes.addShapeless(<thermalfoundation:material:328>,[hammer,<thermalfoundation:material:136>]);
+recipes.addShapeless(<thermalfoundation:material:352>,[hammer,<thermalfoundation:material:160>]);
+recipes.addShapeless(<thermalfoundation:material:353>,[hammer,<thermalfoundation:material:161>]);
+recipes.addShapeless(<thermalfoundation:material:354>,[hammer,<thermalfoundation:material:162>]);
+recipes.addShapeless(<thermalfoundation:material:355>,[hammer,<thermalfoundation:material:163>]);
+recipes.addShapeless(<thermalfoundation:material:356>,[hammer,<thermalfoundation:material:164>]);
+recipes.addShapeless(<thermalfoundation:material:357>,[hammer,<thermalfoundation:material:165>]);
+recipes.addShapeless(<thermalfoundation:material:358>,[hammer,<thermalfoundation:material:166>]);
+recipes.addShapeless(<thermalfoundation:material:359>,[hammer,<thermalfoundation:material:167>]);
+recipes.addShapeless(<redstonearsenal:material:128>,[hammer,<redstonearsenal:material:32>]);
+recipes.addShapeless(<redstonerepository:material:4>,[hammer,<redstonerepository:material:1>]);
+recipes.addShapeless(<immersiveengineering:metal:35>,[hammer,<immersiveengineering:metal:5>]);
+recipes.addShapeless(<techguns:itemshared:53>,[hammer,<zcontent:carbon_ingot>]);
+recipes.addShapeless(<techguns:itemshared:51>,[hammer,<techguns:itemshared:84>]);
+recipes.addShapeless(<techguns:itemshared:54>,[hammer,<techguns:itemshared:85>]);
+recipes.addShapeless(<thermalfoundation:material:324>,[hammer,<thermalfoundation:material:132>]);
+recipes.addShapeless(<jaopca:item_platecoal>,[hammer,<minecraft:coal>]);
+recipes.addShapeless(<jaopca:item_platequartz>,[hammer,<minecraft:quartz>]);
+recipes.addShapeless(<jaopca:item_plateblackiron>,[hammer,<extendedcrafting:material>]);
+recipes.addShapeless(<jaopca:item_platedarksteel>,[hammer,<enderio:item_alloy_ingot:6>]);
+recipes.addShapeless(<jaopca:item_platedemonicmetal>,[hammer,<extrautils2:ingredients:11>]);
+recipes.addShapeless(<jaopca:item_plateelectricalsteel>,[hammer,<enderio:item_alloy_ingot>]);
+recipes.addShapeless(<jaopca:item_platehopgraphite>,[hammer,<immersiveengineering:material:19>]);
+recipes.addShapeless(<jaopca:item_platestainlesssteel>,[hammer,<zcontent:stainless_steel_ingot>]);
+recipes.addShapeless(<jaopca:item_plateobsidian>,[hammer,<cyclicmagic:crystallized_obsidian>]);
+recipes.addShapeless(<jaopca:item_plateconstructionalloy>,[hammer,<enderio:item_alloy_ingot:9>]);
+recipes.addShapeless(<jaopca:item_plategalvanizedsteel>,[hammer,<zcontent:galvanized_steel_ingot>]);
+recipes.addShapeless(<jaopca:item_platestellaralloy>,[hammer,<enderio:item_alloy_endergy_ingot:3>]);
+recipes.addShapeless(<jaopca:item_platecobalt>,[hammer,<zcontent:cobalt_ingot>]);
+recipes.addShapeless(<jaopca:item_plateardite>,[hammer,<zcontent:ardite_ingot>]);
+recipes.addShapeless(<jaopca:item_platequartzblack>,[hammer,<actuallyadditions:item_misc:5>]);
+recipes.addShapeless(<jaopca:item_platecrystaltine>,[hammer,<extendedcrafting:material:24>]);
+recipes.addShapeless(<jaopca:item_platenetherite>,[hammer,<futuremc:netherite_ingot>]);
+

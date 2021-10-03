@@ -4,120 +4,120 @@ import mods.modularmachinery.RecipeBuilder;
 
 RecipeBuilder.newBuilder("crusher 1", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreGold>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<minecraft:gold_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:1> * 5)
 	.addItemOutput(<thermalfoundation:material:866> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 2", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreIron>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<minecraft:iron_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material> * 5)
 	.addItemOutput(<thermalfoundation:material:69> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 3", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreArdite>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:ardite_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<jaopca:item_dustardite> * 5)
 	.addItemOutput(<thermalfoundation:material:1> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 4", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreCobalt>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:cobalt_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<jaopca:item_dustcobalt> * 5)
 	.addItemOutput(<thermalfoundation:material> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 5", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreAluminum>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:aluminum_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:68> * 5)
 	.addItemOutput(<thermalfoundation:material> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 6", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreCopper>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:copper_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:64> * 5)
 	.addItemOutput(<thermalfoundation:material:1> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 7", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreTin>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:tin_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:65> * 5)
 	.addItemOutput(<thermalfoundation:material> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 8", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreLead>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:lead_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:67> * 5)
 	.addItemOutput(<thermalfoundation:material:66> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 9", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreSilver>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:silver_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:66> * 5)
 	.addItemOutput(<thermalfoundation:material:67> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 10", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreNickel>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:nickel_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:69> * 5)
 	.addItemOutput(<thermalfoundation:material:70> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 11", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreUranium>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:uranium_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<immersiveengineering:metal:14> * 5)
 	.addItemOutput(<thermalfoundation:material:67> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 12", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreTitanium>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:titanium_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<jaopca:item_dusttitanium> * 5)
 	.addItemOutput(<thermalfoundation:material> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 13", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:orePlatinum>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:platinum_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:70> * 5)
 	.addItemOutput(<thermalfoundation:material:71> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 14", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreIridium>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:iridium_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:71> * 5)
 	.addItemOutput(<thermalfoundation:material:70> * 2)
 	.build();
 	
 RecipeBuilder.newBuilder("crusher 15", "crusher", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:oreMithril>)
-	.addItemInput(<ore:crystalSulfuric>)
+	.addItemInput(<zcontent:mithril_ore>)
+	.addItemInput(<zcontent:sulfur_crystal>)
 	.addItemOutput(<thermalfoundation:material:72> * 5)
 	.addItemOutput(<thermalfoundation:material:1> * 2)
 	.build();
@@ -125,19 +125,19 @@ RecipeBuilder.newBuilder("crusher 15", "crusher", 1)
 #hot--------------------------------------------------------------------------------------------------------------------------
 RecipeBuilder.newBuilder("hot 1", "hot", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:clathrateRedstone>)
+	.addItemInput(<thermalfoundation:material:893>)
 	.addFluidOutput(<fluid:redstone> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 2", "hot", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:clathrateGlowstone>)
+	.addItemInput(<thermalfoundation:material:894>)
 	.addFluidOutput(<fluid:glowstone> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 3", "hot", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:clathrateEnder>)
+	.addItemInput(<thermalfoundation:material:895>)
 	.addFluidOutput(<fluid:ender> * 250)
 	.build();
 
@@ -149,13 +149,13 @@ RecipeBuilder.newBuilder("hot 4", "hot", 1)
 
 RecipeBuilder.newBuilder("hot 5", "hot", 1)
 	.addEnergyPerTickInput(20000)
-	.addItemInput(<ore:enderpearl>)
+	.addItemInput(<minecraft:ender_pearl>)
 	.addFluidOutput(<fluid:ender> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 6", "hot", 1)
 	.addEnergyPerTickInput(16000)
-	.addItemInput(<ore:dustEnder>)
+	.addItemInput(<tp:ender_dust>)
 	.addFluidOutput(<fluid:ender> * 250)
 	.build();
 
@@ -173,55 +173,55 @@ RecipeBuilder.newBuilder("hot 9", "hot", 1)
 
 RecipeBuilder.newBuilder("hot 10", "hot", 1)
 	.addEnergyPerTickInput(80000)
-	.addItemInput(<ore:glowstone>)
+	.addItemInput(<minecraft:glowstone>)
 	.addFluidOutput(<fluid:glowstone> * 1000)
 	.build();
 
 RecipeBuilder.newBuilder("hot 11", "hot", 1)
 	.addEnergyPerTickInput(20000)
-	.addItemInput(<ore:dustGlowstone>)
+	.addItemInput(<minecraft:glowstone_dust>)
 	.addFluidOutput(<fluid:glowstone> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 12", "hot", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:clathrateOil>)
+	.addItemInput(<thermalfoundation:material:892>)
 	.addFluidOutput(<fluid:crude_oil> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 13", "hot", 1)
 	.addEnergyPerTickInput(8000)
-	.addItemInput(<ore:dustPyrotheum>)
+	.addItemInput(<thermalfoundation:material:1024>)
 	.addFluidOutput(<fluid:pyrotheum> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 14", "hot", 1)
 	.addEnergyPerTickInput(8000)
-	.addItemInput(<ore:dustCryotheum>)
+	.addItemInput(<thermalfoundation:material:1025>)
 	.addFluidOutput(<fluid:cryotheum> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 15", "hot", 1)
 	.addEnergyPerTickInput(8000)
-	.addItemInput(<ore:dustAerotheum>)
+	.addItemInput(<thermalfoundation:material:1026>)
 	.addFluidOutput(<fluid:aerotheum> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 16", "hot", 1)
 	.addEnergyPerTickInput(8000)
-	.addItemInput(<ore:dustPetrotheum>)
+	.addItemInput(<thermalfoundation:material:1027>)
 	.addFluidOutput(<fluid:petrotheum> * 250)
 	.build();
 
 RecipeBuilder.newBuilder("hot 111", "hot", 1)
 	.addEnergyPerTickInput(4000)
-	.addItemInput(<ore:itemBioblend>)
+	.addItemInput(<thermalfoundation:material:818>)
 	.addFluidOutput(<fluid:biocrude> * 100)
 	.build();
 
 RecipeBuilder.newBuilder("hot 112", "hot", 1)
 	.addEnergyPerTickInput(4000)
-	.addItemInput(<ore:itemBioblendRich>)
+	.addItemInput(<thermalfoundation:material:819>)
 	.addFluidOutput(<fluid:biocrude> * 150)
 	.build();
 
@@ -240,7 +240,7 @@ RecipeBuilder.newBuilder("cold 2", "cold", 1)
 
 RecipeBuilder.newBuilder("cold 3", "cold", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:crystalEnder>)
+	.addItemInput(<thermalfoundation:material:895>)
 	.addItemOutput(<minecraft:ender_pearl>)
 	.build();
 
@@ -252,13 +252,13 @@ RecipeBuilder.newBuilder("cold 4", "cold", 1)
 
 RecipeBuilder.newBuilder("cold 5", "cold", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:crystalRedstone>)
+	.addItemInput(<thermalfoundation:material:893>)
 	.addItemOutput(<minecraft:redstone> * 3)
 	.build();
 
 RecipeBuilder.newBuilder("cold 6", "cold", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemInput(<ore:crystalGlowstone>)
+	.addItemInput(<thermalfoundation:material:894>)
 	.addItemOutput(<minecraft:glowstone_dust>)
 	.build();
 

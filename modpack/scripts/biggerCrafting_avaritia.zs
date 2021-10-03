@@ -38,71 +38,71 @@ mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_5", <avaritia:resource:4>
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_6", <techguns:basicmachine>, [
 	[<ore:fenceSteel>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <ore:gearTin>, <immersiveengineering:material:27>, <ore:gearTin>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:257>, <immersiveengineering:material:27>, <thermalfoundation:material:257>, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <techguns:itemshared:70>, <minecraft:piston>, <techguns:itemshared:70>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <ore:wireCopper>, <ore:plateIron>, <ore:wireCopper>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <ore:wireCopper>, <thermalfoundation:material:32>, <ore:wireCopper>, <ore:fenceSteel>], 
 	[<quark:iron_plate>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_7", <techguns:basicmachine:1>, [
 	[<ore:fenceSteel>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <ore:gearCopper>, <immersiveengineering:material:27>, <ore:gearCopper>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:256>, <immersiveengineering:material:27>, <thermalfoundation:material:256>, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <techguns:itemshared:70>, <minecraft:piston>, <techguns:itemshared:70>, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <ore:wireCopper>, <ore:blockIron>, <ore:wireCopper>, <ore:fenceSteel>], 
 	[<quark:iron_plate>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_8", <techguns:basicmachine:2>, [
 	[<quark:iron_plate>, <quark:iron_plate>, null, null, null], 
-	[<ore:fenceSteel>, <ore:gearCopper>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:256>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>], 
 	[<ore:fenceSteel>, <techguns:itemshared:70>, <zcontent:vial>, <zcontent:vial>, <zcontent:vial>], 
-	[<ore:fenceSteel>, <ore:gearCopper>, <techguns:itemshared:72>, <immersiveengineering:material:27>, <engineersdecor:straight_pipe_valve>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:256>, <techguns:itemshared:72>, <immersiveengineering:material:27>, <engineersdecor:straight_pipe_valve>], 
 	[<quark:iron_plate>, <quark:iron_plate>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_9", <techguns:simplemachine:10>, [
 	[<ore:fenceSteel>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <ore:gearElectrum>, <techguns:itemshared:68>, <ore:gearElectrum>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <techguns:itemshared:68>, <ore:gemRedstone>, <techguns:itemshared:68>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <ore:gearCopper>, <immersiveengineering:material:27>, <ore:gearCopper>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:289>, <techguns:itemshared:68>, <thermalfoundation:material:289>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <techguns:itemshared:68>, <extrautils2:ingredients>, <techguns:itemshared:68>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:256>, <immersiveengineering:material:27>, <thermalfoundation:material:256>, <ore:fenceSteel>], 
 	[<quark:iron_plate>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_10", <techguns:simplemachine:11>, [
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
-	[<ore:plateIron>, <techguns:itemshared:70>, <immersiveengineering:material:27>, <techguns:itemshared:70>, <ore:plateIron>], 
-	[<ore:plateIron>, <techguns:itemshared:68>, <techguns:itemshared:68>, <techguns:itemshared:68>, <ore:plateIron>], 
+	[<thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>], 
+	[<thermalfoundation:material:32>, <techguns:itemshared:70>, <immersiveengineering:material:27>, <techguns:itemshared:70>, <thermalfoundation:material:32>], 
+	[<thermalfoundation:material:32>, <techguns:itemshared:68>, <techguns:itemshared:68>, <techguns:itemshared:68>, <thermalfoundation:material:32>], 
 	[<quark:iron_plate>, <chisel:ironpane:4>, <chisel:ironpane:4>, <chisel:ironpane:4>, <quark:iron_plate>], 
 	[<quark:iron_plate>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_11", <techguns:simplemachine2:8>, [
 	[<quark:iron_plate_slab>, null, null, null, <quark:iron_plate_slab>], 
-	[<ore:plateIron>, <ore:plateDenseQuartz>, null, <ore:plateDenseQuartz>, <ore:plateIron>], 
-	[<ore:plateIron>, <ore:gearCopper>, <ore:plateDenseQuartz>, <ore:gearCopper>, <ore:plateIron>], 
-	[<ore:plateIron>, <techguns:itemshared:70>, <immersiveengineering:material:27>, <techguns:itemshared:70>, <ore:plateIron>], 
+	[<thermalfoundation:material:32>, <jaopca:item_platedensequartz>, null, <jaopca:item_platedensequartz>, <thermalfoundation:material:32>], 
+	[<thermalfoundation:material:32>, <thermalfoundation:material:256>, <jaopca:item_platedensequartz>, <thermalfoundation:material:256>, <thermalfoundation:material:32>], 
+	[<thermalfoundation:material:32>, <techguns:itemshared:70>, <immersiveengineering:material:27>, <techguns:itemshared:70>, <thermalfoundation:material:32>], 
 	[<quark:iron_plate>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_12", <alchemistry:electrolyzer>, [
 	[null, null, null, null, null], 
 	[<ore:fenceSteel>, null, null, null, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <zcontent:vial>, <techguns:itemshared:72>, <zcontent:vial>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <techguns:itemshared:70>, <ore:gearDark>, <techguns:itemshared:70>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <techguns:itemshared:70>, <enderio:item_material:73>, <techguns:itemshared:70>, <ore:fenceSteel>], 
 	[<quark:iron_plate_slab>, <quark:iron_plate>, <immersiveengineering:material:27>, <quark:iron_plate>, <quark:iron_plate_slab>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_13", <alchemistry:chemical_dissolver>, [
 	[null, <quark:iron_plate_slab>, <minecraft:hopper>, <quark:iron_plate_slab>, null], 
 	[null, <zcontent:dissolver_core>, <techguns:itemshared:72>, <zcontent:dissolver_core>, null], 
-	[null, <zcontent:dissolver_core>, <ore:gearDark>, <zcontent:dissolver_core>, null], 
+	[null, <zcontent:dissolver_core>, <enderio:item_material:73>, <zcontent:dissolver_core>, null], 
 	[null, <zcontent:dissolver_core>, <techguns:itemshared:70>, <zcontent:dissolver_core>, null], 
 	[<quark:iron_plate_slab>, <quark:iron_plate>, <immersiveengineering:material:27>, <quark:iron_plate>, <quark:iron_plate_slab>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_14", <alchemistry:chemical_combiner>, [
 	[null, <quark:iron_plate_slab>, <minecraft:hopper>, <quark:iron_plate_slab>, null], 
 	[null, <zcontent:combiner_core>, <techguns:itemshared:72>, <zcontent:combiner_core>, null], 
-	[null, <zcontent:combiner_core>, <ore:gearDark>, <zcontent:combiner_core>, null], 
+	[null, <zcontent:combiner_core>, <enderio:item_material:73>, <zcontent:combiner_core>, null], 
 	[null, <zcontent:combiner_core>, <techguns:itemshared:70>, <zcontent:combiner_core>, null], 
 	[<quark:iron_plate_slab>, <quark:iron_plate>, <immersiveengineering:material:27>, <quark:iron_plate>, <quark:iron_plate_slab>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_15", <alchemistry:atomizer>, [
 	[<ore:fenceSteel>, null, null, null, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <ore:gearSilver>, <techguns:itemshared:72>, <ore:gearSilver>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:258>, <techguns:itemshared:72>, <thermalfoundation:material:258>, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <techguns:itemshared:70>, <engineersdecor:straight_pipe_valve>, <techguns:itemshared:70>, <ore:fenceSteel>], 
 	[<quark:iron_plate_slab>, <quark:iron_plate>, <immersiveengineering:material:27>, <quark:iron_plate>, <quark:iron_plate_slab>]
 ]);
@@ -110,17 +110,17 @@ mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_16", <alchemistry:liquifi
 	[<ore:fenceSteel>, null, null, null, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <quark:iron_plate_slab>, <ore:fenceSteel>], 
 	[<ore:fenceSteel>, <techguns:itemshared:70>, <engineersdecor:straight_pipe_valve>, <techguns:itemshared:70>, <ore:fenceSteel>], 
-	[<ore:fenceSteel>, <ore:gearNickel>, <techguns:itemshared:72>, <ore:gearNickel>, <ore:fenceSteel>], 
+	[<ore:fenceSteel>, <thermalfoundation:material:261>, <techguns:itemshared:72>, <thermalfoundation:material:261>, <ore:fenceSteel>], 
 	[<quark:iron_plate_slab>, <quark:iron_plate>, <immersiveengineering:material:27>, <quark:iron_plate>, <quark:iron_plate_slab>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_17", <draconicevolution:fusion_crafting_core>, [
-	[<ore:ingotNiobium>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:ingotNiobium>], 
-	[<ore:plateStellarAlloy>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <ore:plateStellarAlloy>], 
-	[<ore:plateCrystaltine>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <ore:plateCrystaltine>], 
-	[<ore:plateStellarAlloy>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <techguns:itemshared:92>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <ore:plateStellarAlloy>], 
-	[<ore:plateCrystaltine>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <ore:plateCrystaltine>], 
-	[<ore:plateStellarAlloy>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <ore:plateStellarAlloy>], 
-	[<ore:ingotNiobium>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:ingotNiobium>]
+	[<alchemistry:ingot:41>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <alchemistry:ingot:41>], 
+	[<jaopca:item_platestellaralloy>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <jaopca:item_platestellaralloy>], 
+	[<jaopca:item_platecrystaltine>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <jaopca:item_platecrystaltine>], 
+	[<jaopca:item_platestellaralloy>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <techguns:itemshared:92>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <jaopca:item_platestellaralloy>], 
+	[<jaopca:item_platecrystaltine>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <ore:dustDraconium>, <enderio:block_infinity_fog>, <jaopca:item_platecrystaltine>], 
+	[<jaopca:item_platestellaralloy>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <enderio:block_infinity_fog>, <jaopca:item_platestellaralloy>], 
+	[<alchemistry:ingot:41>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <jaopca:item_platestellaralloy>, <alchemistry:ingot:41>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_18", <techguns:itemshared:131>, [
 	[null, null, <ore:blockPlatinum>, <ore:blockIridium>, <ore:blockPlatinum>, null, null], 
@@ -155,98 +155,98 @@ mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_21", <avaritia:cosmic_mea
 	[<thermalexpansion:florb>.withTag({Fluid: "meat"}), <thermalexpansion:florb>.withTag({Fluid: "meat"}), <thermalexpansion:florb>.withTag({Fluid: "meat"})]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_22", <thermalexpansion:frame> * 16, [ 
-	[<ore:plateDenseIron>, <ore:blockIron>, <ore:blockGlassHardened>, <ore:blockIron>, <ore:plateDenseIron>], 
-	[<ore:blockIron>, <refinedstorage:core>, <ore:gearTin>, <refinedstorage:core:1>, <ore:blockIron>], 
-	[<ore:blockGlassHardened>, <ore:gearCopper>, <ore:gearFluxAlloy>, <ore:gearCopper>, <ore:blockGlassHardened>], 
+	[<jaopca:item_platedenseiron>, <ore:blockIron>, <ore:blockGlassHardened>, <ore:blockIron>, <jaopca:item_platedenseiron>], 
+	[<ore:blockIron>, <refinedstorage:core>, <thermalfoundation:material:257>, <refinedstorage:core:1>, <ore:blockIron>], 
+	[<ore:blockGlassHardened>, <thermalfoundation:material:256>, <jaopca:item_gearfluxalloy>, <thermalfoundation:material:256>, <ore:blockGlassHardened>], 
 	[<ore:blockSteel>, <techguns:itemshared:70>, <zcontent:server1>, <techguns:itemshared:70>, <ore:blockSteel>], 
-	[<ore:plateDenseSteel>, <ore:blockSteel>, <ore:blockGlassHardened>, <ore:blockSteel>, <ore:plateDenseSteel>]
+	[<jaopca:item_platedensesteel>, <ore:blockSteel>, <ore:blockGlassHardened>, <ore:blockSteel>, <jaopca:item_platedensesteel>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_23", <extrautils2:machine> * 16, [
-	[<ore:plateDenseIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:plateDenseIron>], 
-	[<ore:blockIron>, <refinedstorage:core>, <ore:gearBrass>, <refinedstorage:core:1>, <ore:blockIron>], 
-	[<ore:blockIron>, <ore:gearTin>, <ore:gearFluxAlloy>, <ore:gearTin>, <ore:blockIron>], 
+	[<jaopca:item_platedenseiron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <jaopca:item_platedenseiron>], 
+	[<ore:blockIron>, <refinedstorage:core>, <jaopca:item_gearbrass>, <refinedstorage:core:1>, <ore:blockIron>], 
+	[<ore:blockIron>, <thermalfoundation:material:257>, <jaopca:item_gearfluxalloy>, <thermalfoundation:material:257>, <ore:blockIron>], 
 	[<ore:blockIron>, <techguns:itemshared:70>, <zcontent:server1>, <techguns:itemshared:70>, <ore:blockIron>], 
-	[<ore:plateDenseSteel>, <ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>, <ore:plateDenseSteel>]
+	[<jaopca:item_platedensesteel>, <ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>, <jaopca:item_platedensesteel>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_24", <zcontent:machineframe> * 16, [
-	[<ore:plateDenseAluminum>, <ore:blockAluminium>, <ore:blockAluminium>, <ore:blockAluminium>, <ore:plateDenseAluminum>], 
-	[<ore:blockAluminium>, <refinedstorage:core>, <ore:gearTin>, <refinedstorage:core:1>, <ore:blockAluminium>], 
-	[<ore:blockAluminium>, <ore:gearConductiveIron>, <ore:gearFluxAlloy>, <ore:gearConductiveIron>, <ore:blockAluminium>], 
+	[<jaopca:item_platedensealuminium>, <ore:blockAluminium>, <ore:blockAluminium>, <ore:blockAluminium>, <jaopca:item_platedensealuminium>], 
+	[<ore:blockAluminium>, <refinedstorage:core>, <thermalfoundation:material:257>, <refinedstorage:core:1>, <ore:blockAluminium>], 
+	[<ore:blockAluminium>, <jaopca:item_gearconductiveiron>, <jaopca:item_gearfluxalloy>, <jaopca:item_gearconductiveiron>, <ore:blockAluminium>], 
 	[<ore:blockAluminium>, <techguns:itemshared:70>, <zcontent:server1>, <techguns:itemshared:70>, <ore:blockAluminium>], 
-	[<ore:plateDenseSteel>, <ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>, <ore:plateDenseSteel>]
+	[<jaopca:item_platedensesteel>, <ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>, <jaopca:item_platedensesteel>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_25", <enderio:item_material> * 16, [
-	[<ore:plateDenseElectricalSteel>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <ore:plateDenseElectricalSteel>], 
-	[<ore:itemSimpleChassiParts>, <refinedstorage:core>, <ore:gearDarkSteel>, <refinedstorage:core:1>, <ore:itemSimpleChassiParts>], 
-	[<ore:itemSimpleChassiParts>, <ore:gearConstantan>, <ore:gearFluxAlloy>, <ore:gearConstantan>, <ore:itemSimpleChassiParts>], 
+	[<jaopca:item_platedenseelectricalsteel>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <jaopca:item_platedenseelectricalsteel>], 
+	[<ore:itemSimpleChassiParts>, <refinedstorage:core>, <jaopca:item_geardarksteel>, <refinedstorage:core:1>, <ore:itemSimpleChassiParts>], 
+	[<ore:itemSimpleChassiParts>, <thermalfoundation:material:292>, <jaopca:item_gearfluxalloy>, <thermalfoundation:material:292>, <ore:itemSimpleChassiParts>], 
 	[<ore:itemSimpleChassiParts>, <techguns:itemshared:70>, <zcontent:server1>, <techguns:itemshared:70>, <ore:itemSimpleChassiParts>], 
-	[<ore:plateDenseElectricalSteel>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <ore:plateDenseElectricalSteel>]
+	[<jaopca:item_platedenseelectricalsteel>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <ore:itemSimpleChassiParts>, <jaopca:item_platedenseelectricalsteel>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_26", <deepmoblearning:machine_casing> * 16, [
-	[<ore:plateDenseDarkSteel>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <ore:plateDenseDarkSteel>], 
-	[<jaopca:item_platedensehopgraphite>, <refinedstorage:core>, <ore:gearObsidianSteel>, <refinedstorage:core:1>, <jaopca:item_platedensehopgraphite>], 
-	[<jaopca:item_platedensehopgraphite>, <ore:gearVividAlloy>, <ore:gearFluxAlloy>, <ore:gearVividAlloy>, <jaopca:item_platedensehopgraphite>], 
+	[<jaopca:item_platedensedarksteel>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensedarksteel>], 
+	[<jaopca:item_platedensehopgraphite>, <refinedstorage:core>, <jaopca:item_gearobsidiansteel>, <refinedstorage:core:1>, <jaopca:item_platedensehopgraphite>], 
+	[<jaopca:item_platedensehopgraphite>, <jaopca:item_gearvividalloy>, <jaopca:item_gearfluxalloy>, <jaopca:item_gearvividalloy>, <jaopca:item_platedensehopgraphite>], 
 	[<jaopca:item_platedensehopgraphite>, <techguns:itemshared:70>, <zcontent:server3>, <techguns:itemshared:70>, <jaopca:item_platedensehopgraphite>], 
-	[<ore:plateDenseDarkSteel>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <ore:plateDenseDarkSteel>]
+	[<jaopca:item_platedensedarksteel>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensehopgraphite>, <jaopca:item_platedensedarksteel>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_27", <thermalexpansion:frame:64> * 16, [
-	[<ore:plateDenseLead>, <ore:blockTin>, <ore:blockGlassHardened>, <ore:blockTin>, <ore:plateDenseLead>], 
-	[<ore:blockLead>, <ore:gearCopper>, <refinedstorage:processor:3>, <ore:gearCopper>, <ore:blockLead>], 
-	[<ore:blockGlassHardened>, <ore:wireAluminium>, <ore:gearElectrotineAlloy>, <ore:wireAluminium>, <ore:blockGlassHardened>], 
-	[<ore:blockLead>, <ore:gearCopper>, <techguns:itemshared:70>, <ore:gearCopper>, <ore:blockLead>], 
-	[<ore:plateDenseLead>, <ore:blockTin>, <ore:blockGlassHardened>, <ore:blockTin>, <ore:plateDenseLead>]
+	[<jaopca:item_platedenselead>, <ore:blockTin>, <ore:blockGlassHardened>, <ore:blockTin>, <jaopca:item_platedenselead>], 
+	[<ore:blockLead>, <thermalfoundation:material:256>, <refinedstorage:processor:3>, <thermalfoundation:material:256>, <ore:blockLead>], 
+	[<ore:blockGlassHardened>, <ore:wireAluminium>, <jaopca:item_gearelectrotinealloy>, <ore:wireAluminium>, <ore:blockGlassHardened>], 
+	[<ore:blockLead>, <thermalfoundation:material:256>, <techguns:itemshared:70>, <thermalfoundation:material:256>, <ore:blockLead>], 
+	[<jaopca:item_platedenselead>, <ore:blockTin>, <ore:blockGlassHardened>, <ore:blockTin>, <jaopca:item_platedenselead>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_28", <extendedcrafting:frame> * 2, [
 	[<ore:blockBlackIron>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <ore:blockBlackIron>], 
-	[<extrautils2:decorativeglass>, <ore:gearIridium>, <refinedstorage:processor:5>, <ore:gearIridium>, <extrautils2:decorativeglass>], 
-	[<extrautils2:decorativeglass>, <ore:wireSteel>, <ore:gearElectrotineAlloy>, <ore:wireSteel>, <extrautils2:decorativeglass>], 
-	[<extrautils2:decorativeglass>, <ore:gearIridium>, <techguns:itemshared:70>, <ore:gearIridium>, <extrautils2:decorativeglass>], 
+	[<extrautils2:decorativeglass>, <thermalfoundation:material:263>, <refinedstorage:processor:5>, <thermalfoundation:material:263>, <extrautils2:decorativeglass>], 
+	[<extrautils2:decorativeglass>, <ore:wireSteel>, <jaopca:item_gearelectrotinealloy>, <ore:wireSteel>, <extrautils2:decorativeglass>], 
+	[<extrautils2:decorativeglass>, <thermalfoundation:material:263>, <techguns:itemshared:70>, <thermalfoundation:material:263>, <extrautils2:decorativeglass>], 
 	[<ore:blockBlackIron>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <ore:blockBlackIron>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_29", <thermalexpansion:frame:128>, [
-	[<ore:plateDenseLead>, <ore:blockElectrum>, <thermalfoundation:glass_alloy:1>, <ore:blockElectrum>, <ore:plateDenseLead>], 
-	[<ore:blockElectrum>, <ore:gearSignalum>, <refinedstorage:processor:5>, <ore:gearSignalum>, <ore:blockElectrum>], 
-	[<thermalfoundation:glass_alloy:1>, <ore:wireElectrum>, <ore:gearElectroFluxAlloy>, <ore:wireElectrum>, <thermalfoundation:glass_alloy:1>], 
-	[<ore:blockElectrum>, <ore:gearSignalum>, <techguns:itemshared:70>, <ore:gearSignalum>, <ore:blockElectrum>], 
-	[<ore:plateDenseLead>, <ore:blockElectrum>, <thermalfoundation:glass_alloy:1>, <ore:blockElectrum>, <ore:plateDenseLead>]
+	[<jaopca:item_platedenselead>, <ore:blockElectrum>, <thermalfoundation:glass_alloy:1>, <ore:blockElectrum>, <jaopca:item_platedenselead>], 
+	[<ore:blockElectrum>, <thermalfoundation:material:293>, <refinedstorage:processor:5>, <thermalfoundation:material:293>, <ore:blockElectrum>], 
+	[<thermalfoundation:glass_alloy:1>, <ore:wireElectrum>, <jaopca:item_gearelectrofluxalloy>, <ore:wireElectrum>, <thermalfoundation:glass_alloy:1>], 
+	[<ore:blockElectrum>, <thermalfoundation:material:293>, <techguns:itemshared:70>, <thermalfoundation:material:293>, <ore:blockElectrum>], 
+	[<jaopca:item_platedenselead>, <ore:blockElectrum>, <thermalfoundation:glass_alloy:1>, <ore:blockElectrum>, <jaopca:item_platedenselead>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_30", <alchemistry:fission_controller>, [
-	[<ore:blockElectricalSteel>, <ore:gearVibrantAlloy>, <ore:gearVividAlloy>, <ore:gearVibrantAlloy>, <ore:blockElectricalSteel>], 
-	[<ore:gearVibrantAlloy>, <techguns:itemshared:69>, <extrautils2:screen>, <techguns:itemshared:69>, <ore:gearVibrantAlloy>], 
-	[<ore:gearVividAlloy>, <refinedstorage:core>, <draconicevolution:wyvern_core>, <refinedstorage:core:1>, <ore:gearVividAlloy>], 
-	[<ore:gearVibrantAlloy>, <techguns:itemshared:69>, <zcontent:terminalserver>, <techguns:itemshared:69>, <ore:gearVibrantAlloy>], 
-	[<ore:blockElectricalSteel>, <ore:gearVibrantAlloy>, <ore:gearVividAlloy>, <ore:gearVibrantAlloy>, <ore:blockElectricalSteel>]
+	[<ore:blockElectricalSteel>, <jaopca:item_gearvibrantalloy>, <jaopca:item_gearvividalloy>, <jaopca:item_gearvibrantalloy>, <ore:blockElectricalSteel>], 
+	[<jaopca:item_gearvibrantalloy>, <techguns:itemshared:69>, <extrautils2:screen>, <techguns:itemshared:69>, <jaopca:item_gearvibrantalloy>], 
+	[<jaopca:item_gearvividalloy>, <refinedstorage:core>, <draconicevolution:wyvern_core>, <refinedstorage:core:1>, <jaopca:item_gearvividalloy>], 
+	[<jaopca:item_gearvibrantalloy>, <techguns:itemshared:69>, <zcontent:terminalserver>, <techguns:itemshared:69>, <jaopca:item_gearvibrantalloy>], 
+	[<ore:blockElectricalSteel>, <jaopca:item_gearvibrantalloy>, <jaopca:item_gearvividalloy>, <jaopca:item_gearvibrantalloy>, <ore:blockElectricalSteel>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_31", <alchemistry:fusion_controller>, [
-	[<ore:blockStainlesssteel>, <ore:gearStellarAlloy>, <ore:gearMelodicAlloy>, <ore:gearStellarAlloy>, <ore:blockStainlesssteel>], 
-	[<ore:gearStellarAlloy>, <techguns:itemshared:69>, <extrautils2:screen>, <techguns:itemshared:69>, <ore:gearStellarAlloy>], 
-	[<ore:gearMelodicAlloy>, <refinedstorage:core>, <draconicevolution:awakened_core>, <refinedstorage:core:1>, <ore:gearMelodicAlloy>], 
-	[<ore:gearStellarAlloy>, <techguns:itemshared:69>, <zcontent:terminalserver>, <techguns:itemshared:69>, <ore:gearStellarAlloy>], 
-	[<ore:blockStainlesssteel>, <ore:gearStellarAlloy>, <ore:gearMelodicAlloy>, <ore:gearStellarAlloy>, <ore:blockStainlesssteel>]
+	[<ore:blockStainlesssteel>, <jaopca:item_gearstellaralloy>, <jaopca:item_gearmelodicalloy>, <jaopca:item_gearstellaralloy>, <ore:blockStainlesssteel>], 
+	[<jaopca:item_gearstellaralloy>, <techguns:itemshared:69>, <extrautils2:screen>, <techguns:itemshared:69>, <jaopca:item_gearstellaralloy>], 
+	[<jaopca:item_gearmelodicalloy>, <refinedstorage:core>, <draconicevolution:awakened_core>, <refinedstorage:core:1>, <jaopca:item_gearmelodicalloy>], 
+	[<jaopca:item_gearstellaralloy>, <techguns:itemshared:69>, <zcontent:terminalserver>, <techguns:itemshared:69>, <jaopca:item_gearstellaralloy>], 
+	[<ore:blockStainlesssteel>, <jaopca:item_gearstellaralloy>, <jaopca:item_gearmelodicalloy>, <jaopca:item_gearstellaralloy>, <ore:blockStainlesssteel>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_32", <teslacorelib:machine_case> * 4, [
-	[<ore:plateDenseIridium>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:plateDenseIridium>], 
-	[<ore:blockSilver>, <refinedstorage:core>, <ore:gearCrystaltine>, <refinedstorage:core:1>, <ore:blockSilver>], 
-	[<ore:blockSilver>, <ore:gearInsanium>, <ore:gearFluxAlloy>, <ore:gearInsanium>, <ore:blockSilver>], 
+	[<jaopca:item_platedenseiridium>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <jaopca:item_platedenseiridium>], 
+	[<ore:blockSilver>, <refinedstorage:core>, <jaopca:item_gearcrystaltine>, <refinedstorage:core:1>, <ore:blockSilver>], 
+	[<ore:blockSilver>, <jaopca:item_gearinsanium>, <jaopca:item_gearfluxalloy>, <jaopca:item_gearinsanium>, <ore:blockSilver>], 
 	[<ore:blockSilver>, <techguns:itemshared:70>, <zcontent:terminalserver>, <techguns:itemshared:70>, <ore:blockSilver>], 
-	[<ore:plateDenseIridium>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:plateDenseIridium>]
+	[<jaopca:item_platedenseiridium>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <jaopca:item_platedenseiridium>]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_33", <rftools:machine_frame> * 16, [
-	[<ore:plateDenseSteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <ore:plateDenseSteel>], 
-	[<ore:blockStainlesssteel>, <refinedstorage:core>, <ore:gearAluminum>, <refinedstorage:core:1>, <ore:blockStainlesssteel>], 
-	[<ore:blockStainlesssteel>, <ore:gearEmerald>, <ore:gearFluxAlloy>, <ore:gearEmerald>, <ore:blockStainlesssteel>], 
+	[<jaopca:item_platedensesteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <jaopca:item_platedensesteel>], 
+	[<ore:blockStainlesssteel>, <refinedstorage:core>, <thermalfoundation:material:260>, <refinedstorage:core:1>, <ore:blockStainlesssteel>], 
+	[<ore:blockStainlesssteel>, <thermalfoundation:material:27>, <jaopca:item_gearfluxalloy>, <thermalfoundation:material:27>, <ore:blockStainlesssteel>], 
 	[<ore:blockStainlesssteel>, <techguns:itemshared:70>, <refinedstorage:processor:4>, <techguns:itemshared:70>, <ore:blockStainlesssteel>], 
-	[<ore:plateDenseSteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <ore:plateDenseSteel>]
+	[<jaopca:item_platedensesteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <ore:blockStainlesssteel>, <jaopca:item_platedensesteel>]
 ]);
 
 mods.avaritia.ExtremeCrafting.addShaped("custom_recipe_34", <zcontent:masterswordblade>, [
-	[<ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateGalvanizedsteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateGalvanizedsteel>, <ore:plateStainlesssteel>, <ore:plateGalvanizedsteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateGalvanizedsteel>, <ore:plateStainlesssteel>, <ore:plateGalvanizedsteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateGalvanizedsteel>, <ore:plateStainlesssteel>, <ore:plateGalvanizedsteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateGalvanizedsteel>, <ore:plateStainlesssteel>, <ore:plateGalvanizedsteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateGalvanizedsteel>, <ore:plateStainlesssteel>, <ore:plateGalvanizedsteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateStainlesssteel>, <ore:plateDenseStainlesssteel>, <ore:plateStainlesssteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustCryotheum>], 
-	[<ore:dustCryotheum>, <ore:dustPyrotheum>, <ore:nuggetGalvanizedsteel>, <ore:plateGalvanizedsteel>, <ore:plateStainlesssteel>, <ore:plateGalvanizedsteel>, <ore:nuggetGalvanizedsteel>, <ore:dustPyrotheum>, <ore:dustCryotheum>]
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_platedensestainlesssteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+	[<thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <jaopca:item_nuggetgalvanizedsteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_platestainlesssteel>, <jaopca:item_plategalvanizedsteel>, <jaopca:item_nuggetgalvanizedsteel>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>]
 ]);

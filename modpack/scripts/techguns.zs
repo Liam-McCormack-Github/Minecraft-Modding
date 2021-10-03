@@ -261,20 +261,20 @@ MetalPress.removeRecipe(<techguns:itemshared:59>);
 MetalPress.removeRecipe(<techguns:itemshared:84>);
 MetalPress.removeRecipe(<techguns:itemshared:6>);
 
-AmmoPress.removeMetal2(<ore:ingotIron>);
-AmmoPress.removeMetal2(<ore:ingotTin>);
-AmmoPress.removeMetal2(<ore:ingotCopper>);
-AmmoPress.removeMetal2(<ore:ingotBronze>);
-AmmoPress.addMetal2(<ore:ingotBrass>);
+AmmoPress.removeMetal2(<minecraft:iron_ingot>);
+AmmoPress.removeMetal2(<thermalfoundation:material:129>);
+AmmoPress.removeMetal2(<thermalfoundation:material:128>);
+AmmoPress.removeMetal2(<thermalfoundation:material:163>);
+AmmoPress.addMetal2(<zcontent:brass_ingot>);
 
 MetalPress.addRecipe(<techguns:itemshared:3>,<techguns:itemshared:75>,<techguns:itemshared:6>,true);
-MetalPress.addRecipe("plateDenseObsidianSteel",<actuallyadditions:block_misc:6>,<actuallyadditions:block_misc:8>,true);
+MetalPress.addRecipe(<techguns:itemshared:51>,<actuallyadditions:block_misc:6>,<actuallyadditions:block_misc:8>,true);
 MetalPress.addRecipe(<actuallyadditions:block_misc:6>,<fluxnetworks:fluxcore>,<fluxnetworks:fluxplug>,true);
 MetalPress.addRecipe(<minecraft:ender_pearl>,<fluxnetworks:fluxcore>,<fluxnetworks:fluxpoint>,true);
 
-MetalPress.addRecipe("plateIron",<thermalfoundation:material:193> * 3,<techguns:itemshared:57>,true);
-MetalPress.addRecipe("plateObsidianSteel",<jaopca:item_nuggetmanyullyn> * 3,<techguns:itemshared:58>,true);
-MetalPress.addRecipe("plateCarbon",<enderio:item_alloy_nugget:6> * 3,<techguns:itemshared:59>,true);
+MetalPress.addRecipe(<thermalfoundation:material:32>,<thermalfoundation:material:193> * 3,<techguns:itemshared:57>,true);
+MetalPress.addRecipe(<techguns:itemshared:51>,<jaopca:item_nuggetmanyullyn> * 3,<techguns:itemshared:58>,true);
+MetalPress.addRecipe(<techguns:itemshared:53>,<enderio:item_alloy_nugget:6> * 3,<techguns:itemshared:59>,true);
 
 
 
@@ -299,24 +299,15 @@ ReactionChamber.addRecipe("REPAIR_GEM",<biomesoplenty:terrestrial_artifact>,<liq
 ReactionChamber.addRecipe("PURPLE_GLOWSTONE",<minecraft:glowstone>,<liquid:liquidchorus>,<biomesoplenty:crystal>,<techguns:itemshared:104>,10, 5, 10, 0, 10, 10000,0.0, "NONE", 200000);
 ReactionChamber.addRecipe("CREATE_LASER","gemRuby",<liquid:liquid_sunshine>,<techguns:itemshared:71>,<techguns:itemshared:104>,2, 1, 5, 0, 5, 5000,0.0, "BREAK_ITEM", 200000);
 
-
 Fabricator.removeRecipe(<techguns:itemshared:69>);
 
-
 //add fabricator recipes, IItemStack amounts for inputs are ignored like for chemlab
-Fabricator.addRecipe(<zcontent:circuitboard>, 1, "gearGold", 1, "dustRedstone", 10, <zcontent:proc_1>, 1, <techguns:itemshared:94>);
-Fabricator.addRecipe(<zcontent:circuitboard>, 1, "wireGold", 2, "dustRedstone", 5, <zcontent:substrate>, 4, <techguns:itemshared:65>);
-Fabricator.addRecipe("dustLapis", 2, <techguns:itemshared:65>, 1, "dustRedstone", 5, "dustWhiteGlowstone", 4, <techguns:itemshared:66>);
-Fabricator.addRecipe("gunpowder", 10, "plateAluminum", 16, <minecraft:tnt>, 4, <zcontent:chip1>, 1, <techguns:itemshared:7> * 4);
-Fabricator.addRecipe("ingotTitanium", 4, "wireGold", 8, "dustRedstone", 10, "sheetPlastic", 4, <techguns:itemshared:69>);
+Fabricator.addRecipe(<zcontent:circuitboard>, 1, <thermalfoundation:material:25>, 1, <minecraft:redstone>, 10, <zcontent:proc_1>, 1, <techguns:itemshared:94>);
+Fabricator.addRecipe(<zcontent:circuitboard>, 1, <techguns:itemshared:63>, 2, <minecraft:redstone>, 5, <zcontent:substrate>, 4, <techguns:itemshared:65>);
+Fabricator.addRecipe(<actuallyadditions:item_dust:4>, 2, <techguns:itemshared:65>, 1, <minecraft:redstone>, 5, <tp:colored_dust>, 4, <techguns:itemshared:66>);
+Fabricator.addRecipe("gunpowder", 10, <thermalfoundation:material:324>, 16, <minecraft:tnt>, 4, <zcontent:chip1>, 1, <techguns:itemshared:7> * 4);
+Fabricator.addRecipe(<techguns:itemshared:85>, 4, <techguns:itemshared:63>, 8, <minecraft:redstone>, 10, "sheetPlastic", 4, <techguns:itemshared:69>);
 
-Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard1>, 8, "blockEnder", 16, <virtualmachines:material:2562>, 1, <zcontent:machineframe_1>);
-Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard2>, 8, "blockEnder", 32, <virtualmachines:material:2562>, 1, <zcontent:machineframe_2>);
-Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard3>, 8, "blockEnder", 48, <virtualmachines:material:2562>, 1, <zcontent:machineframe_3>);
-
-recipes.addShaped(<virtualmachines:virtual_machine>, [[<ore:ingotRefinedGlowstone>, <thermalexpansion:augment:323>, <ore:ingotRefinedGlowstone>],[<thermalfoundation:fertilizer:2>, <zcontent:machineframe_1>, <thermalfoundation:fertilizer:2>], [<ore:gearLumium>, <thermalfoundation:material:513>, <ore:gearLumium>]]);
-recipes.addShaped(<virtualmachines:virtual_machine:1>, [[<ore:ingotPigiron>, <thermalexpansion:augment:256>, <ore:ingotPigiron>],[<thermalfoundation:bait:2>, <zcontent:machineframe_1>, <thermalfoundation:bait:2>], [<ore:gearLumium>, <thermalfoundation:material:513>, <ore:gearLumium>]]);
-recipes.addShaped(<virtualmachines:virtual_machine:2>, [[<ore:ingotDemonicMetal>, <thermalexpansion:augment:416>, <ore:ingotDemonicMetal>],[<extrautils2:ineffableglass:3>, <zcontent:machineframe_1>, <extrautils2:ineffableglass:3>], [<ore:gearSoularium>, <thermalfoundation:material:513>, <ore:gearSoularium>]]);
-recipes.addShaped(<virtualmachines:virtual_machine:3>, [[<ore:ingotEnchantedMetal>, <thermalexpansion:augment:416>, <ore:ingotEnchantedMetal>],[<minecraft:hay_block>, <zcontent:machineframe_2>, <minecraft:hay_block>], [<ore:gearVividAlloy>, <thermalfoundation:material:513>, <ore:gearVividAlloy>]]);
-recipes.addShaped(<virtualmachines:virtual_machine:4>, [[<ore:ingotEvilMetal>, <thermalexpansion:augment:416>, <ore:ingotEvilMetal>],[<draconicevolution:draconic_spawner>.withTag({BCTileData: {BCManagedData: {spawnerTier: 0 as byte}}}), <zcontent:machineframe_2>, <draconicevolution:draconic_spawner>.withTag({BCTileData: {BCManagedData: {spawnerTier: 0 as byte}}})], [<ore:gearDarkSteel>, <thermalfoundation:material:513>, <ore:gearDarkSteel>]]);
-recipes.addShaped(<virtualmachines:virtual_machine:5>, [[<ore:ingotEvilTerraglaz>, <thermalexpansion:augment:416>, <ore:ingotEvilTerraglaz>],[<draconicevolution:draconic_spawner>.withTag({BCTileData: {BCManagedData: {spawnerTier: 2 as byte}}}), <zcontent:machineframe_3>, <draconicevolution:draconic_spawner>.withTag({BCTileData: {BCManagedData: {spawnerTier: 2 as byte}}})], [<ore:gearMelodicAlloy>, <thermalfoundation:material:513>, <ore:gearMelodicAlloy>]]);
+Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard1>, 8, <zcontent:ender_block>, 16, <virtualmachines:material:2562>, 1, <zcontent:machineframe_1>);
+Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard2>, 8, <zcontent:ender_block>, 32, <virtualmachines:material:2562>, 1, <zcontent:machineframe_2>);
+Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard3>, 8, <zcontent:ender_block>, 48, <virtualmachines:material:2562>, 1, <zcontent:machineframe_3>);

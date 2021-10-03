@@ -10,6 +10,7 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 16,
+			"chunk-chance": 8,
 			"min-height": 2,
 			"max-height": 127, 
 			"retrogen": "false",
@@ -30,9 +31,10 @@
 			"generator": {
 				"block": "zcontent:uranium_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 8
 			},
 			"cluster-count": 1,
+			"chunk-chance": 8,
 			"min-height": 0,
 			"max-height": 28, 
 			"retrogen": "false",
@@ -51,9 +53,10 @@
 			"generator": {
 				"block": "futuremc:ancient_debris",
 				"material": "minecraft:netherrack",
-				"cluster-size": 4
+				"cluster-size": 16
 			},
 			"cluster-count": 1,
+			"chunk-chance": 16,
 			"min-height": 0,
 			"max-height": 20, 
 			"retrogen": "true",
