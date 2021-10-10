@@ -106,7 +106,7 @@ Grinder.addRecipe(<mysticaladaptations:insanium_helmet>, [<mysticalagradditions:
 Grinder.addRecipe(<mysticaladaptations:insanium_chestplate>, [<mysticalagradditions:insanium:2> * 8]);
 Grinder.addRecipe(<mysticaladaptations:insanium_leggings>, [<mysticalagradditions:insanium:2> * 7]);
 Grinder.addRecipe(<mysticaladaptations:insanium_boots>, [<mysticalagradditions:insanium:2> * 4]);
-
+/*
 Grinder.addRecipe(<redstonerepository:armor.helmet_gelid>, [<redstonerepository:material:7> * 5]);
 Grinder.addRecipe(<redstonerepository:armor.plate_gelid>, [<redstonerepository:material:7> * 8]);
 Grinder.addRecipe(<redstonerepository:armor.legs_gelid>, [<redstonerepository:material:7> * 7]);
@@ -117,7 +117,7 @@ Grinder.addRecipe(<redstonerepository:tool.shovel_gelid>, [<redstonerepository:m
 Grinder.addRecipe(<redstonerepository:tool.pickaxe_gelid>, [<redstonerepository:material:1> * 3, <redstonerepository:material:6>]);
 Grinder.addRecipe(<redstonerepository:tool.axe_gelid>, [<redstonerepository:material:1> * 3, <redstonerepository:material:6>]);
 Grinder.addRecipe(<redstonerepository:tool.sickle_gelid>, [<redstonerepository:material:1> * 3, <redstonerepository:material:6>]);
-
+*/
 Grinder.addRecipe(<enderio:item_dark_steel_helmet>, [<enderio:item_alloy_ingot:6> * 5]);
 Grinder.addRecipe(<enderio:item_dark_steel_chestplate>, [<enderio:item_alloy_ingot:6> * 8]);
 Grinder.addRecipe(<enderio:item_dark_steel_leggings>, [<enderio:item_alloy_ingot:6> * 7]);

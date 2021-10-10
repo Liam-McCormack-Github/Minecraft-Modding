@@ -132,6 +132,7 @@ var creeper_morb = <thermalexpansion:morb>.withTag({powered: 0 as byte, id: "min
 recipes.addShapeless(<zcontent:charged_gunpowder>, [creeper_morb_charged.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
 recipes.addShapeless(<minecraft:gunpowder>, [creeper_morb.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
 recipes.addShapeless("excavation_wand", <zcontent:excavation_wand>.withTag(map30), [<zcontent:excavation_wand>]);
+recipes.addShaped(<actuallyadditions:item_misc:12> * 4, [[null, <actuallyadditions:item_misc:9>, null], [<actuallyadditions:item_misc:9>, <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}), <actuallyadditions:item_misc:9>], [null, <actuallyadditions:item_misc:9>, null]]);
 
 #Rename-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <zcontent:masterswordblade>.maxStackSize = 1;
@@ -304,7 +305,6 @@ mods.arcanearchives.GCT.addRecipe("gem_sapphire", <biomesoplenty:gem:6>, [<jaopc
 mods.arcanearchives.GCT.addRecipe("gem_amber", <biomesoplenty:gem:7>, [<jaopca:item_dustamber>]);
 mods.arcanearchives.GCT.addRecipe("gem_moon", <extrautils2:ingredients:5>, [<jaopca:item_dustmoon>]);
 mods.arcanearchives.GCT.addRecipe("gem_fluxalloy", <redstonearsenal:material:160>, [<jaopca:item_dustfluxalloy>]);
-mods.arcanearchives.GCT.addRecipe("gem_gelid", <redstonerepository:material:5>, [<jaopca:item_dustgelid>]);
 mods.arcanearchives.GCT.addRecipe("gem_dimensionalshard", <rftools:dimensional_shard>, [<jaopca:item_dustdimensionalshard>]);
 
 #actuallyadditions-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -440,6 +440,11 @@ mods.immersiveengineering.AlloySmelter.removeRecipe(<zcontent:red_alloy_ingot>);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
 
 mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platecoal>, <minecraft:coal>, <immersiveengineering:mold>, 1024);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platequartz>, <minecraft:quartz>, <immersiveengineering:mold>, 1024);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platequartzblack>, <actuallyadditions:item_misc:5>, <immersiveengineering:mold>, 1024);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_plateobsidian>, <cyclicmagic:crystallized_obsidian>, <immersiveengineering:mold>, 1024);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:26>, <minecraft:diamond> * 4, <immersiveengineering:mold:1>, 1024);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:27>, <minecraft:emerald> * 4, <immersiveengineering:mold:1>, 1024);
 
 mods.immersiveengineering.MetalPress.addRecipe(<extrautils2:ingredients:5>, <jaopca:item_dustmoon>, <zcontent:mold>, 250);
 mods.immersiveengineering.MetalPress.addRecipe(<zcontent:wood_plate>, <thermalfoundation:material:801>, <zcontent:mold>, 250);
