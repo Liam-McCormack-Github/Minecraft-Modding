@@ -14,11 +14,11 @@
     "minecraft:stone[variant\u003dstone]"
   ],
   "Grass Color": "5046016",
-  "Foliage Color": "5046016",
-  "Water Color": "65535",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
   "Temperature": 0.8,
   "Humidity": 0.4,
-  "Water Tint": 65535,
+  "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [

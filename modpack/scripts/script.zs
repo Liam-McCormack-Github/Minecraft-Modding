@@ -1,3 +1,5 @@
+#priority 101
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
@@ -41,8 +43,7 @@ var map25 as IData = {};
 var map26 as IData = {};
 var map27 as IData = {};
 var map28 as IData = {};
-var map29 as IData = {};
-var map30 as IData = {};
+#var map30 as IData = {};
 
 map1 += <enchantment:minecraft:sweeping>.makeEnchantment(1).makeTag();
 map2 += <enchantment:minecraft:sweeping>.makeEnchantment(100).makeTag();
@@ -72,8 +73,7 @@ map25 += <enchantment:minecraft:frost_walker>.makeEnchantment(2).makeTag();
 map26 += <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag();
 map27 += <enchantment:zcontent:disarm>.makeEnchantment(1).makeTag();
 map28 += <enchantment:zcontent:instantkill>.makeEnchantment(1).makeTag();
-map29 += <enchantment:enderio:shimmer>.makeEnchantment(1).makeTag();
-map30 += <enchantment:oeintegration:oreexcavation>.makeEnchantment(5).makeTag();
+#map30 += <enchantment:oeintegration:oreexcavation>.makeEnchantment(5).makeTag();
 
 var ench_tome = <akashictome:tome>.withTag({"Quark:RuneColor": 16, ench: [{lvl: 1 as short, id: 0 as short}], HideFlags: 1, display: {Lore: ["It Apears To Radiate Pure Knowledge!"]}, "Quark:RuneAttached": 1 as byte});
 
@@ -125,13 +125,42 @@ function(out, ins, cInfo) {
         return out.withTag(ins.enchBook.tag);
 }, null);
 
+recipes.addShapeless("upgrade_dank_2", <dankstorage:dank_2>, [<dankstorage:dank_1>.marked("dank_1"), <ore:blockTopaz>],
+function(out, ins, cInfo) {
+        return out.withTag({selectedSlot: ins.dank_1.tag.selectedSlot, Size: 18, pickup: ins.dank_1.tag.pickup, Items: ins.dank_1.tag.Items});
+}, null);
+
+recipes.addShapeless("upgrade_dank_3", <dankstorage:dank_3>, [<dankstorage:dank_2>.marked("dank_2"), <ore:blockPeridot>],
+function(out, ins, cInfo) {
+        return out.withTag({selectedSlot: ins.dank_2.tag.selectedSlot, Size: 27, pickup: ins.dank_2.tag.pickup, Items: ins.dank_2.tag.Items});
+}, null);
+
+recipes.addShapeless("upgrade_dank_4", <dankstorage:dank_4>, [<dankstorage:dank_3>.marked("dank_3"), <ore:blockNetherStar>],
+function(out, ins, cInfo) {
+        return out.withTag({selectedSlot: ins.dank_3.tag.selectedSlot, Size: 36, pickup: ins.dank_3.tag.pickup, Items: ins.dank_3.tag.Items});
+}, null);
+
+recipes.addShapeless("upgrade_dank_5", <dankstorage:dank_5>, [<dankstorage:dank_4>.marked("dank_4"), <ore:blockCrystalFlux>],
+function(out, ins, cInfo) {
+        return out.withTag({selectedSlot: ins.dank_4.tag.selectedSlot, Size: 45, pickup: ins.dank_4.tag.pickup, Items: ins.dank_4.tag.Items});
+}, null);
+
+recipes.addShapeless("upgrade_dank_6", <dankstorage:dank_6>, [<dankstorage:dank_5>.marked("dank_5"), <extendedcrafting:storage:6>],
+function(out, ins, cInfo) {
+        return out.withTag({selectedSlot: ins.dank_5.tag.selectedSlot, Size: 54, pickup: ins.dank_5.tag.pickup, Items: ins.dank_5.tag.Items});
+}, null);
+
+recipes.addShapeless("upgrade_dank_7", <dankstorage:dank_7>, [<dankstorage:dank_6>.marked("dank_6"), <ore:blockAmethyst>],
+function(out, ins, cInfo) {
+        return out.withTag({selectedSlot: ins.dank_6.tag.selectedSlot, Size: 81, pickup: ins.dank_6.tag.pickup, Items: ins.dank_6.tag.Items});
+}, null);
 
 var creeper_morb_charged = <thermalexpansion:morb>.withTag({powered: 1 as byte, id: "minecraft:creeper"});
 var creeper_morb = <thermalexpansion:morb>.withTag({powered: 0 as byte, id: "minecraft:creeper"});
 
 recipes.addShapeless(<zcontent:charged_gunpowder>, [creeper_morb_charged.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
 recipes.addShapeless(<minecraft:gunpowder>, [creeper_morb.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
-recipes.addShapeless("excavation_wand", <zcontent:excavation_wand>.withTag(map30), [<zcontent:excavation_wand>]);
+#recipes.addShapeless("excavation_wand", <zcontent:excavation_wand>.withTag(map30), [<zcontent:excavation_wand>]);
 recipes.addShaped(<actuallyadditions:item_misc:12> * 4, [[null, <actuallyadditions:item_misc:9>, null], [<actuallyadditions:item_misc:9>, <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}), <actuallyadditions:item_misc:9>], [null, <actuallyadditions:item_misc:9>, null]]);
 
 #Rename-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -176,7 +205,7 @@ recipes.addShaped(<actuallyadditions:item_misc:12> * 4, [[null, <actuallyadditio
 <mysticaladaptations:insanium_sickle>.maxDamage = 16000;
 <mysticaladaptations:insanium_scythe>.maxDamage = 16000;
 <mysticaladaptations:insanium_fishing_rod>.maxDamage = 16000;
-<mysticaladaptations:insanium_paxel>.maxDamage = 24000;
+#<mysticaladaptations:insanium_paxel>.maxDamage = 24000;
 
 #division_sign-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 recipes.addShaped(<zcontent:evil_terraglaz_ingot>, [[<ore:dustTerraglaz>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<extrautils2:ingredients:17>]]);
@@ -192,51 +221,61 @@ furnace.setFuel(<forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 100
 furnace.setFuel(<forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}), 819200);
 
 #integrateddynamics-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:redstone> * 8, 1.0, <minecraft:redstone> * 2, 0.5, <minecraft:redstone> * 2, 0.5);
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:coal> * 4, 1.0, <minecraft:coal>, 0.5, <minecraft:coal>, 0.5);
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:diamond>, 1.0, <minecraft:diamond>, 0.75);
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:emerald>, 1.0, <minecraft:emerald>, 0.75);
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:dye:4> * 8, 1.0, <minecraft:dye:4> * 2, 0.5, <minecraft:dye:4> * 2, 0.5);
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:quartz> * 2, 1.0, <minecraft:quartz>, 0.5);
+
+mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:redstone> * 12, 1.0, <minecraft:redstone> * 2, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:coal> * 6, 1.0, <minecraft:coal>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:diamond> * 3, 1.0, <minecraft:diamond>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:emerald> * 3, 1.0, <minecraft:emerald>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:dye:4> * 12, 1.0, <minecraft:dye:4> * 2, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(<minecraft:quartz> * 3, 1.0, <minecraft:quartz>, 0.5);
+
 mods.integrateddynamics.Squeezer.addRecipe(<minecraft:redstone>, <fluxnetworks:flux>);
 mods.integrateddynamics.Squeezer.addRecipe(<extrautils2:compressedgravel>, <jaopca:item_dustcrudesteel>);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:redstone>, <fluxnetworks:flux>);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<extrautils2:compressedgravel>, <jaopca:item_dustcrudesteel>);
-mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<techguns:itemshared:56>, null, <industrialforegoing:dryrubber>);
-
+mods.integrateddynamics.Squeezer.addRecipe(<zcontent:wither_bone>, <zcontent:withered_bone_meal> * 6);
 mods.integrateddynamics.Squeezer.addRecipe(<zcontent:ardite_ore>, <jaopca:item_dustardite>, 1.0, <jaopca:item_dustardite>, 0.75, null);
 mods.integrateddynamics.Squeezer.addRecipe(<zcontent:cobalt_ore>, <jaopca:item_dustcobalt>, 1.0, <jaopca:item_dustcobalt>, 0.75, null);
 mods.integrateddynamics.Squeezer.addRecipe(<zcontent:aluminum_ore>, <thermalfoundation:material:68>, 1.0, <thermalfoundation:material:68>, 0.75, null);
 mods.integrateddynamics.Squeezer.addRecipe(<zcontent:uranium_ore>, <immersiveengineering:metal:14>, 1.0, <immersiveengineering:metal:14>, 0.75, null);
 mods.integrateddynamics.Squeezer.addRecipe(<zcontent:titanium_ore>, <jaopca:item_dusttitanium>, 1.0, <jaopca:item_dusttitanium>, 0.75, null);
 mods.integrateddynamics.Squeezer.addRecipe(<zcontent:iridium_ore>, <thermalfoundation:material:71>, 1.0, <thermalfoundation:material:71>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore>, <jaopca:item_dustamethyst>, 1.0, <jaopca:item_dustamethyst>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore:1>, <jaopca:item_dustruby>, 1.0, <jaopca:item_dustruby>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore:2>, <jaopca:item_dustperidot>, 1.0, <jaopca:item_dustperidot>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore:3>, <jaopca:item_dusttopaz>, 1.0, <jaopca:item_dusttopaz>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore:4>, <jaopca:item_dusttanzanite>, 1.0, <jaopca:item_dusttanzanite>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore:5>, <jaopca:item_dustmalachite>, 1.0, <jaopca:item_dustmalachite>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore:6>, <jaopca:item_dustsapphire>, 1.0, <jaopca:item_dustsapphire>, 0.75, null);
-mods.integrateddynamics.Squeezer.addRecipe(<biomesoplenty:gem_ore:7>, <jaopca:item_dustamber>, 1.0, <jaopca:item_dustamber>, 0.75, null);
 
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:redstone_ore>, <minecraft:redstone>, 1.0, <minecraft:redstone>, 0.75, null);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:coal_ore>, <thermalfoundation:material:768>, 1.0, <thermalfoundation:material:768>, 0.75, null);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:diamond_ore>, <actuallyadditions:item_dust:2>, 1.0, <actuallyadditions:item_dust:2>, 0.75, null);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:emerald_ore>, <actuallyadditions:item_dust:3>, 1.0, <actuallyadditions:item_dust:3>, 0.75, null);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:lapis_ore>, <actuallyadditions:item_dust:4>, 1.0, <actuallyadditions:item_dust:4>, 0.75, null);
+mods.integrateddynamics.Squeezer.addRecipe(<minecraft:quartz_ore>, <actuallyadditions:item_dust:5>, 1.0, <actuallyadditions:item_dust:5>, 0.75, null);
+
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:redstone_ore>, <minecraft:redstone> * 2, 1.0, <minecraft:redstone>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:coal_ore>, <thermalfoundation:material:768> * 2, 1.0, <thermalfoundation:material:768>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:diamond_ore>, <actuallyadditions:item_dust:2> * 2, 1.0, <actuallyadditions:item_dust:2>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:emerald_ore>, <actuallyadditions:item_dust:3> * 2, 1.0, <actuallyadditions:item_dust:3>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:lapis_ore>, <actuallyadditions:item_dust:4> * 2, 1.0, <actuallyadditions:item_dust:4>, 0.5);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:quartz_ore>, <actuallyadditions:item_dust:5> * 2, 1.0, <actuallyadditions:item_dust:5>, 0.5);
+
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<minecraft:redstone>, <fluxnetworks:flux>);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<extrautils2:compressedgravel>, <jaopca:item_dustcrudesteel>);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:wither_bone>, <zcontent:withered_bone_meal> * 6, 1.0, <zcontent:withered_bone_meal> * 2, 0.5, <zcontent:withered_bone_meal> * 2, 0.5);
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:ardite_ore>, <jaopca:item_dustardite> * 2, 1.0, <jaopca:item_dustardite>, 0.5);
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:cobalt_ore>, <jaopca:item_dustcobalt> * 2, 1.0, <jaopca:item_dustcobalt>, 0.5);
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:aluminum_ore>, <thermalfoundation:material:68> * 2, 1.0, <thermalfoundation:material:68>, 0.5);
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:uranium_ore>, <immersiveengineering:metal:14> * 2, 1.0, <immersiveengineering:metal:14>, 0.5);
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:titanium_ore>, <jaopca:item_dusttitanium> * 2, 1.0, <jaopca:item_dusttitanium>, 0.5);
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:iridium_ore>, <thermalfoundation:material:71> * 2, 1.0, <thermalfoundation:material:71>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore>, <jaopca:item_dustamethyst> * 2, 1.0, <jaopca:item_dustamethyst>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:1>, <jaopca:item_dustruby> * 2, 1.0, <jaopca:item_dustruby>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:2>, <jaopca:item_dustperidot> * 2, 1.0, <jaopca:item_dustperidot>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:3>, <jaopca:item_dusttopaz> * 2, 1.0, <jaopca:item_dusttopaz>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:4>, <jaopca:item_dusttanzanite> * 2, 1.0, <jaopca:item_dusttanzanite>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:5>, <jaopca:item_dustmalachite> * 2, 1.0, <jaopca:item_dustmalachite>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:6>, <jaopca:item_dustsapphire> * 2, 1.0, <jaopca:item_dustsapphire>, 0.5);
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<biomesoplenty:gem_ore:7>, <jaopca:item_dustamber> * 2, 1.0, <jaopca:item_dustamber>, 0.5);
 
-
-mods.integrateddynamics.MechanicalSqueezer.addRecipe(<zcontent:wither_bone>, <zcontent:withered_bone_meal> * 6, 1.0, <zcontent:withered_bone_meal> * 2, 0.5, <zcontent:withered_bone_meal> * 2, 0.5);
-
+mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<techguns:itemshared:56>, null, <industrialforegoing:dryrubber>);
 
 #alchemistry-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 mods.alchemistry.Electrolyzer.addRecipe(<liquid:water>*1000,<zcontent:biofuel>,95,<zcontent:substrate>, <alchemistry:compound:35>,null,0,null,0);
 mods.alchemistry.Atomizer.addRecipe(<better_diving:lubricant>, <liquid:lubricant>*1000);
 
-mods.alchemistry.Dissolver.removeRecipe(<jaopca:item_dustcarbon:0>);
 mods.alchemistry.Dissolver.removeRecipe(<jaopca:block_blockcarbon:0>);
 mods.alchemistry.Dissolver.removeRecipe(<jaopca:item_nuggetcarbon:0>);
 mods.alchemistry.Dissolver.removeRecipe(<techguns:itemshared:53>);
@@ -271,7 +310,6 @@ mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:12>, true, 1, [[1.0, <alchem
 mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:13>, true, 1, [[1.0, <alchemistry:compound:49> * 4 ]]);
 mods.alchemistry.Dissolver.addRecipe(<minecraft:dye:14>, true, 1, [[1.0, <alchemistry:compound:40> * 4 ]]);
 
-mods.alchemistry.Combiner.removeRecipe(<jaopca:item_dustcarbon:0>);
 mods.alchemistry.Combiner.removeRecipe(<jaopca:block_blockcarbon:0>);
 mods.alchemistry.Combiner.removeRecipe(<jaopca:item_nuggetcarbon:0>);
 mods.alchemistry.Combiner.removeRecipe(<techguns:itemshared:53>);
@@ -288,24 +326,6 @@ mods.arcanearchives.GCT.removeRecipe(<arcanearchives:radiant_dust>*2);
 mods.arcanearchives.GCT.addRecipe("test_1", <minecraft:redstone>*2, [<arcanearchives:radiant_dust>, <minecraft:redstone>]);
 mods.arcanearchives.GCT.addRecipe("test_2", <minecraft:glowstone_dust>*2, [<arcanearchives:radiant_dust>*2, <minecraft:glowstone_dust>]);
 mods.arcanearchives.GCT.addRecipe("test_3", <tp:ender_dust>*2, [<arcanearchives:radiant_dust>*3, <tp:ender_dust>]);
-mods.arcanearchives.GCT.addRecipe("gem_coal", <minecraft:coal>, [<thermalfoundation:material:768>]);
-mods.arcanearchives.GCT.addRecipe("gem_charcoal", <minecraft:coal:1>, [<thermalfoundation:material:769>]);
-mods.arcanearchives.GCT.addRecipe("gem_diamond", <minecraft:diamond>, [<actuallyadditions:item_dust:2>]);
-mods.arcanearchives.GCT.addRecipe("gem_lapis", <minecraft:dye:4>, [<actuallyadditions:item_dust:4>]);
-mods.arcanearchives.GCT.addRecipe("gem_emerald", <minecraft:emerald>, [<actuallyadditions:item_dust:3>]);
-mods.arcanearchives.GCT.addRecipe("gem_quartz", <minecraft:quartz>, [<actuallyadditions:item_dust:5>]);
-mods.arcanearchives.GCT.addRecipe("gem_black_quartz", <actuallyadditions:item_misc:5>, [<actuallyadditions:item_dust:7>]);
-mods.arcanearchives.GCT.addRecipe("gem_amethyst", <biomesoplenty:gem>, [<jaopca:item_dustamethyst>]);
-mods.arcanearchives.GCT.addRecipe("gem_ruby", <biomesoplenty:gem:1>, [<jaopca:item_dustruby>]);
-mods.arcanearchives.GCT.addRecipe("gem_peridot", <biomesoplenty:gem:2>, [<jaopca:item_dustperidot>]);
-mods.arcanearchives.GCT.addRecipe("gem_topaz", <biomesoplenty:gem:3>, [<jaopca:item_dusttopaz>]);
-mods.arcanearchives.GCT.addRecipe("gem_tanzanite", <biomesoplenty:gem:4>, [<jaopca:item_dusttanzanite>]);
-mods.arcanearchives.GCT.addRecipe("gem_malachite", <biomesoplenty:gem:5>, [<jaopca:item_dustmalachite>]);
-mods.arcanearchives.GCT.addRecipe("gem_sapphire", <biomesoplenty:gem:6>, [<jaopca:item_dustsapphire>]);
-mods.arcanearchives.GCT.addRecipe("gem_amber", <biomesoplenty:gem:7>, [<jaopca:item_dustamber>]);
-mods.arcanearchives.GCT.addRecipe("gem_moon", <extrautils2:ingredients:5>, [<jaopca:item_dustmoon>]);
-mods.arcanearchives.GCT.addRecipe("gem_fluxalloy", <redstonearsenal:material:160>, [<jaopca:item_dustfluxalloy>]);
-mods.arcanearchives.GCT.addRecipe("gem_dimensionalshard", <rftools:dimensional_shard>, [<jaopca:item_dustdimensionalshard>]);
 
 #actuallyadditions-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #mods.actuallyadditions.Empowerer.addRecipe(output, input, side, side, side, side, 8000, 100);
@@ -381,6 +401,11 @@ mods.inworldcrafting.FluidToItem.transform(<zcontent:magic_fertilizer>, <liquid:
 mods.inworldcrafting.FluidToItem.transform(<chisel:energizedvoidstone:2>, <liquid:mana>, [<chisel:voidstone:2>]);
 mods.inworldcrafting.FluidToItem.transform(<randomthings:ingredient:3>, <liquid:hot_spring_water>, [<randomthings:ingredient:2>, <thermalfoundation:material:135>]);
 mods.inworldcrafting.FluidToItem.transform(<extrautils2:suncrystal:250>, <liquid:liquid_sunshine>, [<minecraft:diamond>], true);
+mods.inworldcrafting.FluidToItem.transform(<minecraft:skull:3>, <liquid:blood>, [<minecraft:skull>, <biomesoplenty:fleshchunk> * 64], true);
+
+mods.inworldcrafting.FluidToItem.transform(<mysticalagriculture:storage:5> * 2, <liquid:gold>, [<thermalfoundation:storage:2>, <mysticalagriculture:storage:5>], true);
+mods.inworldcrafting.FluidToItem.transform(<mysticalagriculture:storage:5> * 2, <liquid:gold>, [<mysticalagriculture:storage:5>, <thermalfoundation:storage:2>], true);
+
 mods.inworldcrafting.FluidToItem.transform(<zcontent:angel_wing>, <liquid:hot_spring_water>, [<cyclicmagic:tool_warp_spawn>, <cyclicmagic:tool_warp_home>], true);
 mods.inworldcrafting.FluidToItem.transform(<zcontent:wand_1>, <liquid:xpjuice>, [<zcontent:excavation_wand>, <minecraft:gold_ingot>, <extendedcrafting:material:40>], true);
 mods.inworldcrafting.FluidToItem.transform(<zcontent:wand_2>, <liquid:xpjuice>, [<zcontent:excavation_wand>, <zcontent:terraglaz_ingot>, <extendedcrafting:material:40>], true);
@@ -403,7 +428,7 @@ mods.inworldcrafting.FireCrafting.addRecipe(<quark:sturdy_stone>, <extrautils2:c
 
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<enderio:item_alloy_endergy_nugget:3>*9, <jaopca:block_blockmoon>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<mysticalagriculture:crafting:28>, <mysticalagriculture:soulstone>);
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<zcontent:magic>.withTag({display: {Lore: ["§d§oHighly Unstable"]}}),<mysticalagradditions:storage:2>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<zcontent:magic>.withTag({display: {Lore: ["§d§oHighly Unstable"]}}),<mysticalagradditions:storage:2>,10);
 
 
 #enderio-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -415,7 +440,7 @@ mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_slime>, [<techgu
 mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_witch>, [<techguns:itemshared:65>, <deepmoblearning:data_model_blank>, <techguns:itemshared:65>, <ore:itemVibrantPowder>, <quark:witch_hat>, <ore:itemVibrantPowder>], 500000, 50);
 mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_blaze>, [<techguns:itemshared:65>, <deepmoblearning:data_model_blank>, <techguns:itemshared:65>, <ore:itemVibrantPowder>, <mysticalagriculture:chunk:17>, <ore:itemVibrantPowder>], 500000, 50);
 mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_ghast>, [<techguns:itemshared:65>, <deepmoblearning:data_model_blank>, <techguns:itemshared:65>, <ore:itemVibrantPowder>, <mysticalagriculture:chunk:18>, <ore:itemVibrantPowder>], 500000, 50);
-mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_wither_skeleton>, [<techguns:itemshared:66>, <deepmoblearning:data_model_blank>, <techguns:itemshared:66>, <ore:itemPrecientPowder>, <mysticalagriculture:chunk:19>, <ore:itemPrecientPowder>], 750000, 75);
+mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_wither_skeleton>, [<techguns:itemshared:66>, <deepmoblearning:data_model_blank>, <techguns:itemshared:66>, <ore:itemPrecientPowder>, <mysticalagriculture:chunk:20>, <ore:itemPrecientPowder>], 750000, 75);
 mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_enderman>, [<techguns:itemshared:66>, <deepmoblearning:data_model_blank>, <techguns:itemshared:66>, <ore:itemEnderCrystalPowder>, <mysticalagriculture:chunk:19>, <ore:itemPrecientPowder>], 750000, 75);
 mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_wither>, [<techguns:itemshared:66>, <deepmoblearning:data_model_blank>, <techguns:itemshared:66>, <ore:itemPrecientPowder>, <mysticalagradditions:nether_star_essence>, <ore:itemEnderCrystalPowder>], 1000000, 100);
 mods.enderio.SliceNSplice.addRecipe(<deepmoblearning:data_model_dragon>, [<techguns:itemshared:66>, <deepmoblearning:data_model_blank>, <techguns:itemshared:66>, <ore:itemEnderCrystalPowder>, <mysticalagradditions:dragon_egg_essence>, <ore:itemEnderCrystalPowder>], 1000000, 25);
@@ -435,14 +460,28 @@ mods.enderio.SoulBinder.addRecipe(<enderio:item_material:19>, <enderio:item_mate
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:1>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:7>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<zcontent:red_alloy_ingot>);
-mods.immersiveengineering.AlloySmelter.removeRecipe(<zcontent:red_alloy_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<techguns:itemshared:85>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:5>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:136>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:134>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:129>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<futuremc:netherite_scrap>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal>);
+
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
 
 mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platecoal>, <minecraft:coal>, <immersiveengineering:mold>, 1024);
 mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platequartz>, <minecraft:quartz>, <immersiveengineering:mold>, 1024);
 mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platequartzblack>, <actuallyadditions:item_misc:5>, <immersiveengineering:mold>, 1024);
-mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_plateobsidian>, <cyclicmagic:crystallized_obsidian>, <immersiveengineering:mold>, 1024);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:26>, <minecraft:diamond> * 4, <immersiveengineering:mold:1>, 1024);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:27>, <minecraft:emerald> * 4, <immersiveengineering:mold:1>, 1024);
 
@@ -465,9 +504,16 @@ mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold>, [<therma
 mods.immersiveengineering.Blueprint.addRecipe("molds", <zcontent:mold_proc>, [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>, <immersiveengineering:tool:1>]);
 mods.immersiveengineering.Blueprint.addRecipe("electrode", <immersiveengineering:graphite_electrode>, [<jaopca:item_stickhopgraphite> * 4, <fluxnetworks:flux> * 4]);
 
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
+mods.immersiveengineering.CokeOven.addRecipe(<thermalfoundation:material:802>, 500, <minecraft:coal>, 1800);
+mods.immersiveengineering.CokeOven.addRecipe(<thermalfoundation:storage_resource:1>, 5000, <minecraft:coal_block>, 16200);
 
-
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<zcontent:graphite_ingot>, <enderio:item_alloy_endergy_ingot>, 300);
+mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:160>, <minecraft:iron_ingot>, 1200, <thermalfoundation:material:864>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:storage_alloy>, <minecraft:iron_block>, 10800, <thermalfoundation:material:864> * 9);
 
 mods.immersiveengineering.BlastFurnace.addFuel(<mysticalagriculture:coal>, 1800);
 mods.immersiveengineering.BlastFurnace.addFuel(<mysticalagriculture:coal:1>, 3600);
@@ -516,14 +562,41 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:soul_sand>, <thermalfoundation:material:1>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:soul_sand>, <minecraft:gold_ingot>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <enderio:item_material:74>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <enderio:item_material:52>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <enderio:item_material:51>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <enderio:item_material:52>);
+
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:diamond_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:emerald_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore:1>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore:2>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore:3>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore:4>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore:5>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore:6>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore:7>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<zcontent:uranium_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<zcontent:titanium_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<zcontent:ardite_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<zcontent:cobalt_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<zcontent:meteor_block>);
+
 
 mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 250, <tp:ender_dust>, 16000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:mana> * 250, <thermalfoundation:geode>, 2000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:amber> * 1000, <biomesoplenty:gem:7>, 2000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:iron> * 144, <minecraft:iron_ingot>, 2000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:iron> * 1296, <minecraft:iron_block>, 8000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:gold> * 144, <minecraft:gold_ingot>, 2000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:gold> * 1296, <minecraft:gold_block>, 8000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_steel> * 144, <enderio:item_alloy_ingot:6>, 2000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_steel> * 1296, <enderio:block_alloy:6>, 8000);
 
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:water> * 10000, <projecte:item.pe_evertide_amulet>, 200, <projecte:item.pe_evertide_amulet>);
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 10000, <projecte:item.pe_volcanite_amulet>, 600, <projecte:item.pe_volcanite_amulet>);
+
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:emerald>, <liquid:cryotheum>);
 
 mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:pristine_matter_zombie>, <liquid:umatter> * 25, 1500);
 mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:pristine_matter_skeleton>, <liquid:umatter> * 25, 1500);
@@ -540,42 +613,43 @@ mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <
 mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:pristine_matter_shulker>, <liquid:umatter> * 25, 1500);
 mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:pristine_matter_guardian>, <liquid:umatter> * 25, 1500);
 mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:pristine_matter_thermal_elemental>, <liquid:umatter> * 25, 1500);
-mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:living_matter_extraterrestrial>, <liquid:umatter> * 5, 1500);
-mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:living_matter_hellish>, <liquid:umatter> * 10, 1000);
-mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:living_matter_overworldian>, <liquid:umatter> * 15, 500);
+mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:living_matter_extraterrestrial>, <liquid:umatter> * 1, 500);
+mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:living_matter_hellish>, <liquid:umatter> * 1, 500);
+mods.thermalexpansion.Transposer.addFillRecipe(<deepmoblearning:polymer_clay>, <deepmoblearning:living_matter_overworldian>, <liquid:umatter> * 1, 500);
 mods.thermalexpansion.Transposer.addFillRecipe(<zcontent:graphite_ingot>, <enderio:item_alloy_endergy_ingot>, <liquid:coal> * 100, 500);
 for wooden_plank in <ore:plankWood>.items {
 	mods.thermalexpansion.Transposer.addFillRecipe(<immersiveengineering:treated_wood>, wooden_plank, <liquid:creosote> * 100, 500);
 }
 mods.thermalexpansion.Transposer.addFillRecipe(<projecte:item.pe_covalence_dust> * 8, <actuallyadditions:item_dust:3>, <liquid:mana> * 1000, 25000);
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>, <liquid:redstone>);
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:emerald>, <liquid:cryotheum>);
 
 mods.thermalexpansion.Enchanter.addRecipe(<draconicevolution:draconium_block:1>, <thermalfoundation:material:1028>, <draconicevolution:draconium_block>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<avaritia:extreme_crafting_table>, <avaritia:double_compressed_crafting_table>, <avaritia:block_resource:2>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<randomthings:ingredient:1>, <zcontent:et_frag>, <minecraft:ghast_tear>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<openglider:hang_glider_advanced>, <minecraft:elytra>, <openglider:hang_glider_basic>, 250000, 10000, false);
-mods.thermalexpansion.Enchanter.addRecipe(<enderio:item_material:53>, <enderio:item_material:1>, <enderio:item_material:52>, 25000, 1000, false);
-mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_covalence_dust:1> * 8, <projecte:item.pe_covalence_dust> * 8, <minecraft:diamond>, 4000, 25000, false);
-mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_covalence_dust:2> * 8, <projecte:item.pe_covalence_dust:1> * 8, <minecraft:lapis_block>, 4000, 50000, false);
-
-
+mods.thermalexpansion.Enchanter.addRecipe(<enderio:item_material:53>, <enderio:item_material:1>, <enderio:item_material:52>, 32000, 1000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_covalence_dust:1> * 8, <projecte:item.pe_covalence_dust> * 8, <minecraft:diamond>, 4000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_covalence_dust:2> * 8, <projecte:item.pe_covalence_dust:1> * 8, <minecraft:lapis_block>, 4000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_gem_armor_3>, <projecte:item.pe_rm_armor_3>, <jaopca:item_singularitysapphire>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_gem_armor_2>, <projecte:item.pe_rm_armor_2>, <jaopca:item_singularityruby>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_gem_armor_1>, <projecte:item.pe_rm_armor_1>, <jaopca:item_singularitytanzanite>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:item.pe_gem_armor_0>, <projecte:item.pe_rm_armor_0>, <jaopca:item_singularityperidot>, 250000, 10000, false);
-
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:collector_mk2>, <projecte:collector_mk1>, <zcontent:collector_dark>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:collector_mk3>, <projecte:collector_mk2>, <zcontent:collector_red>, 250000, 10000, false);
-
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:relay_mk2>, <projecte:relay_mk1>, <zcontent:collector_dark>, 250000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<projecte:relay_mk3>, <projecte:relay_mk2>, <zcontent:collector_red>, 250000, 10000, false);
-
-mods.thermalexpansion.Enchanter.addRecipe(<randomthings:spectrecoil_number>, <zcontent:charged_gunpowder>, <randomthings:spectrecoil_ender>, 250000, 10000, false);
-
+mods.thermalexpansion.Enchanter.addRecipe(<randomthings:spectrecoil_number>, <zcontent:charged_gunpowder>, <randomthings:spectrecoil_ender>, 32000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<extrautils2:simpledecorative>, <minecraft:gold_block>, <zcontent:xp_block>, 32000, 10000, false);
 mods.thermalexpansion.Enchanter.addRecipe(<deepmoblearning:trial_key>, <randomthings:spectrekey>, <redstonerepository:material:1>, 32000, 10000, false);
-
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:864>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:864>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:865>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:866>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:892>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:893>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:894>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <thermalfoundation:material:895>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<biomesoplenty:gem>, <jaopca:item_dustamethyst>, <zcontent:sulfur_crystal>, 32000, 10000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<industrialforegoing:infinity_drill>, <thermalinnovation:drill:4>, <enderio:block_infinity:2> * 64, 250000, 10000, false);
 
 mods.thermalexpansion.Sawmill.addRecipe(<extrautils2:endershard> * 8, <minecraft:ender_pearl>, 1500);
 for wooden_plank in <ore:plankWood>.items {
@@ -638,6 +712,11 @@ brewing.addBrew(<minecraft:experience_bottle>, <ore:dustObsidian>, <thermalfound
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:water"}),<actuallyadditions:item_solidified_experience>, <minecraft:experience_bottle>);
 
+mods.thermalexpansion.Insolator.addRecipe(<mysticalagriculture:crafting> * 18, <thermalfoundation:fertilizer:2>, <mysticalagradditions:tier6_inferium_seeds>, 57600, <mysticalagradditions:tier6_inferium_seeds>, 105, 9600);
+mods.thermalexpansion.Insolator.addRecipe(<mysticalagriculture:crafting> * 12, <thermalfoundation:fertilizer:1>, <mysticalagradditions:tier6_inferium_seeds>, 43200, <mysticalagradditions:tier6_inferium_seeds>, 100, 7200);
+mods.thermalexpansion.Insolator.addRecipe(<mysticalagriculture:crafting> * 6, <thermalfoundation:fertilizer>, <mysticalagradditions:tier6_inferium_seeds>, 28800, <mysticalagradditions:tier6_inferium_seeds>, 100, 4800);
+
+
 
 #cyclicmagic-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 mods.cyclicmagic.Solidifier.addRecipe(<zcontent:masterswordgrip>, [<biomesoplenty:terrestrial_artifact>], "honey", 8000);
@@ -683,6 +762,8 @@ mods.cyclicmagic.Melter.removeShapedRecipe("amber", 1000);
 mods.cyclicmagic.Melter.addRecipe([<biomesoplenty:gem:7>], "amber", 1000);
 mods.cyclicmagic.Melter.addRecipe([<minecraft:iron_ingot>], "iron", 144);
 mods.cyclicmagic.Melter.addRecipe([<minecraft:iron_block>], "iron", 1296);
+mods.cyclicmagic.Melter.addRecipe([<minecraft:gold_ingot>], "gold", 144);
+mods.cyclicmagic.Melter.addRecipe([<minecraft:gold_block>], "gold", 1296);
 mods.cyclicmagic.Melter.addRecipe([<enderio:item_alloy_ingot:6>], "dark_steel", 144);
 mods.cyclicmagic.Melter.addRecipe([<enderio:block_alloy:6>], "dark_steel", 1296);
 mods.cyclicmagic.Melter.addRecipe([<thermalfoundation:material:892>], "crude_oil", 250);
@@ -807,27 +888,6 @@ recipes.addShaped(<zcontent:extended_tier1>, [
 	[<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],
 	[<extendedcrafting:material:14>, <extendedcrafting:material:14>, <extendedcrafting:material:14>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <zcontent:extended_tier2>, [
-	[<extendedcrafting:material:15>, <extendedcrafting:material:15>, <extendedcrafting:material:15>], 
-	[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>], 
-	[<extendedcrafting:material:15>, <extendedcrafting:material:15>, <extendedcrafting:material:15>]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <zcontent:extended_tier3>, [
-	[<extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:16>], 
-	[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <extendedcrafting:material:16>], 
-	[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <extendedcrafting:material:16>], 
-	[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <extendedcrafting:material:16>], 
-	[<extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:16>]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <zcontent:extended_tier4>, [
-	[<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>]
-]);
 
 #quantum compress
 mods.extendedcrafting.CompressionCrafting.addRecipe(<biomesoplenty:earth>.withTag({display: {Lore: ["With the whole world in the palm of your hands, one question remains, what will you do now?"], Name: "Earth"}}), <minecraft:bedrock>, 1000000, <extendedcrafting:material:13>, 1000000);
@@ -835,10 +895,12 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<projecte:item.pe_klein_star
 mods.extendedcrafting.CompressionCrafting.addRecipe(<projecte:item.pe_matter>, <projecte:item.pe_fuel:2>, 500, <youmatter:black_hole>, 1000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<eternalsingularity:eternal_singularity>, <extrautils2:opinium:8>, 1, <extendedcrafting:material:13>, 1000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<randomthings:spectreilluminator>, <randomthings:ingredient:3>, 256, <extendedcrafting:material:12>, 1000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:crafting:5>, <rftools:dimensional_shard>, 1024, <extendedcrafting:material:12>, 1000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:stone_essence> * 64, <deepmoblearning:living_matter_overworldian>, 16, <mysticalagriculture:master_infusion_crystal>, 1000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:nether_essence> * 64, <deepmoblearning:living_matter_hellish>, 16, <mysticalagriculture:master_infusion_crystal>, 1000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:end_essence> * 64, <deepmoblearning:living_matter_extraterrestrial>, 16, <mysticalagriculture:master_infusion_crystal>, 1000000);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<zcontent:stone_chunk>, <deepmoblearning:living_matter_overworldian>, 16, <mysticalagriculture:master_infusion_crystal>, 1000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<zcontent:nether_chunk>, <deepmoblearning:living_matter_hellish>, 16, <mysticalagriculture:master_infusion_crystal>, 1000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<zcontent:end_chunk>, <deepmoblearning:living_matter_extraterrestrial>, 16, <mysticalagriculture:master_infusion_crystal>, 1000000);
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:crafting:5>, <rftools:dimensional_shard>, 256, <extendedcrafting:material:12>, 1000000);
 
 #Combination Crafting
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconium_ingot>, 1000000, <zcontent:evil_terraglaz_ingot>, [ <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>,  <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>,  <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>,  <deepmoblearning:living_matter_extraterrestrial>, <biomesoplenty:crystal_shard>,  <deepmoblearning:living_matter_extraterrestrial>]);
@@ -1017,7 +1079,8 @@ mods.futuremc.SmithingTable.addRecipe(<randomthings:obsidianwaterwalkingboots>, 
 
 #Misc-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-var hammer = <immersiveengineering:tool> | <tp:stone_hammer>;
+#var hammer = <immersiveengineering:tool> | <tp:stone_hammer>;
+var hammer = <ore:toolHammer>;
 
 val IArray = [<minecraft:diamond_sword>, <thermalfoundation:tool.shield_diamond>, <thermalfoundation:tool.bow_diamond>, <thermalfoundation:tool.hammer_diamond>, <minecraft:diamond_pickaxe>, <thermalfoundation:tool.excavator_diamond>, <minecraft:diamond_shovel>, <minecraft:diamond_axe>, <minecraft:diamond_hoe>, <thermalfoundation:tool.shears_diamond>, <thermalfoundation:tool.fishing_rod_diamond>, <minecraft:diamond_helmet>, <minecraft:diamond_chestplate>, <minecraft:diamond_leggings>, <minecraft:diamond_boots>, <chisel:chisel_diamond>, <extrautils2:sickle_diamond>, <thermalfoundation:tool.sickle_diamond>, <actuallyadditions:diamond_paxel>] as IItemStack[];
 
@@ -1097,7 +1160,6 @@ recipes.addShapeless(<jaopca:item_platedemonicmetal>,[hammer,<extrautils2:ingred
 recipes.addShapeless(<jaopca:item_plateelectricalsteel>,[hammer,<enderio:item_alloy_ingot>]);
 recipes.addShapeless(<jaopca:item_platehopgraphite>,[hammer,<immersiveengineering:material:19>]);
 recipes.addShapeless(<jaopca:item_platestainlesssteel>,[hammer,<zcontent:stainless_steel_ingot>]);
-recipes.addShapeless(<jaopca:item_plateobsidian>,[hammer,<cyclicmagic:crystallized_obsidian>]);
 recipes.addShapeless(<jaopca:item_plateconstructionalloy>,[hammer,<enderio:item_alloy_ingot:9>]);
 recipes.addShapeless(<jaopca:item_plategalvanizedsteel>,[hammer,<zcontent:galvanized_steel_ingot>]);
 recipes.addShapeless(<jaopca:item_platestellaralloy>,[hammer,<enderio:item_alloy_endergy_ingot:3>]);

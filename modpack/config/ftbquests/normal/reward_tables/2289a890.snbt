@@ -244,5 +244,126 @@
 				"Quark:RuneAttached": 1b
 			}
 		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_sword",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 22s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_axe",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 16s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 32s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_shovel",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 34s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_helmet",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 4s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_chestplate",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 1s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_leggings",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 4s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:golden_boots",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 2s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalfoundation:tool.bow_gold",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 48s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalfoundation:tool.fishing_rod_gold",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 62s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalfoundation:tool.shield_gold",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 0s
+				}]
+			}
+		}
 	}]
 }

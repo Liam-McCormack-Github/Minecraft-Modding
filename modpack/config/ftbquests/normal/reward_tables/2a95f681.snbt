@@ -1,24 +1,10 @@
 {
 	title: "Ultimate Loot Crate",
-	icon: "jaopca:item_plateemerald",
+	icon: "minecraft:emerald_block",
 	loot_size: 1,
 	hide_tooltip: true,
 	use_title: true,
 	rewards: [{
-		item: {
-			id: "thermalinnovation:quiver",
-			tag: {},
-			Damage: 32000s
-		}
-	},
-	{
-		item: {
-			id: "thermalinnovation:injector",
-			tag: {},
-			Damage: 32000s
-		}
-	},
-	{
 		item: {
 			id: "techguns:alienblaster",
 			tag: {

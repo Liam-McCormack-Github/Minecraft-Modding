@@ -1,3 +1,5 @@
+#priority 100
+
 #replaceAllOccurences-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 recipes.replaceAllOccurences(<actuallyadditions:item_misc:19>, <extendedcrafting:material:40>);
 recipes.replaceAllOccurences(<industrialforegoing:plastic>, <ore:sheetPlastic>);
@@ -6,6 +8,8 @@ recipes.replaceAllOccurences(<teslacorelib:machine_case>, <zcontent:machineframe
 recipes.replaceAllOccurences(<ore:gearDiamond>, <ore:gearPlatinum>);
 recipes.replaceAllOccurences(<ore:gearGold>, <ore:gearElectrumFlux>);
 recipes.replaceAllOccurences(<tp:dragon_scale>, <mysticalagradditions:stuff:3>);
+recipes.replaceAllOccurences(<actuallyadditions:item_misc:10>, <zcontent:coal_tiny_small>);
+recipes.replaceAllOccurences(<actuallyadditions:item_misc:11>, <zcontent:charcoal_tiny_small>);
 
 #REMOVE BY MOD-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 recipes.removeByMod("better_diving");
@@ -19,17 +23,18 @@ recipes.removeByMod("quantumstorage");
 recipes.removeByMod("youmatter");
 recipes.removeByMod("playerstorage");
 recipes.removeByMod("refinedstorage");
-recipes.removeByMod("refinedstorageaddons");
 recipes.removeByMod("openglider");
 recipes.removeByMod("teslacorelib");
 recipes.removeByMod("storagedrawersunlimited");
 recipes.removeByMod("redstonefluxarsenal");
 recipes.removeByMod("compactstorage");
 recipes.removeByMod("danknull");
+recipes.removeByMod("dankstorage");
 recipes.removeByMod("storagenetwork");
 recipes.removeByMod("eplus");
 recipes.removeByMod("akashictome");
 recipes.removeByMod("furnus");
+recipes.removeByMod("speedyhoppers");
 
 #REMOVE-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 recipes.remove(<randomthings:timeinabottle>);
@@ -57,37 +62,6 @@ recipes.remove(<storagedrawers:basicdrawers:4>);
 recipes.remove(<quark:rune:*>);
 recipes.remove(<extrautils2:luxsaber:*>);
 recipes.remove(<immersiveengineering:blueprint>);
-recipes.remove(<zcontent:server1>);
-recipes.remove(<zcontent:server2>);
-recipes.remove(<zcontent:server3>);
-recipes.remove(<zcontent:terminalserver>);
-recipes.remove(<zcontent:transistor>);
-recipes.remove(<zcontent:alu>);
-recipes.remove(<zcontent:card>);
-recipes.remove(<zcontent:chip1>);
-recipes.remove(<zcontent:chip2>);
-recipes.remove(<zcontent:chip3>);
-recipes.remove(<zcontent:componentbus1>);
-recipes.remove(<zcontent:componentbus2>);
-recipes.remove(<zcontent:componentbus3>);
-recipes.remove(<zcontent:cpu1>);
-recipes.remove(<zcontent:cpu2>);
-recipes.remove(<zcontent:cpu3>);
-recipes.remove(<zcontent:cu>);
-recipes.remove(<zcontent:datacard1>);
-recipes.remove(<zcontent:datacard2>);
-recipes.remove(<zcontent:datacard3>);
-recipes.remove(<zcontent:graphicscard1>);
-recipes.remove(<zcontent:graphicscard2>);
-recipes.remove(<zcontent:graphicscard3>);
-recipes.remove(<zcontent:hdd1>);
-recipes.remove(<zcontent:hdd2>);
-recipes.remove(<zcontent:hdd3>);
-recipes.remove(<zcontent:printedcircuitboard>);
-recipes.remove(<zcontent:ram1>);
-recipes.remove(<zcontent:ram2>);
-recipes.remove(<zcontent:ram3>);
-recipes.remove(<zcontent:rawcircuitboard>);
 recipes.remove(<cyclicmagic:plate_push>);
 recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
@@ -117,11 +91,35 @@ furnace.remove(<industrialforegoing:plastic>, <industrialforegoing:dryrubber>);
 furnace.remove(<minecraft:coal:1>, <thermalfoundation:material:801>);
 furnace.remove(<mysticalagriculture:crafting:28>, <mysticalagriculture:soulstone>);
 furnace.remove(<techguns:itemshared:55>, <techguns:itemshared:96>);
-furnace.remove(<zcontent:printedcircuitboard>, <zcontent:rawcircuitboard>);
 
 #REMOVE BY NAME-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#recipes.removeByRecipeName();
 
+recipes.removeByRecipeName("backpacks16840:quantum_chest");
+recipes.removeByRecipeName("compactmachines3:psd");
+recipes.removeByRecipeName("compactmachines3:fieldprojector");
+recipes.removeByRecipeName("mysticalagriculture:cobalt_seeds");
+recipes.removeByRecipeName("mysticalagriculture:ardite_seeds");
+recipes.removeByRecipeName("mysticalagriculture:slate_seeds");
+recipes.removeByRecipeName("jaopca:block_cruxcarbon_8ghq3w");
+recipes.removeByRecipeName("mysticalagradditions:tier_6_crafting_seed");
+recipes.removeByRecipeName("mysticalagriculture:crafting_11");
+recipes.removeByRecipeName("mysticalagriculture:crafting_10");
+recipes.removeByRecipeName("mysticalagriculture:crafting_9");
+recipes.removeByRecipeName("mysticalagriculture:crafting_8");
+recipes.removeByRecipeName("mysticalagriculture:crafting_7");
+recipes.removeByRecipeName("minecraft:cauldron");
+recipes.removeByRecipeName("minecraft:writable_book");
+recipes.removeByRecipeName("actuallyadditions:recipes30");
+recipes.removeByRecipeName("actuallyadditions:recipes31");
+recipes.removeByRecipeName("actuallyadditions:recipes32");
+recipes.removeByRecipeName("actuallyadditions:recipes33");
+recipes.removeByRecipeName("actuallyadditions:recipes34");
+recipes.removeByRecipeName("actuallyadditions:recipes35");
+recipes.removeByRecipeName("actuallyadditions:recipes36");
+recipes.removeByRecipeName("actuallyadditions:recipes37");
+recipes.removeByRecipeName("actuallyadditions:recipes38");
 recipes.removeByRecipeName("immersiveengineering:material/wire_steel");
 recipes.removeByRecipeName("immersiveengineering:material/wire_aluminum");
 recipes.removeByRecipeName("immersiveengineering:material/wire_electrum");
@@ -185,7 +183,6 @@ recipes.removeByRecipeName("tp:stone_hammer");
 recipes.removeByRecipeName("enderio:enchanter");
 recipes.removeByRecipeName("mob_grinding_utils:mob_swab");
 recipes.removeByRecipeName("simplevoidworld:portal");
-recipes.removeByRecipeName("tesseract:tesseract");
 recipes.removeByRecipeName("mob_grinding_utils:saw");
 recipes.removeByRecipeName("cyclicmagic:item.ender_torch_1");
 recipes.removeByRecipeName("cyclicmagic:item.ender_torch");
@@ -236,8 +233,6 @@ recipes.removeByRecipeName("immersiveengineering:material/plate_gold");
 recipes.removeByRecipeName("immersiveengineering:sheetmetal/gold_sheetmetal_uncraft");
 recipes.removeByRecipeName("immersiveengineering:material/plate_iron");
 recipes.removeByRecipeName("immersiveengineering:sheetmetal/iron_sheetmetal_uncraft");
-recipes.removeByRecipeName("rsinfinitewireless:infinite_wireless_transmitter");
-recipes.removeByRecipeName("cyclicmagic:item.applegold_1");
 recipes.removeByRecipeName("cookingforblockheads:sink");
 recipes.removeByRecipeName("techguns:simplemachine_11_blast_furnace");
 recipes.removeByRecipeName("techguns:simplemachine2_8_grinder");
@@ -252,7 +247,6 @@ recipes.removeByRecipeName("mysticalagriculture:crafting_15");
 recipes.removeByRecipeName("mysticalagriculture:crafting_16");
 recipes.removeByRecipeName("mysticalagradditions:dragon_egg_chunks");
 recipes.removeByRecipeName("mysticalagradditions:nugget");
-recipes.removeByRecipeName("mysticalagradditions:nether_star_shards");
 recipes.removeByRecipeName("mysticalagradditions:resource");        
 recipes.removeByRecipeName("mysticalagriculture:crafting_17");
 recipes.removeByRecipeName("mysticalagriculture:crafting_18");
@@ -577,34 +571,3 @@ recipes.removeByRecipeName("industrialforegoing:infinity_drill_0");
 recipes.removeByRecipeName("actuallyadditions:recipes44");
 recipes.removeByRecipeName("actuallyadditions:recipes47");
 recipes.removeByRecipeName("quark:iron_plate_1");
-
-#WIP
-#refinedstorage
-recipes.addShaped(<refinedstorage:processor_binding>, [[null, <jaopca:item_nuggetquartz>, null],[<zcontent:cold_iron_ingot>, null, <zcontent:cold_iron_ingot>], [<jaopca:item_nuggetquartz>, <thermalfoundation:material:162>, <jaopca:item_nuggetquartz>]]);
-
-recipes.addShapeless(<refinedstorage:writer>, [<refinedstorage:cable>,<jaopca:item_platestainlesssteel>]);
-recipes.addShapeless(<refinedstorage:reader>, [<refinedstorage:cable>,<jaopca:item_platedarksteel>]);
-recipes.addShapeless(<refinedstorage:destructor>, [<refinedstorage:cable>,<jaopca:item_plategalvanizedsteel>]);
-recipes.addShapeless(<refinedstorage:constructor>, [<refinedstorage:cable>,<jaopca:item_plateelectricalsteel>]);
-recipes.addShapeless(<refinedstorage:external_storage>, [<refinedstorage:cable>,<thermalfoundation:material:352>]);
-recipes.addShapeless(<refinedstorage:exporter>, [<refinedstorage:cable>,<jaopca:item_plateconstructionalloy>]);
-recipes.addShapeless(<refinedstorage:importer>, [<refinedstorage:cable>,<thermalfoundation:material:32>]);
-recipes.addShaped(<refinedstorage:disk_manipulator>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:storage_housing>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:core>, <refinedstorage:machine_casing>, <refinedstorage:core:1>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:storage_housing>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:network_receiver>, [[<zcontent:chip3>, <zcontent:chip3>, <zcontent:chip3>], [<refinedstorage:core>, <refinedstorage:machine_casing>, <refinedstorage:core:1>], [<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]]);
-recipes.addShaped(<refinedstorage:network_transmitter>, [[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], [<refinedstorage:core>, <refinedstorage:machine_casing>, <refinedstorage:core:1>], [<zcontent:chip3>, <zcontent:chip3>, <zcontent:chip3>]]);
-recipes.addShaped(<refinedstorage:quartz_enriched_iron_block>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShapeless(<refinedstorage:fluid_interface>, [<refinedstorage:interface>, <zcontent:chip3>, <minecraft:bucket>]);
-recipes.addShaped(<refinedstorage:interface>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:importer>, <refinedstorage:quartz_enriched_iron>], [<minecraft:redstone>, <refinedstorage:machine_casing>, <minecraft:redstone>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:exporter>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShapeless(<refinedstorage:relay>, [<refinedstorage:machine_casing>, <refinedstorage:cable>, <minecraft:redstone_torch>]);
-recipes.addShaped(<refinedstorage:disk_drive>, [[<refinedstorage:quartz_enriched_iron>, <ore:chest>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <zcontent:chip3>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:security_manager>, [[<refinedstorage:quartz_enriched_iron>, <ore:chest>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:security_card>, <refinedstorage:machine_casing>, <refinedstorage:security_card>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:security_card>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:storage_monitor>, [[<zcontent:chip1>, <refinedstorage:core>, <ore:blockGlass>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <ore:blockGlass>], [<zcontent:chip1>, <refinedstorage:core:1>, <ore:blockGlass>]]);
-recipes.addShaped(<refinedstorage:crafting_monitor>, [[<zcontent:chip2>, <refinedstorage:pattern>, <ore:blockGlass>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <ore:blockGlass>], [<zcontent:chip2>, <refinedstorage:pattern>, <ore:blockGlass>]]);
-recipes.addShaped(<refinedstorage:detector>, [[<refinedstorage:quartz_enriched_iron>, <minecraft:redstone_torch>, <refinedstorage:quartz_enriched_iron>], [<minecraft:comparator>, <refinedstorage:machine_casing>, <minecraft:comparator>], [<refinedstorage:quartz_enriched_iron>, <zcontent:chip2>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:cutting_tool>, [[null, null, <refinedstorage:quartz_enriched_iron>], [null, <minecraft:stick>, null], [<minecraft:stick>, null, null]]);
-recipes.addShaped(<refinedstorage:storage_housing> * 16, [[<ore:blockGlass>, <minecraft:redstone>, <ore:blockGlass>], [<minecraft:redstone>, null, <minecraft:redstone>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:pattern> * 16, [[<ore:blockGlass>, <minecraft:redstone>, <ore:blockGlass>], [<minecraft:redstone>, <ore:blockGlass>, <minecraft:redstone>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:filter>, [[<refinedstorage:quartz_enriched_iron>, <minecraft:paper>, <refinedstorage:quartz_enriched_iron>], [<minecraft:paper>, <minecraft:hopper>, <minecraft:paper>], [<refinedstorage:quartz_enriched_iron>, <minecraft:paper>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:network_card>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>], [<minecraft:paper>, <zcontent:chip3>, <minecraft:paper>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:security_card>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:network_card>, <zcontent:chip3>, <refinedstorage:network_card>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:wrench>, [[<refinedstorage:quartz_enriched_iron>, <zcontent:chip1>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>], [null, <refinedstorage:quartz_enriched_iron>, null]]);

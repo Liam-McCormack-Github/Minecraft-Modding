@@ -36,7 +36,7 @@
   },
   {
     "identifier": "reflecting",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1
@@ -74,7 +74,7 @@
     "enabled": true,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
-    "tier": 1
+    "tier": 3
   },
   {
     "identifier": "infested",
@@ -95,7 +95,7 @@
     "enabled": true,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
-    "tier": 1
+    "tier": 3
   },
   {
     "identifier": "molten",

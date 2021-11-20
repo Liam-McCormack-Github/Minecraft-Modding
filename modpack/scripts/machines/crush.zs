@@ -105,6 +105,21 @@ Crusher.addRecipe(<zcontent:withered_bone_meal> * 6,<zcontent:wither_bone>,3072)
 # Pulverizer
 Pulverizer.addRecipe(<arcanearchives:radiant_dust> * 9,<arcanearchives:storage_shaped_quartz>,18000,<extendedcrafting:material:25>);
 Pulverizer.addRecipe(<arcanearchives:radiant_dust>,<arcanearchives:shaped_quartz>,2000,<extendedcrafting:material:25>, 10);
+Pulverizer.addRecipe(<immersiveengineering:metal:14> * 2,<zcontent:uranium_ore>,4000,<thermalfoundation:material:67>, 10);
+Pulverizer.addRecipe(<jaopca:item_dusttitanium> * 2,<zcontent:titanium_ore>,4000,<thermalfoundation:material>, 10);
+Pulverizer.addRecipe(<jaopca:item_dustardite> * 2,<zcontent:ardite_ore>,4000,<thermalfoundation:material:1>, 10);
+Pulverizer.addRecipe(<jaopca:item_dustcobalt> * 2,<zcontent:cobalt_ore>,4000,<thermalfoundation:material>, 10);
+Pulverizer.addRecipe(<zcontent:meteor_dust> * 2,<zcontent:meteor_block>,4000);
+Pulverizer.addRecipe(<minecraft:diamond> * 3,<minecraft:diamond_ore>,4000);
+Pulverizer.addRecipe(<minecraft:emerald> * 3,<minecraft:emerald_ore>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem> * 3,<biomesoplenty:gem_ore>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem:1> * 3,<biomesoplenty:gem_ore:1>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem:2> * 3,<biomesoplenty:gem_ore:2>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem:3> * 3,<biomesoplenty:gem_ore:3>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem:4> * 3,<biomesoplenty:gem_ore:4>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem:5> * 3,<biomesoplenty:gem_ore:5>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem:6> * 3,<biomesoplenty:gem_ore:6>,4000);
+Pulverizer.addRecipe(<biomesoplenty:gem:7> * 3,<biomesoplenty:gem_ore:7>,4000);
 # SagMill
 SagMill.addRecipe([<arcanearchives:radiant_dust> * 9, <extendedcrafting:material:25>],[100, 100],<arcanearchives:storage_shaped_quartz>, null, 18000);
 SagMill.addRecipe([<arcanearchives:radiant_dust>, <extendedcrafting:material:25>],[100, 10],<arcanearchives:shaped_quartz>, null, 2000);

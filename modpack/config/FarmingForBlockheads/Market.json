@@ -8,7 +8,8 @@
     "BiomesOPlenty Sacred Oak Sapling": true,
     "Vanilla Saplings": true,
     "Bonemeal": true,
-    "Animal Eggs": true
+    "Animal Eggs": true,
+    "Terraqueous Saplings": true
   },
   "defaults payment": {
     "__comment": "You can define custom payment items for the default entries here.",
@@ -19,7 +20,8 @@
     "BiomesOPlenty Sacred Oak Sapling": "8*minecraft:emerald:0",
     "Vanilla Saplings": "1*minecraft:emerald:0",
     "Bonemeal": "1*minecraft:emerald:0",
-    "Animal Eggs": "64*minecraft:emerald:0"
+    "Animal Eggs": "64*minecraft:emerald:0",
+    "Terraqueous Saplings": "1*minecraft:emerald:0"
   },
   "defaults amount": {
     "__comment": "You can define custom amounts for the default entries here.",
@@ -30,7 +32,8 @@
     "BiomesOPlenty Sacred Oak Sapling": 1,
     "Vanilla Saplings": 1,
     "Bonemeal": 1,
-    "Animal Eggs": 1
+    "Animal Eggs": 1,
+    "Terraqueous Saplings": 1
   },
   "defaults blacklist": [
     "examplemod:example_item"

@@ -57,6 +57,21 @@ def crusher():
     file.write("# Pulverizer\n")
     file.write("Pulverizer.addRecipe(<arcanearchives:radiant_dust> * 9,<arcanearchives:storage_shaped_quartz>,18000,<extendedcrafting:material:25>);\n")
     file.write("Pulverizer.addRecipe(<arcanearchives:radiant_dust>,<arcanearchives:shaped_quartz>,2000,<extendedcrafting:material:25>, 10);\n")
+    file.write("Pulverizer.addRecipe(<immersiveengineering:metal:14> * 2,<zcontent:uranium_ore>,4000,<thermalfoundation:material:67>, 10);\n")
+    file.write("Pulverizer.addRecipe(<jaopca:item_dusttitanium> * 2,<zcontent:titanium_ore>,4000,<thermalfoundation:material>, 10);\n")
+    file.write("Pulverizer.addRecipe(<jaopca:item_dustardite> * 2,<zcontent:ardite_ore>,4000,<thermalfoundation:material:1>, 10);\n")
+    file.write("Pulverizer.addRecipe(<jaopca:item_dustcobalt> * 2,<zcontent:cobalt_ore>,4000,<thermalfoundation:material>, 10);\n")
+    file.write("Pulverizer.addRecipe(<zcontent:meteor_dust> * 2,<zcontent:meteor_block>,4000);\n")
+    file.write("Pulverizer.addRecipe(<minecraft:diamond> * 3,<minecraft:diamond_ore>,4000);\n")
+    file.write("Pulverizer.addRecipe(<minecraft:emerald> * 3,<minecraft:emerald_ore>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem> * 3,<biomesoplenty:gem_ore>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem:1> * 3,<biomesoplenty:gem_ore:1>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem:2> * 3,<biomesoplenty:gem_ore:2>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem:3> * 3,<biomesoplenty:gem_ore:3>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem:4> * 3,<biomesoplenty:gem_ore:4>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem:5> * 3,<biomesoplenty:gem_ore:5>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem:6> * 3,<biomesoplenty:gem_ore:6>,4000);\n")
+    file.write("Pulverizer.addRecipe(<biomesoplenty:gem:7> * 3,<biomesoplenty:gem_ore:7>,4000);\n")
 
     file.write("# SagMill\n")
     file.write("SagMill.addRecipe([<arcanearchives:radiant_dust> * 9, <extendedcrafting:material:25>],[100, 100],<arcanearchives:storage_shaped_quartz>, null, 18000);\n")
@@ -74,7 +89,7 @@ def alloy():
 
     recipe = [["<enderio:item_alloy_ingot:2> * 2", ["<extendedcrafting:material:36>", "<enderio:item_alloy_ingot:1>"]],
               ["<enderio:item_alloy_ingot:3>", ["<minecraft:redstone> * 3", "<enderio:item_alloy_ingot:4>"]],
-              ["<enderio:item_alloy_ingot:4>", ["<minecraft:iron_ingot>", "<minecraft:redstone>"]],
+              ["<enderio:item_alloy_ingot:4>", ["<minecraft:redstone>", "<minecraft:iron_ingot>"]],
               ["<enderio:item_alloy_ingot:5>", ["<extrautils2:endershard> * 4", "<minecraft:iron_ingot>"]],
               ["<enderio:item_alloy_ingot:6> * 4", ["<zcontent:galvanized_steel_ingot> * 3", "<techguns:itemshared:84>"]],
               ["<enderio:item_alloy_ingot:7>", ["<enderio:item_material:20>", "<mysticalagriculture:crafting:38>"]],
@@ -84,42 +99,40 @@ def alloy():
               ["<enderio:item_alloy_endergy_ingot:2> * 2", ["<alchemistry:ingot:71>", "<enderio:item_alloy_ingot:8>"]],
               ["<enderio:item_alloy_endergy_ingot:4>", ["<industrialforegoing:pink_slime_ingot>", "<minecraft:diamond>"]],
               ["<enderio:item_alloy_endergy_ingot:6> * 2", ["<extendedcrafting:material:36>", "<enderio:item_alloy_endergy_ingot:5>"]],
-              ["<zcontent:terraglaz_ingot>", ["<actuallyadditions:item_crystal_empowered:4> * 4", "<zcontent:manyullyn_ingot>"]],
-              ["<zcontent:manyullyn_ingot>", ["<zcontent:ardite_ingot>", "<zcontent:cobalt_ingot>"]],
-              ["<zcontent:red_alloy_ingot>", ["<minecraft:redstone> * 8", "<zcontent:red_compound>"]],
-              ["<zcontent:blue_alloy_ingot>", ["<zcontent:blue_mat_dust> * 8", "<zcontent:blue_compound>"]],
-              ["<zcontent:nichrome_ingot> * 2", ["<alchemistry:ingot:24>", "<thermalfoundation:material:133>"]],
-              ["<zcontent:galvanized_steel_ingot> * 3", ["<alchemistry:ingot:30>", "<thermalfoundation:material:160> * 2"]],
-              ["<zcontent:cold_iron_ingot> * 2", ["<minecraft:iron_ingot> * 2", "<thermalfoundation:material:1025>"]],
-              ["<zcontent:brass_ingot> * 4", ["<thermalfoundation:material:128> * 3", "<alchemistry:ingot:30>"]],
-              ["<thermalfoundation:material:161> * 2", ["<minecraft:gold_ingot>", "<thermalfoundation:material:130>"]],
-              ["<thermalfoundation:material:167> * 2", ["<enderio:item_material:39> * 2", "<minecraft:sand>"]],
-              ["<thermalfoundation:material:160>", ["<minecraft:iron_ingot>", "<immersiveengineering:material:17>"]],
-              ["<thermalfoundation:material:160>", ["<minecraft:iron_ingot>", "<thermalfoundation:material:802>"]],
-              ["<thermalfoundation:material:160>", ["<minecraft:iron_ingot>", "<immersiveengineering:material:6>"]],
-              ["<thermalfoundation:material:161> * 2", ["<minecraft:gold_ingot>", "<thermalfoundation:material:130>"]],
-              ["<thermalfoundation:material:162> * 3", ["<thermalfoundation:material:133>", "<minecraft:iron_ingot>"]],
-              ["<thermalfoundation:material:163> * 4", ["<thermalfoundation:material:129>", "<thermalfoundation:material:128>"]],
+			  ["<enderio:item_alloy_ingot>", ["<refinedstorage:silicon>", "<minecraft:iron_ingot>", "<thermalfoundation:material:768>"]],
+              ["<enderio:item_alloy_ingot:1> * 2", ["<enderio:item_alloy_ingot:3>", "<minecraft:gold_ingot>", "<minecraft:glowstone_dust> * 3"]],
+              ["<enderio:item_alloy_endergy_ingot:5> * 2", ["<thermalfoundation:material:130>", "<enderio:item_alloy_ingot:3>", "<minecraft:glowstone_dust> * 3"]],
+              ["<enderio:item_material:39> * 4", ["<minecraft:ender_pearl> * 4", "<thermalfoundation:material:134>", "<thermalfoundation:material:131> * 3"]],
+              ["<thermalfoundation:material:160>", ["<immersiveengineering:material:17>", "<minecraft:iron_ingot>"]],
+              ["<thermalfoundation:material:160>", ["<thermalfoundation:material:802>", "<minecraft:iron_ingot>"]],
+              ["<thermalfoundation:material:160>", ["<immersiveengineering:material:6>", "<minecraft:iron_ingot>"]],
+              ["<thermalfoundation:material:161> * 2", ["<thermalfoundation:material:130>", "<minecraft:gold_ingot>"]],
+              ["<thermalfoundation:material:162> * 3", ["<thermalfoundation:material:133>", "<minecraft:iron_ingot> * 2"]],
+              ["<thermalfoundation:material:163> * 4", ["<thermalfoundation:material:129>", "<thermalfoundation:material:128> * 3"]],
               ["<thermalfoundation:material:164> * 2", ["<thermalfoundation:material:128>", "<thermalfoundation:material:133>"]],
-              ["<futuremc:netherite_ingot>", ["<minecraft:gold_ingot> * 4", "<futuremc:netherite_scrap> * 4"]],
+              ["<thermalfoundation:material:165> * 4", ["<minecraft:redstone> * 10", "<thermalfoundation:material:130>", "<thermalfoundation:material:128> * 3"]],
+              ["<thermalfoundation:material:166> * 4", ["<minecraft:glowstone_dust> * 4", "<thermalfoundation:material:130>", "<thermalfoundation:material:129> * 3"]],
+              ["<thermalfoundation:material:167> * 2", ["<enderio:item_material:39> * 2", "<minecraft:sand>"]],
+              ["<futuremc:netherite_ingot>", ["<futuremc:netherite_scrap> * 4", "<minecraft:gold_ingot> * 4"]],
               ["<techguns:itemshared:84>", ["<thermalfoundation:material:770> * 4", "<thermalfoundation:material:160>"]],
               ["<refinedstorage:quartz_enriched_iron> * 3", ["<actuallyadditions:item_misc:5>", "<thermalfoundation:material:132> * 2"]],
               ["<extendedcrafting:material>", ["<quark:black_ash> * 4", "<minecraft:iron_ingot>"]],
               ["<extendedcrafting:material>", ["<fluxnetworks:flux> * 4", "<minecraft:iron_ingot>"]],
               ["<extendedcrafting:material:36>", ["<tp:ender_dust>", "<zcontent:cold_iron_ingot>"]],
               ["<modularmachinery:itemmodularium> * 2", ["<alchemistry:ingot:74>", "<zcontent:purple_mat_dust>", "<techguns:itemshared:96>"]],
+              ["<extrautils2:ingredients:17> * 2", ["<extrautils2:ingredients:10>", "<minecraft:iron_ingot>", "<alchemistry:ingot:101>"]],              ["<zcontent:terraglaz_ingot>", ["<actuallyadditions:item_crystal_empowered:4> * 4", "<zcontent:manyullyn_ingot>"]],
               ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<alchemistry:ingot:25>", "<alchemistry:ingot:24>", "<thermalfoundation:material:133>"]],
               ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<alchemistry:ingot:25>", "<zcontent:nichrome_ingot> * 2"]],
-              ["<enderio:item_alloy_ingot>", ["<minecraft:iron_ingot>", "<refinedstorage:silicon>", "<thermalfoundation:material:768>"]],
-              ["<enderio:item_alloy_ingot:1> * 2", ["<minecraft:gold_ingot>", "<enderio:item_alloy_ingot:3>", "<minecraft:glowstone_dust> * 3"]],
-              ["<enderio:item_alloy_endergy_ingot:5> * 2", ["<thermalfoundation:material:130>", "<enderio:item_alloy_ingot:3>", "<minecraft:glowstone_dust> * 3"]],
               ["<zcontent:red_compound> * 2", ["<enderio:item_alloy_ingot:1>", "<enderio:item_alloy_ingot> * 2", "<minecraft:redstone> * 12"]],
               ["<zcontent:blue_compound> * 2", ["<enderio:item_alloy_endergy_ingot:5>", "<enderio:item_alloy_ingot> * 2", "<zcontent:blue_mat_dust> * 2"]],
               ["<zcontent:purple_alloy_ingot>", ["<zcontent:purple_mat_dust> * 8", "<zcontent:red_compound>", "<zcontent:blue_compound>"]],
-              ["<enderio:item_material:39> * 4", ["<minecraft:ender_pearl> * 4", "<thermalfoundation:material:134>", "<thermalfoundation:material:131> * 3"]],
-              ["<thermalfoundation:material:166> * 4", ["<minecraft:glowstone_dust> * 4", "<thermalfoundation:material:130>", "<thermalfoundation:material:129> * 3"]],
-              ["<thermalfoundation:material:165> * 4", ["<minecraft:redstone> * 10", "<thermalfoundation:material:130>", "<thermalfoundation:material:128> * 3"]],
-              ["<extrautils2:ingredients:17> * 2", ["<extrautils2:ingredients:10>", "<minecraft:iron_ingot>", "<alchemistry:ingot:101>"]]
+              ["<zcontent:manyullyn_ingot>", ["<zcontent:ardite_ingot>", "<zcontent:cobalt_ingot>"]],
+              ["<zcontent:red_alloy_ingot>", ["<zcontent:red_compound>", "<minecraft:redstone> * 8"]],
+              ["<zcontent:blue_alloy_ingot>", ["<zcontent:blue_compound>", "<zcontent:blue_mat_dust> * 8"]],
+              ["<zcontent:nichrome_ingot> * 2", ["<alchemistry:ingot:24>", "<thermalfoundation:material:133>"]],
+              ["<zcontent:galvanized_steel_ingot> * 3", ["<alchemistry:ingot:30>", "<thermalfoundation:material:160> * 2"]],
+              ["<zcontent:cold_iron_ingot> * 2", ["<thermalfoundation:material:1025>", "<minecraft:iron_ingot> * 2"]],
+              ["<zcontent:brass_ingot> * 4", ["<alchemistry:ingot:30>", "<thermalfoundation:material:128> * 3"]]
               ]
 
     file.write("import mods.immersiveengineering.ArcFurnace;\n")
@@ -133,21 +146,20 @@ def alloy():
     for x in range(len(recipe)):
         if len(recipe[x][1]) == 2:
             file.write("InductionSmelter.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + "," + str(recipe[x][1][1]) + ", 4000);\n")
-    """
+
     file.write("# AlloySmelter\n")
     for x in range(len(recipe)):
         if len(recipe[x][1]) == 2:
             file.write("mods.immersiveengineering.AlloySmelter.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + "," + str(recipe[x][1][1]) + ", 600);\n")
-    """
 
     file.write("# ArcFurnace\n")
     for x in range(len(recipe)):
         if len(recipe[x][1]) == 2:
-            file.write("ArcFurnace.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + ", null, 200, 4096,[" + str(recipe[x][1][1]) + "]);\n")
+            file.write("ArcFurnace.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + ", null, 100, 512,[" + str(recipe[x][1][1]) + "]);\n")
         elif len(recipe[x][1]) == 3:
-            file.write("ArcFurnace.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + ", null, 400, 8192,[" + str(recipe[x][1][1]) + "," + str(recipe[x][1][2]) + "]);\n")
+            file.write("ArcFurnace.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + ", null, 200, 512,[" + str(recipe[x][1][1]) + "," + str(recipe[x][1][2]) + "]);\n")
         elif len(recipe[x][1]) == 4:
-            file.write("ArcFurnace.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + ", null, 600, 16384,[" + str(recipe[x][1][1]) + "," + str(recipe[x][1][2]) + "," + str(recipe[x][1][3]) + "]);\n")
+            file.write("ArcFurnace.addRecipe(" + str(recipe[x][0]) + "," + str(recipe[x][1][0]) + ", null, 400, 512,[" + str(recipe[x][1][1]) + "," + str(recipe[x][1][2]) + "," + str(recipe[x][1][3]) + "]);\n")
 
     file.write("# AlloySmelter\n")
     for x in range(len(recipe)):
@@ -176,46 +188,11 @@ def alloy():
     file.write("InductionSmelter.addRecipe(<industrialforegoing:plastic> * 2,<zcontent:polyethylene>,<industrialforegoing:dryrubber>, 4000);\n")
     file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4,<minecraft:quartz>, 600);\n")
     file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4,<minecraft:quartz>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<industrialforegoing:plastic> * 2,<zcontent:polyethylene>,<industrialforegoing:dryrubber>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2> * 2,<extendedcrafting:material:36>,<enderio:item_alloy_ingot:1>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>,<minecraft:redstone> * 3,<enderio:item_alloy_ingot:4>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:4>,<minecraft:iron_ingot>,<minecraft:redstone>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:5>,<extrautils2:endershard> * 4,<minecraft:iron_ingot>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:6> * 4,<zcontent:galvanized_steel_ingot> * 3,<techguns:itemshared:84>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:7>,<enderio:item_material:20>,<mysticalagriculture:crafting:38>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:8>,<minecraft:end_stone> * 4,<enderio:item_alloy_ingot:6>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:9> * 2,<zcontent:graphite_ingot>,<minecraft:iron_ingot> * 2, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:1> * 2,<rftools:infused_diamond>,<extendedcrafting:material:24>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:2> * 2,<alchemistry:ingot:71>,<enderio:item_alloy_ingot:8>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>,<industrialforegoing:pink_slime_ingot>,<minecraft:diamond>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:6> * 2,<extendedcrafting:material:36>,<enderio:item_alloy_endergy_ingot:5>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:terraglaz_ingot>,<actuallyadditions:item_crystal_empowered:4> * 4,<zcontent:manyullyn_ingot>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:manyullyn_ingot>,<zcontent:ardite_ingot>,<zcontent:cobalt_ingot>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:red_alloy_ingot>,<minecraft:redstone> * 8,<zcontent:red_compound>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:blue_alloy_ingot>,<zcontent:blue_mat_dust> * 8,<zcontent:blue_compound>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:nichrome_ingot> * 2,<alchemistry:ingot:24>,<thermalfoundation:material:133>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:galvanized_steel_ingot> * 3,<alchemistry:ingot:30>,<thermalfoundation:material:160> * 2, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:cold_iron_ingot> * 2,<minecraft:iron_ingot> * 2,<thermalfoundation:material:1025>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<zcontent:brass_ingot> * 4,<thermalfoundation:material:128> * 3,<alchemistry:ingot:30>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:161> * 2,<minecraft:gold_ingot>,<thermalfoundation:material:130>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:167> * 2,<enderio:item_material:39> * 2,<minecraft:sand>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:160>,<minecraft:iron_ingot>,<immersiveengineering:material:17>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:160>,<minecraft:iron_ingot>,<thermalfoundation:material:802>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:160>,<minecraft:iron_ingot>,<immersiveengineering:material:6>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:161> * 2,<minecraft:gold_ingot>,<thermalfoundation:material:130>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:162> * 3,<thermalfoundation:material:133>,<minecraft:iron_ingot>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:163> * 4,<thermalfoundation:material:129>,<thermalfoundation:material:128>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:164> * 2,<thermalfoundation:material:128>,<thermalfoundation:material:133>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<techguns:itemshared:84>,<thermalfoundation:material:770> * 4,<thermalfoundation:material:160>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<refinedstorage:quartz_enriched_iron> * 3,<actuallyadditions:item_misc:5>,<thermalfoundation:material:132> * 2, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<extendedcrafting:material>,<quark:black_ash> * 4,<minecraft:iron_ingot>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<extendedcrafting:material>,<fluxnetworks:flux> * 4,<minecraft:iron_ingot>, 600);\n")
-    file.write("mods.immersiveengineering.AlloySmelter.addRecipe(<extendedcrafting:material:36>,<tp:ender_dust>,<zcontent:cold_iron_ingot>, 600);\n")
-    file.write("ArcFurnace.addRecipe(<industrialforegoing:plastic> * 2,<zcontent:polyethylene>, null, 200, 4096,[<industrialforegoing:dryrubber>]);\n")
-    file.write("ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4, null, 200, 4096,[<minecraft:quartz>]);\n")
-    file.write("ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4, null, 200, 4096,[<minecraft:quartz>]);\n")
-    file.write("ArcFurnace.addRecipe(<zcontent:enderio_speed_upgrade_base> * 8,<minecraft:iron_bars>, null, 400, 30720,[<minecraft:clay_ball>,<minecraft:string> * 4]);\n")
-    file.write("ArcFurnace.addRecipe(<enderio:item_dark_steel_upgrade>,<enderio:block_dark_iron_bars>, null, 400, 30720,[<minecraft:clay_ball>,<minecraft:string> * 4]);\n")
+    file.write("ArcFurnace.addRecipe(<industrialforegoing:plastic> * 2,<zcontent:polyethylene>, null, 100, 512,[<industrialforegoing:dryrubber>]);\n")
+    file.write("ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4, null, 100, 512,[<minecraft:quartz>]);\n")
+    file.write("ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4, null, 100, 512,[<minecraft:quartz>]);\n")
+    file.write("ArcFurnace.addRecipe(<zcontent:enderio_speed_upgrade_base> * 8,<minecraft:iron_bars>, null, 200, 512,[<minecraft:clay_ball>,<minecraft:string> * 4]);\n")
+    file.write("ArcFurnace.addRecipe(<enderio:item_dark_steel_upgrade>,<enderio:block_dark_iron_bars>, null, 200, 512,[<minecraft:clay_ball>,<minecraft:string> * 4]);\n")
     file.write("AlloySmelter.addRecipe(<industrialforegoing:plastic> * 2, [<zcontent:polyethylene>,<industrialforegoing:dryrubber>], 4000);\n")
     file.write("AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>, [<quark:black_ash> * 4,<minecraft:quartz>], 4000);\n")
     file.write("AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>, [<fluxnetworks:flux> * 4,<minecraft:quartz>], 4000);\n")

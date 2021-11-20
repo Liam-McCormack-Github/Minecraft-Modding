@@ -28,5 +28,10 @@
 		icon: "minecraft:anvil 1 2",
 		auto: "disabled",
 		table: 9
+	},
+	{
+		uid: "3275fc40",
+		type: "command",
+		command: "/say Hi, @a My Anvil Recipe Glitched"
 	}]
 }

@@ -36,7 +36,7 @@ overrideWidth:1600
 overrideHeight:900
 heldItemTooltips:false
 chatHeightFocused:1.0
-chatHeightUnfocused:0.44366196
+chatHeightUnfocused:1.0
 chatScale:1.0
 chatWidth:1.0
 mipmapLevels:4
@@ -89,8 +89,6 @@ key_of.key.zoom:56
 key_keybind.baublesinventory:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
-key_quark.keybind.toggleAutojump:65
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -116,6 +114,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:65
 key_Toggle Magnet:73
 key_key.toggleFoVChanges:0
 key_key.reloadSoundSystem:66:SHIFT
@@ -161,6 +161,9 @@ key_simplyjetpacks.keybind.hover:77
 key_simplyjetpacks.keybind.charger:0
 key_simplyjetpacks.keybind.emergencyhover:0
 key_key.toastcontrol.clear:0
+key_key.dankstorage.pickup:0
+key_key.dankstorage.void:0
+key_key.dankstorage.construction:0
 key_key.dismount:29
 key_key.narrator:0
 key_smoothfont.key.guiOpen:0
@@ -174,10 +177,18 @@ key_key.jei.toggleEditMode:0
 key_key.jei.showRecipe:19
 key_key.jei.showUses:-97
 key_key.jei.recipeBack:20
-key_key.jei.previousPage:14
+key_key.jei.previousPage:40
 key_key.jei.nextPage:0
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.backpacks.permission:48
+key_key.backpacks.openfirst:46
+key_key.backpacks.sorting.configure:70
+key_key.backpackloader.edit:46
+key_key.backpackloader.pause:197
+key_key.backpackloader.load:46
+key_Toggle Active:72
+key_Toggle Outer Box Only:76
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33:ALT
 key_Seamoth descend:0
@@ -196,6 +207,7 @@ key_key.colytra.toggle.desc:0
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
 key_key.refinedstorage.openWirelessGrid:0
+key_key.refinedstorage.openWirelessCraftingGrid:0
 key_key.refinedstorage.openWirelessFluidGrid:0
 key_key.refinedstorage.openPortableGrid:0
 key_key.refinedstorage.openWirelessCraftingMonitor:0
@@ -230,6 +242,9 @@ key_key.toggleLiquids:0
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_key.infinity.desc:82
+key_key.infinitycopy.desc:0
+key_key.infinitysave.desc:0
 key_key.integrateddynamics.logic_programmer_focus_search:0
 key_key.integrateddynamics.logic_programmer_open_rename:0
 key_key.porterNextDestination:0
@@ -254,8 +269,7 @@ key_key.projectex.focusSearchBar:0
 key_pi.key.open_pi:210
 key_pi.key.et_gui:0
 key_pi.key.et_world:0
-key_key.refinedstorageaddons.openWirelessCraftingGrid:34
-key_techguns.key.toggleNightvision:0
+key_techguns.key.toggleNightvision:38
 key_techguns.key.toggleSafemode:0
 key_techguns.key.toggleStepassist:0
 key_techguns.key.forceReload:38

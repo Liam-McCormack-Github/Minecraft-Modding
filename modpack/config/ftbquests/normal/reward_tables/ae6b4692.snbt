@@ -1,6 +1,6 @@
 {
 	title: "Elite Loot Crate",
-	icon: "jaopca:item_platediamond",
+	icon: "minecraft:diamond_block",
 	loot_size: 1,
 	use_title: true,
 	rewards: [{

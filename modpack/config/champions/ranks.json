@@ -4,7 +4,7 @@
     "color": 11917625,
     "affixes": 1,
     "growthFactor": 1,
-    "chance": 0.30,
+    "chance": 0.5,
     "potions": []
   },
   {
@@ -12,7 +12,7 @@
     "color": 2546758,
     "affixes": 2,
     "growthFactor": 2,
-    "chance": 0.5,
+    "chance": 0.45,
     "potions": []
   },
   {
@@ -20,7 +20,7 @@
     "color": 16740386,
     "affixes": 3,
     "growthFactor": 3,
-    "chance": 0.4,
+    "chance": 0.40,
     "potions": []
   },
   {
@@ -28,7 +28,7 @@
     "color": 3194111,
     "affixes": 5,
     "growthFactor": 4,
-    "chance": 0.3,
+    "chance": 0.35,
     "potions": []
   },
   {
@@ -36,7 +36,7 @@
     "color": 16721448,
     "affixes": 7,
     "growthFactor": 12,
-    "chance": 0.2,
+    "chance": 0.30,
     "potions": []
   },
   {
@@ -44,7 +44,7 @@
     "color": 13382655,
     "affixes": 9,
     "growthFactor": 6,
-    "chance": 0.1,
+    "chance": 0.25,
     "potions": []
   }
 ]

@@ -1,6 +1,6 @@
 {
 	title: "Basic Loot Crate",
-	icon: "thermalfoundation:material 1 32",
+	icon: "minecraft:iron_block",
 	loot_size: 3,
 	use_title: true,
 	rewards: [{

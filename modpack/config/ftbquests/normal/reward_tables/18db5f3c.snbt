@@ -1,6 +1,6 @@
 {
 	title: "Advanced Loot Crate",
-	icon: "thermalfoundation:material 1 33",
+	icon: "minecraft:gold_block",
 	loot_size: 1,
 	use_title: true,
 	rewards: [{

@@ -75,6 +75,70 @@
     {
       "item": "minecraft:coal|0",
       "emc": 128
+    },
+    {
+      "item": "minecraft:diamond|0",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:iron_ingot|0",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:gold_ingot|0",
+      "emc": 2048
+    },
+    {
+      "item": "minecraft:quartz|0",
+      "emc": 256
+    },
+    {
+      "item": "refinedstorage:silicon|0",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:dye|4",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:obsidian|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:stone|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone|1",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:stone|3",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:stone|5",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cobblestone|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:redstone|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:glowstone_dust|0",
+      "emc": 384
     }
   ]
 }

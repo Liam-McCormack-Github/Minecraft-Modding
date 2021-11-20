@@ -139,6 +139,7 @@ GunStats.setWeaponStat("ak47","DAMAGE_MIN",8);
 
 GunStats.setWeaponStat("alienblaster","DAMAGE",160);
 GunStats.setWeaponStat("alienblaster","DAMAGE_MIN",150);
+GunStats.setWeaponStat("alienblaster","BULLET_SPEED",2);
 
 GunStats.setWeaponStat("as50","DAMAGE",60);
 GunStats.setWeaponStat("as50","DAMAGE_MIN",50);
@@ -231,7 +232,7 @@ GunStats.setWeaponStat("flamethrower","DAMAGE_MIN",5);
 
 GunStats.setWeaponStat("gaussrifle","DAMAGE",500);
 GunStats.setWeaponStat("gaussrifle","DAMAGE_MIN",480);
-GunStats.setWeaponStat("gaussrifle","BULLET_SPEED",100);
+GunStats.setWeaponStat("gaussrifle","BULLET_SPEED",10);
 
 GunStats.setWeaponStat("nucleardeathray","DAMAGE",30);
 GunStats.setWeaponStat("nucleardeathray","DAMAGE_MIN",25);

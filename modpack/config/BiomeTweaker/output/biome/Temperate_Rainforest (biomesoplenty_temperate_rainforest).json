@@ -13,19 +13,19 @@
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]"
   ],
-  "Grass Color": "5046016",
-  "Foliage Color": "5046016",
-  "Water Color": "65535",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
   "Temperature": 0.75,
   "Humidity": 1.2,
-  "Water Tint": 65535,
+  "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "LUSH",
-    "DENSE",
-    "WET"
+    "FOREST",
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -169,7 +169,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {

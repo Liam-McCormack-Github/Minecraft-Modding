@@ -90,3 +90,6 @@ import crafttweaker.item.IItemStack;
 <ore:toolShears>.add(<thermalfoundation:tool.shears_bronze:*>);
 <ore:toolShears>.add(<thermalfoundation:tool.shears_steel:*>);
 <ore:toolShears>.add(<thermalfoundation:tool.shears_invar:*>);
+
+<ore:toolHammer>.add(<immersiveengineering:tool>);
+<ore:toolHammer>.add(<tp:stone_hammer>);

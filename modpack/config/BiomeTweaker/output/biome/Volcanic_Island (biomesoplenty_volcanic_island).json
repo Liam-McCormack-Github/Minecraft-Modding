@@ -13,21 +13,21 @@
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]"
   ],
-  "Grass Color": "5046016",
-  "Foliage Color": "5046016",
-  "Water Color": "65535",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
   "Temperature": 1.2,
   "Humidity": 0.2,
-  "Water Tint": 65535,
+  "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
+    "DEAD",
     "HOT",
-    "WASTELAND",
-    "MOUNTAIN",
+    "WATER",
     "DRY",
-    "DEAD"
+    "WASTELAND",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -92,7 +92,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
