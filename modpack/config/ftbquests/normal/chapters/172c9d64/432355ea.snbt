@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "89d14f4c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 136"
+		}]
+	}],
+	rewards: [{
+		uid: "e1ab453e",
+		type: "item",
+		item: "playerstorage:apple 1 1"
+	},
+	{
+		uid: "40ba51ea",
+		type: "item",
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "Unlocked: Elite Quests Chapter"
+				}
+			}
+		}
+	}]
+}

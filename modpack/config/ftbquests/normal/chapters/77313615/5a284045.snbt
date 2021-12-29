@@ -1,0 +1,31 @@
+{
+	x: 23.0d,
+	y: -2.0d,
+	dependencies: [
+		"2c611f6d"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "9ab6ebcf",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "stabilizer",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "0b229078",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

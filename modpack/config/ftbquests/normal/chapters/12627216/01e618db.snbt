@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"547aa5a5"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6a2c3704",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "7a7afa0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

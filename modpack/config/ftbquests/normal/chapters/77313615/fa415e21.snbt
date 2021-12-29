@@ -1,0 +1,26 @@
+{
+	x: 28.0d,
+	y: 4.0d,
+	dependencies: [
+		"53a94826",
+		"5ebd619a"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "349b836e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:living_matter_extraterrestrial"
+		}]
+	}],
+	rewards: [{
+		uid: "3c5536fc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

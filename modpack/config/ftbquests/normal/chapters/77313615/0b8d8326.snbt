@@ -1,0 +1,26 @@
+{
+	x: 22.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	dependencies: [
+		"b61768a9"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7272330c",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}],
+	rewards: [{
+		uid: "bf6ef040",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

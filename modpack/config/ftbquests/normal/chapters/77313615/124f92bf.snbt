@@ -1,0 +1,38 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"2c7bf3df"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "048ec34c",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "crude_oil",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9737dda",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

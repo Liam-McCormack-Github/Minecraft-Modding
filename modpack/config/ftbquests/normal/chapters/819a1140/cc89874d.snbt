@@ -1,0 +1,35 @@
+{
+	title: "Mining Level ManaInfused",
+	x: -3.0d,
+	y: 7.5d,
+	shape: "rsquare",
+	description: "Mining Level ManaInfused",
+	text: [
+		"Mining Level ManaInfused"
+	],
+	dependencies: [
+		"ff326fdb"
+	],
+	dependency_requirement: "one_started",
+	size: 1.5d,
+	tasks: [{
+		uid: "b2178d47",
+		type: "item",
+		title: "Mining Level Mana Infused",
+		items: [{
+			item: "unstabletools:unstable_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb8e43f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

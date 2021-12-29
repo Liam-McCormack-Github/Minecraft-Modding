@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"aac29ccf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "f35d47c3",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "b43c2f44",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

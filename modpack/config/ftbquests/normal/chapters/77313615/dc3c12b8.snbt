@@ -1,0 +1,36 @@
+{
+	icon: "draconicevolution:fusion_crafting_core",
+	x: 29.0d,
+	y: 16.0d,
+	shape: "rsquare",
+	dependencies: [
+		"c57d1ba1"
+	],
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "b77c3b5c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	},
+	{
+		uid: "72c812fd",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "7196560c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

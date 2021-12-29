@@ -1,0 +1,25 @@
+{
+	x: 29.0d,
+	y: -4.0d,
+	dependencies: [
+		"769d1473"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "4f7fd68d",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "32b77131",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

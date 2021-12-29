@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"9c8b6476"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "3a5f163b",
+		type: "item",
+		items: [{
+			item: "futuremc:grindstone"
+		}]
+	}],
+	rewards: [{
+		uid: "c325e710",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

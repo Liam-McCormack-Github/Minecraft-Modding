@@ -1,7 +1,0 @@
-{
-	title: "Interactions",
-	icon: "techguns:itemshared 1 132",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "gear"
-}

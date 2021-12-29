@@ -1,0 +1,29 @@
+{
+	title: "Primal Voidstone - Rune",
+	icon: "chisel:energizedvoidstone 1 4",
+	x: -0.5d,
+	y: 9.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "132e4ea9",
+		type: "item",
+		items: [{
+			item: "chisel:energizedvoidstone 1 2"
+		}]
+	},
+	{
+		uid: "835d13ee",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "46b6cd62",
+		type: "item",
+		item: "chisel:energizedvoidstone 1 4"
+	}]
+}

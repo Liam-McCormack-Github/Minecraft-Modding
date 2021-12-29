@@ -1,0 +1,28 @@
+{
+	x: 27.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"d2648034",
+		"66a3b81c"
+	],
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "99fc6468",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}]
+	}],
+	rewards: [{
+		uid: "aaa859df",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

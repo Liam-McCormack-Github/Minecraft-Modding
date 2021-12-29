@@ -1,0 +1,29 @@
+{
+	title: "Quantum  Quarry Actuator",
+	icon: "extrautils2:quarryproxy",
+	x: -0.5d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "ad58629e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:infused_ingot_block"
+		}]
+	},
+	{
+		uid: "7ff81889",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 66"
+		}]
+	}],
+	rewards: [{
+		uid: "8ea182ab",
+		type: "item",
+		item: "extrautils2:quarryproxy"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 25.0d,
+	y: 12.0d,
+	dependencies: [
+		"96963d8f"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "164993c9",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidchorus",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "c113ee5e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

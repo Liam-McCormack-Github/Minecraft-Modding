@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"0b27ba53"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b150f6c5",
+		type: "item",
+		items: [{
+			item: "alchemistry:liquifier"
+		}]
+	}],
+	rewards: [{
+		uid: "8fc01ba5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

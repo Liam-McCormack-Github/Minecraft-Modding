@@ -1,0 +1,88 @@
+{
+	title: "Dense Plates & Compression",
+	x: 17.0d,
+	y: 3.0d,
+	description: "Dense Plates & Compression",
+	text: [
+		"Dense Plates & Compression"
+	],
+	dependencies: [
+		"51089f54",
+		"347d5e9a"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "8019640c",
+		type: "item",
+		items: [{
+			item: "zcontent:wood_plate"
+		}]
+	},
+	{
+		uid: "dc9daac2",
+		type: "item",
+		items: [{
+			item: "quark:sturdy_stone"
+		}]
+	},
+	{
+		uid: "bf82861c",
+		type: "item",
+		items: [{
+			item: "jaopca:item_platedensesteel"
+		},
+		{
+			item: "jaopca:item_platedensestainlesssteel"
+		},
+		{
+			item: "jaopca:item_platedensehopgraphite"
+		},
+		{
+			item: "jaopca:item_platedenseelectricalsteel"
+		},
+		{
+			item: "jaopca:item_platedensedemonicmetal"
+		},
+		{
+			item: "jaopca:item_platedensedarksteel"
+		},
+		{
+			item: "jaopca:item_platedenseblackiron"
+		},
+		{
+			item: "jaopca:item_platedensequartz"
+		},
+		{
+			item: "jaopca:item_platedensecoal"
+		},
+		{
+			item: "jaopca:item_platedenselead"
+		},
+		{
+			item: "jaopca:item_platedenseiron"
+		},
+		{
+			item: "jaopca:item_platedenseiridium"
+		},
+		{
+			item: "jaopca:item_platedensegold"
+		},
+		{
+			item: "jaopca:item_platedensecopper"
+		},
+		{
+			item: "jaopca:item_platedensealuminium"
+		}],
+		count: 100L
+	}],
+	rewards: [{
+		uid: "c413ec95",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

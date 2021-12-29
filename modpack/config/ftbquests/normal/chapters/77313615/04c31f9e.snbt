@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: 3.0d,
+	dependencies: [
+		"e5a6dabf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "1fd5207d",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:machine_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "e48b0eec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

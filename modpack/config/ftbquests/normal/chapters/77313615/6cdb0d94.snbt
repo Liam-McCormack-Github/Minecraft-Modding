@@ -1,0 +1,31 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"27575730"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "4c81c65d",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hot_spring_water",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87befdb3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

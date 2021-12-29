@@ -1,0 +1,15 @@
+{
+	title: "Sell",
+	icon: {
+		id: "lodsofemone:coin_small",
+		tag: {
+			value: 10L
+		}
+	},
+	description: [
+		"Sell"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

@@ -1,0 +1,26 @@
+{
+	x: 23.0d,
+	y: 8.0d,
+	dependencies: [
+		"0b8d8326",
+		"10d0922f"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "06739101",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ba24d451",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

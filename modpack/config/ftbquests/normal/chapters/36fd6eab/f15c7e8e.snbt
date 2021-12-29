@@ -1,0 +1,21 @@
+{
+	icon: "extrautils2:teleporter 1 1",
+	x: 3.0d,
+	y: 2.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "ffd1dd88",
+		type: "dimension",
+		dim: -11325
+	}],
+	rewards: [{
+		uid: "dd5bc75f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

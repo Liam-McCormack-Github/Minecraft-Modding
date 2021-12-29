@@ -1,0 +1,10 @@
+{
+	title: "Dashboard",
+	icon: "enderio:item_material 1 11",
+	description: [
+		"Dashboard"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

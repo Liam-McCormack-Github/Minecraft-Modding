@@ -1,0 +1,38 @@
+{
+	title: "Mixer",
+	x: 12.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	description: "Mixer",
+	text: [
+		"Mixer"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"936c63d1",
+		"01e618db",
+		"cd082057"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d3538302",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 15",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "mixer"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "fcad2805",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

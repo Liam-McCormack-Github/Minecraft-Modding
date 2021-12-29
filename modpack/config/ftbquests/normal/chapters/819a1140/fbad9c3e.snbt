@@ -1,0 +1,35 @@
+{
+	title: "Get Magnet",
+	icon: {
+		id: "bettermagnets:magnet",
+		tag: {},
+		Damage: 4s
+	},
+	disable_toast: true,
+	x: 1.5d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Get Magnet",
+	text: [
+		"Get Magnet"
+	],
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "13538c9e",
+		type: "checkmark",
+		title: "Get Magnet",
+		icon: {
+			id: "bettermagnets:magnet",
+			tag: {},
+			Damage: 4s
+		},
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "9f3b862c",
+		type: "random",
+		auto: "enabled",
+		table: 9
+	}]
+}

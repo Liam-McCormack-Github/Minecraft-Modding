@@ -1,0 +1,26 @@
+{
+	x: 15.5d,
+	y: 8.0d,
+	shape: "rsquare",
+	dependencies: [
+		"d56c7e39"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "13135455",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 66"
+		}]
+	}],
+	rewards: [{
+		uid: "fe70ade4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 27.0d,
+	y: 14.0d,
+	dependencies: [
+		"1aab2156"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "70bb567c",
+		type: "item",
+		items: [{
+			item: "virtualmachines:material 1 2562"
+		}]
+	}],
+	rewards: [{
+		uid: "121fc362",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

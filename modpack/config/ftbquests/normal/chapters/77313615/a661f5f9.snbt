@@ -1,0 +1,35 @@
+{
+	title: "Distillation Tower",
+	x: -2.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Distillation Tower",
+	text: [
+		"Distillation Tower"
+	],
+	dependencies: [
+		"c9a6dfec"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "aa73f772",
+		type: "observation",
+		icon: "immersivepetroleum:metal_multiblock",
+		match_type: "block_id",
+		match: "immersivepetroleum:metal_multiblock",
+		properties: {
+			type: "distillation_tower"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "5399fa0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

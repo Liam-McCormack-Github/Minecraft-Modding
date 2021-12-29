@@ -1,0 +1,25 @@
+{
+	x: 14.0d,
+	y: -5.0d,
+	dependencies: [
+		"80cce52f"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "42bbd4eb",
+		type: "item",
+		items: [{
+			item: "enderio:block_enlightened_fused_quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "2929c339",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

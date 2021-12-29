@@ -1,0 +1,41 @@
+{
+	title: "Printed Chip Bases",
+	x: 18.0d,
+	y: 3.0d,
+	description: "Printed Chip Bases",
+	text: [
+		"Printed Chip Bases"
+	],
+	dependencies: [
+		"51089f54",
+		"78cec942"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "10edce5f",
+		type: "item",
+		items: [{
+			item: "zcontent:proc_base"
+		},
+		{
+			item: "zcontent:proc_raw_1"
+		},
+		{
+			item: "zcontent:proc_raw_2"
+		},
+		{
+			item: "zcontent:proc_raw_3"
+		}],
+		count: 100L
+	}],
+	rewards: [{
+		uid: "db4889d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

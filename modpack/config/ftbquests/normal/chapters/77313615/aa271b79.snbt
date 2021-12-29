@@ -1,0 +1,36 @@
+{
+	icon: "extendedcrafting:crafting_core",
+	x: 21.0d,
+	y: 14.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5a6dabf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "4d7cf6c8",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "0e930f07",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1b0aed06",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

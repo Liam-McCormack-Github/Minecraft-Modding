@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"62e080d1",
+		"f59061fe",
+		"f94d8692"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b14d9aaa",
+		type: "item",
+		items: [{
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e744cc9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

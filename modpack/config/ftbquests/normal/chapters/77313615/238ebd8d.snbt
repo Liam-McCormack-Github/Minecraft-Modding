@@ -1,0 +1,25 @@
+{
+	x: 29.0d,
+	y: 0.0d,
+	dependencies: [
+		"2f68e729"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "dfa5ade0",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "bb956ff7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Reaction Chamber",
+	x: 20.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "Reaction Chamber",
+	text: [
+		"Reaction Chamber",
+		"144 Iridium"
+	],
+	dependencies: [
+		"49a264da",
+		"31c90eff",
+		"7954b8f7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "40446475",
+		type: "observation",
+		icon: "techguns:multiblockmachine 1 5",
+		match_type: "block_id",
+		match: "techguns:multiblockmachine",
+		properties: {
+			formed: "true",
+			machinetype: "reactionchamber_controller"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "b8413a8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

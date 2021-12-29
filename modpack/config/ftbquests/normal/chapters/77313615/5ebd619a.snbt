@@ -1,0 +1,29 @@
+{
+	x: 31.0d,
+	y: 4.0d,
+	dependencies: [
+		"6167647b",
+		"2517892b",
+		"e92e6478"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a665355e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_wither"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c70dc473",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

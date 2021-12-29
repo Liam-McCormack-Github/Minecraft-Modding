@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 7.0d,
+	dependencies: [
+		"1061a769"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "f9d3f59a",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "058dd246",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

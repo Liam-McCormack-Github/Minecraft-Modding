@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 4.0d,
+	dependencies: [
+		"811300f7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "18e6d997",
+		type: "item",
+		items: [{
+			item: "zcontent:chip3"
+		}]
+	}],
+	rewards: [{
+		uid: "ec91eb30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

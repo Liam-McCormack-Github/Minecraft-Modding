@@ -1,0 +1,25 @@
+{
+	x: 20.0d,
+	y: -6.0d,
+	dependencies: [
+		"4eec5a7f"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "069a249d",
+		type: "item",
+		items: [{
+			item: "redstonerepository:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "55745845",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

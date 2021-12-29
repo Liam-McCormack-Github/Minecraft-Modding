@@ -1,0 +1,27 @@
+{
+	x: 29.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"40d3a899",
+		"238ebd8d"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5f98de02",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "b9833ca8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

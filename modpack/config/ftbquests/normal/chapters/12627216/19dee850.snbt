@@ -1,0 +1,149 @@
+{
+	title: "Gears",
+	x: 14.0d,
+	y: 3.0d,
+	description: "Gears",
+	text: [
+		"Gears"
+	],
+	dependencies: [
+		"51089f54",
+		"7e7c4f69"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7f8b50d1",
+		type: "item",
+		items: [{
+			item: "jaopca:item_gearbrass"
+		},
+		{
+			item: "thermalfoundation:material 1 292"
+		},
+		{
+			item: "thermalfoundation:material 1 291"
+		},
+		{
+			item: "thermalfoundation:material 1 290"
+		},
+		{
+			item: "thermalfoundation:material 1 289"
+		},
+		{
+			item: "thermalfoundation:material 1 288"
+		},
+		{
+			item: "thermalfoundation:material 1 264"
+		},
+		{
+			item: "thermalfoundation:material 1 263"
+		},
+		{
+			item: "thermalfoundation:material 1 262"
+		},
+		{
+			item: "thermalfoundation:material 1 261"
+		},
+		{
+			item: "thermalfoundation:material 1 260"
+		},
+		{
+			item: "thermalfoundation:material 1 259"
+		},
+		{
+			item: "thermalfoundation:material 1 258"
+		},
+		{
+			item: "thermalfoundation:material 1 257"
+		},
+		{
+			item: "thermalfoundation:material 1 256"
+		},
+		{
+			item: "thermalfoundation:material 1 25"
+		},
+		{
+			item: "thermalfoundation:material 1 24"
+		},
+		{
+			item: "thermalfoundation:material 1 27"
+		},
+		{
+			item: "thermalfoundation:material 1 26"
+		},
+		{
+			item: "jaopca:item_gearvividalloy"
+		},
+		{
+			item: "jaopca:item_gearvibrantalloy"
+		},
+		{
+			item: "jaopca:item_gearstellaralloy"
+		},
+		{
+			item: "jaopca:item_gearsoularium"
+		},
+		{
+			item: "jaopca:item_gearredstonealloy"
+		},
+		{
+			item: "jaopca:item_gearobsidiansteel"
+		},
+		{
+			item: "jaopca:item_gearmelodicalloy"
+		},
+		{
+			item: "jaopca:item_gearmanyullyn"
+		},
+		{
+			item: "jaopca:item_gearinsanium"
+		},
+		{
+			item: "jaopca:item_gearfluxalloy"
+		},
+		{
+			item: "jaopca:item_gearelectrotinealloy"
+		},
+		{
+			item: "jaopca:item_gearelectrofluxalloy"
+		},
+		{
+			item: "jaopca:item_geardarksteel"
+		},
+		{
+			item: "jaopca:item_gearcrystaltine"
+		},
+		{
+			item: "jaopca:item_gearconductiveiron"
+		},
+		{
+			item: "redstonerepository:material 1 3"
+		},
+		{
+			item: "redstonearsenal:material 1 96"
+		},
+		{
+			item: "thermalfoundation:material 1 295"
+		},
+		{
+			item: "thermalfoundation:material 1 294"
+		},
+		{
+			item: "thermalfoundation:material 1 293"
+		},
+		{
+			item: "thermalfoundation:material 1 25"
+		}],
+		count: 100L
+	}],
+	rewards: [{
+		uid: "9b84f5a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

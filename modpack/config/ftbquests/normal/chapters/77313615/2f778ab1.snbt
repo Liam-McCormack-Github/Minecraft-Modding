@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"bb21870d",
+		"074d78a5"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0b242587",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}],
+	rewards: [{
+		uid: "5408f62f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

@@ -5217,25 +5217,6 @@
 					<itemStructuralduct id="thermaldynamics:duct_48" treeOrder="50"/>
 					<itemLuxduct id="thermaldynamics:thermaldynamics_48" damage="1" treeOrder="60"/>
 				</tePipes>
-				<eioPipes treeOrder="60">
-					<itemBinderComposite id="enderio:itemmaterial" damage="2" treeOrder="10"/>
-					<itemConduitBinder id="enderio:itemmaterial" damage="1" treeOrder="20"/>
-					<itemBinderCompositeDict oreDictName="itemBinderComposite" treeOrder="30"/>
-					<itemConduitBinderDict oreDictName="itemConduitBinder" treeOrder="40"/>
-					<itemRedstoneConduit id="enderio:itemredstoneconduit" treeOrder="50"/>
-					<itemRedstoneConduit id="enderio:item_redstone_conduit" treeOrder="60"/>
-					<itemInsulatedRedstoneConduit id="enderio:itemredstoneconduit" treeOrder="70"/>
-					<itemItemConduit id="enderio:itemitemconduit" treeOrder="80"/>
-					<itemItemConduit id="enderio:item_item_conduit" treeOrder="90"/>
-					<itemFluidConduit id="enderio:itemliquidconduit" treeOrder="100"/>
-					<itemFluidConduit id="enderio:item_liquid_conduit" treeOrder="110"/>
-					<itemEnergyConduit id="enderio:itempowerconduit" treeOrder="120"/>
-					<itemEnergyConduit id="enderio:item_power_conduit" treeOrder="130"/>
-					<itemMEConduit id="enderio:itemmeconduit" treeOrder="140"/>
-					<itemMEConduit id="enderio:item_me_conduit" treeOrder="150"/>
-					<itemRefinedStorageConduit id="enderio:item_refined_storage_conduit" treeOrder="160"/>
-					<itemItemBuffer id="enderio:block_buffer" treeOrder="170"/>
-				</eioPipes>
 				<redNet treeOrder="70">
 					<cableRedNetDict oreDictName="cableRedNet" treeOrder="10"/>
 					<cableRedNetEnergyDict oreDictName="cableRedNetEnergy" treeOrder="20"/>
@@ -6515,7 +6496,6 @@
 				<dustRedGarnetDict oreDictName="dustRedGarnet" treeOrder="1560"/>
 				<dustRedGlowstoneDict oreDictName="dustRedGlowstone" treeOrder="1570"/>
 				<dustRedstoneDict oreDictName="dustRedstone" treeOrder="1580"/>
-				<dustEnderDict oreDictName="dustEnder" treeOrder="1585"/>
 				<dustRefinedObsidianDict oreDictName="dustRefinedObsidian" treeOrder="1590"/>
 				<dustRubraciumDict oreDictName="dustRubracium" treeOrder="1600"/>
 				<dustRubyDict oreDictName="dustRuby" treeOrder="1610"/>
@@ -13687,6 +13667,25 @@
 				</cropEssence>
 			</magicalCrops>
 		</magical>
+		<eioPipes treeOrder="320">
+			<itemBinderComposite id="enderio:itemmaterial" damage="2" treeOrder="10"/>
+			<itemConduitBinder id="enderio:itemmaterial" damage="1" treeOrder="20"/>
+			<itemBinderCompositeDict oreDictName="itemBinderComposite" treeOrder="30"/>
+			<itemConduitBinderDict oreDictName="itemConduitBinder" treeOrder="40"/>
+			<itemRedstoneConduit id="enderio:itemredstoneconduit" treeOrder="50"/>
+			<itemRedstoneConduit id="enderio:item_redstone_conduit" treeOrder="60"/>
+			<itemInsulatedRedstoneConduit id="enderio:itemredstoneconduit" treeOrder="70"/>
+			<itemItemConduit id="enderio:itemitemconduit" treeOrder="80"/>
+			<itemItemConduit id="enderio:item_item_conduit" treeOrder="90"/>
+			<itemFluidConduit id="enderio:itemliquidconduit" treeOrder="100"/>
+			<itemFluidConduit id="enderio:item_liquid_conduit" treeOrder="110"/>
+			<itemEnergyConduit id="enderio:itempowerconduit" treeOrder="120"/>
+			<itemEnergyConduit id="enderio:item_power_conduit" treeOrder="130"/>
+			<itemMEConduit id="enderio:itemmeconduit" treeOrder="140"/>
+			<itemMEConduit id="enderio:item_me_conduit" treeOrder="150"/>
+			<itemRefinedStorageConduit id="enderio:item_refined_storage_conduit" treeOrder="160"/>
+			<itemItemBuffer id="enderio:block_buffer" treeOrder="170"/>
+		</eioPipes>
 	</item>
 	<nonItems treeOrder="50">
 		<!--These are things that can't be picked up.-->

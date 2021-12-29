@@ -1,0 +1,155 @@
+{
+	title: "Plates",
+	x: 13.0d,
+	y: 3.0d,
+	description: "Plates",
+	text: [
+		"Plates"
+	],
+	dependencies: [
+		"51089f54",
+		"bbe3a3e9"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "c1879730",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 54"
+		},
+		{
+			item: "immersiveengineering:metal 1 35"
+		},
+		{
+			item: "thermalfoundation:material 1 356"
+		},
+		{
+			item: "thermalfoundation:material 1 355"
+		},
+		{
+			item: "thermalfoundation:material 1 354"
+		},
+		{
+			item: "thermalfoundation:material 1 353"
+		},
+		{
+			item: "thermalfoundation:material 1 352"
+		},
+		{
+			item: "thermalfoundation:material 1 328"
+		},
+		{
+			item: "thermalfoundation:material 1 327"
+		},
+		{
+			item: "thermalfoundation:material 1 326"
+		},
+		{
+			item: "thermalfoundation:material 1 325"
+		},
+		{
+			item: "thermalfoundation:material 1 324"
+		},
+		{
+			item: "thermalfoundation:material 1 323"
+		},
+		{
+			item: "thermalfoundation:material 1 322"
+		},
+		{
+			item: "thermalfoundation:material 1 321"
+		},
+		{
+			item: "thermalfoundation:material 1 320"
+		},
+		{
+			item: "thermalfoundation:material 1 33"
+		},
+		{
+			item: "thermalfoundation:material 1 32"
+		},
+		{
+			item: "jaopca:item_platequartzblack"
+		},
+		{
+			item: "jaopca:item_platequartz"
+		},
+		{
+			item: "jaopca:item_platecoal"
+		},
+		{
+			item: "jaopca:item_platestellaralloy"
+		},
+		{
+			item: "jaopca:item_platestainlesssteel"
+		},
+		{
+			item: "jaopca:item_platenetherite"
+		},
+		{
+			item: "jaopca:item_platehopgraphite"
+		},
+		{
+			item: "jaopca:item_plategalvanizedsteel"
+		},
+		{
+			item: "jaopca:item_plateelectricalsteel"
+		},
+		{
+			item: "jaopca:item_platedemonicmetal"
+		},
+		{
+			item: "jaopca:item_platedarksteel"
+		},
+		{
+			item: "jaopca:item_platecrystaltine"
+		},
+		{
+			item: "jaopca:item_plateconstructionalloy"
+		},
+		{
+			item: "jaopca:item_plateblackiron"
+		},
+		{
+			item: "jaopca:item_platecobalt"
+		},
+		{
+			item: "jaopca:item_plateardite"
+		},
+		{
+			item: "techguns:itemshared 1 51"
+		},
+		{
+			item: "techguns:itemshared 1 53"
+		},
+		{
+			item: "redstonerepository:material 1 4"
+		},
+		{
+			item: "redstonearsenal:material 1 128"
+		},
+		{
+			item: "thermalfoundation:material 1 359"
+		},
+		{
+			item: "thermalfoundation:material 1 358"
+		},
+		{
+			item: "thermalfoundation:material 1 357"
+		},
+		{
+			item: "thermalfoundation:material 1 322"
+		}],
+		count: 100L
+	}],
+	rewards: [{
+		uid: "521d3e9d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

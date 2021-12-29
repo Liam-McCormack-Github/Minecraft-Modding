@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"9b018de8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "900e8e6b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 27"
+		}]
+	}],
+	rewards: [{
+		uid: "c861701e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

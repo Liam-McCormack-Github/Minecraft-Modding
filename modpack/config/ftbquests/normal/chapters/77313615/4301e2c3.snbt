@@ -1,0 +1,25 @@
+{
+	x: 29.0d,
+	y: 10.0d,
+	dependencies: [
+		"3a3882bf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5e78edfe",
+		type: "item",
+		items: [{
+			item: "zcontent:evil_terraglaz_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b62b99e4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

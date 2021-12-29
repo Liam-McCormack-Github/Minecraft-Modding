@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	shape: "rsquare",
+	dependencies: [
+		"7cd1d773"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "cb4af0f3",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "7fbed9d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	icon: "extendedcrafting:ender_crafter",
+	x: 6.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9b018de8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6b8afb7a",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "a15384e8",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "2ede02a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

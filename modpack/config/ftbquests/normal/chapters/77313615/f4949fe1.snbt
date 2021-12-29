@@ -1,0 +1,25 @@
+{
+	x: 26.0d,
+	y: 4.0d,
+	dependencies: [
+		"53a94826"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "68563d9f",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:living_matter_overworldian"
+		}]
+	}],
+	rewards: [{
+		uid: "2d1f7b2d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"0b27ba53"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "76fcdf1b",
+		type: "item",
+		items: [{
+			item: "alchemistry:electrolyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "bdaec9f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

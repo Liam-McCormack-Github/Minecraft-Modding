@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:netherrack",
+	x: 0.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "902ac70e",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "6576dce1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

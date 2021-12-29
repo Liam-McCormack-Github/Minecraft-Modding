@@ -1,0 +1,10 @@
+{
+	title: "Elite Quests",
+	icon: "thermalfoundation:material 1 136",
+	description: [
+		"Elite Quests"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

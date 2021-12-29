@@ -1,0 +1,27 @@
+{
+	x: 33.0d,
+	y: 12.0d,
+	shape: "rsquare",
+	dependencies: [
+		"785d8fbc",
+		"035ca921"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5fb9eeb0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "07abf8a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

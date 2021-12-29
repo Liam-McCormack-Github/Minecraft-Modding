@@ -1,0 +1,30 @@
+{
+	x: 29.0d,
+	y: 6.0d,
+	dependencies: [
+		"5ab799cc"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ca5d9447",
+		type: "item",
+		items: [{
+			id: "unstabletools:division_sign",
+			tag: {
+				activated: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b2b42e4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

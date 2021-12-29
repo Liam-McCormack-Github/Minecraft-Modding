@@ -1,0 +1,10 @@
+{
+	title: "Ultimate Quests",
+	icon: "extendedcrafting:material 1 32",
+	description: [
+		"Ultimate Quests"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

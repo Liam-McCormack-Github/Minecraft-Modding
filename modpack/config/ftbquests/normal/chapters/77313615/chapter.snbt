@@ -1,0 +1,10 @@
+{
+	title: "Advanced Quests",
+	icon: "thermalfoundation:material 1 160",
+	description: [
+		"Advanced Quests"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

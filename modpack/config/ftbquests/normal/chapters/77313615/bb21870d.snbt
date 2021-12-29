@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"1072b8aa"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "717f71e5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:dryrubber"
+		}]
+	}],
+	rewards: [{
+		uid: "35fef6b0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Body Stone",
+	icon: {
+		id: "projecte:item.pe_body_stone",
+		tag: {}
+	},
+	x: 0.5d,
+	y: 8.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "3823931b",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem_ore 1 1"
+		}]
+	},
+	{
+		uid: "ce875649",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 22"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "57be6a77",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_body_stone",
+			tag: {}
+		}
+	}]
+}

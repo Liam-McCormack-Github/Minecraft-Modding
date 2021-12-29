@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "6b8183c4",
+		type: "item",
+		items: [{
+			id: "overloaded:railgun",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7a4bde7",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		},
+		count: 4
+	}]
+}

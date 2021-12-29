@@ -1,7 +1,0 @@
-{
-	title: "Advanced",
-	icon: "thermalfoundation:material 1 160",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

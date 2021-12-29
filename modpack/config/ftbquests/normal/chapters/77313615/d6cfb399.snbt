@@ -1,0 +1,33 @@
+{
+	x: 25.0d,
+	y: -6.0d,
+	dependencies: [
+		"48618901",
+		"102e1fdf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "cc426b4c",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:trial_key",
+			tag: {
+				attuned: 1b,
+				tier: 0,
+				mobKey: "zombie"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2811aa9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

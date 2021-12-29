@@ -1,0 +1,26 @@
+{
+	title: "Get Wrench",
+	icon: "thermalfoundation:wrench",
+	disable_toast: true,
+	x: 4.5d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Get Wrench",
+	text: [
+		"Get Wrench"
+	],
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "e4f725da",
+		type: "checkmark",
+		title: "Get Wrench",
+		icon: "thermalfoundation:wrench",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "6b8dff68",
+		type: "choice",
+		table: 7
+	}]
+}

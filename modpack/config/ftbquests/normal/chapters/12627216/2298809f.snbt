@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"fc047f41"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "402f3f4d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "e04a7de5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

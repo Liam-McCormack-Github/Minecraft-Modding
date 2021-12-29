@@ -1,0 +1,19 @@
+{
+	x: 18.0d,
+	y: 4.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"e0b941c8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ae26f10f",
+		type: "item",
+		items: [{
+			item: "zcontent:mold_proc"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

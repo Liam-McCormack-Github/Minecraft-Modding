@@ -1,0 +1,29 @@
+{
+	title: "Basic Crafting Table",
+	icon: "extendedcrafting:table_basic",
+	x: -0.5d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "b1dcc625",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:trimmed"
+		}]
+	},
+	{
+		uid: "e4bf6415",
+		type: "item",
+		items: [{
+			item: "zcontent:extended_tier1"
+		}]
+	}],
+	rewards: [{
+		uid: "7a8476bc",
+		type: "item",
+		item: "extendedcrafting:table_basic"
+	}]
+}

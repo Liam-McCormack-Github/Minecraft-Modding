@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "18739215",
+		type: "item",
+		items: [{
+			id: "akashictome:tome",
+			tag: {
+				display: {
+					Lore: [
+						"Contains knowledge of a Majestic Weapon"
+					],
+					Name: "Ethereal Tome"
+				},
+				useableInCrafting: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "21222486",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

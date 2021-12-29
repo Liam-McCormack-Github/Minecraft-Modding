@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 6.0d,
+	dependencies: [
+		"04441f8a"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "1f801485",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "8cd4771b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

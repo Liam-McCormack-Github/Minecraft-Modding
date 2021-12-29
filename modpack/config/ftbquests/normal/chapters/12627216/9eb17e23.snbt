@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"e8d41548",
+		"1f1bd610"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ef2ef39c",
+		type: "item",
+		items: [{
+			item: "zcontent:graphite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5ee9c045",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

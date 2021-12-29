@@ -1,0 +1,26 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"2ee40a87"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "1f5ba927",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "7de228f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

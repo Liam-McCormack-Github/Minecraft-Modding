@@ -1,0 +1,36 @@
+{
+	title: "Fabricator",
+	x: 16.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "Fabricator",
+	text: [
+		"Fabricator"
+	],
+	dependencies: [
+		"e5a6dabf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "49894239",
+		type: "observation",
+		icon: "techguns:multiblockmachine 1 2",
+		match_type: "block_id",
+		match: "techguns:multiblockmachine",
+		properties: {
+			formed: "true",
+			machinetype: "fabricator_controller"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "8a41b8b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

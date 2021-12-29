@@ -1,0 +1,26 @@
+{
+	title: "Get Knowledge",
+	icon: "akashictome:tome",
+	disable_toast: true,
+	x: 3.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Get Knowledge",
+	text: [
+		"Get Knowledge"
+	],
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "6e4defae",
+		type: "checkmark",
+		icon: "akashictome:tome",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "3b61403e",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	}]
+}

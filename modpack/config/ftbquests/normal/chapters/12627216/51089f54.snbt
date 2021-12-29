@@ -1,0 +1,38 @@
+{
+	title: "Metal Press",
+	x: 12.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Metal Press",
+	text: [
+		"Metal Press"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"936c63d1",
+		"93478a1d",
+		"cd082057"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "68620be9",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "metal_press"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "da727e25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

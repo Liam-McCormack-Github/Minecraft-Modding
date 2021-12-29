@@ -1,0 +1,25 @@
+{
+	x: 31.0d,
+	y: 6.0d,
+	dependencies: [
+		"3387e601"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7e55c230",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "caad10d7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

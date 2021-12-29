@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"d5e51dd9"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "511fdd2c",
+		type: "item",
+		items: [{
+			item: "quark:sturdy_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "6107ae4b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

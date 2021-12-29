@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"0b27ba53"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "223a8d16",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_combiner"
+		}]
+	}],
+	rewards: [{
+		uid: "d321bc30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

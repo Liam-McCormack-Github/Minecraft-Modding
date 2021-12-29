@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: 2.0d,
+	dependencies: [
+		"a17ceef7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "4dcf91db",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}],
+	rewards: [{
+		uid: "89420d9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

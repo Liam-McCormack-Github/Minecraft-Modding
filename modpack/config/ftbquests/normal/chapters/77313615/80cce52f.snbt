@@ -1,0 +1,37 @@
+{
+	title: "Alloy Smelter",
+	icon: "enderio:block_alloy_smelter",
+	x: 14.0d,
+	y: -2.0d,
+	description: "Alloy Smelter",
+	text: [
+		"Alloy Smelter"
+	],
+	dependencies: [
+		"0be2e85b"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d8d1b12e",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		},
+		{
+			item: "enderio:block_alloy_smelter"
+		},
+		{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "3ee3a0c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

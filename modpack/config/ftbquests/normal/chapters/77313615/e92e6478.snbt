@@ -1,0 +1,25 @@
+{
+	x: 33.0d,
+	y: 4.0d,
+	dependencies: [
+		"3387e601"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "25f8e600",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "634bd41a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

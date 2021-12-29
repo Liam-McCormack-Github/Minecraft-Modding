@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: 2.0d,
+	dependencies: [
+		"e11e8d3c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "48fead68",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "be49937e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

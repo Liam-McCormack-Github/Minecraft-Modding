@@ -1,0 +1,80 @@
+#priority 2005
+
+print("---loading recipes/tp.zs---");
+
+# Remove
+recipes.removeByRecipeName("tp:unhardened_stone");
+recipes.removeByRecipeName("tp:birthday_pickaxe");
+recipes.removeByRecipeName("tp:glass");
+recipes.removeByRecipeName("tp:obsidian");
+recipes.removeByRecipeName("tp:kappa_pick");
+recipes.removeByRecipeName("tp:stone_hammer");
+recipes.removeByRecipeName("tp:bams_pizza");
+recipes.removeByRecipeName("tp:bread_slice");
+recipes.removeByRecipeName("tp:lava_infused_stone");
+recipes.removeByRecipeName("tp:wither_helmet");
+recipes.removeByRecipeName("tp:wither_chestplate");
+recipes.removeByRecipeName("tp:wither_leggings");
+recipes.removeByRecipeName("tp:wither_boots");
+recipes.removeByRecipeName("tp:colored_dust.0");
+recipes.removeByRecipeName("tp:colored_dust.1");
+recipes.removeByRecipeName("tp:colored_dust.2");
+recipes.removeByRecipeName("tp:colored_dust.3");
+recipes.removeByRecipeName("tp:colored_dust.4");
+recipes.removeByRecipeName("tp:colored_dust.5");
+recipes.removeByRecipeName("tp:colored_dust.6");
+recipes.removeByRecipeName("tp:colored_dust.7");
+recipes.removeByRecipeName("tp:colored_dust.8");
+recipes.removeByRecipeName("tp:colored_dust.9");
+recipes.removeByRecipeName("tp:colored_dust.10");
+recipes.removeByRecipeName("tp:colored_dust.11");
+recipes.removeByRecipeName("tp:colored_dust.12");
+recipes.removeByRecipeName("tp:colored_dust.13");
+recipes.removeByRecipeName("tp:colored_dust.14");
+recipes.removeByRecipeName("tp:infin_water_bucket");
+recipes.removeByRecipeName("tp:pouch");
+recipes.removeByRecipeName("tp:enderpearl");
+recipes.removeByRecipeName("tp:dragon_chestplate");
+recipes.removeByRecipeName("tp:dragon_leggings");
+recipes.removeByRecipeName("tp:dragon_boots");
+recipes.removeByRecipeName("tp:dragon_helmet");
+
+# Add
+recipes.addShaped(<tp:dragon_chestplate>, [[<quark:enderdragon_scale>, null, <quark:enderdragon_scale>], [<quark:enderdragon_scale>, <quark:enderdragon_scale>, <quark:enderdragon_scale>], [<quark:enderdragon_scale>, <quark:enderdragon_scale>, <quark:enderdragon_scale>]]);
+recipes.addShaped(<tp:dragon_leggings>, [[<quark:enderdragon_scale>, <quark:enderdragon_scale>, <quark:enderdragon_scale>], [<quark:enderdragon_scale>, null, <quark:enderdragon_scale>], [<quark:enderdragon_scale>, null, <quark:enderdragon_scale>]]);
+recipes.addShaped(<tp:dragon_boots>, [[<quark:enderdragon_scale>, null, <quark:enderdragon_scale>], [<quark:enderdragon_scale>, null, <quark:enderdragon_scale>]]);
+recipes.addShaped(<tp:dragon_helmet>, [[<quark:enderdragon_scale>, <quark:enderdragon_scale>, <quark:enderdragon_scale>], [<quark:enderdragon_scale>, null, <quark:enderdragon_scale>]]);
+recipes.addShaped(<tp:wither_boots>, [[<zcontent:carbon_panel>, <ore:dustLimeGlowstone>, <zcontent:carbon_panel>],[<zcontent:carbon_panel>, <ore:dustLimeGlowstone>, <zcontent:carbon_panel>], [<ore:dustLimeGlowstone>, <ore:dustLimeGlowstone>, <ore:dustLimeGlowstone>]]);
+recipes.addShaped(<tp:wither_leggings>, [[<zcontent:carbon_panel>, <zcontent:carbon_panel>, <zcontent:carbon_panel>],[<zcontent:carbon_panel>, <ore:dustLimeGlowstone>, <zcontent:carbon_panel>], [<zcontent:carbon_panel>, <ore:dustLimeGlowstone>, <zcontent:carbon_panel>]]);
+recipes.addShaped(<tp:wither_helmet>, [[<zcontent:carbon_panel>, <zcontent:carbon_panel>, <zcontent:carbon_panel>],[<zcontent:carbon_panel>, <minecraft:stained_glass_pane:11>, <zcontent:carbon_panel>], [<ore:dustLimeGlowstone>, <ore:dustLimeGlowstone>, <ore:dustLimeGlowstone>]]);
+recipes.addShaped(<tp:wither_chestplate>, [[<zcontent:carbon_panel>, <ore:dustLimeGlowstone>, <zcontent:carbon_panel>],[<zcontent:carbon_panel>, <zcontent:carbon_panel>, <zcontent:carbon_panel>], [<zcontent:carbon_panel>, <zcontent:carbon_panel>, <zcontent:carbon_panel>]]);
+recipes.addShapeless(<tp:ender_dust> * 9, [<ore:blockEnder>]);
+recipes.addShaped(<tp:pouch>, [[<minecraft:string>, <minecraft:string>, <minecraft:string>],[<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
+recipes.addShapeless(<tp:colored_dust> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeWhite>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:1> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeOrange>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:2> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeMagenta>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:3> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeLightBlue>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:4> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeLime>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:5> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyePink>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:6> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeGray>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:7> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeLightGray>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:8> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeCyan>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:9> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyePurple>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:10> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeBlue>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:11> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeBrown>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:12> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeGreen>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:13> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeRed>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShapeless(<tp:colored_dust:14> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeBlack>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
+recipes.addShaped(<tp:lava_block>, [[<minecraft:stone>, <mysticalagriculture:fire_essence>, <minecraft:stone>],[<mysticalagriculture:fire_essence>, <minecraft:stone>, <mysticalagriculture:fire_essence>], [<minecraft:stone>, <mysticalagriculture:fire_essence>, <minecraft:stone>]]);
+recipes.addShapeless(<tp:watering_can_upgrade>, [<tp:watering_can>,<thermalexpansion:florb>.withTag({Fluid: "crystal"}).onlyWithTag({Fluid: "crystal"})]);
+recipes.addShaped(<tp:repair_tablet>, [[<quark:soul_sandstone>, <minecraft:ghast_tear>, <quark:soul_sandstone>],[<minecraft:ghast_tear>, <ore:gemCrystalFlux>, <minecraft:ghast_tear>], [<quark:soul_sandstone>, <minecraft:ghast_tear>, <quark:soul_sandstone>]]);
+recipes.addShaped(<tp:unhardened_stone>, [[<ore:stoneBasalt>, <ore:stoneDiorite>, <ore:stoneBasalt>],[<ore:stoneDiorite>, <ore:blockClay>, <ore:stoneDiorite>], [<ore:stoneBasalt>, <ore:stoneDiorite>, <ore:stoneBasalt>]]);
+recipes.addShaped(<tp:stone_hammer>, [[null, <randomthings:ingredient:3>, <ore:stringFluxed>],[null, <redstonearsenal:material:193>, <randomthings:ingredient:3>], [<redstonearsenal:material:193>, null, null]]);
+recipes.addShapeless(<tp:ender_dust>, [<enderio:item_material:28>,<enderio:item_material:28>,<enderio:item_material:28>,<enderio:item_material:28>,<enderio:item_material:28>,<enderio:item_material:28>,<enderio:item_material:28>,<enderio:item_material:28>,<enderio:item_material:28>]);
+recipes.addShaped(<tp:birthday_pickaxe>, [[null, <minecraft:diamond>, null],[null, <minecraft:cake>, null], [null, <actuallyadditions:item_pickaxe_obsidian>, null]]);
+recipes.addShaped(<tp:infin_bucket>, [[null, <mysticalagriculture:crafting:4>, null],[<mysticalagriculture:crafting:4>, <randomthings:reinforcedenderbucket>.withTag({Fluid: {FluidName: "water", Amount: 10000}}).onlyWithTag({Fluid: {FluidName: "water", Amount: 10000}}), <mysticalagriculture:crafting:4>], [null, <mysticalagriculture:crafting:4>, null]]);
+recipes.addShapeless(<tp:asphalt_block> * 512, [<ore:sand>,<ore:sand>,<minecraft:gravel>,<ore:blockGravel>,<thermalfoundation:material:833>,<immersivepetroleum:material>,<immersivepetroleum:material>,<biomesoplenty:ash>,<biomesoplenty:ash>]);
+recipes.addShapeless(<tp:bread_slice> * 20, [<minecraft:bread>,<minecraft:bread>]);
+recipes.addShaped(<tp:lava_infused_stone>, [[<tp:hardened_stone>, <mysticalagriculture:fire_essence>, <tp:hardened_stone>],[<mysticalagriculture:fire_essence>, <tp:hardened_stone>, <mysticalagriculture:fire_essence>], [<tp:hardened_stone>, <mysticalagriculture:fire_essence>, <tp:hardened_stone>]]);
+
+print("---initialized recipes/tp.zs---");

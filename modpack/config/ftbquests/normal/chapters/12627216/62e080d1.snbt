@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	dependencies: [
+		"1061a769"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "1b219736",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "d53ca332",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

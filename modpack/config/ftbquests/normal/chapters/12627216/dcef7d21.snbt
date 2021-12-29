@@ -1,0 +1,25 @@
+{
+	x: 20.0d,
+	y: 6.0d,
+	dependencies: [
+		"ad731d31"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "826fe3eb",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "47ff97c0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

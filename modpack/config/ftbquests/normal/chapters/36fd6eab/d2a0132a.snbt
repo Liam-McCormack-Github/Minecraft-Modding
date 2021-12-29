@@ -1,0 +1,21 @@
+{
+	icon: "simplevoidworld:portal",
+	x: -1.0d,
+	y: 2.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "1990bc6d",
+		type: "dimension",
+		dim: 69
+	}],
+	rewards: [{
+		uid: "49b7085d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

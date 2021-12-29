@@ -1,0 +1,29 @@
+{
+	title: "Ultimate Crafting Table",
+	icon: "extendedcrafting:table_ultimate",
+	x: 2.5d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "5b7cd2f6",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:trimmed 1 3"
+		}]
+	},
+	{
+		uid: "ce0be589",
+		type: "item",
+		items: [{
+			item: "zcontent:extended_tier4"
+		}]
+	}],
+	rewards: [{
+		uid: "08a8bdf3",
+		type: "item",
+		item: "extendedcrafting:table_ultimate"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Soul Stone",
+	icon: {
+		id: "projecte:item.pe_soul_stone",
+		tag: {}
+	},
+	x: 1.5d,
+	y: 8.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "7cabef30",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem_ore 1 6"
+		}]
+	},
+	{
+		uid: "a0f00fef",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 22"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "cc6d9b25",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_soul_stone",
+			tag: {}
+		}
+	}]
+}

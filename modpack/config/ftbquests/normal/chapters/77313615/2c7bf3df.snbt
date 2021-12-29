@@ -1,0 +1,35 @@
+{
+	title: "Pumpjack",
+	x: 0.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Pumpjack",
+	text: [
+		"Pumpjack"
+	],
+	dependencies: [
+		"c9a6dfec"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5711f635",
+		type: "observation",
+		icon: "immersivepetroleum:metal_multiblock 1 2",
+		match_type: "block_id",
+		match: "immersivepetroleum:metal_multiblock",
+		properties: {
+			type: "pumpjack"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "8ce04e57",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

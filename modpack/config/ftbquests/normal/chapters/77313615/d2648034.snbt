@@ -1,0 +1,26 @@
+{
+	x: 27.0d,
+	y: -6.0d,
+	dependencies: [
+		"d6cfb399",
+		"769d1473"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "88868717",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_zombie"
+		}]
+	}],
+	rewards: [{
+		uid: "c7b0cb6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

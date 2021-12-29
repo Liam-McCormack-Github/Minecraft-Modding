@@ -1,0 +1,26 @@
+{
+	x: 22.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependencies: [
+		"fa526af6"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "77e56ac9",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "c899ecf8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

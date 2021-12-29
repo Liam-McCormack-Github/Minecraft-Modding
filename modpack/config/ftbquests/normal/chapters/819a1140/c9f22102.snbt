@@ -1,0 +1,65 @@
+{
+	title: "Mining Level Stone",
+	x: -3.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "Mining Level Stone",
+	text: [
+		"Mining Level Stone"
+	],
+	dependency_requirement: "one_started",
+	size: 1.5d,
+	tasks: [{
+		uid: "8cc709aa",
+		type: "item",
+		title: "Mining Level Stone",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		},
+		{
+			item: "mysticalagriculture:inferium_pickaxe"
+		},
+		{
+			item: "tp:kappa_pick"
+		},
+		{
+			item: "actuallyadditions:wooden_paxel"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_electrum"
+		},
+		{
+			item: "actuallyadditions:gold_paxel"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_wood"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_electrum"
+		},
+		{
+			item: "tp:flint_pickaxe"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_gold"
+		},
+		{
+			item: "tp:bone_pickaxe"
+		},
+		{
+			item: "minecraft:golden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb688cb7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

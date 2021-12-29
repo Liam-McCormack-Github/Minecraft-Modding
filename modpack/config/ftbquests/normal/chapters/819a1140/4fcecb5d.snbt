@@ -1,0 +1,99 @@
+{
+	title: "Crystal Runes",
+	icon: "quark:rune 1 16",
+	x: 0.5d,
+	y: 10.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "3dab24dd",
+		type: "item",
+		items: [{
+			item: "chisel:energizedvoidstone 1 4"
+		}]
+	},
+	{
+		uid: "cd86797b",
+		type: "item",
+		title: "Cave Crystal",
+		items: [{
+			item: "zcontent:white_gem"
+		},
+		{
+			item: "zcontent:orange_gem"
+		},
+		{
+			item: "zcontent:violet_gem"
+		},
+		{
+			item: "zcontent:blue_gem"
+		},
+		{
+			item: "zcontent:yellow_gem"
+		},
+		{
+			item: "zcontent:green_gem"
+		},
+		{
+			item: "zcontent:black_gem"
+		},
+		{
+			item: "zcontent:red_gem"
+		},
+		{
+			item: "zcontent:indigo_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "d4321db5",
+		type: "item",
+		item: "chisel:voidstone 1 2"
+	},
+	{
+		uid: "e07de85b",
+		type: "item",
+		item: "quark:rune"
+	},
+	{
+		uid: "cbe39066",
+		type: "item",
+		item: "quark:rune 1 1"
+	},
+	{
+		uid: "67537583",
+		type: "item",
+		item: "quark:rune 1 2"
+	},
+	{
+		uid: "7df65906",
+		type: "item",
+		item: "quark:rune 1 3"
+	},
+	{
+		uid: "6cea1f9d",
+		type: "item",
+		item: "quark:rune 1 4"
+	},
+	{
+		uid: "d7efe181",
+		type: "item",
+		item: "quark:rune 1 5"
+	},
+	{
+		uid: "f2976fec",
+		type: "item",
+		item: "quark:rune 1 11"
+	},
+	{
+		uid: "de0d4235",
+		type: "item",
+		item: "quark:rune 1 14"
+	},
+	{
+		uid: "2210e5e8",
+		type: "item",
+		item: "quark:rune 1 15"
+	}]
+}

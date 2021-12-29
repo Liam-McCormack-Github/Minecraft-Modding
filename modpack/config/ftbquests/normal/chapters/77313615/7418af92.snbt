@@ -1,0 +1,37 @@
+{
+	title: "SAG Mill",
+	icon: "enderio:block_sag_mill",
+	x: 13.0d,
+	y: -2.0d,
+	description: "SAG Mill",
+	text: [
+		"SAG Mill"
+	],
+	dependencies: [
+		"0be2e85b"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "4597c731",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		},
+		{
+			item: "enderio:block_sag_mill"
+		},
+		{
+			item: "enderio:block_enhanced_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "3fa09938",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

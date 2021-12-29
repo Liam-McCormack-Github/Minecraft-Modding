@@ -12,6 +12,7 @@ id~="zcontent:pill_antidote" *= 128
 id~="cyclicmagic:dynamite*" *= 128
 id~="cyclicmagic:ender_tnt*" *= 128
 id~="enderio:*conduit" *= 128
+id~="lodsofemone:coin_*" *= 128
 id~="enderio:item_extract_speed_upgrade" -> 60
 id~="biomesoplenty:mud_brick" *= 8
 id~="tconstruct:materials" *= 8

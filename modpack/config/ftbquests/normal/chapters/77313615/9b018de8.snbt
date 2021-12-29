@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "8ccc5e51",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}]
+	}],
+	rewards: [{
+		uid: "38eb9313",
+		type: "item",
+		item: "playerstorage:apple"
+	},
+	{
+		uid: "77aaa426",
+		type: "item",
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "Unlocked: Advanced Quests Chapter"
+				}
+			}
+		}
+	}]
+}

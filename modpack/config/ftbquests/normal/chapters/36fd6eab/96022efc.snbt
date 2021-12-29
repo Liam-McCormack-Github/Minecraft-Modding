@@ -1,0 +1,21 @@
+{
+	icon: "randomthings:spectreblock",
+	x: 1.0d,
+	y: 2.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "071e1446",
+		type: "dimension",
+		dim: -343800852
+	}],
+	rewards: [{
+		uid: "f054a202",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

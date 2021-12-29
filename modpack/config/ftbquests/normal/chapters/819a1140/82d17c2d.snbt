@@ -1,0 +1,31 @@
+{
+	title: "Packed Ice",
+	icon: "minecraft:packed_ice",
+	x: 1.5d,
+	y: 9.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "6d6687ca",
+		type: "item",
+		items: [{
+			item: "zcontent:icesword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fecdf9d5",
+		type: "item",
+		items: [{
+			item: "minecraft:ice"
+		}]
+	}],
+	rewards: [{
+		uid: "114b21fe",
+		type: "item",
+		item: "minecraft:packed_ice"
+	}]
+}

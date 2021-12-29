@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	dependencies: [
+		"a17ceef7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "af9cf0c2",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "d4c01829",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

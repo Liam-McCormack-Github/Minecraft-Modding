@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"8eb5d6fc"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "815740af",
+		type: "item",
+		items: [{
+			item: "futuremc:smoker"
+		}]
+	}],
+	rewards: [{
+		uid: "d301b94e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

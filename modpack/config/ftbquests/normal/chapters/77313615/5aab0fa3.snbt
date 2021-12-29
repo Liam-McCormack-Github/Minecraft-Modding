@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: -4.0d,
+	dependencies: [
+		"fbd22418"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "98e1ac94",
+		type: "item",
+		items: [{
+			item: "industrialexpansion:compact_coal_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "c1952ee8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

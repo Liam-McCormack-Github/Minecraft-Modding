@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	shape: "gear",
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "8dfa142d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

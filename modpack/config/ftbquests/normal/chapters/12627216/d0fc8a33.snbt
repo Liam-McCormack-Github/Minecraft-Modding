@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "f5a895e8",
+		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "thermalfoundation:blizz"
+			}
+		},
+		entity: "thermalfoundation:blizz",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "10a06e12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

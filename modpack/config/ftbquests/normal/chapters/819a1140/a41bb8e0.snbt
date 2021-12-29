@@ -1,0 +1,29 @@
+{
+	title: "Camo Bench",
+	icon: "techguns:simplemachine 1 8",
+	x: 1.5d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "395aa81f",
+		type: "item",
+		items: [{
+			item: "techguns:simplemachine 1 9"
+		}]
+	},
+	{
+		uid: "2ddde147",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "988b1144",
+		type: "item",
+		item: "techguns:simplemachine 1 8"
+	}]
+}

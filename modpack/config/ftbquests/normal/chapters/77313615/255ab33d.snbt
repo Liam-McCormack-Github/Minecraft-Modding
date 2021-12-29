@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"c6f838c2"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "91512ab9",
+		type: "item",
+		items: [{
+			item: "refinedstorage:processor"
+		}]
+	}],
+	rewards: [{
+		uid: "9a73ec9a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

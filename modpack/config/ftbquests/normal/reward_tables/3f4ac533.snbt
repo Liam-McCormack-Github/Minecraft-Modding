@@ -1,0 +1,154 @@
+{
+	title: "Advanced Loot Crate",
+	icon: "minecraft:gold_block",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			}
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			tag: {
+				Blaze: 840
+			},
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			id: "zcontent:firesword",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Heart of Diamond in an Anvil"
+					]
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "zcontent:icesword",
+			tag: {
+				display: {
+					Lore: [
+						"Combine with a Heart of Diamond in an Anvil"
+					]
+				}
+			}
+		}
+	},
+	{
+		item: "avaritia:skullfire_sword"
+	},
+	{
+		item: {
+			id: "techguns:laserpistol",
+			tag: {
+				ammo: 20s,
+				ammovariant: "default",
+				camo: 0b
+			}
+		}
+	},
+	{
+		item: "minecraft:concrete",
+		count: 512
+	},
+	{
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		},
+		count: 100
+	}],
+	loot_crate: {
+		string_id: "lootcrate_2",
+		color: 16777059,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

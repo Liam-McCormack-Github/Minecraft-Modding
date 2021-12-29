@@ -1,0 +1,32 @@
+{
+	x: 29.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	dependencies: [
+		"fffaf236"
+	],
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "8715a8d3",
+		type: "item",
+		items: [{
+			id: "unstabletools:division_sign",
+			tag: {
+				activated: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e5810e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

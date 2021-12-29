@@ -1,0 +1,86 @@
+{
+	title: "Mining Level Bronze",
+	x: -3.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	description: "Mining Level Bronze",
+	text: [
+		"Mining Level Bronze"
+	],
+	dependencies: [
+		"c9f22102"
+	],
+	dependency_requirement: "one_started",
+	size: 1.5d,
+	tasks: [{
+		uid: "d76f4f1b",
+		type: "item",
+		title: "Mining Level Bronze",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_bronze"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_bronze"
+		},
+		{
+			item: "mysticalagriculture:prudentium_pickaxe"
+		},
+		{
+			item: "actuallyadditions:stone_paxel"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_aluminum"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_copper"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_tin"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_stone"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_aluminum"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_lead"
+		},
+		{
+			item: "cyclicmagic:netherbrick_pickaxe"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_copper"
+		},
+		{
+			item: "thermalfoundation:tool.hammer_silver"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_tin"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_lead"
+		},
+		{
+			item: "cyclicmagic:sandstone_pickaxe"
+		},
+		{
+			item: "thermalfoundation:tool.pickaxe_silver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a0e9a0f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

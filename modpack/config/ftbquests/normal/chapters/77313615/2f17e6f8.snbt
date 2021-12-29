@@ -1,0 +1,25 @@
+{
+	x: 27.0d,
+	y: 12.0d,
+	dependencies: [
+		"368a698a"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "13887613",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:crystal_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "47f1ad13",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

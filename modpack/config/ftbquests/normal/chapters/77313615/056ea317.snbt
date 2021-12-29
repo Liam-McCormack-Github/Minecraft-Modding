@@ -1,0 +1,26 @@
+{
+	x: 21.0d,
+	y: 12.0d,
+	shape: "rsquare",
+	dependencies: [
+		"aa271b79"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5facf5c5",
+		type: "item",
+		items: [{
+			item: "projectex:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "717b0601",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

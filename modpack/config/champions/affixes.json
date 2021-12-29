@@ -36,7 +36,7 @@
   },
   {
     "identifier": "reflecting",
-    "enabled": false,
+    "enabled": true,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1

@@ -1,0 +1,31 @@
+{
+	title: "Blue Ice",
+	icon: "futuremc:blue_ice",
+	x: 2.5d,
+	y: 9.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "f9898844",
+		type: "item",
+		items: [{
+			item: "zcontent:icesword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d18f9397",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
+		}]
+	}],
+	rewards: [{
+		uid: "708f49da",
+		type: "item",
+		item: "futuremc:blue_ice"
+	}]
+}

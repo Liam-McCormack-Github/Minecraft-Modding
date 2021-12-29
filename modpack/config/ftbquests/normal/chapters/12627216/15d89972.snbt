@@ -1,0 +1,36 @@
+{
+	title: "Bricks",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Bricks",
+	text: [
+		"Bricks"
+	],
+	dependencies: [
+		"d5e51dd9"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a88002a9",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		},
+		{
+			item: "minecraft:netherbrick"
+		},
+		{
+			item: "biomesoplenty:mud_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "bc511b0b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

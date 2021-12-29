@@ -1,0 +1,45 @@
+{
+	title: "Compact Machinery",
+	icon: "compactmachines3:fieldprojector",
+	x: 25.0d,
+	y: 10.0d,
+	shape: "rsquare",
+	description: "Compact Machinery",
+	text: [
+		"Compact Machinery"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fa526af6",
+		"2517892b",
+		"229291a8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b17d9fb2",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	},
+	{
+		uid: "90a48904",
+		type: "item",
+		items: [{
+			item: "compactmachines3:psd"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7fbb373",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

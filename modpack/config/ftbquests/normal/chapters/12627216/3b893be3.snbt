@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	dependencies: [
+		"1061a769"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "e2a9aae2",
+		type: "item",
+		items: [{
+			item: "futuremc:stonecutter"
+		}]
+	}],
+	rewards: [{
+		uid: "eed216f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

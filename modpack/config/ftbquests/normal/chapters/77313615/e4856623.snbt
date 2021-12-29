@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	dependencies: [
+		"d2260963"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "2156ffd5",
+		type: "item",
+		items: [{
+			item: "zcontent:biofuel"
+		}]
+	}],
+	rewards: [{
+		uid: "30265625",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

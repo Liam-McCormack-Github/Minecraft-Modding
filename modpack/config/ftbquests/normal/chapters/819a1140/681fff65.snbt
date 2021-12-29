@@ -1,0 +1,36 @@
+{
+	title: "Life Stone",
+	icon: {
+		id: "projecte:item.pe_life_stone",
+		tag: {}
+	},
+	x: 2.5d,
+	y: 8.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "bfa0fdaf",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem_ore 1 4"
+		}]
+	},
+	{
+		uid: "6e447ba7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 22"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "0dfe3c60",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_life_stone",
+			tag: {}
+		}
+	}]
+}

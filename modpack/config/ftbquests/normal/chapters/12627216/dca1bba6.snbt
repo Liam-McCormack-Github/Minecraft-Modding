@@ -1,0 +1,36 @@
+{
+	title: "Blast Furnace",
+	x: 4.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Blast Furnace",
+	text: [
+		"Blast Furnace"
+	],
+	dependencies: [
+		"92f66d0e",
+		"15d89972"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ba60b455",
+		type: "observation",
+		icon: "immersiveengineering:stone_device 1 7",
+		match_type: "block_id",
+		match: "immersiveengineering:stone_device",
+		properties: {
+			type: "blast_furnace"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c62d18b3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

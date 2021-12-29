@@ -1,0 +1,10 @@
+{
+	title: "Basic Quests",
+	icon: "minecraft:iron_ingot",
+	description: [
+		"Basic Quests"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

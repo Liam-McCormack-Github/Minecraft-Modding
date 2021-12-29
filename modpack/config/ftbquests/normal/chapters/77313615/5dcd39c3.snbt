@@ -1,0 +1,25 @@
+{
+	x: 31.0d,
+	y: 16.0d,
+	dependencies: [
+		"dc3c12b8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "583df135",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9b13e8d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

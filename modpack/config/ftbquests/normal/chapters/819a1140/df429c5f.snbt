@@ -1,0 +1,29 @@
+{
+	title: "Elite Crafting Table",
+	icon: "extendedcrafting:table_elite",
+	x: 1.5d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "c9073a24",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:trimmed 1 2"
+		}]
+	},
+	{
+		uid: "625396c5",
+		type: "item",
+		items: [{
+			item: "zcontent:extended_tier3"
+		}]
+	}],
+	rewards: [{
+		uid: "72168c98",
+		type: "item",
+		item: "extendedcrafting:table_elite"
+	}]
+}

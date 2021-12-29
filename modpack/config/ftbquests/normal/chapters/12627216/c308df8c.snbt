@@ -1,0 +1,25 @@
+{
+	x: 13.0d,
+	y: 0.0d,
+	dependencies: [
+		"dcef0dd7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "076939b3",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}]
+	}],
+	rewards: [{
+		uid: "7d8ecd07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

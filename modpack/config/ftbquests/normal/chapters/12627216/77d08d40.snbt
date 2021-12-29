@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b6db14a7",
+		type: "item",
+		items: [{
+			item: "overloaded:compressed_cobblestone"
+		}]
+	}]
+}

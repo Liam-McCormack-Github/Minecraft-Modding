@@ -1,0 +1,29 @@
+{
+	x: 11.0d,
+	y: 10.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9b018de8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d810e066",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "340360ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

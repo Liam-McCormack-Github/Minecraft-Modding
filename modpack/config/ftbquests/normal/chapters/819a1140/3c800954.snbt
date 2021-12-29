@@ -1,0 +1,32 @@
+{
+	title: "Get Excavatinator",
+	icon: {
+		id: "zcontent:excavation_wand",
+		tag: {
+			useableInCrafting: 1
+		}
+	},
+	disable_toast: true,
+	x: 0.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Get Excavatinator",
+	text: [
+		"Get Excavatinator"
+	],
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "6bc2069d",
+		type: "checkmark",
+		title: "Get Excavatinator",
+		icon: "zcontent:excavation_wand",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "c9cea6d9",
+		type: "random",
+		auto: "enabled",
+		table: 8
+	}]
+}

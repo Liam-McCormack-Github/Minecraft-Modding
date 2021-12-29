@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"0b27ba53"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6d390b44",
+		type: "item",
+		items: [{
+			item: "techguns:simplemachine 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "bf38942d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

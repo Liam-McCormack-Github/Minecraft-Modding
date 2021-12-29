@@ -1,0 +1,21 @@
+{
+	title: "Anvil Recipes",
+	icon: "minecraft:anvil",
+	x: 0.0d,
+	y: 3.0d,
+	shape: "octagon",
+	description: "Anvil Recipes",
+	text: [
+		"Anvil Recipes"
+	],
+	hide_dependency_lines: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "da647de2",
+		type: "item",
+		title: "Uncompletable Task",
+		items: [{
+			item: "minecraft:barrier"
+		}]
+	}]
+}

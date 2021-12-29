@@ -1,0 +1,36 @@
+{
+	title: "Alloy Kiln",
+	x: 4.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "Alloy Kiln",
+	text: [
+		"Alloy Kiln"
+	],
+	dependencies: [
+		"92f66d0e",
+		"15d89972"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "2e0bda18",
+		type: "observation",
+		icon: "immersiveengineering:stone_device 1 1",
+		match_type: "block_id",
+		match: "immersiveengineering:stone_device",
+		properties: {
+			type: "alloy_smelter"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "f5be6df3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

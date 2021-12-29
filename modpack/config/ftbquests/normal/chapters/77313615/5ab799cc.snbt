@@ -1,0 +1,26 @@
+{
+	x: 29.0d,
+	y: 4.0d,
+	dependencies: [
+		"5ebd619a",
+		"8b94e4fb"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "2c4357b3",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:stuff 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "eeafa930",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

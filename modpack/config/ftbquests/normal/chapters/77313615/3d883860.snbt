@@ -1,0 +1,33 @@
+{
+	title: "Substrate / Lubricant",
+	x: 7.0d,
+	y: 6.0d,
+	description: "Substrate / Lubricant",
+	text: [
+		"Substrate / Lubricant"
+	],
+	dependencies: [
+		"e4856623"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "75cf38b0",
+		type: "item",
+		items: [{
+			item: "zcontent:substrate"
+		},
+		{
+			item: "better_diving:lubricant"
+		}]
+	}],
+	rewards: [{
+		uid: "d19b92e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

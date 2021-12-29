@@ -1,0 +1,39 @@
+{
+	title: "Wrenches",
+	icon: "thermalfoundation:wrench",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "thermalfoundation:wrench"
+	},
+	{
+		item: "enderio:item_yeta_wrench"
+	},
+	{
+		item: "actuallyadditions:item_laser_wrench"
+	},
+	{
+		item: "cyclicmagic:tool_rotate"
+	},
+	{
+		item: "rftools:smartwrench"
+	},
+	{
+		item: "refinedstorage:wrench"
+	},
+	{
+		item: "teslacorelib:wrench"
+	},
+	{
+		item: "extrautils2:wrench"
+	},
+	{
+		item: "integrateddynamics:wrench"
+	},
+	{
+		item: "morphtool:tool"
+	},
+	{
+		item: "yabba:wrench"
+	}]
+}

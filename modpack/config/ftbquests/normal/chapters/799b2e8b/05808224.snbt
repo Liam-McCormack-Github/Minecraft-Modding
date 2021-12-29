@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "e56c4945",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "d1030d5e",
+		type: "item",
+		item: "playerstorage:apple 1 2"
+	},
+	{
+		uid: "396f59e5",
+		type: "item",
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "Unlocked: Ultimate Quests Chapter"
+				}
+			}
+		}
+	}]
+}

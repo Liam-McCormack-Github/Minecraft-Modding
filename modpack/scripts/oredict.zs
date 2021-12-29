@@ -1,6 +1,6 @@
-import crafttweaker.item.IItemStack;
+#priority 103
 
-#OreDict Remove-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+print("---loading oredict.zs---");
 <ore:dyeGreen>.remove(<enderio:item_material:48>);
 <ore:dyeBrown>.remove(<enderio:item_material:49>);
 <ore:dyeBlack>.remove(<enderio:item_material:50>);
@@ -67,7 +67,6 @@ import crafttweaker.item.IItemStack;
 <ore:dye>.add(<futuremc:dye:1>);
 <ore:dye>.add(<futuremc:dye:2>);
 <ore:dye>.add(<futuremc:dye:3>);
-<ore:dragonScale>.add(<mysticalagradditions:stuff:3>);
 <ore:cropStrawberry>.add(<tp:maloberry_berry>);
 <ore:toolShears>.add(<mysticalagriculture:inferium_shears:*>);
 <ore:toolShears>.add(<mysticalagriculture:prudentium_shears:*>);
@@ -90,6 +89,9 @@ import crafttweaker.item.IItemStack;
 <ore:toolShears>.add(<thermalfoundation:tool.shears_bronze:*>);
 <ore:toolShears>.add(<thermalfoundation:tool.shears_steel:*>);
 <ore:toolShears>.add(<thermalfoundation:tool.shears_invar:*>);
-
 <ore:toolHammer>.add(<immersiveengineering:tool>);
 <ore:toolHammer>.add(<tp:stone_hammer>);
+<ore:stickBlackIron>.add(<extendedcrafting:material>);
+<ore:rodBlackIron>.add(<extendedcrafting:material>);
+
+print("---initialized oredict.zs---");

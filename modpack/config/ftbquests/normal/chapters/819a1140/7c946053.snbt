@@ -1,0 +1,46 @@
+{
+	title: "Charcoal",
+	icon: "minecraft:coal 1 1",
+	x: -0.5d,
+	y: 10.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "447d1685",
+		type: "item",
+		title: "Stripped Log",
+		items: [{
+			item: "futuremc:stripped_spruce_log"
+		},
+		{
+			item: "futuremc:stripped_dark_oak_log"
+		},
+		{
+			item: "futuremc:stripped_oak_log"
+		},
+		{
+			item: "futuremc:stripped_birch_log"
+		},
+		{
+			item: "futuremc:stripped_jungle_log"
+		},
+		{
+			item: "futuremc:stripped_acacia_log"
+		}]
+	},
+	{
+		uid: "5e703601",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f748cd34",
+		type: "item",
+		item: "minecraft:coal 1 1"
+	}]
+}

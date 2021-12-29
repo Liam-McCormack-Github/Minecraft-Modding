@@ -1,0 +1,44 @@
+{
+	title: "Wires",
+	x: 16.0d,
+	y: 3.0d,
+	description: "Wires",
+	text: [
+		"Wires"
+	],
+	dependencies: [
+		"51089f54",
+		"f8ba51e6"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6d496909",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 20"
+		},
+		{
+			item: "immersiveengineering:material 1 21"
+		},
+		{
+			item: "immersiveengineering:material 1 22"
+		},
+		{
+			item: "immersiveengineering:material 1 23"
+		},
+		{
+			item: "techguns:itemshared 1 63"
+		}],
+		count: 100L
+	}],
+	rewards: [{
+		uid: "c155d817",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

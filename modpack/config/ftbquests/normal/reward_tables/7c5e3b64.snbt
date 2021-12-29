@@ -1,0 +1,9 @@
+{
+	title: "Excavatinator",
+	icon: "zcontent:excavation_wand",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "zcontent:excavation_wand"
+	}]
+}

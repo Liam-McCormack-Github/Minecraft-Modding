@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: 4.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"e0b941c8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "641e630a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}
