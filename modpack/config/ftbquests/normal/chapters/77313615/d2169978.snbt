@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 10.0d,
+	dependencies: [
+		"052e4ea6"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "446c554d",
+		type: "item",
+		items: [{
+			item: "zcontent:galvanized_steel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9ce81e30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

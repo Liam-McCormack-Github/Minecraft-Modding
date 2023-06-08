@@ -1,7 +1,13 @@
 {
-	x: 4.0d,
-	y: -1.5d,
+	title: "Engineer's Hammer",
+	x: 2.0d,
+	y: 0.0d,
 	shape: "gear",
+	description: "Engineer's Hammer",
+	text: [
+		"Engineer's Hammer.",
+		"Can be found in villages or Emergancy Items for a low durability one."
+	],
 	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{

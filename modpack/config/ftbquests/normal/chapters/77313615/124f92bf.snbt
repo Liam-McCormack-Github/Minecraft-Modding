@@ -11,19 +11,12 @@
 		items: [{
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "crude_oil",
-				Amount: 1000
-			}
-		},
-		{
-			id: "forge:bucketfilled",
-			tag: {
 				FluidName: "oil",
 				Amount: 1000
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "b9737dda",

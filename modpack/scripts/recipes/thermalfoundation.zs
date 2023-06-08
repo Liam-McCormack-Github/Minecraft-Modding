@@ -17,9 +17,10 @@ recipes.removeByRecipeName("thermalfoundation:material_82");
 recipes.removeByRecipeName("thermalfoundation:material_83");
 recipes.removeByRecipeName("thermalfoundation:material_84");
 recipes.removeByRecipeName("thermalfoundation:material_85");
-recipes.removeByRecipeName("thermalfoundation:material_92");
 recipes.removeByRecipeName("thermalfoundation:material_86");
-
+recipes.removeByRecipeName("thermalfoundation:material_87");
+recipes.removeByRecipeName("thermalfoundation:material_88");
+recipes.removeByRecipeName("thermalfoundation:material_92");
 
 # Add
 recipes.addShapeless(<thermalfoundation:material:866>, [<alchemistry:compound:60>,<alchemistry:compound:60>,<alchemistry:compound:60>,<alchemistry:compound:60>,<ore:crystalSlagRich>,<alchemistry:compound:60>,<alchemistry:compound:60>,<alchemistry:compound:60>,<alchemistry:compound:60>]);
@@ -61,5 +62,7 @@ recipes.addShapeless(<thermalfoundation:material:323>, [<ore:blockSheetmetalLead
 recipes.addShapeless(<thermalfoundation:material:324>, [<ore:blockSheetmetalAluminium>]);
 recipes.addShapeless(<thermalfoundation:material:320>, [<ore:blockSheetmetalCopper>]);
 recipes.addShapeless(<thermalfoundation:coin:96> * 3, [<thermalfoundation:material:352>,<immersiveengineering:tool> | <tp:stone_hammer>,<immersiveengineering:tool:1>]);
+recipes.addShapedMirrored(<thermalfoundation:material:657>, [[<ore:plateDenseIron>, <ore:plateDenseIron>, null],[<ore:plateDenseIron>, <ore:gearCopper>, <ore:plateDenseIron>], [null, <ore:plateDenseIron>, <ore:plateDenseIron>]]);
+recipes.addShaped(<thermalfoundation:material:656>, [[null, <ore:plateDenseIron>, null],[<ore:plateDenseIron>, <ore:plateDenseCopper>, <ore:plateDenseIron>], [<ore:plateDenseIron>, <ore:plateDenseIron>, <ore:plateDenseIron>]]);
 
 print("---initialized recipes/thermalfoundation.zs---");

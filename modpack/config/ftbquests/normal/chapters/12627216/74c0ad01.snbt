@@ -1,0 +1,16 @@
+{
+	x: 8.0d,
+	y: 7.0d,
+	dependencies: [
+		"d6c497b4",
+		"547aa5a5"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "52d3ca85",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	}]
+}

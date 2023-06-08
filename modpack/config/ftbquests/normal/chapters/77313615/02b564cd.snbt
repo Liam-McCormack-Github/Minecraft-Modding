@@ -1,0 +1,45 @@
+{
+	title: "Mechanical Parts",
+	x: -1.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	description: "Mechanical Parts",
+	text: [
+		"Mechanical Parts"
+	],
+	dependencies: [
+		"9694743e"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "2123edc4",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 57"
+		}]
+	},
+	{
+		uid: "3c4a8bdf",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 58"
+		}]
+	},
+	{
+		uid: "ea7c9fa9",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 59"
+		}]
+	}],
+	rewards: [{
+		uid: "1792bb22",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

@@ -1,3 +1,8 @@
+from os.path import dirname, join
+
+current_dir = dirname(__file__)
+
+
 def crusher():
     recipe = [["<chisel:basalt2:7> * 64", "<zcontent:basalt_chunk>", 2000],
               ["<minecraft:clay> * 64", "<zcontent:clay_chunk>", 2000],
@@ -30,9 +35,10 @@ def crusher():
               ["<actuallyadditions:item_crystal_shard:3> * 3", "<quark:crystal:8>", 2000],
               ["<actuallyadditions:item_crystal_shard:4> * 3", "<quark:crystal:4>", 2000],
               ["<actuallyadditions:item_crystal_shard:5> * 3", "<quark:crystal>", 2000],
-              ["<zcontent:withered_bone_meal> * 6", "<zcontent:wither_bone>", 3000]]
+              ["<zcontent:withered_bone_meal> * 6", "<zcontent:wither_bone>", 3000],
+              ["<minecraft:dye:15> * 2", "<zcontent:animal_bones>", 1500]]
 
-    file = open("thermalexpansion_pulverizer.zs", "w")
+    file = open(join(current_dir, "./thermalexpansion_pulverizer.zs"), "w")
     file.write("#priority 5101\n")
     file.write("import mods.thermalexpansion.Pulverizer;\n")
     file.write("\nprint(\"---loading thermalexpansion_pulverizer.zs---\");\n")
@@ -61,6 +67,15 @@ def crusher():
     file.write("\nprint(\"---initialized immersiveengineering_crusher.zs---\");")
     file.close()
 
+    file = open("extrautils2_crusher.zs", "w")
+    file.write("#priority 5104\n")
+    file.write("import mods.extrautils2.Crusher;\n")
+    file.write("\nprint(\"---loading extrautils2_crusher.zs---\");\n")
+    for x in range(len(recipe)):
+        file.write("Crusher.add(" + str(recipe[x][0]) + "," + str(recipe[x][1]) + ");\n")
+    file.write("\nprint(\"---initialized extrautils2_crusher.zs---\");")
+    file.close()
+
 
 def alloy():
     recipe = [["<enderio:item_alloy_ingot:2> * 2", ["<extendedcrafting:material:36>", "<enderio:item_alloy_ingot:1>"]],
@@ -77,7 +92,7 @@ def alloy():
               ["<enderio:item_alloy_endergy_ingot:6> * 2", ["<extendedcrafting:material:36>", "<enderio:item_alloy_endergy_ingot:5>"]],
               ["<enderio:item_alloy_ingot>", ["<refinedstorage:silicon>", "<minecraft:iron_ingot>", "<thermalfoundation:material:768>"]],
               ["<enderio:item_alloy_ingot:1> * 2", ["<enderio:item_alloy_ingot:3>", "<minecraft:gold_ingot>", "<minecraft:glowstone_dust> * 3"]],
-              ["<enderio:item_alloy_endergy_ingot:5> * 2", ["<thermalfoundation:material:130>", "<enderio:item_alloy_ingot:3>", "<minecraft:glowstone_dust> * 3"]],
+              ["<enderio:item_alloy_endergy_ingot:5> * 2", ["<enderio:item_alloy_ingot:3>", "<thermalfoundation:material:130>", "<minecraft:glowstone_dust> * 3"]],
               ["<enderio:item_material:39> * 4", ["<minecraft:ender_pearl> * 4", "<thermalfoundation:material:134>", "<thermalfoundation:material:131> * 3"]],
               ["<thermalfoundation:material:160>", ["<immersiveengineering:material:17>", "<minecraft:iron_ingot>"]],
               ["<thermalfoundation:material:160>", ["<thermalfoundation:material:802>", "<minecraft:iron_ingot>"]],
@@ -96,7 +111,8 @@ def alloy():
               ["<extendedcrafting:material>", ["<fluxnetworks:flux> * 4", "<minecraft:iron_ingot>"]],
               ["<extendedcrafting:material:36>", ["<tp:ender_dust>", "<zcontent:cold_iron_ingot>"]],
               ["<modularmachinery:itemmodularium> * 2", ["<alchemistry:ingot:74>", "<zcontent:purple_mat_dust>", "<techguns:itemshared:96>"]],
-              ["<extrautils2:ingredients:17> * 2", ["<extrautils2:ingredients:10>", "<minecraft:iron_ingot>", "<alchemistry:ingot:101>"]], ["<zcontent:terraglaz_ingot>", ["<actuallyadditions:item_crystal_empowered:4> * 4", "<zcontent:manyullyn_ingot>"]],
+              ["<extrautils2:ingredients:17> * 2", ["<extrautils2:ingredients:10>", "<minecraft:iron_ingot>", "<alchemistry:ingot:101>"]],
+              ["<zcontent:terraglaz_ingot>", ["<actuallyadditions:item_crystal_empowered:4> * 4", "<zcontent:manyullyn_ingot>"]],
               ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<alchemistry:ingot:25>", "<alchemistry:ingot:24>", "<thermalfoundation:material:133>"]],
               ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<alchemistry:ingot:25>", "<zcontent:nichrome_ingot> * 2"]],
               ["<zcontent:red_compound> * 2", ["<enderio:item_alloy_ingot:1>", "<enderio:item_alloy_ingot> * 2", "<minecraft:redstone> * 12"]],
@@ -163,22 +179,28 @@ def alloy():
     file.write("\nprint(\"---loading modularmachinery_alloyer.zs---\");\n")
     for x in range(len(recipe)):
         if len(recipe[x][1]) == 2:
-            file.write("RecipeBuilder.newBuilder(\"alloyer " + str(x) + "\", \"alloyer\", 1)\n\t.addEnergyPerTickInput(2000)\n\t.addItemOutput(" + str(recipe[x][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][1]) + ")\n\t.build();\n\n")
+            file.write(
+                "RecipeBuilder.newBuilder(\"alloyer " + str(x) + "\", \"alloyer\", 1)\n\t.addEnergyPerTickInput(2000)\n\t.addItemOutput(" + str(recipe[x][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][0]) + ")\n\t.addItemInput(" + str(
+                    recipe[x][1][1]) + ")\n\t.build();\n\n")
         elif len(recipe[x][1]) == 3:
-            file.write("RecipeBuilder.newBuilder(\"alloyer " + str(x) + "\", \"alloyer\", 1)\n\t.addEnergyPerTickInput(2000)\n\t.addItemOutput(" + str(recipe[x][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][1]) + ")\n\t.addItemInput(" + str(recipe[x][1][2]) + ")\n\t.build();\n\n")
+            file.write(
+                "RecipeBuilder.newBuilder(\"alloyer " + str(x) + "\", \"alloyer\", 1)\n\t.addEnergyPerTickInput(2000)\n\t.addItemOutput(" + str(recipe[x][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][0]) + ")\n\t.addItemInput(" + str(
+                    recipe[x][1][1]) + ")\n\t.addItemInput(" + str(recipe[x][1][2]) + ")\n\t.build();\n\n")
         elif len(recipe[x][1]) == 4:
-            file.write("RecipeBuilder.newBuilder(\"alloyer " + str(x) + "\", \"alloyer\", 1)\n\t.addEnergyPerTickInput(2000)\n\t.addItemOutput(" + str(recipe[x][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][1]) + ")\n\t.addItemInput(" + str(recipe[x][1][2]) + ")\n\t.addItemInput(" + str(recipe[x][1][3]) + ")\n\t.build();\n\n")
+            file.write(
+                "RecipeBuilder.newBuilder(\"alloyer " + str(x) + "\", \"alloyer\", 1)\n\t.addEnergyPerTickInput(2000)\n\t.addItemOutput(" + str(recipe[x][0]) + ")\n\t.addItemInput(" + str(recipe[x][1][0]) + ")\n\t.addItemInput(" + str(
+                    recipe[x][1][1]) + ")\n\t.addItemInput(" + str(recipe[x][1][2]) + ")\n\t.addItemInput(" + str(recipe[x][1][3]) + ")\n\t.build();\n\n")
     file.write("\nprint(\"---initialized modularmachinery_alloyer.zs---\");")
     file.close()
 
 
 def bigCraftingTables():
-    get_recipe_paste = open("zz_paste_from_recipe_wand.txt", "r")
+    get_recipe_paste = open(join(current_dir, "./zz_paste_from_recipe_wand.txt"), "r")
     get_recipe_paste = get_recipe_paste.read()
 
     string_without_line_breaks = ""
     for line in get_recipe_paste:
-        stripped_line = line.rstrip()
+        stripped_line = line.rstrip("\n")
         string_without_line_breaks += stripped_line
 
     recipe = []
@@ -209,13 +231,184 @@ def bigCraftingTables():
     file.close()
 
 
+def autoMobDropsCentrifuge():
+    with open('zz_mob_loot.txt', 'r', encoding='utf-8-sig') as inputFile:
+        mobDropsFull = inputFile.read()
+        mobDrops = mobDropsFull.split('\n')
+
+    recipe = []
+
+    for i, x in enumerate(mobDrops):
+        # print(i, x)
+        entries = x.split('--|--')
+        temp = []
+        for y in entries:
+            temp.append(y)
+
+        recipe.append(temp)
+
+    file = open("thermalexpansion_centrifuge.zs", "w")
+    file.write("#priority 5299\n")
+    file.write("import mods.thermalexpansion.Centrifuge;\n")
+    file.write("\nprint(\"---loading thermalexpansion_centrifuge.zs---\");\n")
+
+    file.write('''Centrifuge.removeRecipeMob(<entity:minecraft:elder_guardian>);
+Centrifuge.removeRecipeMob(<entity:minecraft:wither_skeleton>);
+Centrifuge.removeRecipeMob(<entity:minecraft:stray>);
+Centrifuge.removeRecipeMob(<entity:minecraft:skeleton>);
+Centrifuge.removeRecipeMob(<entity:quark:ashen>);
+Centrifuge.removeRecipeMob(<entity:minecraft:husk>);
+Centrifuge.removeRecipeMob(<entity:minecraft:zombie_villager>);
+Centrifuge.removeRecipeMob(<entity:minecraft:zombie>);
+Centrifuge.removeRecipeMob(<entity:quark:dweller>);
+Centrifuge.removeRecipeMob(<entity:minecraft:skeleton_horse>);
+Centrifuge.removeRecipeMob(<entity:minecraft:zombie_horse>);
+Centrifuge.removeRecipeMob(<entity:minecraft:donkey>);
+Centrifuge.removeRecipeMob(<entity:minecraft:horse>);
+Centrifuge.removeRecipeMob(<entity:minecraft:evocation_illager>);
+Centrifuge.removeRecipeMob(<entity:minecraft:vindication_illager>);
+Centrifuge.removeRecipeMob(<entity:minecraft:vex>);
+Centrifuge.removeRecipeMob(<entity:minecraft:creeper>);
+Centrifuge.removeRecipeMob(<entity:minecraft:spider>);
+Centrifuge.removeRecipeMob(<entity:minecraft:cave_spider>);
+Centrifuge.removeRecipeMob(<entity:minecraft:slime>);
+Centrifuge.removeRecipeMob(<entity:minecraft:ghast>);
+Centrifuge.removeRecipeMob(<entity:minecraft:zombie_pigman>);
+Centrifuge.removeRecipeMob(<entity:minecraft:enderman>);
+Centrifuge.removeRecipeMob(<entity:minecraft:silverfish>);
+Centrifuge.removeRecipeMob(<entity:minecraft:blaze>);
+Centrifuge.removeRecipeMob(<entity:minecraft:magma_cube>);
+Centrifuge.removeRecipeMob(<entity:minecraft:bat>);
+Centrifuge.removeRecipeMob(<entity:minecraft:witch>);
+Centrifuge.removeRecipeMob(<entity:minecraft:endermite>);
+Centrifuge.removeRecipeMob(<entity:minecraft:guardian>);
+Centrifuge.removeRecipeMob(<entity:minecraft:shulker>);
+Centrifuge.removeRecipeMob(<entity:minecraft:pig>);
+Centrifuge.removeRecipeMob(<entity:minecraft:sheep>);
+Centrifuge.removeRecipeMob(<entity:minecraft:cow>);
+Centrifuge.removeRecipeMob(<entity:minecraft:mooshroom>);
+Centrifuge.removeRecipeMob(<entity:minecraft:chicken>);
+Centrifuge.removeRecipeMob(<entity:minecraft:squid>);
+Centrifuge.removeRecipeMob(<entity:minecraft:wolf>);
+Centrifuge.removeRecipeMob(<entity:minecraft:rabbit>);
+Centrifuge.removeRecipeMob(<entity:minecraft:polar_bear>);
+Centrifuge.removeRecipeMob(<entity:minecraft:llama>);
+Centrifuge.removeRecipeMob(<entity:minecraft:parrot>);
+Centrifuge.removeRecipeMob(<entity:minecraft:ocelot>);
+Centrifuge.removeRecipeMob(<entity:minecraft:villager>);
+Centrifuge.removeRecipeMob(<entity:quark:pirate>);
+Centrifuge.removeRecipeMob(<entity:quark:wraith>);
+Centrifuge.removeRecipeMob(<entity:thermalfoundation:blizz>);
+Centrifuge.removeRecipeMob(<entity:thermalfoundation:blitz>);
+Centrifuge.removeRecipeMob(<entity:thermalfoundation:basalz>);\n\n''')
+
+    recipe.pop(0)
+
+    try:
+        for i, x in enumerate(recipe):
+            Entity = x[0]
+            XP = x[1]
+            Type = x[2]
+            Bone = x[3]
+            Bone_Amount = int(x[4])
+            Flesh = x[5]
+            Flesh_Amount = int(x[6])
+            Skull_1 = x[7]
+            Skull_1_Amount = int(x[8])
+            Skull_2 = x[9]
+            Skull_2_Amount = int(x[10])
+            Rare_Drop_1 = x[11]
+            Rare_Drop_1_Amount = int(x[12])
+            Rare_Drop_2 = x[13]
+            Rare_Drop_2_Amount = int(x[14])
+            Common_Drop_1 = x[15]
+            Common_Drop_1_Amount = int(x[16])
+            Common_Drop_2 = x[17]
+            Common_Drop_2_Amount = int(x[18])
+            Common_Drop_3 = x[19]
+            Common_Drop_3_Amount = int(x[20])
+
+            Bone_Found = (Bone_Amount > 0)
+            Flesh_Found = (Flesh_Amount > 0)
+            Skull_1_Found = (Skull_1_Amount > 0)
+            Skull_2_Found = (Skull_2_Amount > 0)
+            Rare_Drop_1_Found = (Rare_Drop_1_Amount > 0)
+            Rare_Drop_2_Found = (Rare_Drop_2_Amount > 0)
+            Common_Drop_1_Found = (Common_Drop_1_Amount > 0)
+            Common_Drop_2_Found = (Common_Drop_2_Amount > 0)
+            Common_Drop_3_Found = (Common_Drop_3_Amount > 0)
+
+            main_drops = Bone_Found or Flesh_Found or Skull_1_Found or Skull_2_Found or Rare_Drop_1_Found or Rare_Drop_2_Found or Common_Drop_1_Found or Common_Drop_2_Found or Common_Drop_3_Found
+
+            if main_drops:
+
+                data = []
+
+                if Type == 'hostile':
+                    if Skull_1_Found and len(data) < 3:
+                        data.append(f'{Skull_1} % {Skull_1_Amount}')
+                    if Rare_Drop_1_Found and len(data) < 3:
+                        data.append(f'{Rare_Drop_1} % {Rare_Drop_1_Amount}')
+                    if Rare_Drop_2_Found and len(data) < 3:
+                        data.append(f'{Rare_Drop_2} % {Rare_Drop_2_Amount}')
+                    if Common_Drop_1_Found and len(data) < 3:
+                        data.append(f'{Common_Drop_1} * {Common_Drop_1_Amount}')
+                    if Flesh_Found and len(data) < 3:
+                        data.append(f'{Flesh} * {Flesh_Amount}')
+                    if Bone_Found and len(data) < 3:
+                        data.append(f'{Bone} * {Bone_Amount}')
+                    if Common_Drop_2_Found and len(data) < 3:
+                        data.append(f'{Common_Drop_2} * {Common_Drop_2_Amount}')
+                    if Common_Drop_3_Found and len(data) < 3:
+                        data.append(f'{Common_Drop_3} * {Common_Drop_3_Amount}')
+                    if Skull_2_Found and len(data) < 3:
+                        data.append(f'{Skull_2} % {Skull_2_Amount}')
+                else:
+                    if Skull_1_Found and len(data) < 3:
+                        data.append(f'{Skull_1} % {Skull_1_Amount}')
+                    if Rare_Drop_1_Found and len(data) < 3:
+                        data.append(f'{Rare_Drop_1} % {Rare_Drop_1_Amount}')
+                    if Rare_Drop_2_Found and len(data) < 3:
+                        data.append(f'{Rare_Drop_2} % {Rare_Drop_2_Amount}')
+                    if Common_Drop_1_Found and len(data) < 3:
+                        data.append(f'{Common_Drop_1} * {Common_Drop_1_Amount}')
+                    if Common_Drop_2_Found and len(data) < 3:
+                        data.append(f'{Common_Drop_2} * {Common_Drop_2_Amount}')
+                    if Common_Drop_3_Found and len(data) < 3:
+                        data.append(f'{Common_Drop_3} * {Common_Drop_3_Amount}')
+                    if Flesh_Found and len(data) < 3:
+                        data.append(f'{Flesh} * {Flesh_Amount}')
+                    if Bone_Found and len(data) < 3:
+                        data.append(f'{Bone} * {Bone_Amount}')
+                    if Skull_2_Found and len(data) < 3:
+                        data.append(f'{Skull_2} % {Skull_2_Amount}')
+
+                mobLoot = ', '.join(data)
+
+                file.write(f"Centrifuge.addRecipeMob(<entity:{Entity}>, [{mobLoot}], null, 4000, {XP});\n")
+            else:
+                print(f'{Entity} had no data')
+    except IndexError as e:
+        print('IndexError')
+        print(e)
+
+
+    file.write("\nprint(\"---initialized thermalexpansion_centrifuge.zs---\");")
+    file.close()
+
+
 if __name__ == "__main__":
-    crusher()
-    print(crusher)
-    alloy()
-    print(alloy)
-    bigCraftingTables()
-    print(bigCraftingTables)
+    # crusher()
+    # print("exec crusher()")
+    # alloy()
+    # print("exec alloy()")
+    # bigCraftingTables()
+    # print("exec bigCraftingTables()")
+    # autoMobDropsCentrifuge()
+    # print("exec autoMobDrops()")
+    # autoMobDropsDeep()
+    # print("exec autoMobDrops()")
+    print('Hello')
 
 """
 ---------------------

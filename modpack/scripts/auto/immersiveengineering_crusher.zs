@@ -34,5 +34,6 @@ Crusher.addRecipe(<actuallyadditions:item_crystal_shard:3> * 3,<quark:crystal:8>
 Crusher.addRecipe(<actuallyadditions:item_crystal_shard:4> * 3,<quark:crystal:4>,2048);
 Crusher.addRecipe(<actuallyadditions:item_crystal_shard:5> * 3,<quark:crystal>,2048);
 Crusher.addRecipe(<zcontent:withered_bone_meal> * 6,<zcontent:wither_bone>,3072);
+Crusher.addRecipe(<minecraft:dye:15> * 2,<zcontent:animal_bones>,1536);
 
 print("---initialized immersiveengineering_crusher.zs---");

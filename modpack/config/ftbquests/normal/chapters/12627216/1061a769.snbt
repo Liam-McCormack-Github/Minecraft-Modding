@@ -1,7 +1,14 @@
 {
-	x: 3.0d,
-	y: 5.0d,
+	title: "Iron Ingot",
+	x: 1.0d,
+	y: 8.0d,
 	shape: "rsquare",
+	description: "Iron Ingot",
+	text: [
+		"Iron Ingot",
+		"",
+		"Can mine with bronze"
+	],
 	dependencies: [
 		"7cd1d773"
 	],

@@ -1,0 +1,155 @@
+{
+	x: 4.5d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7c435346"
+	],
+	tasks: [{
+		uid: "703827b7",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:sprout_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "3099368d",
+		type: "item",
+		item: "actuallyadditions:item_crystal_shard 1 3"
+	},
+	{
+		uid: "bb6a6c61",
+		type: "item",
+		item: "actuallyadditions:item_crystal_shard 1 1"
+	},
+	{
+		uid: "60de108b",
+		type: "item",
+		item: "actuallyadditions:item_crystal_shard 1 4"
+	},
+	{
+		uid: "ba5c000b",
+		type: "item",
+		item: "actuallyadditions:item_crystal_shard 1 2"
+	},
+	{
+		uid: "0af234c9",
+		type: "item",
+		item: "actuallyadditions:item_crystal_shard"
+	},
+	{
+		uid: "26b8e1ff",
+		type: "item",
+		item: "actuallyadditions:item_crystal_shard 1 5"
+	},
+	{
+		uid: "d1ddde97",
+		type: "item",
+		item: "mysticalagriculture:dirt_essence"
+	},
+	{
+		uid: "b4d3c57b",
+		type: "item",
+		item: "mysticalagriculture:fire_essence"
+	},
+	{
+		uid: "013cd8a6",
+		type: "item",
+		item: "mysticalagriculture:ice_essence"
+	},
+	{
+		uid: "ec0a6095",
+		type: "item",
+		item: "mysticalagriculture:nature_essence"
+	},
+	{
+		uid: "e4683bf9",
+		type: "item",
+		item: "mysticalagriculture:water_essence"
+	},
+	{
+		uid: "e06a682a",
+		type: "item",
+		item: "mysticalagriculture:wood_essence"
+	},
+	{
+		uid: "e706beb3",
+		type: "item",
+		item: "thermalfoundation:dye"
+	},
+	{
+		uid: "82805b6e",
+		type: "item",
+		item: "thermalfoundation:dye 1 1"
+	},
+	{
+		uid: "c0ad76cf",
+		type: "item",
+		item: "thermalfoundation:dye 1 2"
+	},
+	{
+		uid: "674898df",
+		type: "item",
+		item: "thermalfoundation:dye 1 3"
+	},
+	{
+		uid: "d4269ace",
+		type: "item",
+		item: "thermalfoundation:dye 1 4"
+	},
+	{
+		uid: "b6ee7fa6",
+		type: "item",
+		item: "thermalfoundation:dye 1 5"
+	},
+	{
+		uid: "2e197ad0",
+		type: "item",
+		item: "thermalfoundation:dye 1 6"
+	},
+	{
+		uid: "5f6aebb0",
+		type: "item",
+		item: "thermalfoundation:dye 1 7"
+	},
+	{
+		uid: "aa26b6c5",
+		type: "item",
+		item: "thermalfoundation:dye 1 8"
+	},
+	{
+		uid: "1f29f7fe",
+		type: "item",
+		item: "thermalfoundation:dye 1 9"
+	},
+	{
+		uid: "42742a8d",
+		type: "item",
+		item: "thermalfoundation:dye 1 10"
+	},
+	{
+		uid: "ae4af1fd",
+		type: "item",
+		item: "thermalfoundation:dye 1 11"
+	},
+	{
+		uid: "7586373f",
+		type: "item",
+		item: "thermalfoundation:dye 1 12"
+	},
+	{
+		uid: "60e899ef",
+		type: "item",
+		item: "thermalfoundation:dye 1 13"
+	},
+	{
+		uid: "f7d788f9",
+		type: "item",
+		item: "thermalfoundation:dye 1 14"
+	},
+	{
+		uid: "c9ab7fa0",
+		type: "item",
+		item: "thermalfoundation:dye 1 15"
+	}]
+}

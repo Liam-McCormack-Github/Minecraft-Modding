@@ -16,7 +16,7 @@ AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>, [<industrialforegoi
 AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:6> * 2, [<extendedcrafting:material:36>,<enderio:item_alloy_endergy_ingot:5>], 4000);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot>, [<refinedstorage:silicon>,<minecraft:iron_ingot>,<thermalfoundation:material:768>], 8000);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:1> * 2, [<enderio:item_alloy_ingot:3>,<minecraft:gold_ingot>,<minecraft:glowstone_dust> * 3], 8000);
-AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:5> * 2, [<thermalfoundation:material:130>,<enderio:item_alloy_ingot:3>,<minecraft:glowstone_dust> * 3], 8000);
+AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:5> * 2, [<enderio:item_alloy_ingot:3>,<thermalfoundation:material:130>,<minecraft:glowstone_dust> * 3], 8000);
 AlloySmelter.addRecipe(<enderio:item_material:39> * 4, [<minecraft:ender_pearl> * 4,<thermalfoundation:material:134>,<thermalfoundation:material:131> * 3], 8000);
 AlloySmelter.addRecipe(<thermalfoundation:material:160>, [<immersiveengineering:material:17>,<minecraft:iron_ingot>], 4000);
 AlloySmelter.addRecipe(<thermalfoundation:material:160>, [<thermalfoundation:material:802>,<minecraft:iron_ingot>], 4000);

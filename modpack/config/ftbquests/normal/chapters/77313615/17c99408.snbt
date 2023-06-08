@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	dependencies: [
+		"610bd861"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "4c9a9968",
+		type: "item",
+		items: [{
+			item: "mysticaladaptations:silicon_block"
+		}]
+	}],
+	rewards: [{
+		uid: "8623f383",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

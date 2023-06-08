@@ -1,0 +1,176 @@
+{
+  "entries": [
+    {
+      "item": "projecte:item.pe_matter|0",
+      "emc": 4096000
+    },
+    {
+      "item": "projecte:item.pe_matter|1",
+      "emc": 16384000
+    },
+    {
+      "item": "projectex:matter|0",
+      "emc": 65536000
+    },
+    {
+      "item": "projectex:matter|1",
+      "emc": 262144000
+    },
+    {
+      "item": "projectex:matter|2",
+      "emc": 1048576000
+    },
+    {
+      "item": "projectex:matter|3",
+      "emc": 4194304000
+    },
+    {
+      "item": "projectex:matter|4",
+      "emc": 16777216000
+    },
+    {
+      "item": "projectex:matter|5",
+      "emc": 67108864000
+    },
+    {
+      "item": "projectex:matter|6",
+      "emc": 268435456000
+    },
+    {
+      "item": "projectex:matter|7",
+      "emc": 1073741824000
+    },
+    {
+      "item": "projectex:matter|8",
+      "emc": 4294967296000
+    },
+    {
+      "item": "projectex:matter|9",
+      "emc": 17179869184000
+    },
+    {
+      "item": "projectex:matter|10",
+      "emc": 68719476736000
+    },
+    {
+      "item": "projectex:matter|11",
+      "emc": 274877906944000
+    },
+    {
+      "item": "projecte:item.pe_fuel|2",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:item.pe_fuel|1",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:item.pe_fuel|0",
+      "emc": 512
+    },
+    {
+      "item": "projecte:item.pe_klein_star|0",
+      "emc": 20480
+    },
+    {
+      "item": "minecraft:coal|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:diamond|0",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:iron_ingot|0",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:gold_ingot|0",
+      "emc": 2048
+    },
+    {
+      "item": "minecraft:quartz|0",
+      "emc": 256
+    },
+    {
+      "item": "refinedstorage:silicon|0",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:dye|4",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:obsidian|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:stone|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone|1",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:stone|3",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:stone|5",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cobblestone|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:redstone|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:glowstone_dust|0",
+      "emc": 384
+    },
+    {
+      "item": "minecraft:log|0",
+      "emc": 128
+    },
+    {
+      "item": "OD|logWood",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:planks|0",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:ender_pearl|0",
+      "emc": 1600
+    },
+    {
+      "item": "extrautils2:endershard|0",
+      "emc": 200
+    },
+    {
+      "item": "immersiveengineering:metal|5",
+      "emc": 32768
+    },
+    {
+      "item": "enderio:item_alloy_ingot|0",
+      "emc": 640
+    },
+    {
+      "item": "zcontent:blue_mat_dust|0",
+      "emc": 384
+    }
+  ]
+}

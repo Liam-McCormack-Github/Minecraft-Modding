@@ -1,0 +1,118 @@
+{
+  "type": "biomesoplenty:sacred_oak",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "biomesoplenty:log_0",
+      "meta": 4
+    },
+    "b": {
+      "name": "biomesoplenty:leaves_3",
+      "meta": 15
+    },
+    "c": {
+      "name": "biomesoplenty:log_0",
+      "meta": 0
+    },
+    "d": {
+      "name": "biomesoplenty:log_0",
+      "meta": 8
+    },
+    "e": {
+      "name": "biomesoplenty:leaves_3",
+      "meta": 7
+    }
+  },
+  "shape": [
+    [
+      "      ",
+      "      ",
+      " bbbb ",
+      " bbbb ",
+      "      ",
+      " bbbb ",
+      " bbbb ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      " bbbb ",
+      "bbbbbb",
+      "bbccbb",
+      " bbbb ",
+      "bbbbbb",
+      "bbccbb",
+      " bbbb ",
+      "  bb  ",
+      "      ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "  ee  ",
+      " beeb ",
+      "bbaabb",
+      "bdaadb",
+      " baab ",
+      "bbaabb",
+      "bdaadb",
+      " baab ",
+      " baab ",
+      "  aa  ",
+      "  aa  ",
+      "  aa  ",
+      "  aa  "
+    ],
+    [
+      "  ee  ",
+      " beeb ",
+      "bbaabb",
+      "bdaadb",
+      " baab ",
+      "bbaabb",
+      "bdaadb",
+      " baab ",
+      " baab ",
+      "  aa  ",
+      "  aa  ",
+      "  aa  ",
+      "  aa  "
+    ],
+    [
+      "      ",
+      " bbbb ",
+      "bbbbbb",
+      "bbccbb",
+      " bbbb ",
+      "bbbbbb",
+      "bbccbb",
+      " bbbb ",
+      "  bb  ",
+      "      ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      "      ",
+      " bbbb ",
+      " bbbb ",
+      "      ",
+      " bbbb ",
+      " bbbb ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      "
+    ]
+  ]
+}

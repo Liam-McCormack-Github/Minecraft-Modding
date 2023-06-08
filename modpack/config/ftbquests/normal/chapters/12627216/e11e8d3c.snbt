@@ -1,7 +1,7 @@
 {
 	title: "Arc Furnace",
-	x: 12.0d,
-	y: 2.0d,
+	x: 10.0d,
+	y: 5.0d,
 	shape: "rsquare",
 	description: "Arc Furnace",
 	text: [
@@ -10,6 +10,7 @@
 	hide_dependency_lines: true,
 	dependencies: [
 		"93478a1d",
+		"d5743aaf",
 		"936c63d1",
 		"01e618db",
 		"cd082057"

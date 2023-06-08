@@ -1,0 +1,286 @@
+{
+  "OP Commands": {},
+  "Dark Steel Armour": {},
+  "Utilities1": {
+    "0": {
+      "title": "Delete Items",
+      "icon": {
+        "name": "quantumstorage:trashcan",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbutilities.trash",
+          "toggle": true
+        }
+      }
+    }
+  },
+  "Extras1": {},
+  "Config1": {},
+  "Overlays1": {},
+  "main": {
+    "0": {
+      "title": "Toggle Better Magnets",
+      "icon": {
+        "name": "bettermagnets:magnet",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Toggle Magnet",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Ore Excavation",
+      "icon": {
+        "name": "minecraft:diamond_pickaxe",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "oreexcavation.key.shape",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "Tech Guns",
+      "icon": {
+        "name": "techguns:itemshared",
+        "damage": 3
+      },
+      "action": {
+        "category": "Tech Guns"
+      }
+    },
+    "3": {
+      "title": "Dark Steel Armour",
+      "icon": {
+        "name": "enderio:item_dark_steel_chestplate",
+        "damage": 0
+      },
+      "action": {
+        "category": "Dark Steel Armour"
+      }
+    },
+    "4": {
+      "title": "Config and Lag Monitoring 1/",
+      "icon": {
+        "name": "enderio:item_material",
+        "damage": 10
+      },
+      "action": {
+        "category": "Config1"
+      }
+    },
+    "5": {
+      "title": "Extras 1/",
+      "icon": {
+        "name": "biomesoplenty:earth",
+        "damage": 0
+      },
+      "action": {
+        "category": "Extras1"
+      }
+    },
+    "6": {
+      "title": "OP Commands 1/",
+      "icon": {
+        "name": "minecraft:command_block",
+        "damage": 0
+      },
+      "action": {
+        "category": "Commands1"
+      }
+    },
+    "7": {
+      "title": "Open Inventories 1/",
+      "icon": {
+        "name": "quark:backpack",
+        "damage": 0
+      },
+      "action": {
+        "category": "Inventories1"
+      }
+    },
+    "8": {
+      "title": "Change Modes 1/",
+      "icon": {
+        "name": "thermalinnovation:drill",
+        "damage": 0
+      },
+      "action": {
+        "category": "Mode1"
+      }
+    },
+    "9": {
+      "title": "Utilities 1/",
+      "icon": {
+        "name": "techguns:itemshared",
+        "damage": 132
+      },
+      "action": {
+        "category": "Utilities1"
+      }
+    }
+  },
+  "Inventories1": {
+    "7": {
+      "title": "Extended Inventory Tool Belt",
+      "icon": {
+        "name": "cyclicmagic:inventory_food",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyWheel",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Extended Inventory",
+      "icon": {
+        "name": "cyclicmagic:inventory_food",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraInvo",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Inventory Crafting",
+      "icon": {
+        "name": "cyclicmagic:crafting_food",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraCraftin",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Tech Guns": {
+    "0": {
+      "title": "Force Reload",
+      "icon": {
+        "name": "techguns:itemshared",
+        "damage": 11
+      },
+      "action": {
+        "key": {
+          "key": "techguns.key.forceReload",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Extras": {},
+  "Commands1": {
+    "0": {
+      "title": "XRay",
+      "icon": {
+        "name": "scannable:module_range",
+        "damage": 0
+      },
+      "action": {
+        "category": "XRay"
+      }
+    },
+    "1": {
+      "title": "Survival Mode",
+      "icon": {
+        "name": "cyclicmagic:heart_food",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/gamemode 0 @p",
+          "clipboard": false
+        }
+      }
+    },
+    "9": {
+      "title": "Creative Mode",
+      "icon": {
+        "name": "thermalfoundation:upgrade",
+        "damage": 256
+      },
+      "action": {
+        "command": {
+          "command": "/gamemode 1 @p",
+          "clipboard": false
+        }
+      }
+    }
+  },
+  "Cyclic": {},
+  "Extras 2": {},
+  "Commands": {},
+  "Open Inventories": {},
+  "XRay": {
+    "0": {
+      "title": "Cave Finder",
+      "icon": {
+        "name": "minecraft:stone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Cave Finder",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Fullbright",
+      "icon": {
+        "name": "minecraft:glowstone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Fullbright",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "XRay",
+      "icon": {
+        "name": "minecraft:diamond_ore",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "XRay",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "XRay GUI",
+      "icon": {
+        "name": "minecraft:gold_ore",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "XRay GUI",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Journey Map": {},
+  "Change Modes": {},
+  "Mode1": {}
+}

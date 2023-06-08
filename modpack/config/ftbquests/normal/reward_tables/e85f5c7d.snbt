@@ -9,8 +9,8 @@
 	rewards: [{
 		item: {
 			id: "bettermagnets:magnet",
-			tag: {},
-			Damage: 4s
+			Damage: 4s,
+			tag: {}
 		}
 	}]
 }

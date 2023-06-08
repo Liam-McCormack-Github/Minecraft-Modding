@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: -5.0d,
+	dependencies: [
+		"2ddbf681"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7e40a59c",
+		type: "item",
+		items: [{
+			item: "tp:wither_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b574afe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

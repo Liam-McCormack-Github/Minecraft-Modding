@@ -1,0 +1,31 @@
+{
+	x: 4.0d,
+	y: -7.0d,
+	dependencies: [
+		"02a528c5",
+		"6ff63f8e"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "be933617",
+		type: "item",
+		items: [{
+			id: "industrialexpansion:quantum_helmet",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e481f04",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

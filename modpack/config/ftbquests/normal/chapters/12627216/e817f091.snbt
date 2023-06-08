@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 10.0d,
+	dependencies: [
+		"1061a769"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b07580ec",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47fe9278",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

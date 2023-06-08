@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: 7.0d,
+	dependencies: [
+		"547aa5a5"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "88f706c5",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "d2925112",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

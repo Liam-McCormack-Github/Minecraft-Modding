@@ -1,0 +1,361 @@
+__Extended Find & Replace__________________________________________________________________
+##########################
+tasks:
+dependency_requirement: "one_started",\n\ttasks:
+##########################
+			item: "modid:item"
+\n
+\n\t\t},\n\t\t{\n
+##########################
+(.*)
+__PREFIX__$1__SUFFIX__
+##########################
+__Extended Find & Replace__________________________________________________________________
+
+
+ore dicts
+	<minecraft:water_bucket> water ored dictironaries
+	tool ore dicts just because.....
+
+codnuits
+	infinity regent
+
+ore dril??? 
+	<techguns:orecluster:8>
+	uranium = 0x4ccf2d
+	
+------------------------------------------------------------------------------------
+as of 2023
+
+
+recipes.addShapeless("ct_shapeless1607494526", <minecraft:dye:15>, [<zcontent:animal_bones>]);
+recipes.addShapeless(, <minecraft:dye:15> * 9, [<minecraft:bone_block>]);
+recipes.addShapeless("minecraft:bone_meal_from_bone", <minecraft:dye:15> * 3, [<ore:bone>]);
+
+
+	
+		
+	
+	deep mob learning 2????
+	
+	<immersivetech:material>
+	<draconicevolution:mob_soul>.withTag({EntityName: "minecraft:silverfish"})
+	
+	<enderio:item_material:28>
+	<draconicevolution:mob_soul>.withTag({EntityName: "minecraft:endermite"})	
+
+
+
+	EMC!!!!!!!!!!!!
+		
+	deep mob learning
+		splits stuff
+		
+		
+	dim shard from rf tools	
+		
+	seeds
+		change mysticalagriculture
+	
+
+	Delete MIA 
+		>> use crafttweaker
+
+
+	zcontent
+		move to biomesoplenty
+		village from charm????
+		lighntning items
+		seed bags
+
+------------------------------------------------------------------------------------
+
+
+
+
+sort out #priority 
+	higher is first
+	lower is later
+
+
+	
+
+
+32x32
+	mattock
+
+
+
+
+cyclicmagic reicpes are wierd
+	auto crafter
+	packager
+
+	packager from cyclic
+		change to assembler
+			remove recieps
+			add
+				computer part??
+
+
+
+
+Loottables
+	loottweaker this shit
+		balance materials?? from chests
+			new shit in end citys
+		
+
+compact storage
+	add way to craft normally
+	
+
+
+recipe parity
+	bricks
+	
+	pulvus / crusher from AA and XU2
+	
+	
+
+
+
+
+
+
+Easy
+	keep inventory
+	auto collect
+	player storage
+	techguns PvE damage
+		s:DamageFactorNPC=0.2
+	increase mob
+		ambient { I:spawnWeight=250
+		monster { I:spawnWeight=100	
+
+Normal
+	corpse
+	auto collect
+	player storage
+	techguns PvE damage
+		s:DamageFactorNPC=0.5
+	increase mob
+		ambient { I:spawnWeight=250
+		monster { I:spawnWeight=200	
+	
+Hard
+	corpse
+	no auto collect
+	no player storage
+	techguns PvE damage
+		s:DamageFactorNPC=1.0
+	increase mob
+		ambient { I:spawnWeight=150
+		monster { I:spawnWeight=250	
+
+
+
+
+!!!!
+More stone to dissolver from alchemistry
+
+!!!!
+add crafting table to move nbt from wands to upgraded wands
+	add if empty dont do ?????
+
+
+!!!!
+add solidifer for glitch ingots and demon and 
+
+
+
+
+to shop
+	<better_diving:seamoth>.withTag({"better_diving:item_stack_handler": {Size: 5, Items: [{Slot: 0, id: "better_diving:power_cell", Count: 1, tag: {"better_diving:energy_storage": 2000000}, Damage: 0 as short}]}})
+
+
+
+
+
+
+Overload recipes
+		|
+		---> reseacrh table
+			C:\Users\Liam McCormack\Desktop\MultiMC\instances\SevTech- Ages\minecraft\scripts\crafttweaker\recipes\mods\overloaded.zs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alchem ingots used elsewhere
+	<mysticalagriculture:magnesium_essence>
+	<mysticalagriculture:boron_essence>
+	<mysticalagriculture:chrome_essence>
+	<mysticalagriculture:zinc_essence>
+	<mysticalagriculture:osmium_essence>
+	<mysticalagriculture:tungsten_essence>
+	<mysticalagriculture:thorium_essence>
+	<mysticalagriculture:lithium_essence>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vat --> thermal recipes
+
+
+
+change chest????
+
+grass
+
+
+change IE Cloche compat via rebuild mod???????????????
+
+
+projecte 
+	emc - TODO
+	life and body stone in anvil
+	check recipes - cant auto craft
+	buff projectE tools
+
+
+	crystal block not gem from seeds!!!
+
+	prosperity shards -> souls
+
+	rebalance zWands
+	quests
+	check recipes
+	money balancing
+
+
+
+Change quest rewards
+	add items to shop
+	glithced loot box (blue and yellow)???
+
+
+
+
+ingot | dust | gem | ore | block | nugget | ender | wire | @immersive | flint | @refined | @guns | star | ash | flux | clathrate
+
+
+///////////////////////////
+auto crafting fix with un-shaped recipes
+////////////////////////////
+
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:CokeOven"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:AlloySmelter"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnace"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BlastFurnaceAdvanced"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:MetalPress"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Crusher"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:SheetmetalTank"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Silo"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Assembler"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:AutoWorkbench"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:BottlingMachine"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Squeezer"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Fermenter"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Refinery"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:DieselGenerator"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:ArcFurnace"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Lightningrod"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:Mixer"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IP:DistillationTower"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IP:Pumpjack"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:CokeOvenAdvanced"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Boiler"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Distiller"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarTower"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarReflector"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:Alternator"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SteamTurbine"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IT:SteelSheetmetalTank"})
+<immersivepetroleum:schematic>.withTag({multiblock: "IE:ExcavatorDemo"})
+
+
+
+
+recipes.addShapeless("new_anvil_recipe_",__out__,[<enderio:block_dark_steel_anvil:*>.giveBack(), __in__, __in__],function(a, b, c) {if c.player.xp >= __xp__ {return a;} else {return null;}},function(a, b, d) {d.xp -= __xp__;});
+recipes.addShapeless("new_anvil_recipe_",__out__,[<enderio:block_dark_steel_anvil:*>.giveBack(), __in__, __in__],function(a, b, c) {if c.player.xp >= __xp__ {return a;} else {return null;}},function(a, b, d) {d.xp -= __xp__;});
+recipes.addShapeless("new_anvil_recipe_",__out__,[<enderio:block_dark_steel_anvil:*>.giveBack(), __in__, __in__],function(a, b, c) {if c.player.xp >= __xp__ {return a;} else {return null;}},function(a, b, d) {d.xp -= __xp__;});
+
+#recipes.addShapeless("name",__out__,[<enderio:block_dark_steel_anvil:*>.giveBack(), __in__, __in__],function(output, inputs, craftingtable) {if craftingtable.player.xp >= __xp__ {return output;} else {return null;}},function(output, inputs, player) {player.xp -= __xp__;});
+#recipes.addShapeless("new_anvil_recipe_",__out__,[<enderio:block_dark_steel_anvil:*>.giveBack(), __in__, __in__],function(a, b, c) {if c.player.xp >= __xp__ {return a;} else {return null;}},function(a, b, d) {d.xp -= __xp__;});
+
+
+
+
+
+#priority 8001
+print("---loading mods/---");
+
+# Remove
+xxxx
+
+# Add
+xxxx
+
+print("---initialized mods/---");
+
+
+
+
+
+
+
+thisdict = {
+    "coal coke": 1200,
+    "coal coke block": 12000,
+    "<mysticalagriculture:coal>": 1800,
+    "<mysticalagriculture:coal:1>": 3600,
+    "<mysticalagriculture:coal:2>": 7200,
+    "<mysticalagriculture:coal:3>": 14400,
+    "<mysticalagriculture:coal:4>": 28800,
+    "<mysticalagradditions:insanium:5>": 57600,
+    "<mysticalagriculture:coal_block>": 18000,
+    "<mysticalagriculture:coal_block:1>": 36000,
+    "<mysticalagriculture:coal_block:2>": 72000,
+    "<mysticalagriculture:coal_block:3>": 144000,
+    "<mysticalagriculture:coal_block:4>": 288000,
+    "<mysticalagradditions:storage:2>": 576000
+}
+
+print(thisdict["coal coke"])
+
+for x in thisdict:
+  print("-------------")
+  print("Fuel =" + str(x))
+  print("Time =" + str(x))
+  print("\tGraphite =" + str(thisdict[x] / 300))
+  print("\tSteel =" + str(thisdict[x] / 1200))
+  print("\tSteel Block =" + str(thisdict[x] / 10800))
+  print("-------------")
+
+
+
+

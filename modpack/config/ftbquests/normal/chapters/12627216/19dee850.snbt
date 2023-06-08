@@ -1,7 +1,7 @@
 {
 	title: "Gears",
-	x: 14.0d,
-	y: 3.0d,
+	x: 12.0d,
+	y: 6.0d,
 	description: "Gears",
 	text: [
 		"Gears"

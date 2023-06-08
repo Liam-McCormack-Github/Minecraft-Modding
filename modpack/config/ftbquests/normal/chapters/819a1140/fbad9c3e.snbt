@@ -2,8 +2,8 @@
 	title: "Get Magnet",
 	icon: {
 		id: "bettermagnets:magnet",
-		tag: {},
-		Damage: 4s
+		Damage: 4s,
+		tag: {}
 	},
 	disable_toast: true,
 	x: 1.5d,
@@ -21,8 +21,8 @@
 		title: "Get Magnet",
 		icon: {
 			id: "bettermagnets:magnet",
-			tag: {},
-			Damage: 4s
+			Damage: 4s,
+			tag: {}
 		},
 		disable_toast: true
 	}],

@@ -1,11 +1,11 @@
 {
-	title: "Alloy Kiln",
-	x: 4.0d,
-	y: 2.0d,
+	title: "Blast Furnace",
+	x: 2.0d,
+	y: 4.0d,
 	shape: "rsquare",
-	description: "Alloy Kiln",
+	description: "Blast Furnace",
 	text: [
-		"Alloy Kiln"
+		"Blast Furnace"
 	],
 	dependencies: [
 		"92f66d0e",
@@ -19,7 +19,7 @@
 		match_type: "block_id",
 		match: "immersiveengineering:stone_device",
 		properties: {
-			type: "alloy_smelter"
+			type: "blast_furnace"
 		},
 		timer: 0L
 	}],

@@ -71,7 +71,7 @@ recipes.addShaped(<enderio:item_material:50> * 4, [[<ore:dustCharcoal>, <ore:dus
 recipes.addShaped(<enderio:item_material:49> * 4, [[<ore:dustCharcoal>, <ore:itemPlantbrown>, <ore:dustCharcoal>],[<ore:itemPlantbrown>, <minecraft:dye:3>, <ore:itemPlantbrown>], [<ore:dustCharcoal>, <ore:itemPlantbrown>, <ore:dustCharcoal>]]);
 recipes.addShaped(<enderio:item_material:48> * 4, [[<ore:dustCharcoal>, <ore:itemPlantgreen>, <ore:dustCharcoal>],[<ore:itemPlantgreen>, <minecraft:dye:2>, <ore:itemPlantgreen>], [<ore:dustCharcoal>, <ore:itemPlantgreen>, <ore:dustCharcoal>]]);
 recipes.addShaped(<enderio:item_material:3>, [[<minecraft:glass_pane>, <immersiveengineering:material:21>, <minecraft:glass_pane>],[<minecraft:glass_pane>, <immersiveengineering:material:21>, <minecraft:glass_pane>], [<thermalfoundation:material:358>, <enderio:item_material:38>, <thermalfoundation:material:358>]]);
-recipes.addShaped(<enderio:item_material:10>, [[null, <ore:stonePolished>, null],[<ore:stonePolished>, <enderio:item_material:9>, <ore:stonePolished>], [null, <ore:stonePolished>, null]]);
+recipes.addShaped(<enderio:item_material:10>, [[null, <minecraft:stone_pressure_plate>, null],[<minecraft:stone_pressure_plate>, <enderio:item_material:9>, <minecraft:stone_pressure_plate>], [null, <minecraft:stone_pressure_plate>, null]]);
 recipes.addShaped(<enderio:block_enchanter>, [[null, <eplus:decorative_book:1>, null],[<minecraft:diamond>, <jaopca:item_platedensedarksteel>, <minecraft:diamond>], [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]);
 recipes.addShapeless(<enderio:item_material:28> * 9, [<tp:ender_dust>]);
 recipes.addShapeless(<enderio:block_enderman_skull>, [<minecraft:skull:3>.withTag({SkullOwner: "MHF_Enderman"})]);

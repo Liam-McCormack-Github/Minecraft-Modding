@@ -1,0 +1,20 @@
+[
+  {
+    "id": "overworldian",
+    "displayName": "Overworldian",
+    "displayColor": "green",
+    "xpValue": 100
+  },
+  {
+    "id": "hellish",
+    "displayName": "Hellish",
+    "displayColor": "red",
+    "xpValue": 150
+  },
+  {
+    "id": "extraterrestrial",
+    "displayName": "Extraterrestrial",
+    "displayColor": "light_purple",
+    "xpValue": 200
+  }
+]

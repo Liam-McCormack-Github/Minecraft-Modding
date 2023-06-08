@@ -1,0 +1,2066 @@
+fuel_list = {
+    "coal coke": 1200,
+    "coal coke block": 12000,
+    "charcoal": 400,
+    "charcoal block": 4000,
+    "<mysticalagriculture:coal>": 1800,
+    "<mysticalagriculture:coal:1>": 3600,
+    "<mysticalagriculture:coal:2>": 7200,
+    "<mysticalagriculture:coal:3>": 14400,
+    "<mysticalagriculture:coal:4>": 28800,
+    "<mysticalagradditions:insanium:5>": 57600,
+    "<mysticalagriculture:coal_block>": 18000,
+    "<mysticalagriculture:coal_block:1>": 36000,
+    "<mysticalagriculture:coal_block:2>": 72000,
+    "<mysticalagriculture:coal_block:3>": 144000,
+    "<mysticalagriculture:coal_block:4>": 288000,
+    "<mysticalagradditions:storage:2>": 576000
+}
+
+cook_list = {
+    "graphite": 300,
+    "steel": 1200,
+    "steel block": 10800
+}
+
+
+def divis(cook, fuel):
+    for j in range(9999):
+        a = j + 1
+        b = (a * cook) / fuel
+        if b % 1 == 0:
+            return str(a) + ":" + str(int(b))
+    return "None found in 9999 searches"
+
+br = "\n\t\t\t\t\t\t   "
+
+print("-------------")
+
+for x in fuel_list:
+    print(str(x) + " @ " + str(fuel_list[x]))
+    print("\tGraphite Ingot @ 300 = "
+          + divis(cook_list["graphite"], fuel_list[x])
+          + br
+          + str(fuel_list[x] / cook_list["graphite"])
+          + br
+          + str(fuel_list[x] // cook_list["graphite"]) + " & " + str(fuel_list[x] % cook_list["graphite"]))
+    print("\t  Steel Ingot @ 1200 = "
+          + divis(cook_list["steel"], fuel_list[x])
+          + br
+          + str(fuel_list[x] / cook_list["steel"])
+          + br
+          + str(fuel_list[x] // cook_list["steel"]) + " & " + str(fuel_list[x] % cook_list["steel"]))
+    print("\t Steel Block @ 10800 = "
+          + divis(cook_list["steel block"], fuel_list[x])
+          + br
+          + str(fuel_list[x] / cook_list["steel block"])
+          + br
+          + str(fuel_list[x] // cook_list["steel block"]) + " & " + str(fuel_list[x] % cook_list["steel block"]))
+    print("-------------")
+
+####
+CODE
+####
+CODE
+####
+CODE
+####
+CODE
+####
+CODE
+####
+CODE
+####
+CODE
+####
+CODE
+####
+CODE
+-------------
+coal coke @ 1200
+	Graphite Ingot @ 300 = 4:1
+						   4.0
+						   4 & 0
+	  Steel Ingot @ 1200 = 1:1
+						   1.0
+						   1 & 0
+	 Steel Block @ 10800 = 1:9
+						   0.1111111111111111
+						   0 & 1200
+-------------
+coal coke block @ 12000
+	Graphite Ingot @ 300 = 40:1
+						   40.0
+						   40 & 0
+	  Steel Ingot @ 1200 = 10:1
+						   10.0
+						   10 & 0
+	 Steel Block @ 10800 = 10:9
+						   1.1111111111111112
+						   1 & 1200
+-------------
+charcoal @ 400
+	Graphite Ingot @ 300 = 4:3
+						   1.3333333333333333
+						   1 & 100
+	  Steel Ingot @ 1200 = 1:3
+						   0.3333333333333333
+						   0 & 400
+	 Steel Block @ 10800 = 1:27
+						   0.037037037037037035
+						   0 & 400
+-------------
+charcoal block @ 4000
+	Graphite Ingot @ 300 = 40:3
+						   13.333333333333334
+						   13 & 100
+	  Steel Ingot @ 1200 = 10:3
+						   3.3333333333333335
+						   3 & 400
+	 Steel Block @ 10800 = 10:27
+						   0.37037037037037035
+						   0 & 4000
+-------------
+<mysticalagriculture:coal> @ 1800
+	Graphite Ingot @ 300 = 6:1
+						   6.0
+						   6 & 0
+	  Steel Ingot @ 1200 = 3:2
+						   1.5
+						   1 & 600
+	 Steel Block @ 10800 = 1:6
+						   0.16666666666666666
+						   0 & 1800
+-------------
+<mysticalagriculture:coal:1> @ 3600
+	Graphite Ingot @ 300 = 12:1
+						   12.0
+						   12 & 0
+	  Steel Ingot @ 1200 = 3:1
+						   3.0
+						   3 & 0
+	 Steel Block @ 10800 = 1:3
+						   0.3333333333333333
+						   0 & 3600
+-------------
+<mysticalagriculture:coal:2> @ 7200
+	Graphite Ingot @ 300 = 24:1
+						   24.0
+						   24 & 0
+	  Steel Ingot @ 1200 = 6:1
+						   6.0
+						   6 & 0
+	 Steel Block @ 10800 = 2:3
+						   0.6666666666666666
+						   0 & 7200
+-------------
+<mysticalagriculture:coal:3> @ 14400
+	Graphite Ingot @ 300 = 48:1
+						   48.0
+						   48 & 0
+	  Steel Ingot @ 1200 = 12:1
+						   12.0
+						   12 & 0
+	 Steel Block @ 10800 = 4:3
+						   1.3333333333333333
+						   1 & 3600
+-------------
+<mysticalagriculture:coal:4> @ 28800
+	Graphite Ingot @ 300 = 96:1
+						   96.0
+						   96 & 0
+	  Steel Ingot @ 1200 = 24:1
+						   24.0
+						   24 & 0
+	 Steel Block @ 10800 = 8:3
+						   2.6666666666666665
+						   2 & 7200
+-------------
+<mysticalagradditions:insanium:5> @ 57600
+	Graphite Ingot @ 300 = 192:1
+						   192.0
+						   192 & 0
+	  Steel Ingot @ 1200 = 48:1
+						   48.0
+						   48 & 0
+	 Steel Block @ 10800 = 16:3
+						   5.333333333333333
+						   5 & 3600
+-------------
+<mysticalagriculture:coal_block> @ 18000
+	Graphite Ingot @ 300 = 60:1
+						   60.0
+						   60 & 0
+	  Steel Ingot @ 1200 = 15:1
+						   15.0
+						   15 & 0
+	 Steel Block @ 10800 = 5:3
+						   1.6666666666666667
+						   1 & 7200
+-------------
+<mysticalagriculture:coal_block:1> @ 36000
+	Graphite Ingot @ 300 = 120:1
+						   120.0
+						   120 & 0
+	  Steel Ingot @ 1200 = 30:1
+						   30.0
+						   30 & 0
+	 Steel Block @ 10800 = 10:3
+						   3.3333333333333335
+						   3 & 3600
+-------------
+<mysticalagriculture:coal_block:2> @ 72000
+	Graphite Ingot @ 300 = 240:1
+						   240.0
+						   240 & 0
+	  Steel Ingot @ 1200 = 60:1
+						   60.0
+						   60 & 0
+	 Steel Block @ 10800 = 20:3
+						   6.666666666666667
+						   6 & 7200
+-------------
+<mysticalagriculture:coal_block:3> @ 144000
+	Graphite Ingot @ 300 = 480:1
+						   480.0
+						   480 & 0
+	  Steel Ingot @ 1200 = 120:1
+						   120.0
+						   120 & 0
+	 Steel Block @ 10800 = 40:3
+						   13.333333333333334
+						   13 & 3600
+-------------
+<mysticalagriculture:coal_block:4> @ 288000
+	Graphite Ingot @ 300 = 960:1
+						   960.0
+						   960 & 0
+	  Steel Ingot @ 1200 = 240:1
+						   240.0
+						   240 & 0
+	 Steel Block @ 10800 = 80:3
+						   26.666666666666668
+						   26 & 7200
+-------------
+<mysticalagradditions:storage:2> @ 576000
+	Graphite Ingot @ 300 = 1920:1
+						   1920.0
+						   1920 & 0
+	  Steel Ingot @ 1200 = 480:1
+						   480.0
+						   480 & 0
+	 Steel Block @ 10800 = 160:3
+						   53.333333333333336
+						   53 & 3600
+-------------
+
+
+
+liquids
+	u matter
+	stabilizer
+	lava
+	glowstone
+	oil
+	redstone
+	exhast steam
+	steam
+	creosote oil
+	xp
+	water
+	milk
+
+
+
+enchantment\.(.*)\.(.*)\.desc
+
+
+
+
+holding from cofhcore  >>>>  Increases the storage capacity of certain items.
+
+insight from cofhcore  >>>>  Increases experience gain when using the item.
+
+leech from cofhcore  >>>>  Restores health when a mob is killed.
+
+multishot from cofhcore  >>>>  The bow will fire additional arrows with each shot. Only one arrow is consumed.
+
+smashing from cofhcore  >>>>  Harvested ores will be smashed to pieces, improving yield.
+
+smelting from cofhcore  >>>>  Harvested blocks will automatically be smelted, as if by a Furnace.
+
+soulbound from cofhcore  >>>>  The item will remain with the owner after an untimely demise.
+
+vorpal from cofhcore  >>>>  Randomly performs powerful attacks and decapitations.
+
+excavation from cyclicmagic  >>>>  Harvests the whole vein of connected matching blocks, not including diagonals
+
+multishot from cyclicmagic  >>>>  Fires extra arrows from your bow
+
+autosmelt from cyclicmagic  >>>>  Smelts whatever you harvest with this tool.
+
+beheading from cyclicmagic  >>>>  This gives a chance for getting a mob head or a player head.  Creatures from other mods can be added in the config file, and need a players skin as a head.
+
+expboost from cyclicmagic  >>>>  Increases experience drops from killing and mining
+
+launch from cyclicmagic  >>>>  Gives you the power of multi jump (double jump) when enchanted on boots.  One extra jump per level, after that cooldown kicks in, sneak to jump normally.
+
+lifeleech from cyclicmagic  >>>>  Leeches life points from your target on attack, and even more on kill.
+
+magnet from cyclicmagic  >>>>  Makes you magnetic for item stacks and experience on the ground
+
+quickdraw from cyclicmagic  >>>>  This triples the speed that your bow draws up to full power.
+
+reach from cyclicmagic  >>>>  Increases your building and mining reach
+
+venom from cyclicmagic  >>>>  Inflicts the poison status effect on the target
+
+waterwalking from cyclicmagic  >>>>  Walk on water when this is on your boots.  Sneak to sink. 
+
+enchant_reaper from draconicevolution  >>>>  When applied to a weapon this enchant increases that chance that a mob killed by sad weapon will drop their soul. This enchantment is best applied to Draconic Evolution weapons as it stacks with their built in reaper modifier.
+
+protection from minecraft  >>>>  Reduces damage from most sources. 
+
+fire_protection from minecraft  >>>>  Reduces the effects of fire damage. Also reduces the burn time when set on fire.
+
+feather_falling from minecraft  >>>>  Reduces fall damage and ender pearl teleportation damage.
+
+blast_protection from minecraft  >>>>  Reduces damage from explosions and explosion knockback.
+
+projectile_protection from minecraft  >>>>  Reduces damage from projectiles such as arrows and fire balls.
+
+respiration from minecraft  >>>>  Extends the amount of time the player can spend under water. Also improves vision while under water.
+
+aqua_affinity from minecraft  >>>>  Increases mining speed while underwater. 
+
+thorns from minecraft  >>>>  Causes damage to enemies when they attack you.
+
+sharpness from minecraft  >>>>  Increases the damage of the item.
+
+smite from minecraft  >>>>  Increases damage against undead mobs such as zombies and skeletons.
+
+bane_of_arthropods from minecraft  >>>>  Increases damage against arthropods such as Spiders and Silverfish.
+
+knockback from minecraft  >>>>  Increases the knockback strength of the weapon.
+
+fire_aspect from minecraft  >>>>  Causes additional fire damage when used to attack a mob.
+
+looting from minecraft  >>>>  Mobs will drop more loot when killed.
+
+efficiency from minecraft  >>>>  Increases mining speed of the tool.
+
+silk_touch from minecraft  >>>>  Allows fragile blocks such as glass to be collected.
+
+unbreaking from minecraft  >>>>  Causes the tool to lose durability at a slower rate.
+
+fortune from minecraft  >>>>  Some blocks like coal and diamond ore may drop additional items.
+
+power from minecraft  >>>>  Increases the damage of arrows fired from the bow.
+
+punch from minecraft  >>>>  Increases the knockback strength of arrows fired by the bow.
+
+flame from minecraft  >>>>  Arrows fired from the bow will deal additional fire damage. 
+
+infinity from minecraft  >>>>  Allows the bow to fire normal arrows for free. You must have at least one arrow for this to work.
+
+luck_of_the_sea from minecraft  >>>>  Increases the chance of getting good loot while fishing.
+
+lure from minecraft  >>>>  Decreases the amount of time it takes for a fish to bite the hook.
+
+depth_strider from minecraft  >>>>  Increases movement speed while under water.
+
+frost_walker from minecraft  >>>>  Freezes water under the player into cracked ice.
+
+mending from minecraft  >>>>  Repairs the durability of armor and tools with EXP.
+
+binding_curse from minecraft  >>>>  Prevents the enchanted item from being removed from an armor slot.
+
+vanishing_curse from minecraft  >>>>  Destroyes the enchanted item if you die with it in your inventory.
+
+sweeping from minecraft  >>>>  Increases the damage of sweeping attacks.
+
+xpboost from endercore  >>>>  Mobs will drop more XP when killed.
+
+autosmelt from endercore  >>>>  Things mined will automatically be smelted.
+
+kaboomerang from extrautils2.xu  >>>>  Creates an explosion when the boomerang hits something.
+
+zoomerang from extrautils2.xu  >>>>  The boomerang will move faster, and further.
+
+burnerang from extrautils2.xu  >>>>  The boomerang will set mobs on fire.
+
+bladerang from extrautils2.xu  >>>>  The boomerang will do extra damage.
+
+magnetic from randomthings  >>>>  Moves mined items a bit closer to you.
+
+loyalty from futuremc  >>>>  Trident returns after being thrown. Higher levels reduce return time.
+
+channeling from futuremc  >>>>  Trident channels a bolt of lightning toward a hit entity. Functions only during thunderstorms and if target is unobstructed with opaque blocks.
+
+riptide from futuremc  >>>>  Trident launches player when thrown. Functions only in water or rain.
+
+impaling from futuremc  >>>>  Deals additional damage to mobs that spawn naturally in the ocean.
+
+quick_charge from futuremc  >>>>  Decreases charging time.
+
+oreexcavation from oeintegration  >>>>  Allows this tool to be used with OreExcavation
+
+magnetic from randomthings  >>>>  The drops from blocks you mine with a tool that has the magnetic enchantment go directly into your inventory instead of dropping on the ground.
+
+berserk from uniquee  >>>>  The lower your Health the higher your Damage
+
+all from uniquee  >>>>  An Advanced Version of Sharpness
+
+undead from uniquee  >>>>  An Advanced Version of Smite
+
+arthropods from uniquee  >>>>  An Advanced Version of Bane of Arthropod
+
+vitae from uniquee  >>>>  Grants you more Health
+
+swift from uniquee  >>>>  Grants you more Movement Speed but you consume more Hunger
+
+sages_blessing from uniquee  >>>>  Increases XP but your Exhaustion increases from time to time
+
+ender_eyes from uniquee  >>>>  Looking at Endermen keeps them from teleporting and won't make them angry
+
+focus_impact from uniquee  >>>>  The lower your Attack Speed the more Damage you deal
+
+bone_crusher from uniquee  >>>>  Increased Damage and Looting against bare-chested Skeletons
+
+ranged from uniquee  >>>>  Increases Reach but will reduce Mining Speed when the bonus Reach is in use
+
+treasurers_eyes from uniquee  >>>>  With this Enchantment you'll see Special Effects on Entities depending on the Enchantments on it. Only certain Enchantment have Effects
+
+swiftblade from uniquee  >>>>  The higher your Attack Speed the more Damage you deal
+
+spartanweapon from uniquee  >>>>  You deal bonus magic damage while wielding a Shield
+
+perpetualstrike from uniquee  >>>>  Your damage increases with every consecutive hit on the same Target
+
+climate_tranquility from uniquee  >>>>  Weapons will react to temperature and receive effects of the counterpart.
+
+momentum from uniquee  >>>>  Continued mining will further increase your Mining Speed per Block mined. Accelerates faster with higher levels and Block Hardness
+
+ender_mending from uniquee  >>>>  Improved Version of Mending will store exceeding Experience in the Tool. Ender Mending will split it's Experience to every Item that has either Ender Mending or Mending
+
+smart_ass from uniquee  >>>>  Mining Gravel Sand or Logs will break the top block first
+
+warriorsgrace from uniquee  >>>>  Killing an Entity will replenish Durability scaling with the Max HP of the Entity
+
+naturesgrace from uniquee  >>>>  Standing near Leaves will restore Health as long as the Player didnt receive Damage recently
+
+fastfood from uniquee  >>>>  Living Animals/Passives wont drop anything but therefore replenish Hunger, affected by Looting and fire
+
+endermarksmen from uniquee  >>>>  Hitting a target with a Bow will replenish Durability and grant your Arrow back
+
+cloudwalker from uniquee  >>>>  Sneaking changes the Mode(Toggle). When active, the Player can no longer fall for a while. Consumes Durability while active
+
+aresblessing from uniquee  >>>>  Lethal Damage will be converted into Durability Loss of the Armor yet Fall & Magic Damage will still go through
+
+alchemistsgrace from uniquee  >>>>  Hitting an Enemy or Mining a Block will grant you Potion Effects
+
+ecological from uniquee  >>>>  Standing near Wood(Logs) & Leaves will recover slowly the durability of your tool.
+
+phoenixs_blessing from uniquee  >>>>  Upon death, will resurrect you with full Health and Hunger, nearby Enemies will burn. There is an everlasting Hate between Phoenix's and Death
+
+midas_blessing from uniquee  >>>>  Shift-Rightclicking an Anvil will consume all of your Gold in your Inventory. Mining an oreGem will consume Gold but double the drops.
+
+ifrits_grace from uniquee  >>>>  Shift-Rightclicking an Anvil will consume all Lava/Magma related Blocks in you Inventory and store it as \"Lava Power\". Mining a Block will consume Lava Power mining an Ore will consume even more. Therefore the Drops will be smelted.
+
+icarus_aegis from uniquee  >>>>  Shift-Rightclicking an Anvil will consume all Feathers in your Inventory Fall Damage by gliding will be negated
+
+ender_librarian from uniquee  >>>>  Shift-Rightclicking with a Map will teleport you in a random spot in the Map. The Item will be consumed. Banners make it EXACT
+
+endest_reap from uniquee  >>>>  Deals bonus magic damage for every Reaped Stack. Gains a Stack for every 'higher being'
+
+grimoire from uniquee  >>>>  Improves Enchantments by Player's Knowledge. After this Enchantment is applied, every Enchantment added after will be removed(including Level increase)
+
+pestilences_odium from uniquee  >>>>  Non-Hostile Entities in your area will be continuously damaged
+
+deaths_odium from uniquee  >>>>  Upon death, transfer some Health to the Item, while in an active Slot. Maybe this can be used in my favor
+
+celestial_blessing from uniqueebattle  >>>>  At Night increases Attack Speed/Drawspeed
+
+fury from uniqueebattle  >>>>  Increases Attack Speed. Crits have a chance to move main hand items, eventually also drop them
+
+golem_soul from uniqueebattle  >>>>  Gain Knockback Resistance in exchange for Speed
+
+iron_bird from uniqueebattle  >>>>  Slightly increases Armor and Toughness. Grants further percs on ground
+
+streakers_will from uniqueebattle  >>>>  Has a chance to damage the Targets Armor Durability
+
+ares_fragment from uniqueebattle  >>>>  Every Hit can either increase or decrease your Damage dealt. Chance increases with Player level
+
+artemis_soul from uniqueebattle  >>>>  Shift-rightclick an Anvil  with ender-related Items to store them. Killing an Entity saves the Soul in the Tool. Souls increase the overall yields. However your Tool needs to feast with Ender or Souls 
+
+deep_wounds from uniqueebattle  >>>>  Hitting an entity without Chestplace, will cause it to bleed. Bleeding enemy take damage over time and increased damage.
+
+ifrits_blessing from uniqueebattle  >>>>  Hitting a burning Entity will deal additional Damage. Bonus is exponential if you're burning as well
+
+granis_soul from uniqueebattle  >>>>  Press the specified Key to start dashing. Entities around the start and end location start bleeding
+
+ifrits_judgement from uniqueebattle  >>>>  Hitting the same Entity more than 4 times with the same Tool will ignite you. Less hits grant you Rewards. Shift-rightclicking a Chest inserts the Items into the Chest
+
+lunatic_despair from uniqueebattle  >>>>  Receive a Damage Boost but also deal Damage to yourself
+
+wars_odium from uniqueebattle  >>>>  Killing a Mob, has a Chance to respawn the Mob
+
+adept from uniqueeutil  >>>>  Less penalty for mining underwater or in-air
+
+thick_pick from uniqueeutil  >>>>  Shift-Rightclicking an Anvil consume Gems in your Inventory, increase Mining Speed for Blocks with a high Hardness in exchange for Gems
+
+alchemists_blessing from uniqueeutil  >>>>  Shift-Rightclicking an Anvil will consume all of your Redstone in your Inventory. Requires a Beam of Light, transmutates Items on thus Beam. This Action consumes Redstone
+
+climber from uniqueeutil  >>>>  Shift-rightclicking a climbable Block, will teleport you the most upper block after some seconds. You're not allowed to move meanwhile
+
+essence_of_slime from uniqueeutil  >>>>  You will now bounce when falling. Fall Damage is converted into Durability Loss
+
+demeters_blessing from uniqueeutil  >>>>  Right-clicking a grown seed, will harvest and replant it. Will gain durability from tilling, but lose from harvesting
+
+sleipnirs_grace from uniqueeutil  >>>>  The Movement Speed of the ridden entity is steadily increasing, even further on Paths, until you dismount
+
+ambrosia from uniqueeutil  >>>>  Food and Potions will turn into the best thing you've ever tasted
+
+anemoi_fragment from uniqueeutil  >>>>  Shift-Rightclicking an Anvil with this Item, will consume burnable Items in your Inventory. While in-air, press the dedicated Hotkey (by default Ctrl) to gain an upwards boost
+
+demeters_soul from uniqueeutil  >>>>  Shift-right a seed to mark it. Marked seeds will only produce 1 product and will automatically be harvested and stored into your Ender Chest
+
+mounting_aegis from uniqueeutil  >>>>  Shielding while riding an Entity, will also shield the Entity
+
+pegasus_soul from uniqueeutil  >>>>  Press the dedicated Hotkey (by default Ctrl), your ridden entity is no longer affected by gravity
+
+poseidons_soul from uniqueeutil  >>>>  Throwing your Trident on an Aquatic Ressource will replicate the Block in exchange for Experience
+
+reinforced from uniqueeutil  >>>>  Creates a Shield that occasionally restores Durability, but decreases your Attack Speed and Mining Speed
+
+resonance from uniqueeutil  >>>>  Shift-Rightclicking will cause your Tool to resonate with nearby Ores, giving you an Indicator of their location but has to stabilize again. Using this again while the Item stabilizes you'll take Damage.
+
+sages_soul from uniqueeutil  >>>>  Improves your Item by Wisdom. Shift-Rightclicking an Anvil will transfer Experience to the Item
+
+phanes_regret from uniqueeutil  >>>>  On healing, returns a part of the healing as damage. On damage received, returns a part of the damage as healing, consumes Experience after healing. 
+
+rocketman from uniqueeutil  >>>>  A Rocket can force you into Elytra Mode. Rocket Flight Duration increased
+
+famines_odium from uniqueeutil  >>>>  Will eat occasionally Food from your inventory, regardless of your Hunger or Saturation, and wont restore full Hunger Value. If no Food is found in Inventory the Player will take damage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ore:arrow>
+<ore:ballConductiveIron>
+<ore:ballConstructionAlloy>
+<ore:ballCrudeSteel>
+<ore:ballCrystallineAlloy>
+<ore:ballCrystallinePinkSlime>
+<ore:ballDarkSteel>
+<ore:ballElectricalSteel>
+<ore:ballEndSteel>
+<ore:ballEnergeticAlloy>
+<ore:ballEnergeticSilver>
+<ore:ballMelodicAlloy>
+<ore:ballMud>
+<ore:ballPulsatingIron>
+<ore:ballRedstoneAlloy>
+<ore:ballSoularium>
+<ore:ballStellarAlloy>
+<ore:ballVibrantAlloy>
+<ore:ballVividAlloy>
+<ore:barsIron>
+<ore:bed>
+<ore:blockAluminium>
+<ore:blockAluminum>
+<ore:blockAmber>
+<ore:blockAmethyst>
+<ore:blockAncientDebris>
+<ore:blockArdite>
+<ore:blockBaseEssence>
+<ore:blockBlackIron>
+<ore:blockBone>
+<ore:blockBrass>
+<ore:blockBronze>
+<ore:blockCactus>
+<ore:blockCandle>
+<ore:blockCarbon>
+<ore:blockCharcoal>
+<ore:blockChest>
+<ore:blockClay>
+<ore:blockCoal>
+<ore:blockCoalCoke>
+<ore:blockCobalt>
+<ore:blockColdiron>
+<ore:blockConcrete>
+<ore:blockConcreteBlack>
+<ore:blockConcreteBlue>
+<ore:blockConcreteBrown>
+<ore:blockConcreteCyan>
+<ore:blockConcreteGray>
+<ore:blockConcreteGreen>
+<ore:blockConcreteLightBlue>
+<ore:blockConcreteLightGray>
+<ore:blockConcreteLime>
+<ore:blockConcreteMagenta>
+<ore:blockConcreteOrange>
+<ore:blockConcretePink>
+<ore:blockConcretePurple>
+<ore:blockConcreteRed>
+<ore:blockConcreteWhite>
+<ore:blockConcreteYellow>
+<ore:blockConductiveIron>
+<ore:blockConstantan>
+<ore:blockConstructionAlloy>
+<ore:blockCopper>
+<ore:blockCosmicNeutronium>
+<ore:blockCrudeSteel>
+<ore:blockCrystalBlack>
+<ore:blockCrystalBlue>
+<ore:blockCrystalFlux>
+<ore:blockCrystalGreen>
+<ore:blockCrystalIndigo>
+<ore:blockCrystallineAlloy>
+<ore:blockCrystallinePinkSlime>
+<ore:blockCrystalMatrix>
+<ore:blockCrystalOrange>
+<ore:blockCrystalRed>
+<ore:blockCrystaltine>
+<ore:blockCrystalViolet>
+<ore:blockCrystalWhite>
+<ore:blockCrystalYellow>
+<ore:blockDarkSteel>
+<ore:blockDemonicMetal>
+<ore:blockDiamond>
+<ore:blockDimensionalShard>
+<ore:blockDraconium>
+<ore:blockDraconiumAwakened>
+<ore:blockElectricalSteel>
+<ore:blockElectroFluxAlloy>
+<ore:blockElectrotineAlloy>
+<ore:blockElectrum>
+<ore:blockElectrumFlux>
+<ore:blockElevator>
+<ore:blockEmerald>
+<ore:blockEnchantedMetal>
+<ore:blockEnder>
+<ore:blockEnderBiotite>
+<ore:blockEnderium>
+<ore:blockEndSteel>
+<ore:blockEnergeticAlloy>
+<ore:blockEnergeticSilver>
+<ore:blockEvilMetal>
+<ore:blockEvilTerraglaz>
+<ore:blockFlint>
+<ore:blockFluxAlloy>
+<ore:blockFuelCoke>
+<ore:blockGalvanizedsteel>
+<ore:blockGelidCrystal>
+<ore:blockGelidEnderium>
+<ore:blockGlass>
+<ore:blockGlassBlack>
+<ore:blockGlassBlue>
+<ore:blockGlassBrown>
+<ore:blockGlassColorless>
+<ore:blockGlassCyan>
+<ore:blockGlassGray>
+<ore:blockGlassGreen>
+<ore:blockGlassHardened>
+<ore:blockGlassHardenedBlack>
+<ore:blockGlassHardenedBlue>
+<ore:blockGlassHardenedBrown>
+<ore:blockGlassHardenedCyan>
+<ore:blockGlassHardenedGray>
+<ore:blockGlassHardenedGreen>
+<ore:blockGlassHardenedLightBlue>
+<ore:blockGlassHardenedLightGray>
+<ore:blockGlassHardenedLime>
+<ore:blockGlassHardenedMagenta>
+<ore:blockGlassHardenedOrange>
+<ore:blockGlassHardenedPink>
+<ore:blockGlassHardenedPurple>
+<ore:blockGlassHardenedRed>
+<ore:blockGlassHardenedWhite>
+<ore:blockGlassHardenedYellow>
+<ore:blockGlassLightBlue>
+<ore:blockGlassLightGray>
+<ore:blockGlassLime>
+<ore:blockGlassMagenta>
+<ore:blockGlassOrange>
+<ore:blockGlassPink>
+<ore:blockGlassPurple>
+<ore:blockGlassRed>
+<ore:blockGlassWhite>
+<ore:blockGlassYellow>
+<ore:blockGlowstone>
+<ore:blockGold>
+<ore:blockGraphite>
+<ore:blockGravel>
+<ore:blockGunpowder>
+<ore:blockHoney>
+<ore:blockHOPGraphite>
+<ore:blockHopper>
+<ore:blockIce>
+<ore:blockInferium>
+<ore:blockInferiumCoal>
+<ore:blockInferiumEssence>
+<ore:blockInfinity>
+<ore:blockInsanium>
+<ore:blockInsaniumCoal>
+<ore:blockInsaniumEssence>
+<ore:blockIntermedium>
+<ore:blockIntermediumCoal>
+<ore:blockIntermediumEssence>
+<ore:blockInvar>
+<ore:blockIridium>
+<ore:blockIron>
+<ore:blockLapis>
+<ore:blockLead>
+<ore:blockLuminessence>
+<ore:blockLumium>
+<ore:blockMagicalWood>
+<ore:blockMagma>
+<ore:blockMalachite>
+<ore:blockManyullyn>
+<ore:blockMeatRaw>
+<ore:blockMelodicAlloy>
+<ore:blockMithril>
+<ore:blockMoon>
+<ore:blockMossy>
+<ore:blockMud>
+<ore:blockNetherite>
+<ore:blockNetherStar>
+<ore:blockNetherWart>
+<ore:blockNichrome>
+<ore:blockNickel>
+<ore:blockObsidian>
+<ore:blockObsidianSteel>
+<ore:blockOfBones>
+<ore:blockOfBonesWithered>
+<ore:blockPackedIce>
+<ore:blockPaper>
+<ore:blockPearl>
+<ore:blockPeridot>
+<ore:blockPlatinum>
+<ore:blockPrismarine>
+<ore:blockPrismarineBrick>
+<ore:blockPrismarineDark>
+<ore:blockProsperity>
+<ore:blockPrudentium>
+<ore:blockPrudentiumCoal>
+<ore:blockPrudentiumEssence>
+<ore:blockPulsatingIron>
+<ore:blockQuartz>
+<ore:blockQuartzBlack>
+<ore:blockRedstone>
+<ore:blockRedstoneAlloy>
+<ore:blockRockwool>
+<ore:blockRottenFlesh>
+<ore:blockRuby>
+<ore:blockSapphire>
+<ore:blockSheetmetalAluminium>
+<ore:blockSheetmetalAluminum>
+<ore:blockSheetmetalConstantan>
+<ore:blockSheetmetalCopper>
+<ore:blockSheetmetalElectrum>
+<ore:blockSheetmetalGold>
+<ore:blockSheetmetalIron>
+<ore:blockSheetmetalLead>
+<ore:blockSheetmetalNickel>
+<ore:blockSheetmetalSilver>
+<ore:blockSheetmetalSteel>
+<ore:blockSheetmetalUranium>
+<ore:blockSignalum>
+<ore:blockSilicon>
+<ore:blockSilver>
+<ore:blockSlime>
+<ore:blockSlimeBlue>
+<ore:blockSlimeCyan>
+<ore:blockSlimeGreen>
+<ore:blockSlimeMagenta>
+<ore:blockSlimeRed>
+<ore:blockSlimeYellow>
+<ore:blockSoularium>
+<ore:blockSoulium>
+<ore:blockStainlesssteel>
+<ore:blockSteel>
+<ore:blockStellarAlloy>
+<ore:blockSuperium>
+<ore:blockSuperiumCoal>
+<ore:blockSuperiumEssence>
+<ore:blockSupremium>
+<ore:blockSupremiumCoal>
+<ore:blockSupremiumEssence>
+<ore:blockTanzanite>
+<ore:blockTerraglaz>
+<ore:blockTin>
+<ore:blockTitanium>
+<ore:blockTopaz>
+<ore:blockUltimate>
+<ore:blockUnstable>
+<ore:blockUranium>
+<ore:blockUraniumEnriched>
+<ore:blockVibrantAlloy>
+<ore:blockVividAlloy>
+<ore:blockWither>
+<ore:blockWool>
+<ore:blockWoolBlack>
+<ore:blockWoolBlue>
+<ore:blockWoolBrown>
+<ore:blockWoolCyan>
+<ore:blockWoolGray>
+<ore:blockWoolGreen>
+<ore:blockWoolLightBlue>
+<ore:blockWoolLightGray>
+<ore:blockWoolLime>
+<ore:blockWoolMagenta>
+<ore:blockWoolOrange>
+<ore:blockWoolPink>
+<ore:blockWoolPurple>
+<ore:blockWoolRed>
+<ore:blockWoolWhite>
+<ore:blockWoolYellow>
+<ore:blockXp>
+<ore:bone>
+<ore:boneWithered>
+<ore:bookshelf>
+<ore:bookshelfAcacia>
+<ore:bookshelfBirch>
+<ore:bookshelfDarkOak>
+<ore:bookshelfJungle>
+<ore:bookshelfOak>
+<ore:bookshelfSpruce>
+<ore:bricksStone>
+<ore:brickStone>
+<ore:buttonWood>
+<ore:charcoal>
+<ore:chest>
+<ore:chestEnder>
+<ore:chestTrapped>
+<ore:chestWood>
+<ore:circuitBasic>
+<ore:circuitElite>
+<ore:clathrateEnder>
+<ore:clathrateGlowstone>
+<ore:clathrateOil>
+<ore:clathrateRedstone>
+<ore:coal>
+<ore:coalInferium>
+<ore:coalIntermedium>
+<ore:coalPowered>
+<ore:coalPrudentium>
+<ore:coalSuperium>
+<ore:coalSupremium>
+<ore:cobblestone>
+<ore:cofh:potion>
+<ore:coinAluminium>
+<ore:coinAluminum>
+<ore:coinBronze>
+<ore:coinConstantan>
+<ore:coinCopper>
+<ore:coinElectrum>
+<ore:coinEnderium>
+<ore:coinGelidEnderium>
+<ore:coinGold>
+<ore:coinInvar>
+<ore:coinIridium>
+<ore:coinIron>
+<ore:coinLead>
+<ore:coinLumium>
+<ore:coinMithril>
+<ore:coinNickel>
+<ore:coinPlatinum>
+<ore:coinSignalum>
+<ore:coinSilver>
+<ore:coinSteel>
+<ore:coinTin>
+<ore:compressed1xDustBedrock>
+<ore:compressed2xDustBedrock>
+<ore:compressed3xDustBedrock>
+<ore:concrete>
+<ore:craftingTableWood>
+<ore:cropBamboo>
+<ore:cropBean>
+<ore:cropBeetroot>
+<ore:cropBlackberry>
+<ore:cropBlueberry>
+<ore:cropCactus>
+<ore:cropCanola>
+<ore:cropCarrot>
+<ore:cropCoffee>
+<ore:cropFlax>
+<ore:cropMelon>
+<ore:cropMushroomBrown>
+<ore:cropMushroomRed>
+<ore:cropNetherWart>
+<ore:cropPeach>
+<ore:cropPear>
+<ore:cropPersimmon>
+<ore:cropPotato>
+<ore:cropPumpkin>
+<ore:cropRaspberry>
+<ore:cropRice>
+<ore:cropStrawberry>
+<ore:cropSweetBerry>
+<ore:cropWheat>
+<ore:cruxCarbon>
+<ore:crystalCinnabar>
+<ore:crystalCrudeOil>
+<ore:crystalEnder>
+<ore:crystalGlowstone>
+<ore:crystalRedstone>
+<ore:crystalSlag>
+<ore:crystalSlagRich>
+<ore:crystalSulfuric>
+<ore:crystalSulphuric>
+<ore:darkFusedGlass>
+<ore:darkFusedQuartz>
+<ore:dirt>
+<ore:doorIron>
+<ore:doorWood>
+<ore:dragonEgg>
+<ore:dragonScale>
+<ore:drawerBasic>
+<ore:drawerTrim>
+<ore:dropHoney>
+<ore:dropofevil>
+<ore:dustAerotheum>
+<ore:dustAluminium>
+<ore:dustAluminum>
+<ore:dustAmethyst>
+<ore:dustArdite>
+<ore:dustAsh>
+<ore:dustBasalz>
+<ore:dustBaseEssence>
+<ore:dustBedrock>
+<ore:dustBlackGlowstone>
+<ore:dustBlackIron>
+<ore:dustBlaze>
+<ore:dustBlitz>
+<ore:dustBlizz>
+<ore:dustBlueGlowstone>
+<ore:dustBronze>
+<ore:dustBrownGlowstone>
+<ore:dustCharcoal>
+<ore:dustCoal>
+<ore:dustCobalt>
+<ore:dustCoke>
+<ore:dustConductiveIron>
+<ore:dustConstantan>
+<ore:dustCopper>
+<ore:dustCrudeSteel>
+<ore:dustCryotheum>
+<ore:dustCyanGlowstone>
+<ore:dustDiamond>
+<ore:dustDraconium>
+<ore:dustElectroFlux>
+<ore:dustElectrotine>
+<ore:dustElectrum>
+<ore:dustElectrumFlux>
+<ore:dustEmerald>
+<ore:dustEnder>
+<ore:dustEnderium>
+<ore:dustEnergeticAlloy>
+<ore:dustEnergeticSilver>
+<ore:dustGelidEnderium>
+<ore:dustGlowstone>
+<ore:dustGold>
+<ore:dustGrayGlowstone>
+<ore:dustGreenGlowstone>
+<ore:dustHOPGraphite>
+<ore:dustInferium>
+<ore:dustInsanium>
+<ore:dustIntermedium>
+<ore:dustInvar>
+<ore:dustIridium>
+<ore:dustIron>
+<ore:dustLapis>
+<ore:dustLead>
+<ore:dustLightBlueGlowstone>
+<ore:dustLightGrayGlowstone>
+<ore:dustLimeGlowstone>
+<ore:dustLumium>
+<ore:dustLunar>
+<ore:dustMagentaGlowstone>
+<ore:dustMana>
+<ore:dustMeteor>
+<ore:dustMithril>
+<ore:dustMoon>
+<ore:dustNetherQuartz>
+<ore:dustNickel>
+<ore:dustNiter>
+<ore:dustObsidian>
+<ore:dustObsidianSteel>
+<ore:dustOrangeGlowstone>
+<ore:dustPetrotheum>
+<ore:dustPinkGlowstone>
+<ore:dustPlatinum>
+<ore:dustPrismarine>
+<ore:dustPrudentium>
+<ore:dustPurpleGlowstone>
+<ore:dustPyrotheum>
+<ore:dustQuartz>
+<ore:dustQuartzBlack>
+<ore:dustRedGlowstone>
+<ore:dustRedstone>
+<ore:dustRedstoneAlloy>
+<ore:dustSalt>
+<ore:dustSaltpeter>
+<ore:dustSignalum>
+<ore:dustSilver>
+<ore:dustSoularium>
+<ore:dustSteel>
+<ore:dustSulfur>
+<ore:dustSulphur>
+<ore:dustSuperium>
+<ore:dustSupremium>
+<ore:dustTerraglaz>
+<ore:dustTin>
+<ore:dustTitanium>
+<ore:dustUranium>
+<ore:dustWheat>
+<ore:dustWhiteGlowstone>
+<ore:dustWood>
+<ore:dye>
+<ore:dyeBlack>
+<ore:dyeBlue>
+<ore:dyeBrown>
+<ore:dyeCyan>
+<ore:dyeEnhancedMachine>
+<ore:dyeGray>
+<ore:dyeGreen>
+<ore:dyeLightBlue>
+<ore:dyeLightGray>
+<ore:dyeLime>
+<ore:dyeMachine>
+<ore:dyeMagenta>
+<ore:dyeOrange>
+<ore:dyePink>
+<ore:dyePurple>
+<ore:dyeRed>
+<ore:dyeSoulMachine>
+<ore:dyeWhite>
+<ore:dyeYellow>
+<ore:egg>
+<ore:eggOwl>
+<ore:electronTube>
+<ore:enderpearl>
+<ore:endstone>
+<ore:enlightenedFusedGlass>
+<ore:enlightenedFusedQuartz>
+<ore:essenceAncientDebris>
+<ore:essenceBlackIron>
+<ore:essenceCarbon>
+<ore:essenceCrystalBlack>
+<ore:essenceCrystalBlue>
+<ore:essenceCrystalGreen>
+<ore:essenceCrystalIndigo>
+<ore:essenceCrystalOrange>
+<ore:essenceCrystalRed>
+<ore:essenceCrystalViolet>
+<ore:essenceCrystalWhite>
+<ore:essenceCrystalYellow>
+<ore:essenceDimensionalShard>
+<ore:essenceInferium>
+<ore:essenceInsanium>
+<ore:essenceIntermedium>
+<ore:essenceObsidian>
+<ore:essencePrudentium>
+<ore:essenceSuperium>
+<ore:essenceSupremium>
+<ore:essenceTier1>
+<ore:essenceTier2>
+<ore:essenceTier3>
+<ore:essenceTier4>
+<ore:essenceTier5>
+<ore:essenceTier6>
+<ore:eyeofredstone>
+<ore:fabricHemp>
+<ore:feather>
+<ore:fenceAluminium>
+<ore:fenceAluminum>
+<ore:fenceGateWood>
+<ore:fenceSteel>
+<ore:fenceTreatedWood>
+<ore:fenceWood>
+<ore:fertilizer>
+<ore:fiberCarbon>
+<ore:fiberHemp>
+<ore:flint>
+<ore:flowerBluebells>
+<ore:flowerBlueHydrangea>
+<ore:flowerBromeliad>
+<ore:flowerBurningBlossom>
+<ore:flowerClover>
+<ore:flowerDeathbloom>
+<ore:flowerEnderlotus>
+<ore:flowerGlowflower>
+<ore:flowerGoldenrod>
+<ore:flowerIcyIris>
+<ore:flowerLavender>
+<ore:flowerLilyOfTheValley>
+<ore:flowerMinersDelight>
+<ore:flowerOrangeCosmos>
+<ore:flowerPinkDaffodil>
+<ore:flowerPinkHibiscus>
+<ore:flowerRose>
+<ore:flowerSwampflower>
+<ore:flowerViolet>
+<ore:flowerWhiteAnemone>
+<ore:flowerWildflower>
+<ore:flowerWiltedLily>
+<ore:fluidWater>
+<ore:foodBowlofrice>
+<ore:foodCrabcooked>
+<ore:foodCrabraw>
+<ore:foodFilledhoneycomb>
+<ore:foodFrogcooked>
+<ore:foodFrograw>
+<ore:foodHoneydrop>
+<ore:foodMushroompowder>
+<ore:foodSalt>
+<ore:fuelCoke>
+<ore:fusedGlass>
+<ore:fusedQuartz>
+<ore:gearAluminium>
+<ore:gearAluminum>
+<ore:gearBrass>
+<ore:gearBronze>
+<ore:gearConductiveIron>
+<ore:gearConstantan>
+<ore:gearCopper>
+<ore:gearCrystaltine>
+<ore:gearDark>
+<ore:gearDarkSteel>
+<ore:gearDiamond>
+<ore:gearElectroFluxAlloy>
+<ore:gearElectrotineAlloy>
+<ore:gearElectrum>
+<ore:gearElectrumFlux>
+<ore:gearEmerald>
+<ore:gearEnderium>
+<ore:gearEnergized>
+<ore:gearFluxAlloy>
+<ore:gearGelidEnderium>
+<ore:gearGold>
+<ore:gearInsanium>
+<ore:gearInvar>
+<ore:gearIridium>
+<ore:gearIron>
+<ore:gearIronInfinity>
+<ore:gearLead>
+<ore:gearLumium>
+<ore:gearManyullyn>
+<ore:gearMelodicAlloy>
+<ore:gearMithril>
+<ore:gearNickel>
+<ore:gearObsidianSteel>
+<ore:gearPlatinum>
+<ore:gearRedstone>
+<ore:gearRedstoneAlloy>
+<ore:gearSignalum>
+<ore:gearSilver>
+<ore:gearSoularium>
+<ore:gearSteel>
+<ore:gearStellarAlloy>
+<ore:gearStone>
+<ore:gearTin>
+<ore:gearVibrant>
+<ore:gearVibrantAlloy>
+<ore:gearVividAlloy>
+<ore:gearWood>
+<ore:gemAmber>
+<ore:gemAmethyst>
+<ore:gemCoal>
+<ore:gemCrystalBlack>
+<ore:gemCrystalBlue>
+<ore:gemCrystalFlux>
+<ore:gemCrystalGreen>
+<ore:gemCrystalIndigo>
+<ore:gemCrystalOrange>
+<ore:gemCrystalRed>
+<ore:gemCrystalViolet>
+<ore:gemCrystalWhite>
+<ore:gemCrystalYellow>
+<ore:gemDiamond>
+<ore:gemDimensionalShard>
+<ore:gemEmerald>
+<ore:gemEnderBiotite>
+<ore:gemGelidCrystal>
+<ore:gemLapis>
+<ore:gemMalachite>
+<ore:gemMoon>
+<ore:gemMoonstone>
+<ore:gemObsidian>
+<ore:gemPearl>
+<ore:gemPeridot>
+<ore:gemPrismarine>
+<ore:gemQuartz>
+<ore:gemQuartzBlack>
+<ore:gemRedstone>
+<ore:gemRuby>
+<ore:gemSapphire>
+<ore:gemTanzanite>
+<ore:gemTopaz>
+<ore:glassBottle>
+<ore:glowstone>
+<ore:grass>
+<ore:gravel>
+<ore:gunpowder>
+<ore:hardenedClay>
+<ore:holyDarkFusedGlass>
+<ore:holyDarkFusedQuartz>
+<ore:holyEnlightenedFusedGlass>
+<ore:holyEnlightenedFusedQuartz>
+<ore:holyFusedGlass>
+<ore:holyFusedQuartz>
+<ore:honeycomb>
+<ore:hopper>
+<ore:ice>
+<ore:ingotActinium>
+<ore:ingotAluminium>
+<ore:ingotAluminum>
+<ore:ingotAmericium>
+<ore:ingotAncientDebris>
+<ore:ingotAntimony>
+<ore:ingotArdite>
+<ore:ingotArsenic>
+<ore:ingotAstatine>
+<ore:ingotBarium>
+<ore:ingotBaseEssence>
+<ore:ingotBerkelium>
+<ore:ingotBeryllium>
+<ore:ingotBismuth>
+<ore:ingotBlackIron>
+<ore:ingotBohrium>
+<ore:ingotBoron>
+<ore:ingotBrass>
+<ore:ingotBrick>
+<ore:ingotBrickNether>
+<ore:ingotBrickNetherGlazed>
+<ore:ingotBronze>
+<ore:ingotCadmium>
+<ore:ingotCalcium>
+<ore:ingotCalifornium>
+<ore:ingotCarbon>
+<ore:ingotCerium>
+<ore:ingotCesium>
+<ore:ingotChrome>
+<ore:ingotChromium>
+<ore:ingotCobalt>
+<ore:ingotColdiron>
+<ore:ingotConductiveIron>
+<ore:ingotConstantan>
+<ore:ingotConstructionAlloy>
+<ore:ingotCopernicium>
+<ore:ingotCopper>
+<ore:ingotCosmicNeutronium>
+<ore:ingotCrudeSteel>
+<ore:ingotCrystallineAlloy>
+<ore:ingotCrystallinePinkSlime>
+<ore:ingotCrystalMatrix>
+<ore:ingotCrystaltine>
+<ore:ingotCurium>
+<ore:ingotDarkSteel>
+<ore:ingotDarmstadtium>
+<ore:ingotDemonicMetal>
+<ore:ingotDraconium>
+<ore:ingotDraconiumAwakened>
+<ore:ingotDubnium>
+<ore:ingotDysprosium>
+<ore:ingotEinsteinium>
+<ore:ingotElectricalSteel>
+<ore:ingotElectroFluxAlloy>
+<ore:ingotElectrotineAlloy>
+<ore:ingotElectrum>
+<ore:ingotElectrumFlux>
+<ore:ingotEnchantedMetal>
+<ore:ingotEnderAlloy>
+<ore:ingotEnderium>
+<ore:ingotEnderiumBase>
+<ore:ingotEndSteel>
+<ore:ingotEnergeticAlloy>
+<ore:ingotEnergeticSilver>
+<ore:ingotErbium>
+<ore:ingotEuropium>
+<ore:ingotEvilMetal>
+<ore:ingotEvilTerraglaz>
+<ore:ingotFermium>
+<ore:ingotFlerovium>
+<ore:ingotFluxAlloy>
+<ore:ingotFrancium>
+<ore:ingotGadolinium>
+<ore:ingotGallium>
+<ore:ingotGalvanizedsteel>
+<ore:ingotGelidEnderium>
+<ore:ingotGermanium>
+<ore:ingotGold>
+<ore:ingotGraphite>
+<ore:ingotHafnium>
+<ore:ingotHassium>
+<ore:ingotHolmium>
+<ore:ingotHOPGraphite>
+<ore:ingotIndium>
+<ore:ingotInferium>
+<ore:ingotInfinity>
+<ore:ingotInsanium>
+<ore:ingotIntermedium>
+<ore:ingotInvar>
+<ore:ingotIridium>
+<ore:ingotIron>
+<ore:ingotLanthanum>
+<ore:ingotLawrencium>
+<ore:ingotLead>
+<ore:ingotLithium>
+<ore:ingotLivermorium>
+<ore:ingotLumium>
+<ore:ingotLutetium>
+<ore:ingotMagnesium>
+<ore:ingotManganese>
+<ore:ingotManyullyn>
+<ore:ingotMeitnerium>
+<ore:ingotMelodicAlloy>
+<ore:ingotMendelevium>
+<ore:ingotMithril>
+<ore:ingotMolybdenum>
+<ore:ingotMoscovium>
+<ore:ingotMud>
+<ore:ingotNeodymium>
+<ore:ingotNeptunium>
+<ore:ingotNetherite>
+<ore:ingotNichrome>
+<ore:ingotNickel>
+<ore:ingotNihonium>
+<ore:ingotNiobium>
+<ore:ingotNobelium>
+<ore:ingotObsidianSteel>
+<ore:ingotOganesson>
+<ore:ingotOsmium>
+<ore:ingotPalladium>
+<ore:ingotPlatinum>
+<ore:ingotPlutonium>
+<ore:ingotPolonium>
+<ore:ingotPotassium>
+<ore:ingotPraseodymium>
+<ore:ingotPromethium>
+<ore:ingotProtactinium>
+<ore:ingotPrudentium>
+<ore:ingotPulsatingIron>
+<ore:ingotRadium>
+<ore:ingotRedstoneAlloy>
+<ore:ingotRhenium>
+<ore:ingotRhodium>
+<ore:ingotRoentgenium>
+<ore:ingotRubidium>
+<ore:ingotRuthenium>
+<ore:ingotRutherfordium>
+<ore:ingotSamarium>
+<ore:ingotScandium>
+<ore:ingotSeaborgium>
+<ore:ingotSelenium>
+<ore:ingotSignalum>
+<ore:ingotSilicon>
+<ore:ingotSilver>
+<ore:ingotSodium>
+<ore:ingotSoularium>
+<ore:ingotSoulium>
+<ore:ingotStainlesssteel>
+<ore:ingotSteel>
+<ore:ingotStellarAlloy>
+<ore:ingotStrontium>
+<ore:ingotSuperium>
+<ore:ingotSupremium>
+<ore:ingotTantalum>
+<ore:ingotTechnetium>
+<ore:ingotTellurium>
+<ore:ingotTennessine>
+<ore:ingotTerbium>
+<ore:ingotTerraglaz>
+<ore:ingotThallium>
+<ore:ingotThorium>
+<ore:ingotThulium>
+<ore:ingotTin>
+<ore:ingotTitanium>
+<ore:ingotTungsten>
+<ore:ingotUltimate>
+<ore:ingotUnstable>
+<ore:ingotUranium>
+<ore:ingotUraniumEnriched>
+<ore:ingotVanadium>
+<ore:ingotVibrantAlloy>
+<ore:ingotVividAlloy>
+<ore:ingotYtterbium>
+<ore:ingotYttrium>
+<ore:ingotZinc>
+<ore:ingotZirconium>
+<ore:itemAttractorCrystal>
+<ore:itemBall>
+<ore:itemBinderComposite>
+<ore:itemBioblend>
+<ore:itemBioblendRich>
+<ore:itemBiomass>
+<ore:itemBiomassRich>
+<ore:itemBlazePowder>
+<ore:itemBlazeRod>
+<ore:itemCakeBase>
+<ore:itemCharcoal>
+<ore:itemChassiParts>
+<ore:itemCinnabar>
+<ore:itemClay>
+<ore:itemClayedGlowstone>
+<ore:itemCoal>
+<ore:itemConduitBinder>
+<ore:itemConfusingDust>
+<ore:itemDeathUrnUnfired>
+<ore:itemEnderCrystal>
+<ore:itemEnderCrystalPowder>
+<ore:itemEnderFragment>
+<ore:itemEndSteelMachineChassi>
+<ore:itemEnhancedChassiParts>
+<ore:itemEnhancedMachineChassi>
+<ore:itemFlint>
+<ore:itemGhastTear>
+<ore:itemGliderWing>
+<ore:itemGliderWings>
+<ore:itemGrindingBallEnderium>
+<ore:itemGrindingBallLumium>
+<ore:itemGrindingBallSignalum>
+<ore:itemInfinityGoop>
+<ore:itemInfinityRod>
+<ore:itemLeather>
+<ore:itemMachineChassi>
+<ore:itemNutritiousStick>
+<ore:itemPlantbrown>
+<ore:itemPlantgreen>
+<ore:itemPlatePhotovoltaic>
+<ore:itemPowderPhotovoltaic>
+<ore:itemPrecientCrystal>
+<ore:itemPrecientPowder>
+<ore:itemPulsatingCrystal>
+<ore:itemPulsatingPowder>
+<ore:itemRawRubber>
+<ore:itemRedstoneFilterBase>
+<ore:itemRemoteAwarenessUpgrade>
+<ore:itemRubber>
+<ore:itemSalt>
+<ore:itemSawdust>
+<ore:itemSilicon>
+<ore:itemSimpleChassiParts>
+<ore:itemSimpleMachineChassi>
+<ore:itemSkull>
+<ore:itemSlag>
+<ore:itemSlagRich>
+<ore:itemSoulMachineChassi>
+<ore:itemTokenAnimal>
+<ore:itemTokenMonster>
+<ore:itemTokenPlayer>
+<ore:itemUnsouledMachineChassi>
+<ore:itemVibrantCrystal>
+<ore:itemVibrantPowder>
+<ore:itemWeatherCrystal>
+<ore:itemWirelessDish>
+<ore:itemWitheringDust>
+<ore:juicer>
+<ore:leather>
+<ore:listAllberry>
+<ore:listAllfruit>
+<ore:listAllmilk>
+<ore:listAllmushroom>
+<ore:listAllsugar>
+<ore:listAllveggie>
+<ore:logWood>
+<ore:lubricant>
+<ore:magic_snow_globe>
+<ore:matChunkAncientdebris>
+<ore:matChunkAndesite>
+<ore:matChunkBasalt>
+<ore:matChunkClay>
+<ore:matChunkDiorite>
+<ore:matChunkDirt>
+<ore:matChunkEndStone>
+<ore:matChunkGranite>
+<ore:matChunkGravel>
+<ore:matChunkJasper>
+<ore:matChunkLimestone>
+<ore:matChunkMarble>
+<ore:matChunkMeteor>
+<ore:matChunkNetherrack>
+<ore:matChunkObsidian>
+<ore:matChunkSand>
+<ore:matChunkSlate>
+<ore:matChunkSoulSand>
+<ore:matChunkSoulStone>
+<ore:matChunkStone>
+<ore:mushroomAny>
+<ore:mysticalCropsAncientDebris>
+<ore:mysticalCropsBlackIron>
+<ore:mysticalCropsCarbon>
+<ore:mysticalCropsCrystalBlack>
+<ore:mysticalCropsCrystalBlue>
+<ore:mysticalCropsCrystalGreen>
+<ore:mysticalCropsCrystalIndigo>
+<ore:mysticalCropsCrystalOrange>
+<ore:mysticalCropsCrystalRed>
+<ore:mysticalCropsCrystalViolet>
+<ore:mysticalCropsCrystalWhite>
+<ore:mysticalCropsCrystalYellow>
+<ore:mysticalCropsDimensionalShard>
+<ore:mysticalCropsObsidian>
+<ore:mysticalSeedsAncientDebris>
+<ore:mysticalSeedsBlackIron>
+<ore:mysticalSeedsCarbon>
+<ore:mysticalSeedsCrystalBlack>
+<ore:mysticalSeedsCrystalBlue>
+<ore:mysticalSeedsCrystalGreen>
+<ore:mysticalSeedsCrystalIndigo>
+<ore:mysticalSeedsCrystalOrange>
+<ore:mysticalSeedsCrystalRed>
+<ore:mysticalSeedsCrystalViolet>
+<ore:mysticalSeedsCrystalWhite>
+<ore:mysticalSeedsCrystalYellow>
+<ore:mysticalSeedsDimensionalShard>
+<ore:mysticalSeedsObsidian>
+<ore:netherrack>
+<ore:netherStar>
+<ore:notHolyDarkFusedGlass>
+<ore:notHolyDarkFusedQuartz>
+<ore:notHolyEnlightenedFusedGlass>
+<ore:notHolyEnlightenedFusedQuartz>
+<ore:notHolyFusedGlass>
+<ore:notHolyFusedQuartz>
+<ore:notPastureDarkFusedGlass>
+<ore:notPastureDarkFusedQuartz>
+<ore:notPastureEnlightenedFusedGlass>
+<ore:notPastureEnlightenedFusedQuartz>
+<ore:notPastureFusedGlass>
+<ore:notPastureFusedQuartz>
+<ore:notUnholyDarkFusedGlass>
+<ore:notUnholyDarkFusedQuartz>
+<ore:notUnholyEnlightenedFusedGlass>
+<ore:notUnholyEnlightenedFusedQuartz>
+<ore:notUnholyFusedGlass>
+<ore:notUnholyFusedQuartz>
+<ore:nuggetAluminium>
+<ore:nuggetAluminum>
+<ore:nuggetArdite>
+<ore:nuggetBaseEssence>
+<ore:nuggetBlackIron>
+<ore:nuggetBronze>
+<ore:nuggetCarbon>
+<ore:nuggetCobalt>
+<ore:nuggetConductiveIron>
+<ore:nuggetConstantan>
+<ore:nuggetConstructionAlloy>
+<ore:nuggetCopper>
+<ore:nuggetCosmicNeutronium>
+<ore:nuggetCrudeSteel>
+<ore:nuggetCrystallineAlloy>
+<ore:nuggetCrystallinePinkSlime>
+<ore:nuggetCrystaltine>
+<ore:nuggetDarkSteel>
+<ore:nuggetDiamond>
+<ore:nuggetDraconium>
+<ore:nuggetDraconiumAwakened>
+<ore:nuggetElectricalSteel>
+<ore:nuggetElectrum>
+<ore:nuggetElectrumFlux>
+<ore:nuggetEmerald>
+<ore:nuggetEnderium>
+<ore:nuggetEnderpearl>
+<ore:nuggetEndSteel>
+<ore:nuggetEnergeticAlloy>
+<ore:nuggetEnergeticSilver>
+<ore:nuggetGalvanizedsteel>
+<ore:nuggetGelidEnderium>
+<ore:nuggetGold>
+<ore:nuggetInferium>
+<ore:nuggetInsanium>
+<ore:nuggetIntermedium>
+<ore:nuggetInvar>
+<ore:nuggetIridium>
+<ore:nuggetIron>
+<ore:nuggetLead>
+<ore:nuggetLumium>
+<ore:nuggetManyullyn>
+<ore:nuggetMelodicAlloy>
+<ore:nuggetMithril>
+<ore:nuggetNetherite>
+<ore:nuggetNetherStar>
+<ore:nuggetNickel>
+<ore:nuggetPlatinum>
+<ore:nuggetPrudentium>
+<ore:nuggetPulsatingIron>
+<ore:nuggetQuartz>
+<ore:nuggetQuartzBlack>
+<ore:nuggetRedstoneAlloy>
+<ore:nuggetRuby>
+<ore:nuggetSapphire>
+<ore:nuggetSignalum>
+<ore:nuggetSilver>
+<ore:nuggetSoularium>
+<ore:nuggetSoulium>
+<ore:nuggetSteel>
+<ore:nuggetStellarAlloy>
+<ore:nuggetSuperium>
+<ore:nuggetSupremium>
+<ore:nuggetTanzanite>
+<ore:nuggetTin>
+<ore:nuggetUltimate>
+<ore:nuggetUnstable>
+<ore:nuggetUranium>
+<ore:nuggetVibrantAlloy>
+<ore:nuggetVividAlloy>
+<ore:obsidian>
+<ore:oreAluminium>
+<ore:oreAluminum>
+<ore:oreAmber>
+<ore:oreAmethyst>
+<ore:oreAncientDebris>
+<ore:oreArdite>
+<ore:oreClathrateEnder>
+<ore:oreClathrateGlowstone>
+<ore:oreClathrateOilSand>
+<ore:oreClathrateOilShale>
+<ore:oreClathrateRedstone>
+<ore:oreCoal>
+<ore:oreCobalt>
+<ore:oreCopper>
+<ore:oreDiamond>
+<ore:oreDimensionalShard>
+<ore:oreDraconium>
+<ore:oreEmerald>
+<ore:oreEnder>
+<ore:oreEnderBiotite>
+<ore:oreEnderOre>
+<ore:oreEndInferium>
+<ore:oreEndProsperity>
+<ore:oreGold>
+<ore:oreIllmenite>
+<ore:oreInferium>
+<ore:oreIridium>
+<ore:oreIron>
+<ore:oreLapis>
+<ore:oreLavaBlock>
+<ore:oreLead>
+<ore:oreMalachite>
+<ore:oreMeteor>
+<ore:oreMithril>
+<ore:oreNetherInferium>
+<ore:oreNetherProsperity>
+<ore:oreNickel>
+<ore:orePeridot>
+<ore:orePlatinum>
+<ore:oreProsperity>
+<ore:oreQuartz>
+<ore:oreQuartzBlack>
+<ore:oreRedstone>
+<ore:oreRuby>
+<ore:oreSapphire>
+<ore:oreSilver>
+<ore:oreTanzanite>
+<ore:oreTin>
+<ore:oreTitanium>
+<ore:oreTitaniumIron>
+<ore:oreTopaz>
+<ore:oreUranium>
+<ore:paneGlass>
+<ore:paneGlassBlack>
+<ore:paneGlassBlue>
+<ore:paneGlassBrown>
+<ore:paneGlassColorless>
+<ore:paneGlassCyan>
+<ore:paneGlassGray>
+<ore:paneGlassGreen>
+<ore:paneGlassLightBlue>
+<ore:paneGlassLightGray>
+<ore:paneGlassLime>
+<ore:paneGlassMagenta>
+<ore:paneGlassOrange>
+<ore:paneGlassPink>
+<ore:paneGlassPurple>
+<ore:paneGlassRed>
+<ore:paneGlassWhite>
+<ore:paneGlassYellow>
+<ore:paper>
+<ore:paperBlack>
+<ore:particleCustomizer>
+<ore:pastureDarkFusedGlass>
+<ore:pastureDarkFusedQuartz>
+<ore:pastureEnlightenedFusedGlass>
+<ore:pastureEnlightenedFusedQuartz>
+<ore:pastureFusedGlass>
+<ore:pastureFusedQuartz>
+<ore:pearlEnderEye>
+<ore:plankStained>
+<ore:plankTreatedWood>
+<ore:plankWood>
+<ore:plantBarley>
+<ore:plantBerrybush>
+<ore:plantBush>
+<ore:plantCattail>
+<ore:plantCloverpatch>
+<ore:plantDampgrass>
+<ore:plantDeadgrass>
+<ore:plantDeadleafpile>
+<ore:plantDesertgrass>
+<ore:plantDesertsprouts>
+<ore:plantDevilweed>
+<ore:plantDunegrass>
+<ore:plantFlax>
+<ore:plantKoru>
+<ore:plantLeafpile>
+<ore:plantMediumgrass>
+<ore:plantPoisonivy>
+<ore:plantRafflesia>
+<ore:plantReed>
+<ore:plantRivercane>
+<ore:plantRoot>
+<ore:plantShortgrass>
+<ore:plantShrub>
+<ore:plantSpectralfern>
+<ore:plantSprout>
+<ore:plantThorn>
+<ore:plantTinycactus>
+<ore:plantWheatgrass>
+<ore:plantWildrice>
+<ore:plateAluminium>
+<ore:plateAluminum>
+<ore:plateArdite>
+<ore:plateBlackIron>
+<ore:plateBronze>
+<ore:plateCarbon>
+<ore:plateCoal>
+<ore:plateCobalt>
+<ore:plateConstantan>
+<ore:plateConstructionAlloy>
+<ore:plateCopper>
+<ore:plateCrystaltine>
+<ore:plateDarkSteel>
+<ore:plateDemonicMetal>
+<ore:plateDenseAluminium>
+<ore:plateDenseAluminum>
+<ore:plateDenseBlackIron>
+<ore:plateDenseCoal>
+<ore:plateDenseCopper>
+<ore:plateDenseDarkSteel>
+<ore:plateDenseDemonicMetal>
+<ore:plateDenseElectricalSteel>
+<ore:plateDenseGold>
+<ore:plateDenseHOPGraphite>
+<ore:plateDenseIridium>
+<ore:plateDenseIron>
+<ore:plateDenseLead>
+<ore:plateDenseQuartz>
+<ore:plateDenseStainlesssteel>
+<ore:plateDenseSteel>
+<ore:plateElectricalSteel>
+<ore:plateElectrum>
+<ore:plateElectrumFlux>
+<ore:plateEnderium>
+<ore:plateGalvanizedsteel>
+<ore:plateGelidEnderium>
+<ore:plateGold>
+<ore:plateHOPGraphite>
+<ore:plateInvar>
+<ore:plateIridium>
+<ore:plateIron>
+<ore:plateLead>
+<ore:plateLumium>
+<ore:plateMithril>
+<ore:plateNetherite>
+<ore:plateNickel>
+<ore:plateObsidianSteel>
+<ore:platePlatinum>
+<ore:plateQuartz>
+<ore:plateQuartzBlack>
+<ore:plateSignalum>
+<ore:plateSilver>
+<ore:plateStainlesssteel>
+<ore:plateSteel>
+<ore:plateStellarAlloy>
+<ore:plateTin>
+<ore:plateTitanium>
+<ore:plateUranium>
+<ore:plateWood>
+<ore:pressurePlateWood>
+<ore:prismarine>
+<ore:prismarineBrick>
+<ore:prismarineDark>
+<ore:rail>
+<ore:railBed>
+<ore:rawPlastic>
+<ore:record>
+<ore:rock>
+<ore:rodBasalz>
+<ore:rodBlackIron>
+<ore:rodBlaze>
+<ore:rodBlitz>
+<ore:rodBlizz>
+<ore:rodConstructionAlloy>
+<ore:rodDiamond>
+<ore:rodEmerald>
+<ore:rodGold>
+<ore:rodHOPGraphite>
+<ore:rodObsidian>
+<ore:rodObsidianSteel>
+<ore:sand>
+<ore:sandstone>
+<ore:scaffoldingAluminium>
+<ore:scaffoldingAluminum>
+<ore:scaffoldingSteel>
+<ore:scaffoldingTreatedWood>
+<ore:seed>
+<ore:seedBeetroot>
+<ore:seedCanola>
+<ore:seedCoffee>
+<ore:seedFlax>
+<ore:seedMelon>
+<ore:seedPumpkin>
+<ore:seedRice>
+<ore:seedsTier1>
+<ore:seedsTier2>
+<ore:seedsTier3>
+<ore:seedsTier4>
+<ore:seedsTier5>
+<ore:seedsTier6>
+<ore:seedSweetBerry>
+<ore:seedWheat>
+<ore:shardGlass>
+<ore:shardProsperity>
+<ore:sheetPlastic>
+<ore:shulkerBox>
+<ore:shulkerShell>
+<ore:singularityAluminium>
+<ore:singularityAluminum>
+<ore:singularityAmber>
+<ore:singularityAmethyst>
+<ore:singularityAncientDebris>
+<ore:singularityArdite>
+<ore:singularityBaseEssence>
+<ore:singularityBlackIron>
+<ore:singularityBrass>
+<ore:singularityBronze>
+<ore:singularityCarbon>
+<ore:singularityCoal>
+<ore:singularityCobalt>
+<ore:singularityColdiron>
+<ore:singularityConductiveIron>
+<ore:singularityConstantan>
+<ore:singularityConstructionAlloy>
+<ore:singularityCosmicNeutronium>
+<ore:singularityCrudeSteel>
+<ore:singularityCrystalBlack>
+<ore:singularityCrystalBlue>
+<ore:singularityCrystalFlux>
+<ore:singularityCrystalGreen>
+<ore:singularityCrystalIndigo>
+<ore:singularityCrystallineAlloy>
+<ore:singularityCrystallinePinkSlime>
+<ore:singularityCrystalMatrix>
+<ore:singularityCrystalOrange>
+<ore:singularityCrystalRed>
+<ore:singularityCrystaltine>
+<ore:singularityCrystalViolet>
+<ore:singularityCrystalWhite>
+<ore:singularityCrystalYellow>
+<ore:singularityDarkSteel>
+<ore:singularityDemonicMetal>
+<ore:singularityDimensionalShard>
+<ore:singularityDraconium>
+<ore:singularityDraconiumAwakened>
+<ore:singularityElectricalSteel>
+<ore:singularityElectroFluxAlloy>
+<ore:singularityElectrotineAlloy>
+<ore:singularityElectrum>
+<ore:singularityEnchantedMetal>
+<ore:singularityEnderBiotite>
+<ore:singularityEnderium>
+<ore:singularityEndSteel>
+<ore:singularityEnergeticAlloy>
+<ore:singularityEnergeticSilver>
+<ore:singularityEvilMetal>
+<ore:singularityEvilTerraglaz>
+<ore:singularityFluxAlloy>
+<ore:singularityGalvanizedsteel>
+<ore:singularityGelidCrystal>
+<ore:singularityGelidEnderium>
+<ore:singularityGraphite>
+<ore:singularityHOPGraphite>
+<ore:singularityInferium>
+<ore:singularityInsanium>
+<ore:singularityIntermedium>
+<ore:singularityInvar>
+<ore:singularityLumium>
+<ore:singularityMalachite>
+<ore:singularityManyullyn>
+<ore:singularityMelodicAlloy>
+<ore:singularityMithril>
+<ore:singularityMoon>
+<ore:singularityNetherite>
+<ore:singularityNichrome>
+<ore:singularityObsidian>
+<ore:singularityObsidianSteel>
+<ore:singularityPeridot>
+<ore:singularityPrismarine>
+<ore:singularityPrudentium>
+<ore:singularityPulsatingIron>
+<ore:singularityQuartzBlack>
+<ore:singularityRedstoneAlloy>
+<ore:singularityRuby>
+<ore:singularitySapphire>
+<ore:singularitySignalum>
+<ore:singularitySoularium>
+<ore:singularitySoulium>
+<ore:singularityStainlesssteel>
+<ore:singularitySteel>
+<ore:singularityStellarAlloy>
+<ore:singularitySuperium>
+<ore:singularitySupremium>
+<ore:singularityTanzanite>
+<ore:singularityTerraglaz>
+<ore:singularityTitanium>
+<ore:singularityTopaz>
+<ore:singularityUltimate>
+<ore:singularityUranium>
+<ore:singularityUraniumEnriched>
+<ore:singularityVibrantAlloy>
+<ore:singularityVividAlloy>
+<ore:skullEnderResonator>
+<ore:skullGuardianDiode>
+<ore:skullSentientEnder>
+<ore:skullSkeletalContractor>
+<ore:skullZombieController>
+<ore:skullZombieElectrode>
+<ore:skullZombieFrankenstein>
+<ore:slabAluminium>
+<ore:slabAluminum>
+<ore:slabBricks>
+<ore:slabCobblestone>
+<ore:slabConstantan>
+<ore:slabCopper>
+<ore:slabElectrum>
+<ore:slabLead>
+<ore:slabNetherBrick>
+<ore:slabNickel>
+<ore:slabQuartz>
+<ore:slabSandstone>
+<ore:slabSheetmetalAluminium>
+<ore:slabSheetmetalAluminum>
+<ore:slabSheetmetalConstantan>
+<ore:slabSheetmetalCopper>
+<ore:slabSheetmetalElectrum>
+<ore:slabSheetmetalGold>
+<ore:slabSheetmetalIron>
+<ore:slabSheetmetalLead>
+<ore:slabSheetmetalNickel>
+<ore:slabSheetmetalSilver>
+<ore:slabSheetmetalSteel>
+<ore:slabSheetmetalUranium>
+<ore:slabSilver>
+<ore:slabSteel>
+<ore:slabStone>
+<ore:slabStoneBricks>
+<ore:slabTreatedWood>
+<ore:slabUranium>
+<ore:slabWood>
+<ore:slabWoodAcacia>
+<ore:slabWoodBirch>
+<ore:slabWoodDarkOak>
+<ore:slabWoodJungle>
+<ore:slabWoodOak>
+<ore:slabWoodSpruce>
+<ore:slimeball>
+<ore:slimeballPink>
+<ore:stairWood>
+<ore:stickAluminium>
+<ore:stickAluminum>
+<ore:stickBlackIron>
+<ore:stickConstructionAlloy>
+<ore:stickDiamond>
+<ore:stickEmerald>
+<ore:stickGold>
+<ore:stickHOPGraphite>
+<ore:stickIron>
+<ore:stickObsidian>
+<ore:stickObsidianSteel>
+<ore:stickSteel>
+<ore:stickTreatedWood>
+<ore:stickWood>
+<ore:stone>
+<ore:stoneAndesite>
+<ore:stoneAndesitePolished>
+<ore:stoneBasalt>
+<ore:stoneBasaltPolished>
+<ore:stoneBrimstone>
+<ore:stoneBrimstonePolished>
+<ore:stoneDiorite>
+<ore:stoneDioritePolished>
+<ore:stoneGranite>
+<ore:stoneGranitePolished>
+<ore:stoneJasper>
+<ore:stoneJasperPolished>
+<ore:stoneLimestone>
+<ore:stoneLimestonePolished>
+<ore:stoneMarble>
+<ore:stoneMarblePolished>
+<ore:stonePermafrost>
+<ore:stonePermafrostPolished>
+<ore:stonePolished>
+<ore:stoneSlate>
+<ore:stoneSlatePolished>
+<ore:string>
+<ore:stringFluxed>
+<ore:sugarcane>
+<ore:tallow>
+<ore:toolHammer>
+<ore:toolHoe>
+<ore:toolShears>
+<ore:toolTreetap>
+<ore:torch>
+<ore:trapdoorWood>
+<ore:treeLeaves>
+<ore:treeSapling>
+<ore:unholyDarkFusedGlass>
+<ore:unholyDarkFusedQuartz>
+<ore:unholyEnlightenedFusedGlass>
+<ore:unholyEnlightenedFusedQuartz>
+<ore:unholyFusedGlass>
+<ore:unholyFusedQuartz>
+<ore:vine>
+<ore:wireAluminium>
+<ore:wireAluminum>
+<ore:wireCopper>
+<ore:wireElectrum>
+<ore:wireGold>
+<ore:wireSteel>
+<ore:witherRib>
+<ore:wool>
+<ore:woolBlack>
+<ore:woolBlue>
+<ore:woolBrown>
+<ore:woolCyan>
+<ore:woolGray>
+<ore:woolGreen>
+<ore:woolLightBlue>
+<ore:woolLightGray>
+<ore:woolLime>
+<ore:woolMagenta>
+<ore:woolOrange>
+<ore:woolPink>
+<ore:woolPurple>
+<ore:woolRed>
+<ore:woolWhite>
+<ore:woolYellow>
+<ore:workbench>
+<ore:xuRedstoneCoil>
+<ore:xuUpgradeBlank>
+<ore:xuUpgradeMining>
+<ore:xuUpgradeSpeed>
+<ore:xuUpgradeSpeedEnchanted>
+<ore:xuUpgradeStack>

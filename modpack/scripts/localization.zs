@@ -1,4 +1,4 @@
-#priority 102
+#priority 9002
 import crafttweaker.game.IGame;
 
 print("---loading localization.zs---");
@@ -19,6 +19,8 @@ print("---loading localization.zs---");
 <refinedstorage:processor:3>.addTooltip("Computer Component");
 <refinedstorage:processor:4>.addTooltip("Computer Component");
 <refinedstorage:processor:5>.addTooltip("Computer Component");
+<refinedstorage:core>.addTooltip("Computer Component");
+<refinedstorage:core:1>.addTooltip("Computer Component");
 <zcontent:transistor>.addTooltip("Computer Component");
 <zcontent:alu>.addTooltip("Computer Component");
 <zcontent:proc_base>.addTooltip("Computer Component");
@@ -153,6 +155,63 @@ print("---loading localization.zs---");
 <minecraft:mob_spawner>.addTooltip("Right Click with a "+format.italic("Drop of Evil")+" to turn a Spawner into a "+format.italic("Resturbed Spawner"));
 <minecraft:mob_spawner>.addTooltip("Right Click with a "+format.italic("Draconic Core")+" to turn a Spawner into a "+format.italic("Stabilized Spawner"));
 
+<mysticalagriculture:crafting>.addShiftTooltip(format.yellow("1 Inferium"), format.italic("<Hold Shift>"));
+
+<mysticalagriculture:crafting:1>.addShiftTooltip(format.yellow("4 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:crafting:1>.addShiftTooltip(format.green("1 Prudentium"));
+
+<mysticalagriculture:crafting:2>.addShiftTooltip(format.yellow("16 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:crafting:2>.addShiftTooltip(format.green("4 Prudentium"));
+<mysticalagriculture:crafting:2>.addShiftTooltip(format.gold("1 Intermedium"));
+
+<mysticalagriculture:crafting:3>.addShiftTooltip(format.yellow("64 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:crafting:3>.addShiftTooltip(format.green("16 Prudentium"));
+<mysticalagriculture:crafting:3>.addShiftTooltip(format.gold("4 Intermedium"));
+<mysticalagriculture:crafting:3>.addShiftTooltip(format.aqua("1 Superium"));
+
+<mysticalagriculture:crafting:4>.addShiftTooltip(format.yellow("256 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:crafting:4>.addShiftTooltip(format.green("64 Prudentium"));
+<mysticalagriculture:crafting:4>.addShiftTooltip(format.gold("16 Intermedium"));
+<mysticalagriculture:crafting:4>.addShiftTooltip(format.aqua("4 Superium"));
+<mysticalagriculture:crafting:4>.addShiftTooltip(format.red("1 Supremium"));
+
+<mysticalagradditions:insanium>.addShiftTooltip(format.yellow("1024 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagradditions:insanium>.addShiftTooltip(format.green("256 Prudentium"));
+<mysticalagradditions:insanium>.addShiftTooltip(format.gold("64 Intermedium"));
+<mysticalagradditions:insanium>.addShiftTooltip(format.aqua("16 Superium"));
+<mysticalagradditions:insanium>.addShiftTooltip(format.red("4 Supremium"));
+<mysticalagradditions:insanium>.addShiftTooltip(format.darkPurple("1 Insanium"));
+
+<mysticalagriculture:storage>.addShiftTooltip(format.yellow("9 Inferium"), format.italic("<Hold Shift>"));
+
+<mysticalagriculture:storage:1>.addShiftTooltip(format.yellow("36 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:storage:1>.addShiftTooltip(format.green("9 Prudentium"));
+
+<mysticalagriculture:storage:2>.addShiftTooltip(format.yellow("144 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:storage:2>.addShiftTooltip(format.green("4 Prudentium"));
+<mysticalagriculture:storage:2>.addShiftTooltip(format.gold("9 Intermedium"));
+
+<mysticalagriculture:storage:3>.addShiftTooltip(format.yellow("576 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:storage:3>.addShiftTooltip(format.green("144 Prudentium"));
+<mysticalagriculture:storage:3>.addShiftTooltip(format.gold("36 Intermedium"));
+<mysticalagriculture:storage:3>.addShiftTooltip(format.aqua("9 Superium"));
+
+<mysticalagriculture:storage:4>.addShiftTooltip(format.yellow("2304 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagriculture:storage:4>.addShiftTooltip(format.green("576 Prudentium"));
+<mysticalagriculture:storage:4>.addShiftTooltip(format.gold("144 Intermedium"));
+<mysticalagriculture:storage:4>.addShiftTooltip(format.aqua("36 Superium"));
+<mysticalagriculture:storage:4>.addShiftTooltip(format.red("9 Supremium"));
+
+<mysticalagradditions:storage>.addShiftTooltip(format.yellow("9216 Inferium"), format.italic("<Hold Shift>"));
+<mysticalagradditions:storage>.addShiftTooltip(format.green("2304 Prudentium"));
+<mysticalagradditions:storage>.addShiftTooltip(format.gold("576 Intermedium"));
+<mysticalagradditions:storage>.addShiftTooltip(format.aqua("144 Superium"));
+<mysticalagradditions:storage>.addShiftTooltip(format.red("36 Supremium"));
+<mysticalagradditions:storage>.addShiftTooltip(format.darkPurple("9 Insanium"));
+
+
+
+
 <enderio:item_material:50>.displayName = "Artificial Black Dye Mix";
 <enderio:item_material:49>.displayName = "Artificial Brown Dye Mix";
 <enderio:item_material:48>.displayName = "Artificial Green Dye Mix";
@@ -242,9 +301,14 @@ game.setLocalization("quark.subtitles.pickup_pickarang","§6Pickarang is taken")
 game.setLocalization("item.quark:pickarang.name","§6Pickarang");
 game.setLocalization("entity.quark:pickarang.name","§6Pickarang");
 
-game.setLocalization("tile.futuremc.stonecutter.name","Mechanical Sawmill");
-game.setLocalization("container.stonecutter","Mechanical Sawmill");
-game.setLocalization("container.jei.futuremc.stonecutter.name","Mechanical Sawmill");
+// game.setLocalization("tile.futuremc.stonecutter.name","Mechanical Sawmill");
+// game.setLocalization("container.stonecutter","Mechanical Sawmill");
+// game.setLocalization("container.jei.futuremc.stonecutter.name","Mechanical Sawmill");
+
+
+game.setLocalization("tile.auto_packager.name","Assembling Machine");
+game.setLocalization("tile.auto_packager.tooltip","Assembling Machine");
+game.setLocalization("tile.auto_packager.guide","Assembling Machine. Supports custom recipes added using CraftTweaker.");
 
 game.setLocalization("item.Fluxnetworks.Flux.name","Flux Dust");
 game.setLocalization("tooltip.Fluxnetworks.Flux","Crush the Flux Out!");
@@ -361,5 +425,9 @@ game.setLocalization("item.coin_small.name","%s Cash Money");
 game.setLocalization("item.coin_big.name","%s Cash Money");
 
 game.setLocalization("item.teslacorelib.machine_case.name","Industrial Machine Frame");
+
+game.setLocalization("item.animal_bones.name","Bones");
+game.setLocalization("item.bone.name","Skeleton Bone");
+game.setLocalization("text.dankstorage.shift","Press §o§eShift§r for Info");
 
 print("---initialized localization.zs---");

@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 1.0d,
+	dependencies: [
+		"a17ceef7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "37aadbb4",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:auto_packager"
+		}]
+	}],
+	rewards: [{
+		uid: "4ad6d727",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

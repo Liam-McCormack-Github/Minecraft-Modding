@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: 6.0d,
+	dependencies: [
+		"1b111763"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "fc0bbef5",
+		type: "item",
+		items: [{
+			item: "zcontent:silicon_wafer"
+		}]
+	}],
+	rewards: [{
+		uid: "0dccb610",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

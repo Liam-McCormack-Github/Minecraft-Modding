@@ -1,6 +1,6 @@
 {
-	x: -3.0d,
-	y: -3.0d,
+	x: -4.0d,
+	y: -2.0d,
 	dependencies: [
 		"a661f5f9"
 	],
@@ -9,11 +9,7 @@
 		uid: "09372c0b",
 		type: "item",
 		items: [{
-			id: "thermalfoundation:material",
-			tag: {
-				chance: 0.15f
-			},
-			Damage: 833s
+			item: "thermalfoundation:material 1 833"
 		}]
 	}],
 	rewards: [{

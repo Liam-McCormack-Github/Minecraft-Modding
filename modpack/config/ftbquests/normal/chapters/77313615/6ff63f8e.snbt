@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: -7.0d,
+	dependencies: [
+		"2ddbf681"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "04897930",
+		type: "item",
+		items: [{
+			item: "tp:wither_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98ac5425",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

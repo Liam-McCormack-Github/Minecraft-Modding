@@ -1,10 +1,10 @@
 {
-	x: 11.0d,
+	x: 10.0d,
 	y: 10.0d,
 	shape: "square",
 	hide_dependency_lines: true,
 	dependencies: [
-		"9b018de8"
+		"1061a769"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

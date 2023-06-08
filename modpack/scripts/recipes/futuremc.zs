@@ -14,10 +14,11 @@ recipes.removeByRecipeName("futuremc:else/smithing_table");
 recipes.removeByRecipeName("futuremc:else/stonecutter");
 recipes.removeByRecipeName("futuremc:else/blast_furnace");
 recipes.removeByRecipeName("futuremc:else/smoker");
-
+recipes.removeByRecipeName("futuremc:else/grindstone");
 
 # Add
-recipes.addShaped(<futuremc:stonecutter>, [[null, null, null],[<minecraft:stone_slab:3>, <thermalfoundation:material:657>, <minecraft:stone_slab:3>], [<minecraft:stick>, <minecraft:stone_slab:3>, <minecraft:stick>]]);
+recipes.addShaped(<futuremc:grindstone>, [[null, null, null],[<ore:fenceWood>, <ore:bricksStone>, <ore:fenceWood>], [<ore:fenceWood>, null, <ore:fenceWood>]]);
+recipes.addShaped(<futuremc:stonecutter>, [[null, null, null],[null, <ore:gearStone>, null], [<ore:fenceWood>, <ore:slabStone>, <ore:fenceWood>]]);
 recipes.addShaped(<futuremc:smoker>, [[<minecraft:stick>, <ore:trapdoorWood>, <minecraft:stick>],[<quark:sturdy_stone>, <futuremc:campfire>, <quark:sturdy_stone>], [<quark:sturdy_stone>, <quark:sturdy_stone>, <quark:sturdy_stone>]]);
 recipes.addShaped(<futuremc:blast_furnace>, [[<extrautils2:decorativesolid:2>, <extrautils2:decorativesolid:2>, <extrautils2:decorativesolid:2>],[<extrautils2:decorativesolid:2>, <minecraft:iron_bars>, <extrautils2:decorativesolid:2>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>]]);
 recipes.addShaped(<futuremc:netherite_leggings>, [[<futuremc:netherite_ingot>, <futuremc:netherite_ingot>, <futuremc:netherite_ingot>],[<futuremc:netherite_ingot>, null, <futuremc:netherite_ingot>], [<futuremc:netherite_ingot>, null, <futuremc:netherite_ingot>]]);

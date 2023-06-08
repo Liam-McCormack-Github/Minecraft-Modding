@@ -1,10 +1,10 @@
 {
-	x: 6.0d,
-	y: 6.0d,
+	x: 4.0d,
+	y: 9.0d,
 	dependencies: [
 		"62e080d1",
-		"f59061fe",
-		"f94d8692"
+		"ca66195b",
+		"f59061fe"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

@@ -16,7 +16,7 @@ ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:4>,<industrialforegoing:p
 ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:6> * 2,<extendedcrafting:material:36>, null, 100, 512,[<enderio:item_alloy_endergy_ingot:5>]);
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot>,<refinedstorage:silicon>, null, 200, 512,[<minecraft:iron_ingot>,<thermalfoundation:material:768>]);
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:1> * 2,<enderio:item_alloy_ingot:3>, null, 200, 512,[<minecraft:gold_ingot>,<minecraft:glowstone_dust> * 3]);
-ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:5> * 2,<thermalfoundation:material:130>, null, 200, 512,[<enderio:item_alloy_ingot:3>,<minecraft:glowstone_dust> * 3]);
+ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:5> * 2,<enderio:item_alloy_ingot:3>, null, 200, 512,[<thermalfoundation:material:130>,<minecraft:glowstone_dust> * 3]);
 ArcFurnace.addRecipe(<enderio:item_material:39> * 4,<minecraft:ender_pearl> * 4, null, 200, 512,[<thermalfoundation:material:134>,<thermalfoundation:material:131> * 3]);
 ArcFurnace.addRecipe(<thermalfoundation:material:160>,<immersiveengineering:material:17>, null, 100, 512,[<minecraft:iron_ingot>]);
 ArcFurnace.addRecipe(<thermalfoundation:material:160>,<thermalfoundation:material:802>, null, 100, 512,[<minecraft:iron_ingot>]);

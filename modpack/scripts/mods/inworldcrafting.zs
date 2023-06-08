@@ -1,4 +1,4 @@
-#priority 3001
+#priority 8001
 import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FireCrafting;
@@ -37,7 +37,6 @@ FluidToItem.transform(<extrautils2:angelring:4>, <liquid:hot_spring_water>, [<zc
 FluidToItem.transform(<extrautils2:angelring:5>, <liquid:hot_spring_water>, [<zcontent:bat_wing> * 2, <extrautils2:chickenring>, <extrautils2:chickenring:1>, <eternalsingularity:combined_singularity:14>], true);
 FluidToItem.transform(<extrautils2:suncrystal:250>, <liquid:liquid_sunshine>, [<minecraft:diamond>], true);
 FluidToItem.transform(<minecraft:skull:3>, <liquid:blood>, [<minecraft:skull>, <biomesoplenty:fleshchunk> * 64], true);
-FluidToItem.transform(<mysticalagriculture:storage:5> * 2, <liquid:gold>, [<thermalfoundation:storage:2>, <mysticalagriculture:storage:5>], true);
 FluidToItem.transform(<zcontent:angel_wing>, <liquid:hot_spring_water>, [<cyclicmagic:tool_warp_spawn>, <cyclicmagic:tool_warp_home>], true);
 FluidToItem.transform(<extendedcrafting:storage:1>, <liquid:glowstone>, [<ore:blockSupremiumEssence>], true);
 FluidToItem.transform(<randomthings:timeinabottle>, <liquid:milk>, [<minecraft:experience_bottle>, <minecraft:clock>], true);

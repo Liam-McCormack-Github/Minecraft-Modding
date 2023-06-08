@@ -1,7 +1,7 @@
 {
 	title: "Wires",
-	x: 16.0d,
-	y: 3.0d,
+	x: 14.0d,
+	y: 6.0d,
 	description: "Wires",
 	text: [
 		"Wires"

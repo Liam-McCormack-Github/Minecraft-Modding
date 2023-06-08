@@ -1,6 +1,7 @@
 {
 	x: 29.0d,
-	y: 4.0d,
+	y: 6.0d,
+	shape: "rsquare",
 	dependencies: [
 		"5ebd619a",
 		"8b94e4fb"
@@ -14,12 +15,12 @@
 		}]
 	}],
 	rewards: [{
-		uid: "eeafa930",
+		uid: "0d096c4e",
 		type: "item",
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "lootcrate_2"
+				type: "lootcrate_3"
 			}
 		}
 	}]

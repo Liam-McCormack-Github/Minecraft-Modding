@@ -1,7 +1,8 @@
 {
 	x: 22.0d,
-	y: 4.0d,
+	y: 6.0d,
 	dependencies: [
+		"7240f0f0",
 		"5782716e"
 	],
 	dependency_requirement: "one_started",
@@ -19,16 +20,6 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "lootcrate_2"
-			}
-		}
-	},
-	{
-		uid: "86477786",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "lootcrate_3"
 			}
 		}
 	}]

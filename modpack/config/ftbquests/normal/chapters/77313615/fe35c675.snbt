@@ -1,6 +1,11 @@
 {
+	title: "Flux Points/Plugs",
 	x: -1.0d,
 	y: 6.0d,
+	description: "Flux Points/Plugs",
+	text: [
+		"Flux Points/Plugs"
+	],
 	dependencies: [
 		"9694743e"
 	],

@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 8.0d,
+	dependencies: [
+		"9c8b6476"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ebde8047",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "23eeecfb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

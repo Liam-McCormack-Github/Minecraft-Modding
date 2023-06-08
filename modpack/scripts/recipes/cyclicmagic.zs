@@ -47,9 +47,24 @@ recipes.removeByRecipeName("cyclicmagic:item.crystal_hoe_1");
 recipes.removeByRecipeName("cyclicmagic:item.crystal_sword_1");
 recipes.removeByRecipeName("cyclicmagic:item.crystallized_obsidian_1");
 recipes.removeByRecipeName("cyclicmagic:item.skull.char");
-
+recipes.removeByRecipeName("cyclicmagic:item.emerald_chestplate_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_helmet_1_2_3");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_helmet_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_leggings_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_boots_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_boots_1_2_3");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_sword_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_pickaxe_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_axe_1_2_3");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_axe_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_hoe_1");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_hoe_1_2_3");
+recipes.removeByRecipeName("cyclicmagic:item.emerald_spade_1");
+recipes.removeByRecipeName("cyclicmagic:tile.auto_packager_1");
+recipes.removeByRecipeName("cyclicmagic:tile.block_workbench_1");
 
 # Add
+recipes.addShapeless(<cyclicmagic:block_workbench>, [<ore:craftingTableWood>,<extrautils2:minichest>]);
 recipes.addShaped(<cyclicmagic:water_candle>, [[null, <quark:tallow>, null],[<rftools:infused_diamond>, <techguns:itemshared:103>, <rftools:infused_diamond>], [<minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>, <minecraft:light_weighted_pressure_plate>]]);
 recipes.addShaped(<cyclicmagic:beacon_potion>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <ore:netherStar>, <ore:blockGlassColorless>], [<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>]]);
 recipes.addShapeless(<cyclicmagic:bundled_pipe> * 3, [<cyclicmagic:item_pipe>,<cyclicmagic:energy_pipe>,<cyclicmagic:fluid_pipe>]);
@@ -99,5 +114,19 @@ recipes.addShaped(<cyclicmagic:crystal_hoe>, [[null, <cyclicmagic:crystallized_o
 recipes.addShaped(<cyclicmagic:crystal_hoe>, [[<cyclicmagic:crystallized_obsidian>, <cyclicmagic:crystallized_obsidian>, null], [null, <jaopca:item_stickdiamond>, null], [null, <jaopca:item_stickdiamond>, null]]);
 recipes.addShaped(<cyclicmagic:crystal_sword>, [[null, <cyclicmagic:crystallized_obsidian>, null], [null, <cyclicmagic:crystallized_obsidian>, null], [null, <jaopca:item_stickdiamond>, null]]);
 recipes.addShaped(<cyclicmagic:mattock>, [[<techguns:itemshared:51>, <techguns:itemshared:51>, <techguns:itemshared:51>],[null, <techguns:itemshared:103>, <techguns:itemshared:51>], [<techguns:itemshared:103>, null, <techguns:itemshared:51>]]);
+recipes.addShaped(<cyclicmagic:emerald_chestplate>, [[<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>]]);
+recipes.addShaped(<cyclicmagic:emerald_helmet>, [[null, null, null], [<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>]]);
+recipes.addShaped(<cyclicmagic:emerald_helmet>, [[<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>], [null, null, null]]);
+recipes.addShaped(<cyclicmagic:emerald_leggings>, [[<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>]]);
+recipes.addShaped(<cyclicmagic:emerald_boots>, [[<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>], [null, null, null]]);
+recipes.addShaped(<cyclicmagic:emerald_boots>, [[null, null, null], [<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>], [<zcontent:shaped_emerald>, null, <zcontent:shaped_emerald>]]);
+recipes.addShaped(<cyclicmagic:emerald_sword>, [[null, <zcontent:shaped_emerald>, null], [null, <zcontent:shaped_emerald>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<cyclicmagic:emerald_pickaxe>, [[<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<cyclicmagic:emerald_axe>, [[null, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>], [null, <ore:stickWood>, <zcontent:shaped_emerald>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<cyclicmagic:emerald_axe>, [[<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, null], [<zcontent:shaped_emerald>, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<cyclicmagic:emerald_hoe>, [[<zcontent:shaped_emerald>, <zcontent:shaped_emerald>, null], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<cyclicmagic:emerald_hoe>, [[null, <zcontent:shaped_emerald>, <zcontent:shaped_emerald>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<cyclicmagic:emerald_spade>, [[null, <zcontent:shaped_emerald>, null], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<cyclicmagic:auto_packager>, [[<refinedstorage:core>, <immersiveengineering:toolupgrade:6>, <refinedstorage:core:1>],[<thermalfoundation:material:288>, <zcontent:extended_tier1>, <thermalfoundation:material:288>], [<jaopca:item_platedensealuminium>, <zcontent:server1>, <ore:plateDenseAluminium>]]);
 
 print("---initialized recipes/cyclicmagic.zs---");

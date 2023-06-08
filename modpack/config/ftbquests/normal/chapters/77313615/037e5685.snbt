@@ -1,7 +1,8 @@
 {
+	title: "Laser Drill",
 	icon: "industrialforegoing:laser_drill",
-	x: 4.0d,
-	y: -4.0d,
+	x: 6.0d,
+	y: -2.0d,
 	shape: "rsquare",
 	hide_dependency_lines: true,
 	dependencies: [

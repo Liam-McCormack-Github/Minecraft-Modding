@@ -1,0 +1,25 @@
+{
+	x: 13.0d,
+	y: 5.0d,
+	dependencies: [
+		"e11e8d3c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a5f90a61",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c63c10cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

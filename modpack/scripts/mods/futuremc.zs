@@ -1,4 +1,4 @@
-#priority 3019
+#priority 8019
 import mods.futuremc.SmithingTable;
 import mods.futuremc.Campfire;
 import mods.futuremc.Smoker;
@@ -101,7 +101,6 @@ Smoker.addRecipe(<minecraft:clay_ball>, <minecraft:brick>);
 Smoker.addRecipe(<overloaded:compressed_cobblestone>, <quark:sturdy_stone>);
 BlastFurnace.addRecipe(<minecraft:nether_brick>, <quark:charred_nether_bricks>);
 Stonecutter.addOutputs(<minecraft:stick>, <thermalfoundation:material:800>);
-Stonecutter.addOutputs(<minecraft:ender_pearl>, <extrautils2:endershard> * 8);
 SmithingTable.addRecipe(<thermalfoundation:coin:96>, <zcontent:manyullyn_ingot>, <oeintegration:excavatemodifier>);
 SmithingTable.addRecipe(<zcontent:silver_obsidian_sword>, <randomthings:ingredient:2>, <randomthings:spectresword>);
 SmithingTable.addRecipe(<zcontent:silver_obsidian_pick>, <randomthings:ingredient:2>, <randomthings:spectrepickaxe>);

@@ -1,4 +1,4 @@
-#priority 3002
+#priority 8002
 import mods.modularmachinery.RecipeBuilder;
 
 print("---loading mods/modularmachinery.zs---");
@@ -315,6 +315,42 @@ RecipeBuilder.newBuilder("Advanced Matter Extractor", "extractor", 40)
 	.addFluidOutput(<fluid:pure_matter> * 1000)
 	.build();
 
+#techguns Fabricator--------------------------------------------------------------------------------------------------------------------------
+RecipeBuilder.newBuilder("Fabricator", "fabricator", 40)
+	.addItemInput(<techguns:multiblockmachine:1> * 4)
+	.addItemInput(<techguns:multiblockmachine> * 3)
+	.addItemInput(<techguns:multiblockmachine:2>)
+	.addItemOutput(<techguns:multiblockmachine:2>)
+	.addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fabricator"}))
+	.build();
+
+#techguns Reaction Chamber--------------------------------------------------------------------------------------------------------------------------
+RecipeBuilder.newBuilder("Reaction Chamber", "reactionchamber", 40)
+	.addItemInput(<techguns:multiblockmachine:4> * 18)
+	.addItemInput(<techguns:multiblockmachine:3> * 17)
+	.addItemInput(<techguns:multiblockmachine:5>)
+	.addItemOutput(<techguns:multiblockmachine:5>)
+	.addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactionchamber"}))
+	.build();
+
+#alchemistry Fission Multiblock--------------------------------------------------------------------------------------------------------------------------
+RecipeBuilder.newBuilder("Fission Multiblock", "fission", 40)
+	.addItemInput(<alchemistry:fission_casing> * 98)
+	.addItemInput(<alchemistry:fission_core> * 3)
+	.addItemInput(<alchemistry:fission_controller>)
+	.addItemOutput(<alchemistry:fission_controller>)
+	.addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fission"}))
+	.build();
+	
+#alchemistry Fusion Multiblock--------------------------------------------------------------------------------------------------------------------------
+RecipeBuilder.newBuilder("Fusion Multiblock", "fusion", 40)
+	.addItemInput(<alchemistry:fusion_casing> * 98)
+	.addItemInput(<alchemistry:fusion_core> * 3)
+	.addItemInput(<alchemistry:fusion_controller>)
+	.addItemOutput(<alchemistry:fusion_controller>)
+	.addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fusion"}))
+	.build();
+
 #randomthings Artificial End Portal multiblocks--------------------------------------------------------------------------------------------------------------------------
 RecipeBuilder.newBuilder("Artificial End Portal", "portal", 40)
 	.addItemInput(<minecraft:obsidian> * 14)
@@ -322,8 +358,8 @@ RecipeBuilder.newBuilder("Artificial End Portal", "portal", 40)
 	.addItemInput(<minecraft:end_rod>)
 	.addItemInput(<randomthings:ingredient:1>)
 	.addItemOutput(<minecraft:end_portal_frame>)
+	.addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:portal"}))
 	.build();
-
 
 #immersiveengineering multiblocks--------------------------------------------------------------------------------------------------------------------------
 RecipeBuilder.newBuilder("multiblocks MetalPress", "multiblocks", 40)
@@ -643,7 +679,12 @@ RecipeBuilder.newBuilder("multiblocks GasTurbine", "multiblocks", 40)
 	.build();
 	
 RecipeBuilder.newBuilder("multiblocks HeatExchanger", "multiblocks", 40)
-	.addItemInput(<minecraft:barrier>)
+	.addItemInput(<immersiveengineering:sheetmetal:9> * 18)
+	.addItemInput(<immersiveengineering:metal_device1:6> * 10)
+	.addItemInput(<immersiveengineering:metal_decoration1:1> * 9)
+	.addItemInput(<immersiveengineering:metal_decoration0:7> * 5)
+	.addItemInput(<immersiveengineering:metal_decoration0:4> * 2)
+	.addItemInput(<immersiveengineering:metal_decoration0:3>)
 	.addItemOutput(<immersivetech:metal_multiblock1:2>)
 	.addItemOutput(<immersivepetroleum:schematic>.withTag({multiblock: "IT:HeatExchanger"}))
 	.build();

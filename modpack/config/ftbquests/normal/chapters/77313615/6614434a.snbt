@@ -2,7 +2,7 @@
 	title: "Compact Machinery",
 	icon: "compactmachines3:fieldprojector",
 	x: 25.0d,
-	y: 10.0d,
+	y: 12.0d,
 	shape: "rsquare",
 	description: "Compact Machinery",
 	text: [

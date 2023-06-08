@@ -1,0 +1,110 @@
+Entity--|--XP--|--Type--|--Bone --|--Amount--|--Flesh--|--Amount--|--Skull 1--|--Amount--|--Skull  2--|--Amount--|--Rare Drop 1--|--Amount--|--Rare Drop 2--|--Amount--|--Common Drop 1--|--Amount--|--Common Drop 2--|--Amount--|--Common Drop 3--|--Amount
+minecraft:elder_guardian--|--50--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:sponge:1>--|--5--|----|--0--|--<minecraft:prismarine_crystals>--|--1--|--<minecraft:prismarine_shard>--|--1--|----|--0
+minecraft:wither_skeleton--|--20--|--hostile--|--<zcontent:wither_bone>--|--2--|----|--0--|--<minecraft:skull:1>--|--5--|----|--0--|----|--0--|----|--0--|--<quark:black_ash>--|--1--|--<darkutils:material>--|--1--|----|--0
+minecraft:stray--|--20--|--hostile--|--<minecraft:bone>--|--2--|----|--0--|--<minecraft:skull>--|--5--|----|--0--|----|--0--|----|--0--|--<minecraft:arrow>--|--1--|----|--0--|----|--0
+minecraft:skeleton--|--20--|--hostile--|--<minecraft:bone>--|--2--|----|--0--|--<minecraft:skull>--|--5--|----|--0--|----|--0--|----|--0--|--<minecraft:arrow>--|--1--|----|--0--|----|--0
+quark:ashen--|--20--|--hostile--|--<minecraft:bone>--|--2--|----|--0--|--<minecraft:skull>--|--5--|----|--0--|----|--0--|----|--0--|--<minecraft:arrow>--|--1--|----|--0--|----|--0
+minecraft:husk--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--1--|--<minecraft:skull:2>--|--5--|----|--0--|--<minecraft:iron_ingot>--|--5--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:zombie_villager--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--1--|--<minecraft:skull:2>--|--5--|----|--0--|--<minecraft:iron_ingot>--|--5--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:zombie--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--1--|--<minecraft:skull:2>--|--5--|----|--0--|--<minecraft:iron_ingot>--|--5--|----|--0--|----|--0--|----|--0--|----|--0
+quark:dweller--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--1--|--<minecraft:skull:2>--|--5--|----|--0--|--<minecraft:iron_ingot>--|--5--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:skeleton_horse--|--20--|--hostile--|--<minecraft:bone>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:zombie_horse--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:donkey--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:leather>--|--1--|----|--0--|----|--0
+minecraft:horse--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:leather>--|--1--|----|--0--|----|--0
+minecraft:mule--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:leather>--|--1--|----|--0--|----|--0
+minecraft:evocation_illager--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|--<minecraft:totem_of_undying>--|--5--|----|--0--|--<minecraft:emerald>--|--1--|----|--0--|----|--0
+minecraft:vindication_illager--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:emerald>--|--1--|----|--0--|----|--0
+minecraft:vex--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<thermalfoundation:material:771>--|--1--|----|--0--|----|--0
+minecraft:creeper--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|--<minecraft:skull:4>--|--5--|----|--0--|----|--0--|----|--0--|--<minecraft:gunpowder>--|--1--|----|--0--|----|--0
+minecraft:spider--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:string>--|--1--|--<minecraft:spider_eye>--|--1--|----|--0
+minecraft:cave_spider--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:string>--|--1--|--<minecraft:spider_eye>--|--1--|----|--0
+minecraft:slime--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:slime_ball>--|--1--|----|--0--|----|--0
+minecraft:ghast--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:gunpowder>--|--1--|--<minecraft:ghast_tear>--|--1--|----|--0
+minecraft:zombie_pigman--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--2--|----|--0--|--<minecraft:skull:2>--|--5--|--<minecraft:gold_ingot>--|--5--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:enderman--|--20--|--hostile--|----|--0--|----|--0--|--<enderio:block_enderman_skull>--|--5--|----|--0--|----|--0--|----|--0--|--<minecraft:ender_pearl>--|--1--|----|--0--|----|--0
+minecraft:silverfish--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:blaze--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:blaze_rod>--|--1--|----|--0--|----|--0
+minecraft:magma_cube--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:magma_cream>--|--1--|----|--0--|----|--0
+minecraft:bat--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<actuallyadditions:item_misc:15>--|--1--|----|--0--|----|--0
+minecraft:witch--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|--<quark:witch_hat>--|--5--|----|--0--|--<minecraft:stick>--|--1--|----|--0--|----|--0
+minecraft:endermite--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:guardian--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:prismarine_crystals>--|--1--|--<minecraft:prismarine_shard>--|--1--|----|--0
+minecraft:shulker--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<darkutils:shulker_pearl>--|--1--|--<minecraft:shulker_shell>--|--1--|----|--0
+minecraft:pig--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:porkchop>--|--1--|--<quark:tallow>--|--1--|----|--0
+minecraft:sheep--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:mutton>--|--1--|--<minecraft:wool>--|--1--|----|--0
+minecraft:cow--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:beef>--|--1--|--<minecraft:leather>--|--1--|----|--0
+minecraft:mooshroom--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:beef>--|--1--|--<minecraft:leather>--|--1--|----|--0
+minecraft:chicken--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:chicken>--|--1--|--<minecraft:feather>--|--1--|----|--0
+minecraft:squid--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:dye>--|--1--|----|--0--|----|--0
+minecraft:wolf--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+minecraft:rabbit--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|--<minecraft:rabbit_foot>--|--5--|----|--0--|--<minecraft:rabbit>--|--1--|--<minecraft:rabbit_hide>--|--1--|----|--0
+minecraft:polar_bear--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:fish>--|--1--|--<minecraft:fish:1>--|--1--|----|--0
+minecraft:llama--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:leather>--|--1--|----|--0--|----|--0
+minecraft:parrot--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:feather>--|--1--|----|--0--|----|--0
+minecraft:villager--|--10--|--passive--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+artifacts:mimic--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<extrautils2:minichest>--|--1--|----|--0--|----|--0
+quark:stoneling--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<quark:diamond_heart>--|--1--|----|--0--|----|--0
+quark:archaeologist--|--10--|--passive--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|--<quark:archaeologist_hat>--|--5--|----|--0--|----|--0--|----|--0--|----|--0
+quark:foxhound--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:blaze_powder>--|--1--|--<thermalfoundation:material:771>--|--1--|----|--0
+quark:frog--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<quark:frog_leg>--|--1--|----|--0--|----|--0
+quark:pirate--|--20--|--hostile--|--<minecraft:bone>--|--2--|----|--0--|----|--0--|--<minecraft:skull>--|--5--|--<quark:pirate_hat>--|--5--|----|--0--|--<minecraft:arrow>--|--1--|----|--0--|----|--0
+quark:crab--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<quark:crab_shell>--|--1--|--<quark:crab_leg>--|--1--|----|--0
+quark:wraith--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<quark:soul_bead>--|--1--|----|--0--|----|--0
+biomesoplenty:wasp--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<biomesoplenty:filled_honeycomb>--|--1--|----|--0--|----|--0
+cyclicmagic:robot--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+thermalfoundation:blizz--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:snowball>--|--1--|--<thermalfoundation:material:2048>--|--1--|----|--0
+thermalfoundation:blitz--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<thermalfoundation:material:772>--|--1--|--<thermalfoundation:material:2050>--|--1--|----|--0
+thermalfoundation:basalz--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<thermalfoundation:material:770>--|--1--|--<thermalfoundation:material:2052>--|--1--|----|--0
+illagers_plus:furantur--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:glass_bottle>--|--1--|----|--0--|----|--0
+illagers_plus:hoarder--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+illagers_plus:illager_king--|--50--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|--<minecraft:experience_bottle>--|--5--|----|--0--|--<minecraft:gold_ingot>--|--1--|----|--0--|----|--0
+illagers_plus:enchanter--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:planks:5>--|--1--|----|--0--|----|--0
+illagers_plus:archer--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:arrow>--|--1--|----|--0--|----|--0
+illagers_plus:necromancer--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|--<minecraft:totem_of_undying>--|--5--|----|--0--|--<minecraft:emerald>--|--1--|----|--0--|----|--0
+industrialforegoing:pink_slime--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<industrialforegoing:pink_slime>--|--1--|----|--0--|----|--0
+randomthings:spirit--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<randomthings:ingredient:2>--|--1--|----|--0--|----|--0
+techguns:zombiesoldier--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|--<minecraft:skull:2>--|--5--|--<techguns:itemshared:1>--|--5--|----|--0--|--<techguns:itemshared:60>--|--1--|----|--0--|----|--0
+techguns:zombiefarmer--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|--<minecraft:skull:2>--|--5--|--<minecraft:bread>--|--5--|----|--0--|--<techguns:itemshared:60>--|--1--|----|--0--|----|--0
+techguns:zombieminer--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|--<minecraft:skull:2>--|--5--|--<minecraft:coal>--|--5--|----|--0--|--<techguns:itemshared:60>--|--1--|----|--0--|----|--0
+techguns:armysoldier--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|--<techguns:itemshared:3>--|--5--|----|--0--|--<techguns:itemshared:60>--|--1--|----|--0--|----|--0
+techguns:bandit--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|--<techguns:itemshared:2>--|--5--|----|--0--|--<techguns:itemshared:60>--|--1--|----|--0--|----|--0
+techguns:commando--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|--<techguns:itemshared:84>--|--5--|----|--0--|--<techguns:itemshared:56>--|--1--|----|--0--|----|--0
+techguns:dictatordave--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|--<techguns:itemshared:1>--|--1--|----|--0--|----|--0
+techguns:cyberdemon--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:blaze_rod>--|--1--|--<techguns:itemshared:69>--|--1--|--<minecraft:ghast_tear>--|--2
+techguns:skeletonsoldier--|--20--|--hostile--|--<minecraft:bone>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<techguns:itemshared:60>--|--1--|--<minecraft:gunpowder>--|--1--|----|--0
+techguns:psychosteve--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|--<techguns:itemshared:27>--|--1--|----|--0--|----|--0
+techguns:stormtrooper--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+techguns:outcast--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>--|--2--|----|--0--|----|--0--|--<techguns:itemshared:84>--|--5--|----|--0--|--<techguns:itemshared:56>--|--1--|----|--0--|----|--0
+techguns:zombiepigmansoldier--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--2--|----|--0--|--<minecraft:skull:2>--|--5--|--<minecraft:gold_ingot>--|--5--|--<techguns:itemshared:84>--|--5--|----|--0--|----|--0--|----|--0
+techguns:supermutantheavy--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:blaze_rod>--|--1--|--<techguns:itemshared:69>--|--1--|--<minecraft:ghast_tear>--|--2
+techguns:supermutantelite--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:blaze_rod>--|--1--|--<techguns:itemshared:69>--|--1--|--<minecraft:ghast_tear>--|--2
+techguns:supermutantbasic--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:blaze_rod>--|--1--|--<techguns:itemshared:69>--|--1--|--<minecraft:ghast_tear>--|--2
+techguns:alienbug--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:web>--|--1--|----|--0--|----|--0
+techguns:ghastling--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+techguns:zombiepoliceman--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--2--|----|--0--|--<minecraft:skull:2>--|--5--|--<techguns:itemshared:1>--|--5--|----|--0--|--<techguns:itemshared:60>--|--1--|----|--0--|----|--0
+techguns:attackhelicopter--|--50--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|--<techguns:itemshared:7>--|--5--|----|--0--|--<techguns:itemshared:3>--|--1--|--<techguns:itemshared:69>--|--1--|--<minecraft:iron_ingot>--|--2
+better_diving:bladderfish--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<better_diving:bladderfish>--|--1--|----|--0--|----|--0
+better_diving:boomerang--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<better_diving:boomerang>--|--1--|----|--0--|----|--0
+better_diving:garryfish--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<better_diving:garryfish>--|--1--|----|--0--|----|--0
+better_diving:holefish--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<better_diving:holefish>--|--1--|----|--0--|----|--0
+better_diving:peeper--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<better_diving:peeper>--|--1--|----|--0--|----|--0
+enderiozoo:lovechild--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<minecraft:rotten_flesh>--|--2--|----|--0--|--<minecraft:skull:2>--|--5--|--<enderio:item_alloy_ingot:6>--|--5--|----|--0--|--<minecraft:ender_pearl>--|--1--|----|--0--|----|--0
+enderiozoo:witherwitch--|--20--|--hostile--|--<zcontent:animal_bones>--|--1--|--<biomesoplenty:fleshchunk>.withTag({ench: [{lvl: 1 as short, id: 71}]})--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|--<enderio:item_material:63>--|--1--|----|--0--|----|--0
+futuremc:tropical_fish--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:fish:2>--|--1--|----|--0--|----|--0
+futuremc:pufferfish--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:fish:3>--|--1--|----|--0--|----|--0
+futuremc:salmon--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:fish:1>--|--1--|----|--0--|----|--0
+futuremc:cod--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:fish>--|--1--|----|--0--|----|--0
+futuremc:bee--|--10--|--passive--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+futuremc:panda--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+enderiozoo:epicsquid--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|--<thermalfoundation:material:770>--|--5--|--<enderio:item_material:20>--|--5--|--<minecraft:dye>--|--1--|----|--0--|----|--0
+enderiozoo:withercat--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+enderiozoo:voidslime--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<enderio:item_material:20>--|--1--|----|--0--|----|--0
+enderiozoo:direwolf--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+enderiozoo:fallenknight--|--20--|--hostile--|--<minecraft:bone>--|--1--|--<minecraft:rotten_flesh>--|--2--|----|--0--|--<minecraft:skull>--|--5--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0
+enderiozoo:concussioncreeper--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|--<minecraft:skull:4>--|--5--|--<enderio:item_material:62>--|--5--|----|--0--|--<enderio:item_material:61>--|--1--|--<minecraft:gunpowder>--|--1--|----|--0
+enderiozoo:owl--|--10--|--passive--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:feather>--|--1--|----|--0--|----|--0
+enderiozoo:fallenmount--|--20--|--hostile--|--<zcontent:animal_bones>--|--2--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:leather>--|--1--|----|--0--|----|--0
+deepmoblearning:glitch--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<deepmoblearning:glitch_heart>--|--1--|----|--0--|----|--0
+enderiozoo:direslime--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<minecraft:clay_ball>--|--1--|----|--0--|----|--0
+enderiozoo:enderminy--|--20--|--hostile--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|----|--0--|--<enderio:item_material:62>--|--1--|----|--0--|----|--0

@@ -1,144 +1,139 @@
 {
   "entries": [
+	{
+	   "item": "OD|stone",
+	   "emc": "1"
+	},
+	{
+	   "item": "OD|stoneAndesite",
+	   "emc": "8"
+	},
+	{
+	   "item": "OD|stoneBasalt",
+	   "emc": "8"
+	},
+	{
+	   "item": "OD|stoneBrimstone",
+	   "emc": "64"
+	},
+	{
+	   "item": "OD|stoneDiorite",
+	   "emc": "8"
+	},
+	{
+	   "item": "OD|stoneGranite",
+	   "emc": "8"
+	},
+	{
+	   "item": "OD|stoneJasper",
+	   "emc": "8"
+	},
+	{
+	   "item": "OD|stoneLimestone",
+	   "emc": "8"
+	},
+	{
+	   "item": "OD|stoneMarble",
+	   "emc": "8"
+	},
+	{
+	   "item": "OD|stonePermafrost",
+	   "emc": "64"
+	},
+	{
+	   "item": "OD|stoneSlate",
+	   "emc": "8"
+	},
     {
-      "item": "projecte:item.pe_matter|0",
-      "emc": 4096000
+      "item": "OD|grass",
+      "emc": 2
     },
     {
-      "item": "projecte:item.pe_matter|1",
-      "emc": 16384000
+      "item": "OD|dirt",
+      "emc": 1
     },
     {
-      "item": "projectex:matter|0",
-      "emc": 65536000
+      "item": "OD|gravel",
+      "emc": 4
     },
     {
-      "item": "projectex:matter|1",
-      "emc": 262144000
+      "item": "OD|sand",
+      "emc": 1
     },
     {
-      "item": "projectex:matter|2",
-      "emc": 1048576000
+      "item": "OD|cobblestone",
+      "emc": 1
     },
     {
-      "item": "projectex:matter|3",
-      "emc": 4194304000
+      "item": "OD|plankWood",
+      "emc": 16
     },
     {
-      "item": "projectex:matter|4",
-      "emc": 16777216000
-    },
-    {
-      "item": "projectex:matter|5",
-      "emc": 67108864000
-    },
-    {
-      "item": "projectex:matter|6",
-      "emc": 268435456000
-    },
-    {
-      "item": "projectex:matter|7",
-      "emc": 1073741824000
-    },
-    {
-      "item": "projectex:matter|8",
-      "emc": 4294967296000
-    },
-    {
-      "item": "projectex:matter|9",
-      "emc": 17179869184000
-    },
-    {
-      "item": "projectex:matter|10",
-      "emc": 68719476736000
-    },
-    {
-      "item": "projectex:matter|11",
-      "emc": 274877906944000
-    },
-    {
-      "item": "projecte:item.pe_fuel|2",
-      "emc": 8192
-    },
-    {
-      "item": "projecte:item.pe_fuel|1",
-      "emc": 2048
-    },
-    {
-      "item": "projecte:item.pe_fuel|0",
-      "emc": 512
-    },
-    {
-      "item": "projecte:item.pe_klein_star|0",
-      "emc": 20480
-    },
-    {
-      "item": "minecraft:coal|0",
+      "item": "OD|logWood",
       "emc": 128
-    },
-    {
-      "item": "minecraft:diamond|0",
-      "emc": 8192
-    },
-    {
-      "item": "minecraft:iron_ingot|0",
-      "emc": 256
-    },
-    {
-      "item": "minecraft:gold_ingot|0",
-      "emc": 2048
-    },
-    {
-      "item": "minecraft:quartz|0",
-      "emc": 256
-    },
-    {
-      "item": "refinedstorage:silicon|0",
-      "emc": 256
-    },
-    {
-      "item": "thermalfoundation:material|160",
-      "emc": 512
-    },
-    {
-      "item": "minecraft:dye|4",
-      "emc": 768
-    },
-    {
-      "item": "minecraft:obsidian|0",
-      "emc": 64
-    },
-    {
-      "item": "minecraft:stone|0",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:stone|1",
-      "emc": 4
-    },
-    {
-      "item": "minecraft:stone|3",
-      "emc": 4
-    },
-    {
-      "item": "minecraft:stone|5",
-      "emc": 4
-    },
-    {
-      "item": "minecraft:dirt|0",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:cobblestone|0",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:redstone|0",
-      "emc": 64
-    },
-    {
-      "item": "minecraft:glowstone_dust|0",
-      "emc": 384
-    }
+    },	{
+	   "item": "OD|gemAmber",
+	   "emc": "4096"
+	},
+	{
+	   "item": "OD|gemAmethyst",
+	   "emc": "16384"
+	},
+	{
+	   "item": "OD|gemCoal",
+	   "emc": "128"
+	},
+	{
+	   "item": "OD|gemDiamond",
+	   "emc": "8192"
+	},
+	{
+	   "item": "OD|gemDimensionalShard",
+	   "emc": "512"
+	},
+	{
+	   "item": "OD|gemEmerald",
+	   "emc": "4096"
+	},
+	{
+	   "item": "OD|gemEnderBiotite",
+	   "emc": "512"
+	},
+	{
+	   "item": "OD|gemLapis",
+	   "emc": "768"
+	},
+	{
+	   "item": "OD|gemMalachite",
+	   "emc": "4096"
+	},
+	{
+	   "item": "OD|gemPeridot",
+	   "emc": "4096"
+	},
+	{
+	   "item": "OD|gemPrismarine",
+	   "emc": "256"
+	},
+	{
+	   "item": "OD|gemQuartz",
+	   "emc": "256"
+	},
+	{
+	   "item": "OD|gemRuby",
+	   "emc": "4096"
+	},
+	{
+	   "item": "OD|gemSapphire",
+	   "emc": "4096"
+	},
+	{
+	   "item": "OD|gemTanzanite",
+	   "emc": "4096"
+	},
+	{
+	   "item": "OD|gemTopaz",
+	   "emc": "4096"
+	}
   ]
 }

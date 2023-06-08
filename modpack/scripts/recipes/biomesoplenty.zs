@@ -11,7 +11,7 @@ recipes.removeByRecipeName("biomesoplenty:terrestrial_artifact");
 
 
 # Add
-recipes.addShapeless(<biomesoplenty:terrestrial_artifact>, [<biomesoplenty:gem>,<biomesoplenty:gem:1>,<biomesoplenty:gem:2>,<biomesoplenty:gem:3>,<minecraft:emerald>,<biomesoplenty:gem:4>,<biomesoplenty:gem:5>,<biomesoplenty:gem:6>,<biomesoplenty:gem:7>]);
+recipes.addShapeless(<biomesoplenty:terrestrial_artifact>, [<biomesoplenty:gem>,<biomesoplenty:gem:1>,<biomesoplenty:gem:2>,<biomesoplenty:gem:3>,<randomthings:ingredient:9>,<biomesoplenty:gem:4>,<biomesoplenty:gem:5>,<biomesoplenty:gem:6>,<biomesoplenty:gem:7>]);
 recipes.addShapeless(<biomesoplenty:ash> * 9, [<biomesoplenty:ash_block>]);
 recipes.addShapeless(<biomesoplenty:ash_block>, [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]);
 

@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 7.0d,
+	dependencies: [
+		"547aa5a5"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "361e0864",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "e39fd040",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

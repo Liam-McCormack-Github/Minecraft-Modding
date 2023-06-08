@@ -42,7 +42,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "15+9*(LVL-1)",
     "max_ench_eval": "(1+10*LVL)+50",
-    "type": "BREAKABLE",
+    "type": "ALL",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -69,7 +69,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "15",
     "max_ench_eval": "(1+10*LVL)+50",
-    "type": "DIGGER",
+    "type": "ALL",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -96,7 +96,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "15+9*(LVL-1)",
     "max_ench_eval": "(1+10*LVL)+50",
-    "type": "DIGGER",
+    "type": "ALL",
     "equipment_slots": [
       "MAINHAND"
     ],

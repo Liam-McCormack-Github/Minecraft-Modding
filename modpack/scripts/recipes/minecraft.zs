@@ -19,16 +19,18 @@ recipes.removeByRecipeName("minecraft:dropper");
 recipes.removeByRecipeName("minecraft:dispenser");
 recipes.removeByRecipeName("minecraft:furnace");
 recipes.removeByRecipeName("minecraft:hopper");
-
+recipes.removeByRecipeName("minecraft:bone_block");
+recipes.removeByRecipeName("minecraft:crafting_table");
+recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 
 # Add
+recipes.addShaped(<minecraft:crafting_table>, [[<ore:itemLeather>, <minecraft:dye>],[<ore:plankWood>, null]]);
 recipes.addShaped(<minecraft:dropper>, [[<quark:sturdy_stone>, <quark:sturdy_stone>, <quark:sturdy_stone>],[<quark:sturdy_stone>, <minecraft:redstone>, <quark:sturdy_stone>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>]]);
 recipes.addShaped(<minecraft:observer>, [[<quark:sturdy_stone>, <quark:sturdy_stone>, <quark:sturdy_stone>],[<minecraft:redstone>, <minecraft:redstone>, <minecraft:quartz>], [<quark:sturdy_stone>, <quark:sturdy_stone>, <quark:sturdy_stone>]]);
 recipes.addShaped(<minecraft:ender_eye>, [[<extrautils2:endershard>, <extrautils2:endershard>, <extrautils2:endershard>],[<extrautils2:endershard>, <minecraft:spider_eye>, <extrautils2:endershard>], [<extrautils2:endershard>, <extrautils2:endershard>, <extrautils2:endershard>]]);
-recipes.addShapeless(<minecraft:netherbrick> * 4, [<minecraft:nether_brick>]);
-recipes.addShapeless(<minecraft:brick> * 4, [<minecraft:brick_block>]);
 recipes.addShapeless(<minecraft:glowstone_dust> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeYellow>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
 recipes.addShapeless(<minecraft:dragon_breath>, [<ore:glassBottle>,<mysticalagradditions:stuff:2>]);
+recipes.addShapeless(<minecraft:dye:15>, [<zcontent:animal_bones>]);
 recipes.addShaped(<minecraft:purple_shulker_box>, [[<minecraft:shulker_shell>],[null], [<minecraft:shulker_shell>]]);
 recipes.addShaped(<minecraft:skull:5>, [[<mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>],[<mysticalagradditions:stuff:2>, <mysticalagriculture:crafting:15>, <mysticalagradditions:stuff:2>], [<mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>]]);
 recipes.addShaped(<minecraft:piston>, [[<zcontent:wood_plate>, <zcontent:wood_plate>, <zcontent:wood_plate>],[<quark:sturdy_stone>, <enderio:item_material:10>, <quark:sturdy_stone>], [<quark:sturdy_stone>, <enderio:item_alloy_ingot:4>, <quark:sturdy_stone>]]);
@@ -40,6 +42,7 @@ recipes.addShapeless(<minecraft:bone> * 9, [<zcontent:bone_block>]);
 recipes.addShapeless(<minecraft:gunpowder> * 9, [<zcontent:gunpowder_block>]);
 recipes.addShapeless(<minecraft:flint> * 9, [<zcontent:flint_block>]);
 recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<zcontent:rotten_flesh_block>]);
+recipes.addShapeless(<minecraft:bone_block>, [<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>]);
 recipes.addShaped(<minecraft:comparator>, [[null, <minecraft:redstone_torch>, null],[<minecraft:redstone_torch>, <minecraft:quartz>, <minecraft:redstone_torch>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>]]);
 recipes.addShaped(<minecraft:repeater>, [[<minecraft:redstone>, null, <minecraft:redstone>],[<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>]]);
 recipes.addShaped(<minecraft:repeater>, [[null, null, null],[<minecraft:redstone_torch>, <minecraft:redstone>, <minecraft:redstone_torch>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>]]);

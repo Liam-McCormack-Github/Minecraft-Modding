@@ -1,6 +1,6 @@
 {
 	x: 25.0d,
-	y: 18.0d,
+	y: 20.0d,
 	shape: "rsquare",
 	dependencies: [
 		"ec3355e4"
@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			id: "virtualmachines:virtual_machine",
+			Damage: 1s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -24,8 +25,7 @@
 					2b
 				],
 				Level: 0b
-			},
-			Damage: 1s
+			}
 		}]
 	}],
 	rewards: [{

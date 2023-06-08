@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	dependencies: [
+		"3884c2a8",
+		"a0cc28bd"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "29563afa",
+		type: "item",
+		items: [{
+			item: "zcontent:stainless_steel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "7dd14743",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

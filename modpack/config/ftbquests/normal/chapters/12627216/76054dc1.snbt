@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"0b476dfa"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "06bea917",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "66985de4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

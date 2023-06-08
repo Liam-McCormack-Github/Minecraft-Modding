@@ -1,4 +1,4 @@
-#priority 3005
+#priority 8005
 import mods.techguns.GunStats;
 import mods.techguns.ArmorStats;
 import mods.techguns.AmmoPress;
@@ -153,6 +153,7 @@ ChemLab.removeRecipe(<techguns:itemshared:64>,null);
 ReactionChamber.removeRecipe(<minecraft:diamond>, <liquid:redstone>);
 ReactionChamber.removeRecipe(<immersiveengineering:metal:14>, <liquid:water>);
 Fabricator.removeRecipe(<techguns:itemshared:69>);
+Fabricator.removeRecipe(<techguns:itemshared:67>);
 
 # Add
 ChargingStation.addRecipe(<thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:2>, 8000);
@@ -275,6 +276,7 @@ Fabricator.addRecipe(<zcontent:circuitboard>, 1, <techguns:itemshared:63>, 2, <m
 Fabricator.addRecipe(<actuallyadditions:item_dust:4>, 2, <techguns:itemshared:65>, 1, <minecraft:redstone>, 5, <tp:colored_dust>, 4, <techguns:itemshared:66>);
 Fabricator.addRecipe("gunpowder", 10, <thermalfoundation:material:324>, 16, <minecraft:tnt>, 4, <zcontent:chip1>, 1, <techguns:itemshared:7> * 4);
 Fabricator.addRecipe(<techguns:itemshared:85>, 4, <techguns:itemshared:63>, 8, <minecraft:redstone>, 10, "sheetPlastic", 4, <techguns:itemshared:69>);
+Fabricator.addRecipe(<techguns:itemshared:85>, 4, <techguns:itemshared:65>, 4, <techguns:itemshared:59>, 1, <techguns:itemshared:53>, 4, <techguns:itemshared:67> * 2);
 Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard1>, 8, <zcontent:ender_block>, 16, <virtualmachines:material:2562>, 1, <zcontent:machineframe_1>);
 Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard2>, 8, <zcontent:ender_block>, 32, <virtualmachines:material:2562>, 1, <zcontent:machineframe_2>);
 Fabricator.addRecipe(<thermalexpansion:frame>, 1, <zcontent:graphicscard3>, 8, <zcontent:ender_block>, 48, <virtualmachines:material:2562>, 1, <zcontent:machineframe_3>);

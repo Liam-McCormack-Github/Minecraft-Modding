@@ -70,9 +70,9 @@
 		string_id: "lootcrate_4",
 		color: 6679422,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 0
+			monster: 0,
+			boss: 0
 		}
 	}
 }

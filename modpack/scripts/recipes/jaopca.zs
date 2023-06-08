@@ -3,16 +3,6 @@
 print("---loading recipes/jaopca.zs---");
 
 # Remove
-recipes.removeByRecipeName("jaopca:block_cruxcarbon_8ghq3w");
-recipes.removeByRecipeName("jaopca:black_gem_ge90o4");
-recipes.removeByRecipeName("jaopca:blue_gem_s0wgt9");
-recipes.removeByRecipeName("jaopca:green_gem_iuuhpc");
-recipes.removeByRecipeName("jaopca:indigo_gem_7rhijp");
-recipes.removeByRecipeName("jaopca:orange_gem_qndgeh");
-recipes.removeByRecipeName("jaopca:red_gem_a2rw0i");
-recipes.removeByRecipeName("jaopca:violet_gem_ja6jo8");
-recipes.removeByRecipeName("jaopca:white_gem_qa5cxm");
-recipes.removeByRecipeName("jaopca:yellow_gem_pdjqgz");
 
 
 # Add
@@ -33,6 +23,5 @@ recipes.addShapeless(<jaopca:item_dustsuperium>, [<ore:essenceSuperium>,<ore:ess
 recipes.addShapeless(<jaopca:item_dustintermedium>, [<ore:essenceIntermedium>,<ore:essenceIntermedium>,<ore:essenceIntermedium>,<ore:essenceIntermedium>,<ore:dustPrudentium>,<ore:essenceIntermedium>,<ore:essenceIntermedium>,<ore:essenceIntermedium>,<ore:essenceIntermedium>]);
 recipes.addShapeless(<jaopca:item_dustprudentium>, [<ore:essencePrudentium>,<ore:essencePrudentium>,<ore:essencePrudentium>,<ore:essencePrudentium>,<ore:dustInferium>,<ore:essencePrudentium>,<ore:essencePrudentium>,<ore:essencePrudentium>,<ore:essencePrudentium>]);
 recipes.addShapeless(<jaopca:item_dustinferium>, [<ore:essenceInferium>,<ore:essenceInferium>,<ore:essenceInferium>,<ore:essenceInferium>,<ore:dustBaseEssence>,<ore:essenceInferium>,<ore:essenceInferium>,<ore:essenceInferium>,<ore:essenceInferium>]);
-recipes.addShaped(<jaopca:block_cruxcarbon>, [[<ore:essenceInsanium>, <ore:blockCarbon>, <ore:essenceInsanium>],[<ore:blockCarbon>, <extendedcrafting:storage:6>, <ore:blockCarbon>], [<ore:essenceInsanium>, <ore:blockCarbon>, <ore:essenceInsanium>]]);
 
 print("---initialized recipes/jaopca.zs---");

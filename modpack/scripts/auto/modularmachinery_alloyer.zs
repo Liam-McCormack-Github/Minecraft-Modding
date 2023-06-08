@@ -105,8 +105,8 @@ RecipeBuilder.newBuilder("alloyer 13", "alloyer", 1)
 RecipeBuilder.newBuilder("alloyer 14", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
 	.addItemOutput(<enderio:item_alloy_endergy_ingot:5> * 2)
-	.addItemInput(<thermalfoundation:material:130>)
 	.addItemInput(<enderio:item_alloy_ingot:3>)
+	.addItemInput(<thermalfoundation:material:130>)
 	.addItemInput(<minecraft:glowstone_dust> * 3)
 	.build();
 

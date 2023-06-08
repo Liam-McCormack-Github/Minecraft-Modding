@@ -1,4 +1,4 @@
-#priority 3015
+#priority 8015
 import mods.chisel.Carving;
 
 print("---loading mods/chisel.zs---");

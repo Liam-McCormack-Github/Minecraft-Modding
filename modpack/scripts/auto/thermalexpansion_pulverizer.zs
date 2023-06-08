@@ -36,5 +36,6 @@ Pulverizer.addRecipe(<actuallyadditions:item_crystal_shard:3> * 3,<quark:crystal
 Pulverizer.addRecipe(<actuallyadditions:item_crystal_shard:4> * 3,<quark:crystal:4>,2000);
 Pulverizer.addRecipe(<actuallyadditions:item_crystal_shard:5> * 3,<quark:crystal>,2000);
 Pulverizer.addRecipe(<zcontent:withered_bone_meal> * 6,<zcontent:wither_bone>,3000);
+Pulverizer.addRecipe(<minecraft:dye:15> * 2,<zcontent:animal_bones>,1500);
 
 print("---initialized thermalexpansion_pulverizer.zs---");

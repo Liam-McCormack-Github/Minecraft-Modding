@@ -1,14 +1,23 @@
-#priority 101
+#priority 1001
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
+import crafttweaker.events.IEventManager;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityLivingBase;
 import mods.futuremc.SmithingTable;
 import mods.futuremc.BlastFurnace;
 import mods.thermalexpansion.Transposer;
 import mods.thermalexpansion.Sawmill;
 import mods.immersiveengineering.MetalPress;
 import mods.thermalexpansion.Compactor;
+import mods.thermalexpansion.Enchanter;
+import mods.thermalexpansion.Insolator;
 
 print("---loading script.zs---");
+
+
+recipes.addShapeless(<randomthings:ingredient:9>, [<zcontent:shaped_emerald>,<cyclicmagic:ender_lightning>]);
+recipes.addShapeless(<zcontent:charged_gunpowder>, [<minecraft:gunpowder>,<cyclicmagic:ender_lightning>]);
 
 <zcontent:masterswordblade>.maxStackSize = 1;
 <zcontent:masterswordcore>.maxStackSize = 1;
@@ -47,11 +56,6 @@ print("---loading script.zs---");
 <mysticaladaptations:insanium_scythe>.maxDamage = 16000;
 <mysticaladaptations:insanium_fishing_rod>.maxDamage = 16000;
 
-var creeper_morb_charged = <thermalexpansion:morb>.withTag({powered: 1 as byte, id: "minecraft:creeper"});
-var creeper_morb = <thermalexpansion:morb>.withTag({powered: 0 as byte, id: "minecraft:creeper"});
-recipes.addShapeless(<zcontent:charged_gunpowder>, [creeper_morb_charged.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
-recipes.addShapeless(<minecraft:gunpowder>, [creeper_morb.giveBack(<thermalexpansion:morb>), <rftools:syringe>]);
-
 recipes.addShapeless("new_fluid_from_tank",<actuallyadditions:item_misc:12>,
 [<actuallyadditions:item_misc:9>.transformReplace(<actuallyadditions:item_misc:12>), <thermalexpansion:tank>.marked("fluid_container")],
 function(out,ins,cInfo) {
@@ -85,6 +89,46 @@ recipes.addShaped("increase_ench_level", <minecraft:enchanted_book>, [[<draconic
 recipes.addShaped("upgrade_to_tome", <quark:ancient_tome>, [[null, <ore:essenceInsanium>, null],[<ore:essenceInsanium>, <minecraft:enchanted_book>.marked("enchBook"), <ore:essenceInsanium>], [null, <ore:essenceInsanium>, null]],
 function(out, ins, cInfo) {
         return out.withTag(ins.enchBook.tag);
+}, null);
+
+recipes.addShaped("wand_get_nbt_1", <randomthings:ingredient:2>, [[<zcontent:wand_1>.marked("wand_get_1").giveBack(), <randomthings:ingredient:2>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_get_1.tag);
+}, null);
+
+recipes.addShaped("wand_get_nbt_2", <randomthings:ingredient:2>, [[<zcontent:wand_2>.marked("wand_get_2").giveBack(), <randomthings:ingredient:2>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_get_2.tag);
+}, null);
+
+recipes.addShaped("wand_get_nbt_3", <randomthings:ingredient:2>, [[<zcontent:wand_3>.marked("wand_get_3").giveBack(), <randomthings:ingredient:2>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_get_3.tag);
+}, null);
+
+recipes.addShaped("wand_get_nbt_4", <randomthings:ingredient:2>, [[<zcontent:wand_4>.marked("wand_get_4").giveBack(), <randomthings:ingredient:2>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_get_4.tag);
+}, null);
+
+recipes.addShaped("wand_give_nbt_1", <zcontent:wand_1>, [[<randomthings:ingredient:2>.marked("wand_give_1"), <zcontent:wand_1>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_give_1.tag);
+}, null);
+
+recipes.addShaped("wand_give_nbt_2", <zcontent:wand_2>, [[<randomthings:ingredient:2>.marked("wand_give_2"), <zcontent:wand_2>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_give_2.tag);
+}, null);
+
+recipes.addShaped("wand_give_nbt_3", <zcontent:wand_3>, [[<randomthings:ingredient:2>.marked("wand_give_3"), <zcontent:wand_3>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_give_3.tag);
+}, null);
+
+recipes.addShaped("wand_give_nbt_4", <zcontent:wand_4>, [[<randomthings:ingredient:2>.marked("wand_give_4"), <zcontent:wand_4>]],
+function(out, ins, cInfo) {
+        return out.withTag(ins.wand_give_4.tag);
 }, null);
 
 recipes.addShapeless("upgrade_dank_2", <dankstorage:dank_2>, [<dankstorage:dank_1>.marked("dank_1"), <ore:blockTopaz>],
@@ -250,7 +294,6 @@ val ingotToPlate_plate = [<thermalfoundation:material:32>,
 	<jaopca:item_platecrystaltine>,        
 	<jaopca:item_platenetherite>] as IItemStack[];
 
-
 for i, ingot in ingotToPlate_ingot {
 	recipes.addShapeless(ingotToPlate_plate[i],[<ore:toolHammer>,ingot]);
 }
@@ -294,7 +337,8 @@ val dustToIngot_dust = [<jaopca:item_dustobsidiansteel>,
 	<thermalfoundation:material:97>,
 	<thermalfoundation:material:96>,
 	<thermalfoundation:material:72>,
-	<thermalfoundation:material:71>] as IItemStack[];
+	<thermalfoundation:material:71>,
+	<immersiveengineering:metal:14>] as IItemStack[];
 	
 val dustToIngot_ingot = [<techguns:itemshared:84>,
 	<enderio:item_alloy_endergy_ingot:5>,
@@ -335,11 +379,118 @@ val dustToIngot_ingot = [<techguns:itemshared:84>,
 	<thermalfoundation:material:161>,
 	<thermalfoundation:material:160>,
 	<thermalfoundation:material:136>,
-	<thermalfoundation:material:135>] as IItemStack[];
+	<thermalfoundation:material:135>,
+	<immersiveengineering:metal:5>] as IItemStack[];
 		
 for i, dust in dustToIngot_dust {
 	recipes.addShapeless(dustToIngot_ingot[i], [dust, <ore:dustPyrotheum>]);
 	BlastFurnace.addRecipe(dust, dustToIngot_ingot[i]);
 }
 
+val caveCrystal = [<quark:crystal>, 
+	<quark:crystal:1>,
+	<quark:crystal:2>,
+	<quark:crystal:3>,
+	<quark:crystal:4>,
+	<quark:crystal:5>,
+	<quark:crystal:6>,
+	<quark:crystal:7>,
+	<quark:crystal:8>] as IItemStack[];
+
+for crystal in caveCrystal {
+	Enchanter.addRecipe(<quark:crystal>, crystal, <minecraft:dye:15>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:1>, crystal, <minecraft:dye:1>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:2>, crystal, <minecraft:dye:14>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:3>, crystal, <minecraft:dye:11>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:4>, crystal, <minecraft:dye:10>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:5>, crystal, <minecraft:dye:6>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:6>, crystal, <minecraft:dye:4>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:7>, crystal, <minecraft:dye:13>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal:8>, crystal, <minecraft:dye>, 32000, 1000, false);
+}
+
+
+val caveCrystal_sheet = [<quark:crystal_pane>, 
+	<quark:crystal_pane:1>,
+	<quark:crystal_pane:2>,
+	<quark:crystal_pane:3>,
+	<quark:crystal_pane:4>,
+	<quark:crystal_pane:5>,
+	<quark:crystal_pane:6>,
+	<quark:crystal_pane:7>,
+	<quark:crystal_pane:8>] as IItemStack[];
+
+for i, crystal in caveCrystal {
+	Insolator.addRecipe(crystal, <arcanearchives:radiant_dust>*16, caveCrystal_sheet[i], 48000, caveCrystal_sheet[i], 5, 2400);
+	Insolator.addRecipe(crystal, <actuallyadditions:item_dust:5>, caveCrystal_sheet[i], 32000, caveCrystal_sheet[i], 25, 1600);
+	Insolator.addRecipe(crystal * 2, <actuallyadditions:item_dust:7>, caveCrystal_sheet[i], 64000, caveCrystal_sheet[i], 25, 3200);
+}
+
 print("---initialized script.zs---");
+
+
+
+
+
+
+/*
+function hitByLightning() {
+	events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent){
+		print(event.player.data);
+		var currentItem = event.player.currentItem;
+		if (currentItem = <minecraft:gunpowder>) {
+			event.player.give(<zcontent:charged_gunpowder>);
+		}
+		return;
+	});
+	
+}
+
+
+events.onEntityStruckByLightning(function(event as crafttweaker.event.EntityStruckByLightningEvent){
+	hitByLightning();
+	event.cancel();
+});	
+
+events.onEntityStruckByLightning(function(event as crafttweaker.event.EntityStruckByLightningEvent){
+	print(event.entity.displayName);
+	print(event.entity.id);
+	print(event.entity.alive);
+	
+	var creeper_morb_charged = <thermalexpansion:morb:1>.withTag({powered: 1 as byte, id: "minecraft:creeper"});
+	var creeper_morb = <thermalexpansion:morb:1>.withTag({powered: 0 as byte, id: "minecraft:creeper"});
+
+	if(event.getEntity() instanceof EntityItem) {
+		EntityItem entity = (EntityItem) event.getEntity();
+		if(entity.getItem().getItem() instanceof IItemEmpowerable) {
+			IItemEmpowerable empowerable = (IItemEmpowerable) entity.getItem().getItem();
+			if(!empowerable.isEmpowered(entity.getItem())) {
+				entity.setItem(empowerable.empower(entity.getItem()));
+				event.setCanceled(true);
+				event.getLightning().setDead();
+			}
+		}
+	}
+	
+	print(event.entity.heldEquipment.items);
+
+	var heldItems = event.entity.heldEquipment.items;
+	for heldItem in heldItems {
+		SmithingTable.addRecipe(<quark:diamond_heart>.withTag({Unbreakable:1}), tool, tool);
+	}
+	
+	val entity as IEntity = event.entity;
+    val entityB as IEntityLivingBase = event.entityLivingBase;
+    val damageS as IDamageSource = event.damageSource;
+    val world as IWorld = entity.world;
+    
+    print(damageS.getTrueSource().definition.id);
+    print(entityB.health);
+	
+	
+	var heldItems = event.entity.heldEquipment.items  as IItemStack[]; 
+	for heldItem in heldItems {
+		SmithingTable.addRecipe(<quark:diamond_heart>.withTag({Unbreakable:1}), tool, tool);
+	}
+});	
+*/

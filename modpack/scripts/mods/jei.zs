@@ -1,4 +1,4 @@
-#priority 3007
+#priority 8007
 import mods.jei.JEI;
 
 print("---loading mods/jei.zs---");
@@ -87,6 +87,7 @@ JEI.hide(<minecraft:gray_shulker_box>);
 JEI.hide(<minecraft:brown_shulker_box>);
 JEI.hide(<immersiveengineering:shader>);
 JEI.hide(<bettermagnets:magnet>);
+JEI.hide(<thermalfoundation:material:23>);
 
 JEI.hide(<enderio:block_dark_fused_glass:1>);
 JEI.hide(<enderio:block_dark_fused_glass:2>);
@@ -718,7 +719,6 @@ JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:12>);
 JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:13>);
 JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:14>);
 JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:15>);
-
 
 JEI.addItem(<bettermagnets:magnet:4>);
 

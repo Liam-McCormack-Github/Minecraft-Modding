@@ -36,5 +36,6 @@ SagMill.addRecipe([<actuallyadditions:item_crystal_shard:3> * 3], [100],<quark:c
 SagMill.addRecipe([<actuallyadditions:item_crystal_shard:4> * 3], [100],<quark:crystal:4>, null, 2000);
 SagMill.addRecipe([<actuallyadditions:item_crystal_shard:5> * 3], [100],<quark:crystal>, null, 2000);
 SagMill.addRecipe([<zcontent:withered_bone_meal> * 6], [100],<zcontent:wither_bone>, null, 3000);
+SagMill.addRecipe([<minecraft:dye:15> * 2], [100],<zcontent:animal_bones>, null, 1500);
 
 print("---initialized enderio_sagmill.zs---");

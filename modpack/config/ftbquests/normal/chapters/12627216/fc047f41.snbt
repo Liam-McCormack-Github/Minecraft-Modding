@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: 1.0d,
+	x: 4.0d,
+	y: 1.5d,
 	dependencies: [
 		"2986cd83"
 	],
@@ -16,7 +16,7 @@
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "9336b741",

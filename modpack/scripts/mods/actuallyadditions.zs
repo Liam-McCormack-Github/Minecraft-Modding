@@ -1,13 +1,19 @@
-#priority 3014
+#priority 8014
 import mods.actuallyadditions.AtomicReconstructor;
 import mods.actuallyadditions.Empowerer;
+import mods.actuallyadditions.Crusher;
 
 print("---loading mods/actuallyadditions.zs---");
 
 
 # Remove
+Crusher.removeRecipe(<minecraft:blaze_rod>);
 
 # Add
+Crusher.addRecipe(<minecraft:blaze_powder> * 4,<minecraft:blaze_rod>,<thermalfoundation:material:771>, 50);
+Crusher.addRecipe(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>, <minecraft:snowball>, 50);
+Crusher.addRecipe(<thermalfoundation:material:2051> * 4, <thermalfoundation:material:2050>, <thermalfoundation:material:772>, 50);
+Crusher.addRecipe(<thermalfoundation:material:2053> * 4, <thermalfoundation:material:2052>, <thermalfoundation:material:770>, 50);
 Empowerer.addRecipe(<actuallyadditions:item_mining_lens>, <actuallyadditions:item_misc:18>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:5>, 1024000, 1200);
 Empowerer.addRecipe(<mysticalagriculture:crafting:16>, <actuallyadditions:item_misc:24>, <zcontent:halcyon_shard>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), <zcontent:halcyon_shard>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), <zcontent:halcyon_shard>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), <zcontent:halcyon_shard>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte}), 8000, 100);
 Empowerer.addRecipe(<mysticalagriculture:crafting:22>, <enderio:item_material:8>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, 8000, 100);

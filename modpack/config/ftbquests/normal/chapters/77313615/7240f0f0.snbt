@@ -1,0 +1,27 @@
+{
+	x: 21.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5782716e",
+		"38d55e55"
+	],
+	tasks: [{
+		uid: "94818d76",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 104"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c1234a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

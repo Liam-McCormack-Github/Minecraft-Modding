@@ -1,0 +1,36 @@
+{
+	title: "Fission Multiblock",
+	x: 29.0d,
+	y: 18.0d,
+	shape: "rsquare",
+	description: "Fission Multiblock",
+	text: [
+		"Fission Multiblock"
+	],
+	dependencies: [
+		"c57d1ba1"
+	],
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "742b3a45",
+		type: "observation",
+		icon: "alchemistry:fission_controller",
+		match_type: "block_id",
+		match: "alchemistry:fission_controller",
+		properties: {
+			status: "standby"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "e2eb9c8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

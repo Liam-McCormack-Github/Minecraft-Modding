@@ -1,7 +1,7 @@
 {
 	title: "Metal Press",
-	x: 12.0d,
-	y: 3.0d,
+	x: 10.0d,
+	y: 6.0d,
 	shape: "rsquare",
 	description: "Metal Press",
 	text: [
@@ -9,8 +9,9 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"936c63d1",
 		"93478a1d",
+		"e688dd82",
+		"936c63d1",
 		"cd082057"
 	],
 	dependency_requirement: "one_started",

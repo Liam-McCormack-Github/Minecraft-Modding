@@ -1,4 +1,4 @@
-#priority 103
+#priority 9003
 
 print("---loading oredict.zs---");
 <ore:dyeGreen>.remove(<enderio:item_material:48>);
@@ -93,5 +93,11 @@ print("---loading oredict.zs---");
 <ore:toolHammer>.add(<tp:stone_hammer>);
 <ore:stickBlackIron>.add(<extendedcrafting:material>);
 <ore:rodBlackIron>.add(<extendedcrafting:material>);
+<ore:record>.add(<futuremc:record_pigstep>);
+
+
+<ore:fluidWater>.add(<minecraft:water_bucket>);
+<ore:fluidWater>.add(<actuallyadditions:item_water_bowl>);
+
 
 print("---initialized oredict.zs---");
