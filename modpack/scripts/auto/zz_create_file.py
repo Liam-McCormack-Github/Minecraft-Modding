@@ -398,16 +398,16 @@ Centrifuge.removeRecipeMob(<entity:thermalfoundation:basalz>);\n\n''')
 
 
 if __name__ == "__main__":
-    # crusher()
-    # print("exec crusher()")
-    # alloy()
-    # print("exec alloy()")
-    # bigCraftingTables()
-    # print("exec bigCraftingTables()")
-    # autoMobDropsCentrifuge()
-    # print("exec autoMobDrops()")
-    # autoMobDropsDeep()
-    # print("exec autoMobDrops()")
+    crusher()
+    print("exec crusher()")
+    alloy()
+    print("exec alloy()")
+    bigCraftingTables()
+    print("exec bigCraftingTables()")
+    autoMobDropsCentrifuge()
+    print("exec autoMobDrops()")
+    autoMobDropsDeep()
+    print("exec autoMobDrops()")
     print('Hello')
 
 """
