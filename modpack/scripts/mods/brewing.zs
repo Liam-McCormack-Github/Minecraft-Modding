@@ -1,4 +1,4 @@
-#priority 105
+#priority 8000
 
 print("---loading mods/brewing.zs---");
 

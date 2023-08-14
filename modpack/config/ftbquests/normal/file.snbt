@@ -14,8 +14,8 @@
 	emergency_items_cooldown: "5m",
 	drop_loot_crates: false,
 	loot_crate_no_drop: {
-		passive: 4000,
-		monster: 600,
+		passive: 0,
+		monster: 0,
 		boss: 0
 	},
 	disable_gui: false,

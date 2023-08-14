@@ -1,4 +1,4 @@
-#priority 2061
+#priority 2000
 
 print("---loading recipes/mob_grinding_utils.zs---");
 

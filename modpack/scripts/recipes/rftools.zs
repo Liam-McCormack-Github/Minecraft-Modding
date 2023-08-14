@@ -1,4 +1,4 @@
-#priority 2056
+#priority 2000
 
 print("---loading recipes/rftools.zs---");
 

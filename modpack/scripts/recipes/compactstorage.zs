@@ -1,4 +1,4 @@
-#priority 2054
+#priority 2000
 
 print("---loading recipes/compactstorage.zs---");
 

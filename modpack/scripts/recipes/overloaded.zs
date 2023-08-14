@@ -1,4 +1,4 @@
-#priority 2060
+#priority 2000
 
 print("---loading recipes/overloaded.zs---");
 

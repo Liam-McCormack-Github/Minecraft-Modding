@@ -1,4 +1,4 @@
-#priority 5301
+#priority 5000
 import mods.avaritia.ExtremeCrafting;
 import mods.extendedcrafting.TableCrafting;
 

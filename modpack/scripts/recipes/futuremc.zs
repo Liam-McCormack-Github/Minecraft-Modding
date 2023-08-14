@@ -1,4 +1,4 @@
-#priority 2038
+#priority 2000
 
 print("---loading recipes/futuremc.zs---");
 

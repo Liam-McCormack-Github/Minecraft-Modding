@@ -1,4 +1,4 @@
-#priority 2020
+#priority 2000
 
 print("---loading recipes/extrautils2.zs---");
 
@@ -37,6 +37,7 @@ recipes.removeByRecipeName("extrautils2:fire_axe");
 recipes.removeByRecipeName("extrautils2:kikoku");
 recipes.removeByRecipeName("extrautils2:machine_base");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");
+recipes.removeByRecipeName("extrautils2:klein_flash");
 
 
 # Add

@@ -1,4 +1,4 @@
-#priority 2018
+#priority 2000
 
 print("---loading recipes/unstabletools.zs---");
 

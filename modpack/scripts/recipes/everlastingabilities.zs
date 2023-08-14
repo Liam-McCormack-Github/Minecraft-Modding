@@ -1,4 +1,4 @@
-#priority 2067
+#priority 2000
 
 print("---loading recipes/everlastingabilities.zs---");
 

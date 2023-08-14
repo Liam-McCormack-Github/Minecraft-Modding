@@ -7,6 +7,7 @@
 		item: {
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -16,6 +17,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 1s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -25,6 +27,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 2s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -34,6 +37,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 3s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -43,6 +47,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 4s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -52,6 +57,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 5s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -61,6 +67,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 6s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -70,6 +77,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 7s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -79,6 +87,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 8s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -88,6 +97,7 @@
 			id: "actuallyadditions:potion_ring_advanced_bauble",
 			Damage: 9s,
 			tag: {
+				fromLootCrate: 1,
 				Blaze: 840
 			}
 		}
@@ -96,6 +106,7 @@
 		item: {
 			id: "zcontent:firesword",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Combine with a Heart of Diamond in an Anvil"
@@ -108,6 +119,7 @@
 		item: {
 			id: "zcontent:icesword",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Combine with a Heart of Diamond in an Anvil"
@@ -123,15 +135,12 @@
 		item: {
 			id: "techguns:laserpistol",
 			tag: {
+				fromLootCrate: 1,
 				ammo: 20s,
 				ammovariant: "default",
 				camo: 0b
 			}
 		}
-	},
-	{
-		item: "minecraft:concrete",
-		count: 512
 	},
 	{
 		item: {

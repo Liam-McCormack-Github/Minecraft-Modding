@@ -1,4 +1,4 @@
-#priority 2046
+#priority 2000
 
 print("---loading recipes/mysticalagriculture.zs---");
 

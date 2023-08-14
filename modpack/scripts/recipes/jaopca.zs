@@ -1,4 +1,4 @@
-#priority 2012
+#priority 2000
 
 print("---loading recipes/jaopca.zs---");
 
@@ -14,7 +14,7 @@ recipes.addShapeless(<jaopca:item_dustobsidiansteel>, [<ore:dustSteel>,<thermalf
 recipes.addShapeless(<jaopca:item_dustredstonealloy>, [<ore:dustConductiveIron>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]);
 recipes.addShapeless(<jaopca:item_dustredstonealloy>, [<ore:dustIron>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]);
 recipes.addShapeless(<jaopca:item_dustconductiveiron>, [<ore:dustIron>,<minecraft:redstone>]);
-recipes.addShapeless(<jaopca:item_dustblackiron>, [<ore:dustIron>,<quark:black_ash>,<quark:black_ash>,<quark:black_ash>,<quark:black_ash>]);
+recipes.addShapeless(<jaopca:item_dustblackiron>, [<ore:dustIron>,<quark:black_ash>,<quark:black_ash>]);
 recipes.addShapeless(<jaopca:item_dustblackiron>, [<ore:dustIron>,<fluxnetworks:flux>,<fluxnetworks:flux>,<fluxnetworks:flux>,<fluxnetworks:flux>]);
 recipes.addShapeless(<jaopca:item_stickobsidian>, [<ore:obsidian>,<ore:obsidian>,<tp:stone_hammer>]);
 recipes.addShapeless(<jaopca:item_dustinsanium>, [<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:dustSupremium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>]);

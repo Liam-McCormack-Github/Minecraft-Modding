@@ -1,4 +1,4 @@
-#priority 2005
+#priority 2000
 
 print("---loading recipes/tp.zs---");
 

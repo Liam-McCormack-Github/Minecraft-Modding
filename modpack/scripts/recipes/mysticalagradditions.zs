@@ -1,4 +1,4 @@
-#priority 2052
+#priority 2000
 
 print("---loading recipes/mysticalagradditions.zs---");
 

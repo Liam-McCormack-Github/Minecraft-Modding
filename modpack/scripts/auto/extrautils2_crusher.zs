@@ -1,4 +1,4 @@
-#priority 5104
+#priority 5000
 import mods.extrautils2.Crusher;
 
 print("---loading extrautils2_crusher.zs---");

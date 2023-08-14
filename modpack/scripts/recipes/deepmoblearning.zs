@@ -1,4 +1,4 @@
-#priority 2021
+#priority 2000
 
 print("---loading recipes/deepmoblearning.zs---");
 

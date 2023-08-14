@@ -1,4 +1,4 @@
-#priority 2027
+#priority 2000
 
 print("---loading recipes/minecraft.zs---");
 
@@ -31,6 +31,7 @@ recipes.addShaped(<minecraft:ender_eye>, [[<extrautils2:endershard>, <extrautils
 recipes.addShapeless(<minecraft:glowstone_dust> * 8, [<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<ore:dyeYellow>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>]);
 recipes.addShapeless(<minecraft:dragon_breath>, [<ore:glassBottle>,<mysticalagradditions:stuff:2>]);
 recipes.addShapeless(<minecraft:dye:15>, [<zcontent:animal_bones>]);
+recipes.addShapeless(<minecraft:dispenser>, [<minecraft:dropper>, <minecraft:bow>]);
 recipes.addShaped(<minecraft:purple_shulker_box>, [[<minecraft:shulker_shell>],[null], [<minecraft:shulker_shell>]]);
 recipes.addShaped(<minecraft:skull:5>, [[<mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>],[<mysticalagradditions:stuff:2>, <mysticalagriculture:crafting:15>, <mysticalagradditions:stuff:2>], [<mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>, <mysticalagradditions:stuff:2>]]);
 recipes.addShaped(<minecraft:piston>, [[<zcontent:wood_plate>, <zcontent:wood_plate>, <zcontent:wood_plate>],[<quark:sturdy_stone>, <enderio:item_material:10>, <quark:sturdy_stone>], [<quark:sturdy_stone>, <enderio:item_alloy_ingot:4>, <quark:sturdy_stone>]]);
@@ -41,6 +42,7 @@ recipes.addShapeless(<minecraft:writable_book>, [<minecraft:book>,<minecraft:dye
 recipes.addShapeless(<minecraft:bone> * 9, [<zcontent:bone_block>]);
 recipes.addShapeless(<minecraft:gunpowder> * 9, [<zcontent:gunpowder_block>]);
 recipes.addShapeless(<minecraft:flint> * 9, [<zcontent:flint_block>]);
+recipes.addShapeless(<minecraft:blaze_rod> * 9, [<quark:blaze_lantern>]);
 recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<zcontent:rotten_flesh_block>]);
 recipes.addShapeless(<minecraft:bone_block>, [<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>,<zcontent:animal_bones>]);
 recipes.addShaped(<minecraft:comparator>, [[null, <minecraft:redstone_torch>, null],[<minecraft:redstone_torch>, <minecraft:quartz>, <minecraft:redstone_torch>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>]]);

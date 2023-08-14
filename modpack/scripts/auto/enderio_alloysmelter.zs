@@ -1,4 +1,4 @@
-#priority 5202
+#priority 5000
 import mods.enderio.AlloySmelter;
 
 print("---loading enderio_alloysmelter.zs---");
@@ -31,7 +31,7 @@ AlloySmelter.addRecipe(<thermalfoundation:material:167> * 2, [<enderio:item_mate
 AlloySmelter.addRecipe(<futuremc:netherite_ingot>, [<futuremc:netherite_scrap> * 4,<minecraft:gold_ingot> * 4], 4000);
 AlloySmelter.addRecipe(<techguns:itemshared:84>, [<thermalfoundation:material:770> * 4,<thermalfoundation:material:160>], 4000);
 AlloySmelter.addRecipe(<refinedstorage:quartz_enriched_iron> * 3, [<actuallyadditions:item_misc:5>,<thermalfoundation:material:132> * 2], 4000);
-AlloySmelter.addRecipe(<extendedcrafting:material>, [<quark:black_ash> * 4,<minecraft:iron_ingot>], 4000);
+AlloySmelter.addRecipe(<extendedcrafting:material>, [<quark:black_ash> * 2,<minecraft:iron_ingot>], 4000);
 AlloySmelter.addRecipe(<extendedcrafting:material>, [<fluxnetworks:flux> * 4,<minecraft:iron_ingot>], 4000);
 AlloySmelter.addRecipe(<extendedcrafting:material:36>, [<tp:ender_dust>,<zcontent:cold_iron_ingot>], 4000);
 AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 2, [<alchemistry:ingot:74>,<zcontent:purple_mat_dust>,<techguns:itemshared:96>], 8000);

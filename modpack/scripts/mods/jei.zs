@@ -1,4 +1,4 @@
-#priority 8007
+#priority 8000
 import mods.jei.JEI;
 
 print("---loading mods/jei.zs---");

@@ -1,4 +1,4 @@
-#priority 8016
+#priority 8000
 import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.EnderCrafting;
 import mods.extendedcrafting.CompressionCrafting;

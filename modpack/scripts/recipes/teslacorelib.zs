@@ -1,4 +1,4 @@
-#priority 2049
+#priority 2000
 
 print("---loading recipes/teslacorelib.zs---");
 

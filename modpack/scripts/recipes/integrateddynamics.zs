@@ -1,4 +1,4 @@
-#priority 2011
+#priority 2000
 
 print("---loading recipes/integrateddynamics.zs---");
 

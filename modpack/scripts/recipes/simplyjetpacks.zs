@@ -1,4 +1,4 @@
-#priority 2009
+#priority 2000
 
 print("---loading recipes/simplyjetpacks.zs---");
 

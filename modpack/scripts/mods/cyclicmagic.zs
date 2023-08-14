@@ -1,4 +1,4 @@
-#priority 8008
+#priority 8000
 import mods.cyclicmagic.Solidifier;
 import mods.cyclicmagic.Melter;
 import mods.cyclicmagic.Hydrator;
@@ -83,19 +83,27 @@ Packager.addRecipe(<zcontent:printedcircuitboard>, [<minecraft:redstone> *2, <zc
 Packager.addRecipe(<zcontent:card>, [<minecraft:iron_nugget> * 3, <zcontent:circuitboard>, <minecraft:redstone>, <thermalfoundation:material:225>]);
 Packager.addRecipe(<zcontent:transistor> * 3, [<minecraft:redstone> * 2, <minecraft:iron_nugget>, <extendedcrafting:material:2>]);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Packager.addRecipe(<enderio:block_enhanced_alloy_smelter>, [<enderio:item_alloy_ingot:8> * 2, <enderio:block_alloy_smelter>, <enderio:item_material:13> * 2, <enderio:item_material:68> * 8]);
+Packager.addRecipe(<enderio:block_inventory_chest_big>, [<enderio:item_material:64>, <minecraft:chest>, <enderio:item_material:2> * 8, <enderio:block_inventory_chest_medium>]);
+Packager.addRecipe(<enderio:block_enhanced_vat>, [<enderio:item_alloy_ingot:8> * 2, <enderio:block_vat>, <enderio:block_tank:1> * 2, <enderio:item_material:68> * 8]);
+Packager.addRecipe(<enderio:block_alloy_smelter>, [<enderio:item_alloy_ingot:6> * 2, <enderio:block_simple_alloy_smelter>, <enderio:item_material:2> * 8, <enderio:block_simple_furnace>, <enderio:item_material:73> * 2]);
+Packager.addRecipe(<enderio:block_enhanced_combustion_generator>, [<enderio:item_alloy_ingot:8> * 2, <enderio:block_combustion_generator>, <enderio:block_tank:1> * 2, <enderio:item_material:68> * 8, <enderio:item_material:13> * 2]);
+Packager.addRecipe(<enderio:block_enhanced_wired_charger>, [<enderio:item_alloy_ingot:8> * 2, <enderio:item_material:68> * 8, <enderio:item_material:13> * 2, <enderio:block_wired_charger>]);
+Packager.addRecipe(<enderio:block_wired_charger>, [<enderio:item_alloy_ingot> * 4,  <enderio:item_material:2> * 8, <enderio:block_simple_wired_charger>,]);
+Packager.addRecipe(<enderio:block_enhanced_combustion_generator>, [<enderio:item_alloy_ingot:8> * 2, <enderio:block_combustion_generator>, <enderio:block_tank:1> * 2, <enderio:item_material:68> * 8, <enderio:item_material:13> * 2]);
+Packager.addRecipe(<enderio:block_crafter>, [<enderio:block_simple_crafter>, <enderio:item_material:11> * 2, <enderio:item_material:2> * 8]);
+Packager.addRecipe(<enderio:block_enhanced_wireless_charger>, [<enderio:item_material:65> * 4, <enderio:block_wireless_charger>, <enderio:item_material:68> * 8, <enderio:item_basic_capacitor:2>]);
+Packager.addRecipe(<enderio:block_enhanced_wireless_charger>, [<enderio:item_material:65> * 4, <enderio:block_wireless_charger>, <enderio:item_material:68> * 8, <enderio:item_capacitor_vivid>]);
+Packager.addRecipe(<enderio:block_enhanced_sag_mill>, [<enderio:item_alloy_ingot:8> * 2, <enderio:block_sag_mill>, <enderio:item_material:13> * 2, <enderio:item_material:68> * 8]);
+Packager.addRecipe(<enderio:block_stirling_generator>, [<enderio:item_alloy_ingot:6> * 2, <enderio:block_simple_stirling_generator>, <enderio:item_material:2> * 8, <enderio:item_material:73> * 2]);
+Packager.addRecipe(<enderio:block_sag_mill>, [<enderio:item_alloy_ingot:6> * 2, <enderio:block_simple_sag_mill>, <enderio:item_material:73> * 2, <enderio:item_material:2> * 8]);
+Packager.addRecipe(<enderio:block_normal_wireless_charger>, [<enderio:item_material:65> * 4, <enderio:block_wireless_charger>, <enderio:item_material:2> * 8, <enderio:item_basic_capacitor:1>]);
+Packager.addRecipe(<enderio:block_normal_wireless_charger>, [<enderio:item_material:65> * 4, <enderio:block_wireless_charger>, <enderio:item_material:2> * 8, <enderio:item_capacitor_energetic_silver>]);
+Packager.addRecipe(<enderio:block_enhanced_wired_charger>, [<enderio:item_alloy_ingot:8>, <enderio:item_material:68> * 8, <enderio:item_material:13> * 2, <enderio:block_wired_charger>]);
+Packager.addRecipe(<enderio:block_enhanced_wireless_charger>, [<enderio:block_normal_wireless_charger>, <enderio:item_material:68> * 8, <enderio:item_basic_capacitor:2>]);
+Packager.addRecipe(<enderio:block_enhanced_wireless_charger>, [<enderio:block_normal_wireless_charger>, <enderio:item_material:68> * 8, <enderio:item_capacitor_vivid>]);
+Packager.addRecipe(<enderio:block_inventory_chest_enormous>, [<enderio:item_material:64>, <minecraft:chest> * 2, <enderio:item_material:68> * 8, <enderio:block_inventory_chest_huge>]);
+Packager.addRecipe(<enderio:block_inventory_panel_sensor>, [<enderio:item_alloy_ingot> * 4, <enderio:item_material:64>, <enderio:item_alloy_ingot:3> * 2, <enderio:item_material:2> * 8, <minecraft:comparator>]);
 
 
 #Solidifier --- Yes Consume - from FluidToItem
@@ -108,6 +116,7 @@ Solidifier.addRecipe(<zcontent:angel_wing>, [<cyclicmagic:tool_warp_spawn>, <cyc
 Solidifier.addRecipe(<extendedcrafting:storage:1>, [<mysticalagriculture:storage:4>], "glowstone", 1000);
 Solidifier.addRecipe(<randomthings:timeinabottle>, [<minecraft:experience_bottle>, <minecraft:clock>], "milk", 1000);
 Solidifier.addRecipe(<quark:enderdragon_scale>, [<tp:dragon_scale>], "distwater", 1000);
+Solidifier.addRecipe(<extrautils2:klein>, [<minecraft:glass_bottle>], "ender", 1000);
 #Solidifier --- Only Solidifier !=1 Bucket!!!!!!
 Solidifier.addRecipe(<zcontent:masterswordgrip>, [<biomesoplenty:terrestrial_artifact>], "honey", 8000);
 Solidifier.addRecipe(<zcontent:iron_stone>, [<minecraft:stone>], "iron", 144);

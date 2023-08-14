@@ -1,4 +1,4 @@
-#priority 2036
+#priority 2000
 
 print("---loading recipes/chisel.zs---");
 

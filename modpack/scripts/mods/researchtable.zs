@@ -1,4 +1,4 @@
-#priority 8004
+#priority 8000
 import mods.ResearchTable;
 
 print("---loading mods/researchtable.zs---");

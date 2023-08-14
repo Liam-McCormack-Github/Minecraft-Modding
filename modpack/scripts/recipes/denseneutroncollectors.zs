@@ -1,4 +1,4 @@
-#priority 2035
+#priority 2000
 
 print("---loading recipes/denseneutroncollectors.zs---");
 

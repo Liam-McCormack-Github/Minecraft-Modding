@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0efb9726",
+		type: "item",
+		items: [{
+			id: "zcontent:icesword",
+			tag: {
+				fromLootCrate: 1,
+				display: {
+					Lore: [
+						"Combine with a Heart of Diamond in an Anvil"
+					]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f4b40ebe",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		},
+		count: 25
+	}]
+}

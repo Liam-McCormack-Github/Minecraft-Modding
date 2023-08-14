@@ -1,4 +1,4 @@
-#priority 9999
+#priority 9000
 
 print("---loading remove.zs---");
 

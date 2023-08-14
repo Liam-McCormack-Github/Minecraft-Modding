@@ -1,4 +1,4 @@
-#priority 2047
+#priority 2000
 
 print("---loading recipes/speedyhoppers.zs---");
 

@@ -1,4 +1,4 @@
-#priority 8012
+#priority 8000
 import mods.alchemistry.Electrolyzer;
 import mods.alchemistry.Atomizer;
 import mods.alchemistry.Dissolver;

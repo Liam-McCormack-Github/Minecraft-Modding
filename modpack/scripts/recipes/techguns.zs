@@ -1,4 +1,4 @@
-#priority 2003
+#priority 2000
 
 print("---loading recipes/techguns.zs---");
 

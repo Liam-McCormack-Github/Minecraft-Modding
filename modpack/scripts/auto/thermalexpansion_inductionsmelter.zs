@@ -1,4 +1,4 @@
-#priority 5204
+#priority 5000
 import mods.thermalexpansion.InductionSmelter;
 
 print("---loading thermalexpansion_inductionsmelter.zs---");
@@ -25,7 +25,7 @@ InductionSmelter.addRecipe(<thermalfoundation:material:167> * 2,<enderio:item_ma
 InductionSmelter.addRecipe(<futuremc:netherite_ingot>,<futuremc:netherite_scrap> * 4,<minecraft:gold_ingot> * 4, 4000);
 InductionSmelter.addRecipe(<techguns:itemshared:84>,<thermalfoundation:material:770> * 4,<thermalfoundation:material:160>, 4000);
 InductionSmelter.addRecipe(<refinedstorage:quartz_enriched_iron> * 3,<actuallyadditions:item_misc:5>,<thermalfoundation:material:132> * 2, 4000);
-InductionSmelter.addRecipe(<extendedcrafting:material>,<quark:black_ash> * 4,<minecraft:iron_ingot>, 4000);
+InductionSmelter.addRecipe(<extendedcrafting:material>,<quark:black_ash> * 2,<minecraft:iron_ingot>, 4000);
 InductionSmelter.addRecipe(<extendedcrafting:material>,<fluxnetworks:flux> * 4,<minecraft:iron_ingot>, 4000);
 InductionSmelter.addRecipe(<extendedcrafting:material:36>,<tp:ender_dust>,<zcontent:cold_iron_ingot>, 4000);
 InductionSmelter.addRecipe(<zcontent:terraglaz_ingot>,<actuallyadditions:item_crystal_empowered:4> * 4,<zcontent:manyullyn_ingot>, 4000);

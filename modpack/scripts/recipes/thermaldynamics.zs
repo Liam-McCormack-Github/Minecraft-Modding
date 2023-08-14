@@ -1,4 +1,4 @@
-#priority 2024
+#priority 2000
 
 print("---loading recipes/thermaldynamics.zs---");
 

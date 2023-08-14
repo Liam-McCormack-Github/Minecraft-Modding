@@ -1,4 +1,4 @@
-#priority 2066
+#priority 2000
 
 print("---loading recipes/arcanearchives.zs---");
 

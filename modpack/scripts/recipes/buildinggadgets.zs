@@ -1,4 +1,4 @@
-#priority 2059
+#priority 2000
 
 print("---loading recipes/buildinggadgets.zs---");
 

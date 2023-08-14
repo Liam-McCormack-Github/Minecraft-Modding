@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b43aa3b6",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:potion_ring_advanced_bauble",
+			Damage: 1s,
+			tag: {
+				fromLootCrate: 1
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "0b7299a4",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		},
+		count: 25
+	}]
+}

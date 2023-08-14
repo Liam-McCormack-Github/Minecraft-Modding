@@ -1,4 +1,4 @@
-#priority 2016
+#priority 2000
 
 print("---loading recipes/craftingstation.zs---");
 

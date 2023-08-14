@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f360e2c9",
+		type: "item",
+		items: [{
+			id: "futuremc:netherite_chestplate",
+			tag: {
+				fromLootCrate: 1,
+				display: {
+					Lore: [
+						"Combine with a Gold Chestplate in an Anvil"
+					],
+					Name: "Heroic Chestplate"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "14a3f9af",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

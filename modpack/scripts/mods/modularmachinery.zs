@@ -1,4 +1,4 @@
-#priority 8002
+#priority 8000
 import mods.modularmachinery.RecipeBuilder;
 
 print("---loading mods/modularmachinery.zs---");

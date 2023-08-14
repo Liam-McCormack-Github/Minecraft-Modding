@@ -1,4 +1,4 @@
-#priority 2058
+#priority 2000
 
 print("---loading recipes/yabba.zs---");
 

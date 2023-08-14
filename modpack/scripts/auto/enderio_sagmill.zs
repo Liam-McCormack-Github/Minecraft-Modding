@@ -1,4 +1,4 @@
-#priority 5102
+#priority 5000
 import mods.enderio.SagMill;
 
 print("---loading enderio_sagmill.zs---");

@@ -1,4 +1,4 @@
-#priority 2031
+#priority 2000
 
 print("---loading recipes/engineersdecor.zs---");
 

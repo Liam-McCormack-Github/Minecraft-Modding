@@ -1,4 +1,4 @@
-#priority 2042
+#priority 2000
 
 print("---loading recipes/redstonerepository.zs---");
 

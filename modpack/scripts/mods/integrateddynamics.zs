@@ -1,4 +1,4 @@
-#priority 8011
+#priority 8000
 import mods.integrateddynamics.Squeezer;
 import mods.integrateddynamics.MechanicalSqueezer;
 import mods.integrateddynamics.MechanicalDryingBasin;

@@ -1,4 +1,4 @@
-#priority 8005
+#priority 8000
 import mods.techguns.GunStats;
 import mods.techguns.ArmorStats;
 import mods.techguns.AmmoPress;
@@ -38,8 +38,8 @@ GunStats.setWeaponStat("boltaction","DAMAGE_MIN",26);
 GunStats.setWeaponStat("combatshotgun","DAMAGE",8);
 GunStats.setWeaponStat("combatshotgun","DAMAGE_MIN",3);
 
-GunStats.setWeaponStat("grenadelauncher","DAMAGE",150);
-GunStats.setWeaponStat("grenadelauncher","DAMAGE_MIN",100);
+GunStats.setWeaponStat("grenadelauncher","DAMAGE",75);
+GunStats.setWeaponStat("grenadelauncher","DAMAGE_MIN",50);
 
 GunStats.setWeaponStat("grimreaper","DAMAGE",150);
 GunStats.setWeaponStat("grimreaper","DAMAGE_MIN",100);

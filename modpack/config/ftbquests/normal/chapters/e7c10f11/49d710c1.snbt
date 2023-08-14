@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "9affdd05",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_repair_talisman",
+			tag: {
+				fromLootCrate: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

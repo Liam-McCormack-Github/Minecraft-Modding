@@ -1,4 +1,4 @@
-#priority 5205
+#priority 5000
 import mods.modularmachinery.RecipeBuilder;
 
 print("---loading modularmachinery_alloyer.zs---");
@@ -214,7 +214,7 @@ RecipeBuilder.newBuilder("alloyer 28", "alloyer", 1)
 RecipeBuilder.newBuilder("alloyer 29", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
 	.addItemOutput(<extendedcrafting:material>)
-	.addItemInput(<quark:black_ash> * 4)
+	.addItemInput(<quark:black_ash> * 2)
 	.addItemInput(<minecraft:iron_ingot>)
 	.build();
 

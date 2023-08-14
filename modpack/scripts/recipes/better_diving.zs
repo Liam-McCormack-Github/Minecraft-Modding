@@ -1,4 +1,4 @@
-#priority 2063
+#priority 2000
 
 print("---loading recipes/better_diving.zs---");
 

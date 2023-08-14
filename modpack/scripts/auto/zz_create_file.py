@@ -39,7 +39,7 @@ def crusher():
               ["<minecraft:dye:15> * 2", "<zcontent:animal_bones>", 1500]]
 
     file = open(join(current_dir, "./thermalexpansion_pulverizer.zs"), "w")
-    file.write("#priority 5101\n")
+    file.write("#priority 5000\n")
     file.write("import mods.thermalexpansion.Pulverizer;\n")
     file.write("\nprint(\"---loading thermalexpansion_pulverizer.zs---\");\n")
     file.write("\n# Add\n")
@@ -49,7 +49,7 @@ def crusher():
     file.close()
 
     file = open("enderio_sagmill.zs", "w")
-    file.write("#priority 5102\n")
+    file.write("#priority 5000\n")
     file.write("import mods.enderio.SagMill;\n")
     file.write("\nprint(\"---loading enderio_sagmill.zs---\");\n")
     file.write("\n# Add\n")
@@ -59,7 +59,7 @@ def crusher():
     file.close()
 
     file = open("immersiveengineering_crusher.zs", "w")
-    file.write("#priority 5103\n")
+    file.write("#priority 5000\n")
     file.write("import mods.immersiveengineering.Crusher;\n")
     file.write("\nprint(\"---loading immersiveengineering_crusher.zs---\");\n")
     for x in range(len(recipe)):
@@ -68,7 +68,7 @@ def crusher():
     file.close()
 
     file = open("extrautils2_crusher.zs", "w")
-    file.write("#priority 5104\n")
+    file.write("#priority 5000\n")
     file.write("import mods.extrautils2.Crusher;\n")
     file.write("\nprint(\"---loading extrautils2_crusher.zs---\");\n")
     for x in range(len(recipe)):
@@ -107,7 +107,7 @@ def alloy():
               ["<futuremc:netherite_ingot>", ["<futuremc:netherite_scrap> * 4", "<minecraft:gold_ingot> * 4"]],
               ["<techguns:itemshared:84>", ["<thermalfoundation:material:770> * 4", "<thermalfoundation:material:160>"]],
               ["<refinedstorage:quartz_enriched_iron> * 3", ["<actuallyadditions:item_misc:5>", "<thermalfoundation:material:132> * 2"]],
-              ["<extendedcrafting:material>", ["<quark:black_ash> * 4", "<minecraft:iron_ingot>"]],
+              ["<extendedcrafting:material>", ["<quark:black_ash> * 2", "<minecraft:iron_ingot>"]],
               ["<extendedcrafting:material>", ["<fluxnetworks:flux> * 4", "<minecraft:iron_ingot>"]],
               ["<extendedcrafting:material:36>", ["<tp:ender_dust>", "<zcontent:cold_iron_ingot>"]],
               ["<modularmachinery:itemmodularium> * 2", ["<alchemistry:ingot:74>", "<zcontent:purple_mat_dust>", "<techguns:itemshared:96>"]],
@@ -128,7 +128,7 @@ def alloy():
               ]
 
     file = open("immersiveengineering_arcfurnace.zs", "w")
-    file.write("#priority 5201\n")
+    file.write("#priority 5000\n")
     file.write("import mods.immersiveengineering.ArcFurnace;\n")
     file.write("\nprint(\"---loading immersiveengineering_arcfurnace.zs---\");\n")
     for x in range(len(recipe)):
@@ -142,7 +142,7 @@ def alloy():
     file.close()
 
     file = open("enderio_alloysmelter.zs", "w")
-    file.write("#priority 5202\n")
+    file.write("#priority 5000\n")
     file.write("import mods.enderio.AlloySmelter;\n")
     file.write("\nprint(\"---loading enderio_alloysmelter.zs---\");\n")
     for x in range(len(recipe)):
@@ -154,7 +154,7 @@ def alloy():
     file.close()
 
     file = open("immersiveengineering_alloysmelter.zs", "w")
-    file.write("#priority 5203\n")
+    file.write("#priority 5000\n")
     file.write("import mods.immersiveengineering.AlloySmelter;\n")
     file.write("\nprint(\"---loading immersiveengineering_alloysmelter.zs---\");\n")
     for x in range(len(recipe)):
@@ -164,7 +164,7 @@ def alloy():
     file.close()
 
     file = open("thermalexpansion_inductionsmelter.zs", "w")
-    file.write("#priority 5204\n")
+    file.write("#priority 5000\n")
     file.write("import mods.thermalexpansion.InductionSmelter;\n")
     file.write("\nprint(\"---loading thermalexpansion_inductionsmelter.zs---\");\n")
     for x in range(len(recipe)):
@@ -174,7 +174,7 @@ def alloy():
     file.close()
 
     file = open("modularmachinery_alloyer.zs", "w")
-    file.write("#priority 5205\n")
+    file.write("#priority 5000\n")
     file.write("import mods.modularmachinery.RecipeBuilder;\n")
     file.write("\nprint(\"---loading modularmachinery_alloyer.zs---\");\n")
     for x in range(len(recipe)):
@@ -217,7 +217,7 @@ def bigCraftingTables():
             break
 
     file = open("extendedcrafting_extremecrafting.zs", "w")
-    file.write("#priority 5301\n")
+    file.write("#priority 5000\n")
     file.write("import mods.avaritia.ExtremeCrafting;\n")
     file.write("import mods.extendedcrafting.TableCrafting;\n")
     file.write("\nprint(\"---loading extremecrafting.zs---\");\n")
@@ -248,7 +248,7 @@ def autoMobDropsCentrifuge():
         recipe.append(temp)
 
     file = open("thermalexpansion_centrifuge.zs", "w")
-    file.write("#priority 5299\n")
+    file.write("#priority 5000\n")
     file.write("import mods.thermalexpansion.Centrifuge;\n")
     file.write("\nprint(\"---loading thermalexpansion_centrifuge.zs---\");\n")
 
@@ -392,22 +392,165 @@ Centrifuge.removeRecipeMob(<entity:thermalfoundation:basalz>);\n\n''')
         print('IndexError')
         print(e)
 
-
     file.write("\nprint(\"---initialized thermalexpansion_centrifuge.zs---\");")
     file.close()
 
 
+def crushOres():
+    recipe = [{'in': '<biomesoplenty:gem_ore:1>', 'out': '<biomesoplenty:gem:1> * 3', 'energy': 4000},
+              {'in': '<biomesoplenty:gem_ore:2>', 'out': '<biomesoplenty:gem:2> * 3', 'energy': 4000},
+              {'in': '<biomesoplenty:gem_ore:3>', 'out': '<biomesoplenty:gem:3> * 3', 'energy': 4000},
+              {'in': '<biomesoplenty:gem_ore:4>', 'out': '<biomesoplenty:gem:4> * 3', 'energy': 4000},
+              {'in': '<biomesoplenty:gem_ore:5>', 'out': '<biomesoplenty:gem:5> * 3', 'energy': 4000},
+              {'in': '<biomesoplenty:gem_ore:6>', 'out': '<biomesoplenty:gem:6> * 3', 'energy': 4000},
+              {'in': '<biomesoplenty:gem_ore:7>', 'out': '<biomesoplenty:gem:7> * 3', 'energy': 4000},
+              {'in': '<biomesoplenty:gem_ore>', 'out': '<biomesoplenty:gem> * 3', 'energy': 4000},
+              {'in': '<draconicevolution:draconium_ore:1>', 'out': '<draconicevolution:draconium_dust> * 8', 'energy': 4000},
+              {'in': '<draconicevolution:draconium_ore:2>', 'out': '<draconicevolution:draconium_dust> * 8', 'energy': 4000},
+              {'in': '<futuremc:ancient_debris>'},
+              {'in': '<minecraft:coal_ore>', 'out': '<minecraft:coal> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:768>', 'secondChance': 25},
+              {'in': '<minecraft:diamond_ore>', 'out': '<minecraft:diamond> * 3', 'energy': 4000},
+              {'in': '<minecraft:emerald_ore>', 'out': '<minecraft:emerald> * 3', 'energy': 4000},
+              {'in': '<minecraft:gold_ore>', 'out': '<thermalfoundation:material:1> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:866>', 'secondChance': 10},
+              {'in': '<minecraft:iron_ore>', 'out': '<thermalfoundation:material> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:69>', 'secondChance': 10},
+              {'in': '<minecraft:lapis_ore>', 'out': '<minecraft:dye:4> * 10', 'energy': 4000, 'second': '<thermalfoundation:material:771>', 'secondChance': 20},
+              {'in': '<minecraft:quartz_ore>', 'out': '<minecraft:quartz> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:771>', 'secondChance': 15},
+              {'in': '<minecraft:redstone_ore>', 'out': '<minecraft:redstone> * 6', 'energy': 4000, 'second': '<thermalfoundation:material:866>', 'secondChance': 25},
+              {'in': '<quark:biotite_ore>', 'out': '<quark:biotite> * 3', 'energy': 4000, 'second': '<minecraft:ender_pearl>', 'secondChance': 5},
+              {'in': '<rftools:dimensional_shard_ore>', 'out': '<rftools:dimensional_shard> * 8', 'energy': 4000},
+              {'in': '<rftools:dimensional_shard_ore:1>', 'out': '<rftools:dimensional_shard> * 8', 'energy': 4000},
+              {'in': '<rftools:dimensional_shard_ore:2>', 'out': '<rftools:dimensional_shard> * 8', 'energy': 4000},
+              {'in': '<thermalfoundation:ore_fluid:1>', 'out': '<thermalfoundation:material:892> * 3', 'energy': 4000, 'second': '<minecraft:flint>', 'secondChance': 50},
+              {'in': '<thermalfoundation:ore_fluid:2>', 'out': '<thermalfoundation:material:893> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:866>', 'secondChance': 50},
+              {'in': '<thermalfoundation:ore_fluid:3>', 'out': '<thermalfoundation:material:894> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:771>', 'secondChance': 30},
+              {'in': '<thermalfoundation:ore_fluid:4>', 'out': '<thermalfoundation:material:895> * 3', 'energy': 4000},
+              {'in': '<thermalfoundation:ore_fluid:5>', 'out': '<thermalfoundation:material:892> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:833>', 'secondChance': 50},
+              {'in': '<thermalfoundation:ore_fluid>', 'out': '<thermalfoundation:material:892> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:833>', 'secondChance': 50},
+              {'in': '<tp:ender_ore>', 'out': '<tp:ender_dust> * 8', 'energy': 4000},
+              {'in': '<zcontent:aluminum_ore>', 'out': '<thermalfoundation:material:68> * 2', 'energy': 4000},
+              {'in': '<zcontent:ardite_ore>', 'out': '<jaopca:item_dustardite> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
+              {'in': '<zcontent:cobalt_ore>', 'out': '<jaopca:item_dustcobalt> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
+              {'in': '<zcontent:copper_ore>', 'out': '<thermalfoundation:material:64> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
+              {'in': '<zcontent:iridium_ore>', 'out': '<thermalfoundation:material:71> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:70>', 'secondChance': 10},
+              {'in': '<zcontent:lead_ore>', 'out': '<thermalfoundation:material:67> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:66>', 'secondChance': 10},
+              {'in': '<zcontent:meteor_block>', 'out': '<zcontent:meteor_dust>',  'energy': 4000},
+              {'in': '<zcontent:mithril_ore>', 'out': '<thermalfoundation:material:72> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
+              {'in': '<zcontent:nickel_ore>', 'out': '<thermalfoundation:material:69> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:70>', 'secondChance': 10},
+              {'in': '<zcontent:platinum_ore>', 'out': '<thermalfoundation:material:70> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:71>', 'secondChance': 10},
+              {'in': '<zcontent:silver_ore>', 'out': '<thermalfoundation:material:66> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:67>', 'secondChance': 10},
+              {'in': '<zcontent:tin_ore>', 'out': '<thermalfoundation:material:65> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
+              {'in': '<zcontent:titanium_ore>', 'out': '<jaopca:item_dusttitanium> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
+              {'in': '<zcontent:uranium_ore>', 'out': '<immersiveengineering:metal:14> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:67>', 'secondChance': 10}
+              ]
+
+    fileName = "immersiveengineering_ores.zs"
+    with open(fileName, "w") as file:
+        file.write("#priority 5000\n")
+        file.write("import mods.immersiveengineering.Crusher;\n")
+        file.write(f"\nprint(\"---loading {fileName}---\");\n")
+
+        file.write("\n# Remove\n")
+        for x in recipe:
+            if x.get('in') is not None:
+                '''
+                Crusher.removeRecipe(IItemstack output);
+                Crusher.removeRecipe(<minecraft:diamond>);
+                
+                Crusher.removeRecipesForInput(IItemstack input);
+                Crusher.removeRecipesForInput(<minecraft:diamond>);
+                '''
+                file.write(f"Crusher.removeRecipesForInput({x['in']});\n")
+
+        file.write("\n# Add\n")
+        for x in recipe:
+            if x.get('out') is not None:
+                '''
+                Crusher.addRecipe(IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance);
+                Crusher.addRecipe(<minecraft:diamond>, <ore:logWood>, 2048);
+                Crusher.addRecipe(<minecraft:diamond>, <ore:logWood>, 2048, <minecraft:dirt>, 0.5);
+                '''
+                if x.get('second') is None:
+                    file.write(f"Crusher.addRecipe({x['out']}, {x['in']}, {x['energy']});\n")
+                else:
+                    file.write(f"Crusher.addRecipe({x['out']}, {x['in']}, {x['energy']}, {x['second']}, 0.{x['secondChance']});\n")
+
+        file.write(f"\nprint(\"---initialized {fileName}---\");")
+        file.close()
+
+    fileName = "extrautils2_ores.zs"
+    with open(fileName, "w") as file:
+        file.write("#priority 5000\n")
+        file.write("import mods.extrautils2.Crusher;\n")
+        file.write(f"\nprint(\"---loading {fileName}---\");\n")
+
+        file.write("\n# Remove\n")
+        for x in recipe:
+            if x.get('out') is not None:
+                '''
+                Crusher.remove(IItemStack outout);
+                Crusher.remove(<minecraft:redstone>);
+                '''
+                file.write(f"Crusher.remove({x['out']});\n")
+
+        file.write("\n# Add\n")
+        for x in recipe:
+            if x.get('out') is not None:
+                '''
+                Crusher.add(IItemStack output, IItemStack input, @Optional IItemStack secondaryOutput, @Optional float secondaryChance);
+                Crusher.add(<minecraft:gold_ingot> * 9, <minecraft:gold_block>, <minecraft:iron_ingot>, 0.1f);
+                Crusher.add(<minecraft:iron_ingot> * 9, <minecraft:iron_block>);
+                '''
+                if x.get('second') is None:
+                    file.write(f"Crusher.add({x['out']}, {x['in']});\n")
+                else:
+                    file.write(f"Crusher.add({x['out']}, {x['in']}, {x['second']}, 0.{x['secondChance']}f);\n")
+
+        file.write(f"\nprint(\"---initialized {fileName}---\");")
+        file.close()
+
+    fileName = "actuallyadditions_ores.zs"
+    with open(fileName, "w") as file:
+        file.write("#priority 5000\n")
+        file.write("import mods.actuallyadditions.Crusher;\n")
+        file.write(f"\nprint(\"---loading {fileName}---\");\n")
+
+        file.write("\n# Remove\n")
+        for x in recipe:
+            if x.get('out') is not None:
+                '''
+                Crusher.removeRecipe(IItemStack output);
+                Crusher.removeRecipe(<minecraft:gold_ore>);
+                '''
+                file.write(f"Crusher.removeRecipe({x['out']});\n")
+
+        file.write("\n# Add\n")
+        for x in recipe:
+            if x.get('out') is not None:
+                '''
+                Crusher.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);
+                Crusher.addRecipe(<minecraft:iron_ingot>, <minecraft:iron_ore>, <minecraft:stone>, 50);
+                '''
+                if x.get('second') is None:
+                    file.write(f"Crusher.addRecipe({x['out']}, {x['in']});\n")
+                else:
+                    file.write(f"Crusher.addRecipe({x['out']}, {x['in']}, {x['second']}, {x['secondChance']});\n")
+
+        file.write(f"\nprint(\"---initialized {fileName}---\");")
+        file.close()
+
+
 if __name__ == "__main__":
-    crusher()
-    print("exec crusher()")
-    alloy()
-    print("exec alloy()")
-    bigCraftingTables()
-    print("exec bigCraftingTables()")
-    autoMobDropsCentrifuge()
-    print("exec autoMobDrops()")
-    autoMobDropsDeep()
-    print("exec autoMobDrops()")
+    # crusher()
+    # print("exec crusher()")
+    # alloy()
+    # print("exec alloy()")
+    # bigCraftingTables()
+    # print("exec bigCraftingTables()")
+    # autoMobDropsCentrifuge()
+    # print("exec autoMobDrops()")
+    # autoMobDropsDeep()
+    # print("exec autoMobDrops()")
+    crushOres()
     print('Hello')
 
 """
@@ -416,7 +559,7 @@ if __name__ == "__main__":
 
 ---------------------
 
-["<actuallyadditions:item_misc:5>", ["<quark:black_ash> * 4", "<minecraft:quartz>"]],
+["<actuallyadditions:item_misc:5>", ["<quark:black_ash> * 2", "<minecraft:quartz>"]],
 ["<actuallyadditions:item_misc:5>", ["<fluxnetworks:flux> * 4", "<minecraft:quartz>"]],
 ["<zcontent:enderio_speed_upgrade_base> * 8", ["<minecraft:iron_bars>", "<minecraft:clay_ball>", "<minecraft:string> * 4"]],
 ["<enderio:item_dark_steel_upgrade>", ["<enderio:block_dark_iron_bars>", "<minecraft:clay_ball>", "<minecraft:string> * 4"]],

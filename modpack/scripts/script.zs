@@ -1,4 +1,4 @@
-#priority 1001
+#priority 1000
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.events.IEventManager;
@@ -398,15 +398,15 @@ val caveCrystal = [<quark:crystal>,
 	<quark:crystal:8>] as IItemStack[];
 
 for crystal in caveCrystal {
-	Enchanter.addRecipe(<quark:crystal>, crystal, <minecraft:dye:15>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:1>, crystal, <minecraft:dye:1>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:2>, crystal, <minecraft:dye:14>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:3>, crystal, <minecraft:dye:11>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:4>, crystal, <minecraft:dye:10>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:5>, crystal, <minecraft:dye:6>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:6>, crystal, <minecraft:dye:4>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:7>, crystal, <minecraft:dye:13>, 32000, 1000, false);
-	Enchanter.addRecipe(<quark:crystal:8>, crystal, <minecraft:dye>, 32000, 1000, false);
+	Enchanter.addRecipe(<quark:crystal>, crystal, <minecraft:dye:15>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:1>, crystal, <minecraft:dye:1>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:2>, crystal, <minecraft:dye:14>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:3>, crystal, <minecraft:dye:11>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:4>, crystal, <minecraft:dye:10>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:5>, crystal, <minecraft:dye:6>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:6>, crystal, <minecraft:dye:4>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:7>, crystal, <minecraft:dye:13>, 320000, 10000, false);
+	Enchanter.addRecipe(<quark:crystal:8>, crystal, <minecraft:dye>, 320000, 10000, false);
 }
 
 

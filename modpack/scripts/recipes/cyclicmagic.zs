@@ -1,4 +1,4 @@
-#priority 2051
+#priority 2000
 
 print("---loading recipes/cyclicmagic.zs---");
 

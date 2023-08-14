@@ -10,6 +10,7 @@
 		item: {
 			id: "futuremc:netherite_helmet",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Combine with a Gold Helmet in an Anvil"
@@ -23,6 +24,7 @@
 		item: {
 			id: "futuremc:netherite_chestplate",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Combine with a Gold Chestplate in an Anvil"
@@ -36,6 +38,7 @@
 		item: {
 			id: "futuremc:netherite_leggings",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Combine with Gold Leggings in an Anvil"
@@ -49,6 +52,7 @@
 		item: {
 			id: "futuremc:netherite_boots",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Combine with Gold Boots in an Anvil"
@@ -62,6 +66,7 @@
 		item: {
 			id: "akashictome:tome",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Contains knowledge of a Eloquent Weapon"
@@ -76,6 +81,7 @@
 		item: {
 			id: "akashictome:tome",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Contains knowledge of a Majestic Weapon"
@@ -90,6 +96,7 @@
 		item: {
 			id: "akashictome:tome",
 			tag: {
+				fromLootCrate: 1,
 				display: {
 					Lore: [
 						"Contains knowledge of a Mighty Tool"

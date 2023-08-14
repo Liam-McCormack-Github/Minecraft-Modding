@@ -1,4 +1,4 @@
-#priority 8019
+#priority 8000
 import mods.futuremc.SmithingTable;
 import mods.futuremc.Campfire;
 import mods.futuremc.Smoker;

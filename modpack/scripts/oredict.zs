@@ -1,4 +1,4 @@
-#priority 9003
+#priority 9000
 
 print("---loading oredict.zs---");
 <ore:dyeGreen>.remove(<enderio:item_material:48>);
@@ -94,6 +94,13 @@ print("---loading oredict.zs---");
 <ore:stickBlackIron>.add(<extendedcrafting:material>);
 <ore:rodBlackIron>.add(<extendedcrafting:material>);
 <ore:record>.add(<futuremc:record_pigstep>);
+<ore:conduitEnergy>.add(<enderio:item_power_conduit:*>);
+<ore:conduitEnergy>.add(<enderio:item_endergy_conduit:*>);
+<ore:conduitItem>.add(<enderio:item_item_conduit:*>);
+<ore:conduitRedstone>.add(<enderio:item_item_conduit:*>);
+<ore:conduitData>.add(<enderio:item_item_conduit:*>);
+<ore:conduitRefinedStorage>.add(<enderio:item_item_conduit:*>);
+<ore:conduitFluid>.add(<enderio:item_liquid_conduit:*>);
 
 
 <ore:fluidWater>.add(<minecraft:water_bucket>);

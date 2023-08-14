@@ -1,4 +1,4 @@
-#priority 5103
+#priority 5000
 import mods.immersiveengineering.Crusher;
 
 print("---loading immersiveengineering_crusher.zs---");

@@ -1,4 +1,4 @@
-#priority 2065
+#priority 2000
 
 print("---loading recipes/avaritia.zs---");
 

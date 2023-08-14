@@ -1,4 +1,4 @@
-#priority 2048
+#priority 2000
 
 print("---loading recipes/eplus.zs---");
 

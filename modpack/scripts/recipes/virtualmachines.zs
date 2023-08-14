@@ -1,4 +1,4 @@
-#priority 2001
+#priority 2000
 
 print("---loading recipes/virtualmachines.zs---");
 

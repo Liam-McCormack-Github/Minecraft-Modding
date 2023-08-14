@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "aaa7ba9f",
+		type: "item",
+		items: [{
+			id: "overloaded:ray_gun",
+			tag: {
+				fromLootCrate: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

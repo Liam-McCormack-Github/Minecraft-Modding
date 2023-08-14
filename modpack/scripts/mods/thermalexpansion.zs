@@ -1,4 +1,4 @@
-#priority 8006
+#priority 8000
 
 import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Pulverizer;
@@ -45,6 +45,7 @@ Pulverizer.removeRecipe(<zcontent:titanium_ore>);
 Pulverizer.removeRecipe(<zcontent:ardite_ore>);
 Pulverizer.removeRecipe(<zcontent:cobalt_ore>);
 Pulverizer.removeRecipe(<zcontent:meteor_block>);
+Pulverizer.removeRecipe(<quark:blaze_lantern>);
 Factorizer.removeRecipeCombine(<minecraft:dye:15> * 9);
 Factorizer.removeRecipeSplit(<minecraft:bone_block>);
 
@@ -52,7 +53,7 @@ Factorizer.removeRecipeSplit(<minecraft:bone_block>);
 InductionSmelter.addRecipe(<zcontent:carbon_ingot>, <minecraft:sand>, <techguns:itemshared:53>, 8000, <thermalfoundation:material:864>, 25);
 InductionSmelter.addRecipe(<minecraft:sand:1> * 4, <thermalfoundation:material:864>, <arcanearchives:raw_quartz>, 8000, <thermalfoundation:material:865>, 40);
 InductionSmelter.addRecipe(<draconicevolution:draconium_block>, <draconicevolution:draconium_block:1>, <minecraft:sand>, 10000, <thermalfoundation:geode>, 10);
-InductionSmelter.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4,<minecraft:quartz>, 4000);
+InductionSmelter.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 2,<minecraft:quartz>, 4000);
 InductionSmelter.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4,<minecraft:quartz>, 4000);
 InductionSmelter.addRecipe(<industrialforegoing:plastic> * 2,<zcontent:polyethylene>,<industrialforegoing:dryrubber>, 4000);
 Pulverizer.addRecipe(<arcanearchives:radiant_dust> * 9,<arcanearchives:storage_shaped_quartz>,18000,<extendedcrafting:material:25>);
@@ -168,6 +169,7 @@ Factorizer.addRecipeBoth(<zcontent:gunpowder_block>, <minecraft:gunpowder> * 9);
 Factorizer.addRecipeBoth(<zcontent:flint_block>, <minecraft:flint> * 9);
 Factorizer.addRecipeBoth(<zcontent:rotten_flesh_block>, <minecraft:rotten_flesh> * 9);
 Factorizer.addRecipeBoth(<minecraft:bone_block>, <zcontent:animal_bones> * 9);
+Factorizer.addRecipeBoth(<quark:blaze_lantern>, <minecraft:blaze_rod> * 9);
 Centrifuge.addRecipe([<minecraft:redstone>, <zcontent:blue_mat_dust>], <zcontent:purple_mat_dust>, null, 2000);
 Centrifuge.addRecipe([<alchemistry:element:92>, <enderio:block_infinity_fog>, <zcontent:et_frag> % 6], <techguns:itemshared:97>, <liquid:potion>.withTag({Potion: "techguns:radpotion"}) * 4000, 1000000);
 EnervationDynamo.addFuel(<zcontent:rf_fe_flux_power_energy>, 1000000);

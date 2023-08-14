@@ -1,4 +1,4 @@
-#priority 2006
+#priority 2000
 
 print("---loading recipes/zcontent.zs---");
 

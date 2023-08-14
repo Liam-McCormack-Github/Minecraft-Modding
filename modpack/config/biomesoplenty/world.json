@@ -1,6 +1,6 @@
 {
 	"landScheme": "continents",
-	"tempScheme": "random",
+	"tempScheme": "medium_zones",
 	"rainScheme": "random",
 	"biomeSize": "large",
 	"amplitude": 1.000,

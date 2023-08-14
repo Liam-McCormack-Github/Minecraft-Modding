@@ -1,4 +1,4 @@
-#priority 8009
+#priority 8000
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.AlloySmelter;
@@ -68,11 +68,11 @@ Crusher.removeRecipe(<minecraft:blaze_powder>);
 Crusher.removeRecipe(<minecraft:sand>);
 
 # Add
-AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4,<minecraft:quartz>, 600);
+AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 2,<minecraft:quartz>, 600);
 AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4,<minecraft:quartz>, 600);
 ArcFurnace.addRecipe(<zcontent:silicon_boule>,<mysticaladaptations:silicon_block>, null, 200, 2048,[]);
 ArcFurnace.addRecipe(<industrialforegoing:plastic> * 2,<zcontent:polyethylene>, null, 100, 512,[<industrialforegoing:dryrubber>]);
-ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4, null, 100, 512,[<minecraft:quartz>]);
+ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 2, null, 100, 512,[<minecraft:quartz>]);
 ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4, null, 100, 512,[<minecraft:quartz>]);
 ArcFurnace.addRecipe(<zcontent:enderio_speed_upgrade_base> * 8,<minecraft:iron_bars>, null, 200, 512,[<minecraft:clay_ball>,<minecraft:string> * 4]);
 ArcFurnace.addRecipe(<enderio:item_dark_steel_upgrade>,<enderio:block_dark_iron_bars>, null, 200, 512,[<minecraft:clay_ball>,<minecraft:string> * 4]);

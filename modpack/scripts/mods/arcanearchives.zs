@@ -1,4 +1,4 @@
-#priority 8013
+#priority 8000
 import mods.arcanearchives.GCT;
 
 print("---loading mods/arcanearchives.zs---");

@@ -1,4 +1,4 @@
-#priority 8001
+#priority 8000
 import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FireCrafting;
@@ -41,5 +41,6 @@ FluidToItem.transform(<zcontent:angel_wing>, <liquid:hot_spring_water>, [<cyclic
 FluidToItem.transform(<extendedcrafting:storage:1>, <liquid:glowstone>, [<ore:blockSupremiumEssence>], true);
 FluidToItem.transform(<randomthings:timeinabottle>, <liquid:milk>, [<minecraft:experience_bottle>, <minecraft:clock>], true);
 FluidToItem.transform(<quark:enderdragon_scale>, <liquid:distwater>, [<tp:dragon_scale>], true);
+FluidToItem.transform(<extrautils2:klein>, <liquid:ender>, [<minecraft:glass_bottle>], true);
 
 print("---initialized mods/inworldcrafting.zs---");

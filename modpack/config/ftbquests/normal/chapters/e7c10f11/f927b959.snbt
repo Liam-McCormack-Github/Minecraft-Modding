@@ -1,0 +1,33 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "fe25e2d6",
+		type: "item",
+		items: [{
+			id: "futuremc:netherite_boots",
+			tag: {
+				fromLootCrate: 1,
+				display: {
+					Lore: [
+						"Combine with Gold Boots in an Anvil"
+					],
+					Name: "Heroic Boots"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "db9f0872",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

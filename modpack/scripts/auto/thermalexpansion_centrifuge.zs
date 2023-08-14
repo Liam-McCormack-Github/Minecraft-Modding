@@ -1,4 +1,4 @@
-#priority 5299
+#priority 5000
 import mods.thermalexpansion.Centrifuge;
 
 print("---loading thermalexpansion_centrifuge.zs---");

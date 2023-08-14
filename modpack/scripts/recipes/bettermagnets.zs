@@ -1,4 +1,4 @@
-#priority 2064
+#priority 2000
 
 print("---loading recipes/bettermagnets.zs---");
 

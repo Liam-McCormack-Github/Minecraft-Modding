@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b7999fc6",
+		type: "item",
+		items: [{
+			id: "overloaded:multi_tool",
+			tag: {
+				fromLootCrate: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

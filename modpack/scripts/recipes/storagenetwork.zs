@@ -1,4 +1,4 @@
-#priority 2053
+#priority 2000
 
 print("---loading recipes/storagenetwork.zs---");
 

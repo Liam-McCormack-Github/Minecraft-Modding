@@ -1,4 +1,4 @@
-#priority 2026
+#priority 2000
 
 print("---loading recipes/alchemistry.zs---");
 
@@ -18,6 +18,7 @@ recipes.removeByRecipeName("alchemistry:fusion_controller");
 
 
 # Add
+recipes.addShapeless(<alchemistry:ingot:14> * 9, [<ore:blockSilicon>]);
 recipes.addShaped(<alchemistry:fusion_casing>, [[<futuremc:netherite_ingot>, <futuremc:netherite_ingot>, <futuremc:netherite_ingot>], [<futuremc:netherite_ingot>, <techguns:itemshared:67>, <futuremc:netherite_ingot>], [<futuremc:netherite_ingot>, <futuremc:netherite_ingot>, <futuremc:netherite_ingot>]]);
 recipes.addShaped(<alchemistry:fusion_core>, [[<futuremc:netherite_ingot>, <techguns:itemshared:68>, <futuremc:netherite_ingot>], [<techguns:itemshared:68>, <zcontent:evil_terraglaz_ingot>, <techguns:itemshared:68>], [<futuremc:netherite_ingot>, <techguns:itemshared:68>, <futuremc:netherite_ingot>]]);
 recipes.addShaped(<alchemistry:fission_casing>, [[<zcontent:stainless_steel_ingot>, <zcontent:stainless_steel_ingot>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <techguns:itemshared:67>, <zcontent:stainless_steel_ingot>], [<zcontent:stainless_steel_ingot>, <zcontent:stainless_steel_ingot>, <zcontent:stainless_steel_ingot>]]);

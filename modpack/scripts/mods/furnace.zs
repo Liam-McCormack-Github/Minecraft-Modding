@@ -1,4 +1,4 @@
-#priority 8099
+#priority 8000
 
 print("---loading mods/furnace.zs---");
 

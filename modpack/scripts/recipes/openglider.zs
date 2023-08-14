@@ -1,4 +1,4 @@
-#priority 2023
+#priority 2000
 
 print("---loading recipes/openglider.zs---");
 

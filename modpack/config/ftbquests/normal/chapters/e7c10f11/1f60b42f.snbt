@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "90baabef",
+		type: "item",
+		items: [{
+			id: "akashictome:tome",
+			tag: {
+				fromLootCrate: 1,
+				"Quark:RuneColor": 16,
+				ench: [{
+					lvl: 1s,
+					id: 0s
+				}],
+				HideFlags: 1,
+				display: {
+					Lore: [
+						"It Apears To Radiate Pure Knowledge!"
+					]
+				},
+				useableInCrafting: 1,
+				"Quark:RuneAttached": 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

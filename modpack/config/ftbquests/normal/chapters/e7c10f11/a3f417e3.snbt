@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "740d5c3c",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:mob_swab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "8c166f44",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

@@ -1,4 +1,4 @@
-#priority 5201
+#priority 5000
 import mods.immersiveengineering.ArcFurnace;
 
 print("---loading immersiveengineering_arcfurnace.zs---");
@@ -31,7 +31,7 @@ ArcFurnace.addRecipe(<thermalfoundation:material:167> * 2,<enderio:item_material
 ArcFurnace.addRecipe(<futuremc:netherite_ingot>,<futuremc:netherite_scrap> * 4, null, 100, 512,[<minecraft:gold_ingot> * 4]);
 ArcFurnace.addRecipe(<techguns:itemshared:84>,<thermalfoundation:material:770> * 4, null, 100, 512,[<thermalfoundation:material:160>]);
 ArcFurnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 3,<actuallyadditions:item_misc:5>, null, 100, 512,[<thermalfoundation:material:132> * 2]);
-ArcFurnace.addRecipe(<extendedcrafting:material>,<quark:black_ash> * 4, null, 100, 512,[<minecraft:iron_ingot>]);
+ArcFurnace.addRecipe(<extendedcrafting:material>,<quark:black_ash> * 2, null, 100, 512,[<minecraft:iron_ingot>]);
 ArcFurnace.addRecipe(<extendedcrafting:material>,<fluxnetworks:flux> * 4, null, 100, 512,[<minecraft:iron_ingot>]);
 ArcFurnace.addRecipe(<extendedcrafting:material:36>,<tp:ender_dust>, null, 100, 512,[<zcontent:cold_iron_ingot>]);
 ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 2,<alchemistry:ingot:74>, null, 200, 512,[<zcontent:purple_mat_dust>,<techguns:itemshared:96>]);

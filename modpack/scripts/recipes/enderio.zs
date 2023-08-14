@@ -1,4 +1,4 @@
-#priority 2007
+#priority 2000
 
 print("---loading recipes/enderio.zs---");
 
@@ -33,9 +33,91 @@ recipes.removeByRecipeName("enderio:unsouled_chassis");
 recipes.removeByRecipeName("enderio:simple_chassis");
 recipes.removeByRecipeName("enderio:end_steel_chassis");
 recipes.removeByRecipeName("enderio:black_paper");
-
+recipes.removeByRecipeName("enderio:the_enhanced_vat_upgrade");
+recipes.removeByRecipeName("enderio:stirling_generator_upgrade");
+recipes.removeByRecipeName("enderio:wireless_charger_antenna_upgrade");
+recipes.removeByRecipeName("enderio:inventory_panel_sensor");
+recipes.removeByRecipeName("enderio:enhanced_s_a_g_mill_upgrade");
+recipes.removeByRecipeName("enderio:enhanced_wired_charger_upgrade");
+recipes.removeByRecipeName("enderio:alloy_smelter_upgrade");
+recipes.removeByRecipeName("enderio:crafter_upgrade");
+recipes.removeByRecipeName("enderio:s_a_g_mill_upgrade");
+recipes.removeByRecipeName("enderio:wireless_charger_antenna_enhanced_upgrade_1");
+recipes.removeByRecipeName("enderio:inventory_chest_big");
+recipes.removeByRecipeName("enderio:enhanced_combustion_generator_upgrade");
+recipes.removeByRecipeName("enderio:wired_charger_upgrade");
+recipes.removeByRecipeName("enderio:inventory_chest_enormous");
+recipes.removeByRecipeName("enderio:wireless_charger_antenna_enhanced_upgrade_2");
+recipes.removeByRecipeName("enderio:enhanced_alloy_smelter_upgrade");
+recipes.removeByRecipeName("enderio:conduit_data");
+recipes.removeByRecipeName("enderio:conduit_endergy_aluminium");
+recipes.removeByRecipeName("enderio:conduit_endergy_aluminum");
+recipes.removeByRecipeName("enderio:conduit_endergy_cobble");
+recipes.removeByRecipeName("enderio:conduit_endergy_copper");
+recipes.removeByRecipeName("enderio:conduit_endergy_crystalline");
+recipes.removeByRecipeName("enderio:conduit_endergy_crystalline_pink_slime");
+recipes.removeByRecipeName("enderio:conduit_endergy_electrum");
+recipes.removeByRecipeName("enderio:conduit_endergy_energetic_silver");
+recipes.removeByRecipeName("enderio:conduit_endergy_gold");
+recipes.removeByRecipeName("enderio:conduit_endergy_iron");
+recipes.removeByRecipeName("enderio:conduit_endergy_melodic");
+recipes.removeByRecipeName("enderio:conduit_endergy_silver");
+recipes.removeByRecipeName("enderio:conduit_endergy_stellar");
+recipes.removeByRecipeName("enderio:conduit_endergy_tier_1");
+recipes.removeByRecipeName("enderio:conduit_endergy_tier_2");
+recipes.removeByRecipeName("enderio:conduit_endergy_tier_2_upgrade");
+recipes.removeByRecipeName("enderio:conduit_endergy_tier_3");
+recipes.removeByRecipeName("enderio:conduit_endergy_tier_3_upgrade");
+recipes.removeByRecipeName("enderio:conduit_item");
+recipes.removeByRecipeName("enderio:conduit_item");
+recipes.removeByRecipeName("enderio:conduit_liquid_advanced");
+recipes.removeByRecipeName("enderio:conduit_liquid_advanced_upgrade");
+recipes.removeByRecipeName("enderio:conduit_liquid_basic");
+recipes.removeByRecipeName("enderio:conduit_liquid_ender");
+recipes.removeByRecipeName("enderio:conduit_liquid_ender_upgrade");
+recipes.removeByRecipeName("enderio:conduit_redstone_insulated");
 
 # Add
+recipes.addShaped(<enderio:item_item_conduit> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_redstone_conduit> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_data_conduit> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [null, <enderio:item_material:64>, null], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:2> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:1> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:nuggetCrudeSteel>, <ore:nuggetCrudeSteel>, <ore:nuggetCrudeSteel>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:2> * 6, [[<ore:conduitFluid>, <ore:conduitFluid>, <ore:conduitFluid>],[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>], [<ore:conduitFluid>, <ore:conduitFluid>, <ore:conduitFluid>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:1> * 6, [[<ore:conduitFluid>, <ore:conduitFluid>, <ore:conduitFluid>],[<ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>, <ore:nuggetConstructionAlloy>], [<ore:conduitFluid>, <ore:conduitFluid>, <ore:conduitFluid>]]);
+recipes.addShaped(<enderio:item_liquid_conduit> * 6, [[<ore:conduitFluid>, <ore:conduitFluid>, <ore:conduitFluid>],[<ore:nuggetCrudeSteel>, <ore:nuggetCrudeSteel>, <ore:nuggetCrudeSteel>], [<ore:conduitFluid>, <ore:conduitFluid>, <ore:conduitFluid>]]);
+recipes.addShaped(<enderio:item_power_conduit> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_endergy_ingot>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_power_conduit:1> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <minecraft:iron_ingot>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_power_conduit:2> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <thermalfoundation:material:132>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <minecraft:gold_ingot>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:1>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <thermalfoundation:material:128>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:2>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <thermalfoundation:material:161>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:3>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <thermalfoundation:material:130>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:4>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_endergy_ingot:5>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:5>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_endergy_ingot:1>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:6>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_endergy_ingot:4>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:7>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_endergy_ingot:2>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:8>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_endergy_ingot:3>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:9>  * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_ingot:4>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:10> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_ingot:1>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:11> * 6, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:itemInfinityGoop>, <enderio:item_alloy_ingot:2>, <ore:itemInfinityGoop>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:item_power_conduit> * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_endergy_ingot>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_power_conduit:1> * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <minecraft:iron_ingot>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_power_conduit:2> * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <thermalfoundation:material:132>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit> * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <minecraft:gold_ingot>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:1>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <thermalfoundation:material:128>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:2>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <thermalfoundation:material:161>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:3>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <thermalfoundation:material:130>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:4>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_endergy_ingot:5>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:5>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_endergy_ingot:1>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:6>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_endergy_ingot:4>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:7>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_endergy_ingot:2>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:8>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_endergy_ingot:3>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:9>  * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_ingot:4>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:10> * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_ingot:1>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+recipes.addShaped(<enderio:item_endergy_conduit:11> * 6, [[<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>],[null, <enderio:item_alloy_ingot:2>, null], [<ore:conduitEnergy>, <ore:conduitEnergy>, <ore:conduitEnergy>]]);
+
 recipes.addShapeless(<enderio:item_material:77>, [<ore:paper>, <fluxnetworks:flux>]);
 recipes.addShapeless(<enderio:item_material:74>, [<mysticalagriculture:crafting:29>,<enderio:item_material:20>,<enderio:item_material:20>,<enderio:item_material:20>,<enderio:item_material:20>]);
 recipes.addShapeless(<enderio:item_enchantment_filter_normal>, [<enderio:item_basic_item_filter>,<minecraft:book>]);

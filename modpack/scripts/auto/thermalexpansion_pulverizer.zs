@@ -1,4 +1,4 @@
-#priority 5101
+#priority 5000
 import mods.thermalexpansion.Pulverizer;
 
 print("---loading thermalexpansion_pulverizer.zs---");

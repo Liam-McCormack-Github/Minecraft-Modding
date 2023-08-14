@@ -7,6 +7,7 @@
 		item: {
 			id: "techguns:alienblaster",
 			tag: {
+				fromLootCrate: 1,
 				ammo: 10s,
 				ammovariant: "default",
 				camo: 0b
@@ -17,6 +18,7 @@
 		item: {
 			id: "akashictome:tome",
 			tag: {
+				fromLootCrate: 1,
 				"Quark:RuneColor": 16,
 				ench: [{
 					lvl: 1s,
@@ -34,28 +36,44 @@
 		}
 	},
 	{
-		item: "projecte:item.pe_repair_talisman"
+		item: {
+			id: "projecte:item.pe_repair_talisman",
+			tag: {
+				fromLootCrate: 1
+			}
+		}
 	},
 	{
 		item: {
 			id: "overloaded:multi_tool",
-			tag: {}
+			tag: {
+				fromLootCrate: 1
+			}
 		}
 	},
 	{
 		item: {
 			id: "overloaded:ray_gun",
-			tag: {}
+			tag: {
+				fromLootCrate: 1
+			}
 		}
 	},
 	{
 		item: {
 			id: "overloaded:railgun",
-			tag: {}
+			tag: {
+				fromLootCrate: 1
+			}
 		}
 	},
 	{
-		item: "eplus:table_upgrade"
+		item: {
+			id: "eplus:table_upgrade",
+			tag: {
+				fromLootCrate: 1
+			}
+		}
 	},
 	{
 		item: {

@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "52077fc3",
+		type: "item",
+		items: [{
+			id: "futuremc:netherite_leggings",
+			tag: {
+				fromLootCrate: 1,
+				display: {
+					Lore: [
+						"Combine with Gold Leggings in an Anvil"
+					],
+					Name: "Heroic Leggings"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "beb68308",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

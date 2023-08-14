@@ -1,4 +1,4 @@
-#priority 3
+#priority 1000
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
@@ -6,6 +6,7 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
 import crafttweaker.enchantments.IEnchantment;
+import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.data.IData;
 import scripts.enchantments.getEnchantID;
 

@@ -1,4 +1,4 @@
-#priority 2055
+#priority 2000
 
 print("---loading recipes/cookingforblockheads.zs---");
 

@@ -1,4 +1,4 @@
-#priority 2025
+#priority 2000
 
 print("---loading recipes/refinedstorage.zs---");
 
@@ -80,7 +80,7 @@ recipes.removeByRecipeName("refinedstorage:relay");
 
 # Add
 recipes.addShapeless(<refinedstorage:relay>, [<refinedstorage:quartz_enriched_iron_block>, <refinedstorage:cable>, <minecraft:redstone_torch>]);
-recipes.addShaped(<refinedstorage:crafter>, [[<refinedstorage:quartz_enriched_iron>, <minecraft:observer>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:core>, <refinedstorage:machine_casing>, <refinedstorage:core:1>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShaped(<refinedstorage:crafter>, [[<refinedstorage:quartz_enriched_iron>, <minecraft:observer>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:core>, <refinedstorage:machine_casing>, <refinedstorage:core:1>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:4>, <refinedstorage:quartz_enriched_iron>]]);
 recipes.addShapeless(<refinedstorage:crafter_manager>, [<refinedstorage:grid>,<refinedstorage:crafter>]);
 recipes.addShaped(<refinedstorage:grid>, [[<refinedstorage:quartz_enriched_iron>, <extrautils2:screen>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:core>, <refinedstorage:machine_casing>, <refinedstorage:core:1>], [<refinedstorage:quartz_enriched_iron>, <thermalfoundation:material:294>, <refinedstorage:quartz_enriched_iron>]]);
 recipes.addShapeless(<refinedstorage:grid:3>, [<refinedstorage:grid>,<minecraft:bucket>]);

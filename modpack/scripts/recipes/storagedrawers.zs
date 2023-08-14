@@ -1,4 +1,4 @@
-#priority 2017
+#priority 2000
 
 print("---loading recipes/storagedrawers.zs---");
 

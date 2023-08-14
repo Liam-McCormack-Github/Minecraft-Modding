@@ -1,4 +1,4 @@
-#priority 2030
+#priority 2000
 
 print("---loading recipes/biomesoplenty.zs---");
 

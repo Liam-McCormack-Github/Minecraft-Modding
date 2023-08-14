@@ -1,4 +1,4 @@
-#priority 2039
+#priority 2000
 
 print("---loading recipes/danknull.zs---");
 

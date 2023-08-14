@@ -1,4 +1,4 @@
-#priority 8017
+#priority 8000
 import mods.avaritia.ExtremeCrafting;
 
 print("---loading mods/avaritia.zs---");

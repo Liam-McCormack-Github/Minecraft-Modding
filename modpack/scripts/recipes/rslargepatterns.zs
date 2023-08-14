@@ -1,4 +1,4 @@
-#priority 2071
+#priority 2000
 
 print("---loading recipes/rslargepatterns.zs---");
 

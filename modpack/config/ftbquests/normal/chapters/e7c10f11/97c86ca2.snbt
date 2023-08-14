@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "52f4ac94",
+		type: "item",
+		items: [{
+			id: "eplus:table_upgrade",
+			tag: {
+				fromLootCrate: 1
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

@@ -1,4 +1,4 @@
-#priority 2032
+#priority 2000
 
 print("---loading recipes/projectex.zs---");
 

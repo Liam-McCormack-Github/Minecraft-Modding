@@ -1,4 +1,4 @@
-#priority 2008
+#priority 2000
 
 print("---loading recipes/quantumstorage.zs---");
 

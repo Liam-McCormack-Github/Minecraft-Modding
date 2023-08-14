@@ -1,4 +1,4 @@
-#priority 2028
+#priority 2000
 
 print("---loading recipes/darkutils.zs---");
 

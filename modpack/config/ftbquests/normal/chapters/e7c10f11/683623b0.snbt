@@ -1,0 +1,34 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "91bafe67",
+		type: "item",
+		items: [{
+			id: "akashictome:tome",
+			tag: {
+				fromLootCrate: 1,
+				display: {
+					Lore: [
+						"Contains knowledge of a Eloquent Weapon"
+					],
+					Name: "Ethereal Tome"
+				},
+				useableInCrafting: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "4c549cb6",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

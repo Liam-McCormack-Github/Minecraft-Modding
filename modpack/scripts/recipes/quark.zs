@@ -1,4 +1,4 @@
-#priority 2022
+#priority 2000
 
 print("---loading recipes/quark.zs---");
 
@@ -23,9 +23,10 @@ recipes.removeByRecipeName("quark:rope");
 recipes.removeByRecipeName("quark:hopper");
 recipes.removeByRecipeName("quark:iron_plate_1");
 recipes.removeByRecipeName("quark:charred_nether_bricks");
-
+recipes.removeByRecipeName("quark:blaze_lantern");
 
 # Add
+recipes.addShapeless(<quark:blaze_lantern>, [<minecraft:blaze_rod>,<minecraft:blaze_rod>,<minecraft:blaze_rod>,<minecraft:blaze_rod>,<minecraft:blaze_rod>,<minecraft:blaze_rod>,<minecraft:blaze_rod>,<minecraft:blaze_rod>,<minecraft:blaze_rod>]);
 recipes.addShapeless(<quark:enderdragon_scale>, [<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>,<mysticalagradditions:stuff:2>]);
 recipes.addShapeless(<quark:rope> * 64, [<immersiveengineering:material:4>,<immersiveengineering:material:4>,<immersiveengineering:material:4>,<immersiveengineering:material:4>,<minecraft:string>,<immersiveengineering:material:4>,<immersiveengineering:material:4>,<immersiveengineering:material:4>,<immersiveengineering:material:4>]);
 recipes.addShaped(<quark:pickarang>, [[null, <zcontent:stainless_steel_ingot>, null], [<zcontent:stainless_steel_ingot>, <redstonearsenal:material:160>, <zcontent:stainless_steel_ingot>]]);

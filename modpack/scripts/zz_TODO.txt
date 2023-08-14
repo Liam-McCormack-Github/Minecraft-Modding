@@ -34,7 +34,33 @@ recipes.addShapeless("minecraft:bone_meal_from_bone", <minecraft:dye:15> * 3, [<
 
 
 	
+
+	remove backpacks
+	
 		
+	Move from arcane ensorsollator to research table
+	
+			add research table to JEI
+	
+	
+	
+	ftbquest
+		finish chapters
+		
+		change inital dependency for steel, e.g. spirit
+	
+	
+	change conduit upgrade path
+	
+	
+	
+	
+	
+	
+	
+	
+	dispenser = dropper + bow fix
+	
 	
 	deep mob learning 2????
 	

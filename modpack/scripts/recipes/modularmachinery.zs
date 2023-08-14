@@ -1,4 +1,4 @@
-#priority 2002
+#priority 2000
 
 print("---loading recipes/modularmachinery.zs---");
 

@@ -1,4 +1,4 @@
-#priority 9002
+#priority 9000
 import crafttweaker.game.IGame;
 
 print("---loading localization.zs---");

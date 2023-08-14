@@ -1,4 +1,4 @@
-#priority 2044
+#priority 2000
 
 print("---loading recipes/dankstorage.zs---");
 

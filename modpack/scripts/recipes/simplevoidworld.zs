@@ -1,4 +1,4 @@
-#priority 2062
+#priority 2000
 
 print("---loading recipes/simplevoidworld.zs---");
 

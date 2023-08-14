@@ -1,4 +1,4 @@
-#priority 2004
+#priority 2000
 
 print("---loading recipes/industrialexpansion.zs---");
 

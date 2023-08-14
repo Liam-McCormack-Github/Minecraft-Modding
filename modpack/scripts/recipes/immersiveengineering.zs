@@ -1,4 +1,4 @@
-#priority 2015
+#priority 2000
 
 print("---loading recipes/immersiveengineering.zs---");
 

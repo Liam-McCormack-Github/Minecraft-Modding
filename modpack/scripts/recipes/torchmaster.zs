@@ -1,4 +1,4 @@
-#priority 2029
+#priority 2000
 
 print("---loading recipes/torchmaster.zs---");
 

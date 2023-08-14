@@ -1,4 +1,4 @@
-#priority 2014
+#priority 2000
 
 print("---loading recipes/randomthings.zs---");
 

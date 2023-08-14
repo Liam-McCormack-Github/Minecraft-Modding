@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "033063c2",
+		type: "item",
+		items: [{
+			id: "overloaded:railgun",
+			tag: {
+				fromLootCrate: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

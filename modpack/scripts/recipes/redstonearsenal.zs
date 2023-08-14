@@ -1,4 +1,4 @@
-#priority 2019
+#priority 2000
 
 print("---loading recipes/redstonearsenal.zs---");
 

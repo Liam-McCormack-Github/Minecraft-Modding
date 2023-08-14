@@ -1,4 +1,4 @@
-#priority 8014
+#priority 8000
 import mods.actuallyadditions.AtomicReconstructor;
 import mods.actuallyadditions.Empowerer;
 import mods.actuallyadditions.Crusher;

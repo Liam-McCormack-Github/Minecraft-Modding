@@ -1,4 +1,4 @@
-#priority 2068
+#priority 2000
 
 print("---loading recipes/thermalexpansion.zs---");
 

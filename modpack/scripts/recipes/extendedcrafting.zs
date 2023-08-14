@@ -1,4 +1,4 @@
-#priority 2034
+#priority 2000
 
 print("---loading recipes/extendedcrafting.zs---");
 

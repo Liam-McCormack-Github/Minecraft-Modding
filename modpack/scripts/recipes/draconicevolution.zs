@@ -1,4 +1,4 @@
-#priority 2037
+#priority 2000
 
 print("---loading recipes/draconicevolution.zs---");
 

@@ -1,4 +1,4 @@
-#priority 2050
+#priority 2000
 
 print("---loading recipes/furnus.zs---");
 

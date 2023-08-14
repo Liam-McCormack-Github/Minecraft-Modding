@@ -1,4 +1,4 @@
-#priority 2057
+#priority 2000
 
 print("---loading recipes/morphtool.zs---");
 

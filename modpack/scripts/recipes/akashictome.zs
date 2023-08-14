@@ -1,4 +1,4 @@
-#priority 2101
+#priority 2000
 
 print("---loading recipes/akashictome.zs---");
 

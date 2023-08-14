@@ -1,0 +1,31 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "89ff2308",
+		type: "item",
+		items: [{
+			id: "techguns:laserpistol",
+			tag: {
+				fromLootCrate: 1,
+				ammo: 20s,
+				ammovariant: "default",
+				camo: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "261f1c58",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		},
+		count: 25
+	}]
+}

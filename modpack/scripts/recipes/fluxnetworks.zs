@@ -1,4 +1,4 @@
-#priority 2010
+#priority 2000
 
 print("---loading recipes/fluxnetworks.zs---");
 

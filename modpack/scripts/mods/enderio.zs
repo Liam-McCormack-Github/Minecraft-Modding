@@ -1,4 +1,4 @@
-#priority 8010
+#priority 8000
 
 import mods.enderio.AlloySmelter;
 import mods.enderio.SagMill;
@@ -34,7 +34,7 @@ SoulBinder.addRecipe(<enderio:item_material:19>, <enderio:item_material:15>, ["m
 SagMill.addRecipe([<arcanearchives:radiant_dust> * 9, <extendedcrafting:material:25>],[100, 100],<arcanearchives:storage_shaped_quartz>, null, 18000);
 SagMill.addRecipe([<arcanearchives:radiant_dust>, <extendedcrafting:material:25>],[100, 10],<arcanearchives:shaped_quartz>, null, 2000);
 AlloySmelter.addRecipe(<industrialforegoing:plastic> * 2, [<zcontent:polyethylene>,<industrialforegoing:dryrubber>], 4000);
-AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>, [<quark:black_ash> * 4,<minecraft:quartz>], 4000);
+AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>, [<quark:black_ash> * 2,<minecraft:quartz>], 4000);
 AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>, [<fluxnetworks:flux> * 4,<minecraft:quartz>], 4000);
 AlloySmelter.addRecipe(<thermalfoundation:material:165>, [<thermalfoundation:material:101>], 2000);
 AlloySmelter.addRecipe(<thermalfoundation:material:166>, [<thermalfoundation:material:102>], 2000);

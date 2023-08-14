@@ -1,4 +1,4 @@
-#priority 2069
+#priority 2000
 
 print("---loading recipes/industrialforegoing.zs---");
 

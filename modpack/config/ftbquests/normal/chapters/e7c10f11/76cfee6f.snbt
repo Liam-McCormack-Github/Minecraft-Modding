@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "db7f523f",
+		type: "item",
+		items: [{
+			id: "futuremc:netherite_helmet",
+			tag: {
+				fromLootCrate: 1,
+				display: {
+					Lore: [
+						"Combine with a Gold Helmet in an Anvil"
+					],
+					Name: "Heroic Helm"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "5f04038c",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

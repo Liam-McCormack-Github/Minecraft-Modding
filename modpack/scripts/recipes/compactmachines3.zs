@@ -1,4 +1,4 @@
-#priority 2045
+#priority 2000
 
 print("---loading recipes/compactmachines3.zs---");
 
