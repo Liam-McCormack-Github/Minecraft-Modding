@@ -1,0 +1,37 @@
+{
+	title: "Spectre Coil",
+	icon: "randomthings:spectrecoil_number",
+	x: 3.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "c80acdf7",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrecoil_ender"
+		}]
+	},
+	{
+		uid: "d468f660",
+		type: "item",
+		items: [{
+			item: "zcontent:charged_gunpowder"
+		}]
+	},
+	{
+		uid: "b9a25b6d",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "7a6995fd",
+		type: "item",
+		item: "randomthings:spectrecoil_number"
+	}]
+}

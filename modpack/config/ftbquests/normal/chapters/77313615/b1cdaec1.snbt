@@ -1,0 +1,15 @@
+{
+	x: 45.0d,
+	y: -2.0d,
+	dependencies: [
+		"5ebd619a"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "bc6168cc",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_wither"
+		}]
+	}]
+}

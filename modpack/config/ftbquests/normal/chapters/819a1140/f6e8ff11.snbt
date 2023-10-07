@@ -1,0 +1,27 @@
+{
+	title: "Research Table",
+	icon: "researchtable:table",
+	x: 0.0d,
+	y: 8.0d,
+	shape: "octagon",
+	description: "Research Table",
+	text: [
+		"Research Table",
+		"",
+		"Used to add JEI intergration"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e0e691a1"
+	],
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "bc354e7c",
+		type: "item",
+		title: "Uncompletable Task",
+		items: [{
+			item: "minecraft:barrier"
+		}]
+	}]
+}

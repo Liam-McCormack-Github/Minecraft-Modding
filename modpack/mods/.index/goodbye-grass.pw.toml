@@ -1,0 +1,14 @@
+name = "Grassta la Vista"
+filename = "goodbyegrass-1.2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "77ac9b5ce835d71806ae1794da2530808345bdf6"
+
+[update]
+[update.curseforge]
+file-id = 2700785
+project-id = 299567

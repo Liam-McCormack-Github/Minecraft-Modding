@@ -1,0 +1,16 @@
+{
+	x: 43.0d,
+	y: -2.0d,
+	dependencies: [
+		"fa415e21",
+		"eb6da6cc"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "8c832ff6",
+		type: "item",
+		items: [{
+			item: "zcontent:end_chunk"
+		}]
+	}]
+}

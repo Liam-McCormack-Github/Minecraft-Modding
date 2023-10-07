@@ -2,6 +2,7 @@
 	x: 2.0d,
 	y: 1.0d,
 	can_repeat: true,
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "aaa7ba9f",
 		type: "item",
@@ -13,5 +14,16 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "eda7fc7b",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		},
+		count: 4
 	}]
 }

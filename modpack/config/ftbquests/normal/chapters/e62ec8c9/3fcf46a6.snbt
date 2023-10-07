@@ -1,0 +1,27 @@
+{
+	disable_toast: true,
+	x: 7.0d,
+	y: 14.0d,
+	dependencies: [
+		"c10172c1",
+		"ddf747f6"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "dc98153a",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_combustion_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "3f43cc9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

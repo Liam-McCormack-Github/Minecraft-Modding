@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 22.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "84ada13d",
+		type: "item",
+		items: [{
+			item: "alchemistry:electrolyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "35b84beb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

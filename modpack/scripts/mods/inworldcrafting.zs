@@ -18,7 +18,7 @@ FireCrafting.addRecipe(<quark:sturdy_stone>, <overloaded:compressed_cobblestone>
 #ExplosionCrafting
 ExplosionCrafting.explodeBlockRecipe(<enderio:item_alloy_endergy_nugget:3>*9, <jaopca:block_blockmoon>);
 ExplosionCrafting.explodeBlockRecipe(<mysticalagriculture:crafting:28>, <mysticalagriculture:soulstone>);
-ExplosionCrafting.explodeBlockRecipe(<zcontent:magic>.withTag({display: {Lore: ["§d§oHighly Unstable"]}}),<mysticalagradditions:storage:2>,10);
+ExplosionCrafting.explodeBlockRecipe(<zcontent:magic>.withTag({display: {Lore: ["§d§oHighly Unstable"]}}),<mysticalagradditions:storage:2>);
 #No Consume - No Solidifier
 FluidToItem.transform(<arcanearchives:shaped_quartz>, <liquid:hot_spring_water>, [<zcontent:black_gem> | <zcontent:blue_gem> | <zcontent:green_gem> | <zcontent:indigo_gem> | <zcontent:orange_gem> | <zcontent:red_gem> | <zcontent:violet_gem> | <zcontent:white_gem> | <zcontent:yellow_gem>, <arcanearchives:raw_quartz>]);
 FluidToItem.transform(<arcanearchives:storage_shaped_quartz>, <liquid:hot_spring_water>, [<jaopca:block_blockcrystalblack> | <jaopca:block_blockcrystalblue> | <jaopca:block_blockcrystalgreen> | <jaopca:block_blockcrystalindigo> | <jaopca:block_blockcrystalorange> | <jaopca:block_blockcrystalred>  | <jaopca:block_blockcrystalviolet> | <jaopca:block_blockcrystalwhite> | <jaopca:block_blockcrystalyellow>, <arcanearchives:storage_raw_quartz>]);

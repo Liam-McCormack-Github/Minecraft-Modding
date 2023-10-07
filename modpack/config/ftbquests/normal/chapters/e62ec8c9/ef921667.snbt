@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 2.0d,
+	y: 46.0d,
+	dependencies: [
+		"369ec786"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6ec0d090",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "16fb542b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: 42.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ef59ef50",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:machine_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "9d96a0d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

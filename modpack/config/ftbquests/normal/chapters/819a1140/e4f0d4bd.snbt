@@ -1,12 +1,13 @@
 {
 	title: "Blue Ice",
 	icon: "futuremc:blue_ice",
-	x: 2.5d,
-	y: 9.5d,
+	x: 16.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "f9898844",
 		type: "item",

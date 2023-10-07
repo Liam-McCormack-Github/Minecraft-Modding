@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"6174fe8f"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "c08e8578",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 514"
+		}]
+	}],
+	rewards: [{
+		uid: "8d8c0008",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

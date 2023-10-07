@@ -82,8 +82,13 @@ recipes.removeByRecipeName("industrialforegoing:range_addon_10");
 recipes.removeByRecipeName("industrialforegoing:black_hole_controller_reworked");
 recipes.removeByRecipeName("industrialforegoing:item_splitter");
 recipes.removeByRecipeName("industrialforegoing:energy_field_provider");
+recipes.removeByRecipeName("industrialforegoing:pitiful_fuel_generator");
+
+
+
 
 # Add
+recipes.addShaped(<industrialforegoing:pitiful_fuel_generator>, [[<quark:sturdy_stone>, <quark:sturdy_stone>, <quark:sturdy_stone>],[<quark:sturdy_stone>, <ore:gearGold>, <quark:sturdy_stone>], [<ore:ingotIron>, <ore:ingotConductiveIron>, <ore:ingotIron>]]);
 recipes.addShaped(<industrialforegoing:energy_field_provider>, [[<ore:ingotGold>, <industrialforegoing:energy_field_addon>, <ore:ingotGold>], [<ore:ingotGold>, <teslacorelib:machine_case>, <ore:ingotGold>], [<minecraft:repeater>, <ore:gearPlatinum>, <minecraft:repeater>]]);
 recipes.addShaped(<industrialforegoing:protein_reactor>, [[<ore:sheetPlastic>, <minecraft:porkchop>, <ore:sheetPlastic>], [<minecraft:egg>, <teslacorelib:machine_case>, <minecraft:egg>], [<minecraft:brick>, <minecraft:rabbit_foot>, <minecraft:brick>]]);
 recipes.addShaped(<industrialforegoing:enchantment_invoker>, [[<ore:sheetPlastic>, <minecraft:book>, <ore:sheetPlastic>], [<ore:gemDiamond>, <teslacorelib:machine_case>, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);

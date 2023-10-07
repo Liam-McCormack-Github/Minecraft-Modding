@@ -1,6 +1,7 @@
 {
 	x: 0.0d,
 	y: 0.0d,
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "f81fc328",
 		type: "checkmark"

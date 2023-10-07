@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 19.0d,
+	y: 34.0d,
+	dependencies: [
+		"6358e237"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "f5533cfc",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_grinder_double"
+		}]
+	}],
+	rewards: [{
+		uid: "e8b3ddc1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

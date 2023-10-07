@@ -1,0 +1,33 @@
+{
+	title: "Silo",
+	disable_toast: true,
+	x: 2.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Silo",
+	text: [
+		"Silo"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "450fb56d",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 3",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "silo"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "cd106840",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

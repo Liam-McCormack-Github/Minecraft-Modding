@@ -39,5 +39,7 @@ recipes.removeByRecipeName("deepmoblearning:living_matter_conversion_22");
 */
 
 # Add
+recipes.addShapeless(<deepmoblearning:trial_key>, [<deepmoblearning:trial_key>]);
+
 
 print("---initialized recipes/deepmoblearning.zs---");

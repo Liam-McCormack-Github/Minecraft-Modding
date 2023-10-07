@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+FMLCorePluginContainsFMLMod: true
+FMLAT: enchcontrol_at.cfg
+FMLCorePlugin: austeretony.enchcontrol.common.core.ECCorePlugin
+

@@ -1,0 +1,60 @@
+{
+	title: "Player Totem",
+	icon: {
+		id: "everlastingabilities:ability_bottle",
+		tag: {
+			"everlastingabilities:abilityStoreStack": []
+		}
+	},
+	x: 2.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "e40faea9",
+		type: "item",
+		items: [{
+			item: "minecraft:totem_of_undying"
+		}]
+	},
+	{
+		uid: "6ce35e14",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 3"
+		}]
+	},
+	{
+		uid: "b957198d",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blood",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e51cb304",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "49b921ee",
+		type: "item",
+		item: {
+			id: "everlastingabilities:ability_bottle",
+			tag: {
+				"everlastingabilities:abilityStoreStack": []
+			}
+		}
+	}]
+}

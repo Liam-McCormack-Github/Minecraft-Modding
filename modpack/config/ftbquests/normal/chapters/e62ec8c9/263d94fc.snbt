@@ -1,0 +1,33 @@
+{
+	title: "Boiler",
+	disable_toast: true,
+	x: 29.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Boiler",
+	text: [
+		"Boiler"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7395f867",
+		type: "observation",
+		icon: "immersivetech:metal_multiblock 1 4",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "boiler"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "3022b808",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

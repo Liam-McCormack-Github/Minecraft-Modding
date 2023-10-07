@@ -1,0 +1,29 @@
+{
+	title: "Advanced Metal Alloyer",
+	disable_toast: true,
+	x: 2.0d,
+	y: -4.0d,
+	description: "Advanced Metal Alloyer",
+	text: [
+		"Advanced Metal Alloyer"
+	],
+	dependencies: [
+		"9ec3e458"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "97ea656a",
+		type: "checkmark",
+		icon: "enderio:item_alloy_ingot 1 2"
+	}],
+	rewards: [{
+		uid: "8ca80ea0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

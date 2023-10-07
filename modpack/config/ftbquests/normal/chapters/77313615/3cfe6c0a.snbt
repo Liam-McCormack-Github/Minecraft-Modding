@@ -1,0 +1,30 @@
+{
+	x: 21.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	dependencies: [
+		"31c90eff"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0612991d",
+		type: "item",
+		items: [{
+			id: "refinedstorage:controller",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "617311ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Infinity Tank",
+	icon: "overloaded:infinite_tank",
+	x: 10.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "80690110",
+		type: "item",
+		items: [{
+			id: "yabba:upgrade_star_tier",
+			ForgeCaps: {
+				Parent: {}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "c61cb46c",
+		type: "item",
+		items: [{
+			item: "quantumstorage:quantum_tank"
+		}]
+	},
+	{
+		uid: "01f50dc5",
+		type: "item",
+		items: [{
+			item: "overloaded:fluid_core"
+		}]
+	},
+	{
+		uid: "f28caa71",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pure_matter",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bf3c4ac2",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "92cda79b",
+		type: "item",
+		item: "overloaded:infinite_tank"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 42.0d,
+	y: -2.0d,
+	dependencies: [
+		"7e0826e1",
+		"eb6da6cc"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7b08cb10",
+		type: "item",
+		items: [{
+			item: "zcontent:nether_chunk"
+		}]
+	}]
+}

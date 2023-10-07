@@ -3,6 +3,7 @@
 	y: 0.0d,
 	shape: "square",
 	dependency_requirement: "one_started",
+	size: 3.0d,
 	tasks: [{
 		uid: "b6db14a7",
 		type: "item",

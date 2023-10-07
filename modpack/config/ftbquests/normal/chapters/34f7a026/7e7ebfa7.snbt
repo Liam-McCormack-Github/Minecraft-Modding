@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"434ef1d5"
+	],
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "9c66703d",
+		type: "item",
+		items: [{
+			item: "alchemistry:periodic_diagram"
+		}]
+	}],
+	rewards: [{
+		uid: "8766b327",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 100L
+			}
+		},
+		count: 118
+	}]
+}

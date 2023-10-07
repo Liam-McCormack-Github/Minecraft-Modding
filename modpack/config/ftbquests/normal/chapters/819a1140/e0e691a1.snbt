@@ -12,6 +12,7 @@
 		"",
 		"Can't find a village, emergency items"
 	],
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "6c68455f",
@@ -19,13 +20,13 @@
 		icon: "zcontent:repairer"
 	}],
 	rewards: [{
-		uid: "d254cbb3",
-		type: "item",
-		item: {
-			id: "lodsofemone:coin_small",
-			tag: {
-				value: 100L
-			}
-		}
+		uid: "9e8a55c4",
+		type: "command",
+		command: "/ranks set_permission player ftbutilities.chunkloader.max_chunks 1000"
+	},
+	{
+		uid: "8a907216",
+		type: "command",
+		command: "/ranks set_permission player ftbutilities.claims.max_chunks 1000"
 	}]
 }

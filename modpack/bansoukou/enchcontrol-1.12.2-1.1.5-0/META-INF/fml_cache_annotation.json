@@ -1,0 +1,211 @@
+{
+  "austeretony/enchcontrol/client/event/EnchantmentDescriptionRenderer": {
+    "name": "austeretony/enchcontrol/client/event/EnchantmentDescriptionRenderer",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V"
+      }
+    ]
+  },
+  "austeretony/enchcontrol/common/core/ECClassTransformer": {
+    "name": "austeretony/enchcontrol/common/core/ECClassTransformer",
+    "interfaces": [
+      "net/minecraft/launchwrapper/IClassTransformer"
+    ]
+  },
+  "austeretony/enchcontrol/common/core/ECCorePlugin": {
+    "name": "austeretony/enchcontrol/common/core/ECCorePlugin",
+    "interfaces": [
+      "net/minecraftforge/fml/relauncher/IFMLLoadingPlugin"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/relauncher/IFMLLoadingPlugin$Name;",
+        "target": "austeretony/enchcontrol/common/core/ECCorePlugin",
+        "value": {
+          "value": "EC Core Plugin"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/relauncher/IFMLLoadingPlugin$MCVersion;",
+        "target": "austeretony/enchcontrol/common/core/ECCorePlugin",
+        "value": {
+          "value": "1.12.2"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/relauncher/IFMLLoadingPlugin$TransformerExclusions;",
+        "target": "austeretony/enchcontrol/common/core/ECCorePlugin",
+        "value": {
+          "values": [
+            "austeretony.enchcontrol.common.core"
+          ]
+        }
+      }
+    ]
+  },
+  "austeretony/enchcontrol/common/main/ECMain": {
+    "name": "austeretony/enchcontrol/common/main/ECMain",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "austeretony/enchcontrol/common/main/ECMain",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "certificateFingerprint": {
+            "value": "@FINGERPRINT@"
+          },
+          "modid": {
+            "value": "enchcontrol"
+          },
+          "name": {
+            "value": "Enchantments Control"
+          },
+          "updateJSON": {
+            "value": "https://raw.githubusercontent.com/AustereTony-MCMods/Enchantments-Control/info/mod_versions_forge.json"
+          },
+          "version": {
+            "value": "1.1.5"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      }
+    ]
+  },
+  "com/udojava/evalex/AbstractFunction": {
+    "name": "com/udojava/evalex/AbstractFunction",
+    "interfaces": [
+      "com/udojava/evalex/Function"
+    ]
+  },
+  "com/udojava/evalex/AbstractFunction$1": {
+    "name": "com/udojava/evalex/AbstractFunction$1",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/AbstractLazyFunction": {
+    "name": "com/udojava/evalex/AbstractLazyFunction",
+    "interfaces": [
+      "com/udojava/evalex/LazyFunction"
+    ]
+  },
+  "com/udojava/evalex/AbstractLazyOperator": {
+    "name": "com/udojava/evalex/AbstractLazyOperator",
+    "interfaces": [
+      "com/udojava/evalex/LazyOperator"
+    ]
+  },
+  "com/udojava/evalex/AbstractOperator": {
+    "name": "com/udojava/evalex/AbstractOperator",
+    "interfaces": [
+      "com/udojava/evalex/Operator"
+    ]
+  },
+  "com/udojava/evalex/AbstractOperator$1": {
+    "name": "com/udojava/evalex/AbstractOperator$1",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/AbstractUnaryOperator$1": {
+    "name": "com/udojava/evalex/AbstractUnaryOperator$1",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$1": {
+    "name": "com/udojava/evalex/Expression$1",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$2": {
+    "name": "com/udojava/evalex/Expression$2",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$56": {
+    "name": "com/udojava/evalex/Expression$56",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$57": {
+    "name": "com/udojava/evalex/Expression$57",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$58": {
+    "name": "com/udojava/evalex/Expression$58",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$59": {
+    "name": "com/udojava/evalex/Expression$59",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$60": {
+    "name": "com/udojava/evalex/Expression$60",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$61": {
+    "name": "com/udojava/evalex/Expression$61",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$62": {
+    "name": "com/udojava/evalex/Expression$62",
+    "interfaces": [
+      "com/udojava/evalex/Expression$LazyNumber"
+    ]
+  },
+  "com/udojava/evalex/Expression$Tokenizer": {
+    "name": "com/udojava/evalex/Expression$Tokenizer",
+    "interfaces": [
+      "java/util/Iterator"
+    ]
+  },
+  "com/udojava/evalex/Function": {
+    "name": "com/udojava/evalex/Function",
+    "interfaces": [
+      "com/udojava/evalex/LazyFunction"
+    ]
+  },
+  "com/udojava/evalex/Operator": {
+    "name": "com/udojava/evalex/Operator",
+    "interfaces": [
+      "com/udojava/evalex/LazyOperator"
+    ]
+  }
+}

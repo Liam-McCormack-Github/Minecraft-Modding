@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "02603063",
+		type: "item",
+		items: [{
+			item: "alchemistry:atomizer"
+		}]
+	}],
+	rewards: [{
+		uid: "5099ceeb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

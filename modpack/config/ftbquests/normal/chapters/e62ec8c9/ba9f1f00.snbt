@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 15.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "cd7c943d",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "a30fe2d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

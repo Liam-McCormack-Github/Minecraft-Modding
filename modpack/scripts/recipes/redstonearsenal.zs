@@ -11,7 +11,6 @@ recipes.removeByRecipeName("redstonearsenal:material_5");
 
 # Add
 recipes.addShaped(<redstonearsenal:tool.bow_flux>.withTag({Energy: 0}), [[null, <redstonearsenal:material:32>, <redstonerepository:material:8>], [<redstonearsenal:material:193>, null, <redstonerepository:material:8>], [null, <redstonearsenal:material:32>, <redstonerepository:material:8>]]);
-recipes.addShaped(<redstonearsenal:material:96>, [[null, <ore:ingotElectrumFlux>, null],[<ore:ingotElectrumFlux>, <minecraft:iron_ingot>, <ore:ingotElectrumFlux>], [null, <ore:ingotElectrumFlux>, null]]);
 recipes.addShaped(<redstonearsenal:material:192>, [[<thermalfoundation:material:770>, <thermalfoundation:material:1024>, <thermalfoundation:material:770>],[<thermalfoundation:material:1025>, <extendedcrafting:material:3>, <thermalfoundation:material:1026>], [<thermalfoundation:material:770>, <thermalfoundation:material:1027>, <thermalfoundation:material:770>]]);
 
 print("---initialized recipes/redstonearsenal.zs---");

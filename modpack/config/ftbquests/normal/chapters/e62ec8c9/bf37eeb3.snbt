@@ -1,0 +1,33 @@
+{
+	title: "Alloy Smelter",
+	disable_toast: true,
+	x: 26.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Alloy Smelter",
+	text: [
+		"Alloy Smelter"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "009cf543",
+		type: "observation",
+		icon: "immersiveengineering:stone_device 1 7",
+		match_type: "block_id",
+		match: "immersiveengineering:stone_device",
+		properties: {
+			type: "alloy_smelter"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "cafcd930",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

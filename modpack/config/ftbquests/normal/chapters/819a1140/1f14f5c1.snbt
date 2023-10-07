@@ -1,0 +1,61 @@
+{
+	title: "Infinity Barrel",
+	icon: "overloaded:infinite_barrel",
+	x: 9.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "164fac54",
+		type: "item",
+		items: [{
+			id: "yabba:upgrade_star_tier",
+			ForgeCaps: {
+				Parent: {}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "bd4c707f",
+		type: "item",
+		items: [{
+			item: "quantumstorage:quantum_storage_unit"
+		}]
+	},
+	{
+		uid: "2df0c823",
+		type: "item",
+		items: [{
+			item: "overloaded:item_core"
+		}]
+	},
+	{
+		uid: "de867890",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pure_matter",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dad06ec1",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "147cc6ef",
+		type: "item",
+		item: "overloaded:infinite_barrel"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 13.0d,
+	y: 38.0d,
+	dependencies: [
+		"aefb528c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "66760f35",
+		type: "item",
+		items: [{
+			item: "rftools:redstone_receiver_block"
+		}]
+	}],
+	rewards: [{
+		uid: "def5d2bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 23.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b3aefb67",
+		type: "item",
+		items: [{
+			item: "alchemistry:evaporator"
+		}]
+	}],
+	rewards: [{
+		uid: "814e1b93",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

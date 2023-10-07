@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: 6.0d,
+	dependencies: [
+		"3ccd05f4"
+	],
+	tasks: [{
+		uid: "b5b67138",
+		type: "item",
+		items: [{
+			item: "jaopca:item_platedenseiron"
+		}]
+	}],
+	rewards: [{
+		uid: "1468edd9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

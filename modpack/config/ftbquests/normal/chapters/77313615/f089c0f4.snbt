@@ -1,0 +1,27 @@
+{
+	x: 17.0d,
+	y: 2.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"30c755a2"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "88e148fb",
+		type: "item",
+		items: [{
+			item: "zcontent:transistor"
+		}]
+	}],
+	rewards: [{
+		uid: "13aeae00",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

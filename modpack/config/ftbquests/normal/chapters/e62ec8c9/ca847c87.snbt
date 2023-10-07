@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 49.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ba938027",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_detector"
+		}]
+	}],
+	rewards: [{
+		uid: "2ffb443c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

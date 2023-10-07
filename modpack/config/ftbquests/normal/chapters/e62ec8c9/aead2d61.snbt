@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 20.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b7651b63",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_dissolver"
+		}]
+	}],
+	rewards: [{
+		uid: "17a6c7bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

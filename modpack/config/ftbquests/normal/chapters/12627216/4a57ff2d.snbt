@@ -1,16 +1,25 @@
 {
-	x: 6.0d,
-	y: 3.0d,
+	icon: "thermalfoundation:material 1 160",
+	x: 14.0d,
+	y: 2.0d,
 	shape: "rsquare",
 	dependencies: [
 		"e8d41548"
 	],
 	dependency_requirement: "one_started",
+	or_tasks: true,
 	tasks: [{
 		uid: "73d7e0fe",
 		type: "item",
 		items: [{
 			item: "thermalfoundation:material 1 160"
+		}]
+	},
+	{
+		uid: "64aa8d0b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy"
 		}]
 	}],
 	rewards: [{

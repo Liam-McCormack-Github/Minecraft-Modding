@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 36.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "05bb1500",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_growth_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "79c2bfdf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

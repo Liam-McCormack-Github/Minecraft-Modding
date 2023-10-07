@@ -1,10 +1,8 @@
 {
-	x: 27.0d,
-	y: 0.0d,
+	x: 37.0d,
+	y: -4.0d,
 	shape: "rsquare",
 	dependencies: [
-		"5a284045",
-		"40d3a899",
 		"7ae5189a"
 	],
 	dependency_requirement: "one_started",

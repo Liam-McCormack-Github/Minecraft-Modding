@@ -1,15 +1,24 @@
 {
-	x: 4.0d,
-	y: 2.0d,
+	icon: "arcanearchives:shaped_quartz",
+	x: 6.0d,
+	y: 0.0d,
 	dependencies: [
 		"6cdb0d94"
 	],
 	dependency_requirement: "one_started",
+	or_tasks: true,
 	tasks: [{
 		uid: "69a622ba",
 		type: "item",
 		items: [{
 			item: "arcanearchives:shaped_quartz"
+		}]
+	},
+	{
+		uid: "f36bfaaf",
+		type: "item",
+		items: [{
+			item: "arcanearchives:storage_shaped_quartz"
 		}]
 	}],
 	rewards: [{

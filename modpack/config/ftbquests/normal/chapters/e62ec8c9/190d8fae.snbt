@@ -1,0 +1,27 @@
+{
+	disable_toast: true,
+	x: 4.0d,
+	y: 14.0d,
+	dependencies: [
+		"c10172c1",
+		"5791be88"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "44ead490",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "ef8ceede",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 11.0d,
+	y: 16.0d,
+	dependencies: [
+		"b826dc40"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "02a8738a",
+		type: "item",
+		items: [{
+			item: "enderio:block_inventory_chest_warehouse13"
+		}]
+	}],
+	rewards: [{
+		uid: "7400fd3f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

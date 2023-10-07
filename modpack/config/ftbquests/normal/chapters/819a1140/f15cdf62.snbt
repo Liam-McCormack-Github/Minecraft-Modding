@@ -1,0 +1,81 @@
+{
+	title: "Infinity Drill",
+	icon: {
+		id: "industrialforegoing:infinity_drill",
+		tag: {
+			Energy: 2147483648L,
+			Fluid: {
+				FluidName: "biofuel",
+				Amount: 1000000
+			},
+			Special: 1b,
+			Selected: "ARTIFACT"
+		}
+	},
+	x: 8.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "99920db3",
+		type: "item",
+		items: [{
+			id: "techguns:miningdrill",
+			tag: {
+				camo: 0b,
+				ammovariant: "default",
+				ammo: 300s,
+				miningHead: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "91fbdfd5",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity 1 2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "63dd4a09",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "biofuel",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "27ef9156",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "042bb841",
+		type: "item",
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 2147483648L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 2147483647
+				},
+				Special: 1b,
+				Selected: "ARTIFACT"
+			}
+		}
+	}]
+}

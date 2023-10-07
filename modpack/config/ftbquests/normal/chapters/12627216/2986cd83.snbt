@@ -1,7 +1,7 @@
 {
 	title: "Coke Oven",
-	x: 2.0d,
-	y: 3.0d,
+	x: 16.0d,
+	y: 0.0d,
 	shape: "rsquare",
 	description: "Coke Oven",
 	text: [

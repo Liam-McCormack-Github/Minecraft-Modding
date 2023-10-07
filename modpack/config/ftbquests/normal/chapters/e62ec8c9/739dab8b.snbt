@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 2.0d,
+	y: 8.0d,
+	dependencies: [
+		"00f30c8c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5d19c2f2",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "e3976a7c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

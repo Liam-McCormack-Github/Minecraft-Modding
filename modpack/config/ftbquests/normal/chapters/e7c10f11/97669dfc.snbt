@@ -2,6 +2,7 @@
 	x: 1.0d,
 	y: -2.0d,
 	can_repeat: true,
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "c01e8452",
 		type: "item",
@@ -9,12 +10,6 @@
 			id: "akashictome:tome",
 			tag: {
 				fromLootCrate: 1,
-				display: {
-					Lore: [
-						"Contains knowledge of a Mighty Tool"
-					],
-					Name: "Ethereal Tome"
-				},
 				useableInCrafting: 1
 			}
 		}],

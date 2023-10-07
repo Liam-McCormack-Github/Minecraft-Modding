@@ -1,0 +1,60 @@
+{
+	title: "Compound Bow",
+	icon: "extrautils2:compoundbow",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Compound Bow",
+	text: [
+		"Compound Bow"
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "5995946b",
+		type: "item",
+		items: [{
+			id: "akashictome:tome",
+			tag: {
+				display: {
+					Lore: [
+						"Contains knowledge of a Eloquent Weapon"
+					],
+					Name: "Ethereal Tome"
+				},
+				useableInCrafting: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "eaaa3a1e",
+		type: "xp",
+		icon: "minecraft:experience_bottle",
+		value: 242845L,
+		points: true
+	},
+	{
+		uid: "aeadd186",
+		type: "kill",
+		entity: "minecraft:stray",
+		value: 100L
+	},
+	{
+		uid: "f3c0106e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.bow_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b368028c",
+		type: "item",
+		item: "extrautils2:compoundbow"
+	}]
+}

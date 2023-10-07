@@ -1,0 +1,33 @@
+{
+	title: "Lightningrod",
+	disable_toast: true,
+	x: 22.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Lightningrod",
+	text: [
+		"Lightningrod"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "f2148070",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 14",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "lightningrod"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "aedd0517",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

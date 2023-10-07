@@ -1,0 +1,37 @@
+{
+	title: "Extra Terrestrial Fragment",
+	icon: "zcontent:et_frag",
+	x: 6.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "509bd48e",
+		type: "item",
+		items: [{
+			item: "zcontent:et_frag"
+		}]
+	},
+	{
+		uid: "1f465cd7",
+		type: "item",
+		items: [{
+			item: "minecraft:ghast_tear"
+		}]
+	},
+	{
+		uid: "3819f6ad",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "129f13fe",
+		type: "item",
+		item: "randomthings:ingredient 1 1"
+	}]
+}

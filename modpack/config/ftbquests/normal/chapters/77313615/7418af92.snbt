@@ -1,14 +1,15 @@
 {
 	title: "SAG Mill",
 	icon: "enderio:block_sag_mill",
-	x: 13.0d,
-	y: -2.0d,
+	x: 23.0d,
+	y: -3.0d,
 	description: "SAG Mill",
 	text: [
 		"SAG Mill"
 	],
 	dependencies: [
-		"0be2e85b"
+		"0be2e85b",
+		"b15cb882"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

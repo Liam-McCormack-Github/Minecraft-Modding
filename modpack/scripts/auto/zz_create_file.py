@@ -82,17 +82,17 @@ def alloy():
               ["<enderio:item_alloy_ingot:3>", ["<minecraft:redstone> * 3", "<enderio:item_alloy_ingot:4>"]],
               ["<enderio:item_alloy_ingot:4>", ["<minecraft:redstone>", "<minecraft:iron_ingot>"]],
               ["<enderio:item_alloy_ingot:5>", ["<extrautils2:endershard> * 4", "<minecraft:iron_ingot>"]],
-              ["<enderio:item_alloy_ingot:6> * 4", ["<zcontent:galvanized_steel_ingot> * 3", "<techguns:itemshared:84>"]],
+              ["<enderio:item_alloy_ingot:6> * 4", ["<zcontent:galvanized_steel_ingot>", "<techguns:itemshared:84> * 3"]],
               ["<enderio:item_alloy_ingot:7>", ["<enderio:item_material:20> * 4", "<mysticalagriculture:crafting:38>"]],
               ["<enderio:item_alloy_ingot:8>", ["<minecraft:end_stone> * 4", "<enderio:item_alloy_ingot:6>"]],
               ["<enderio:item_alloy_ingot:9> * 2", ["<zcontent:graphite_ingot>", "<minecraft:iron_ingot> * 2"]],
               ["<enderio:item_alloy_endergy_ingot:1> * 2", ["<rftools:infused_diamond>", "<extendedcrafting:material:24>"]],
               ["<enderio:item_alloy_endergy_ingot:2> * 2", ["<alchemistry:ingot:71>", "<enderio:item_alloy_ingot:8>"]],
-              ["<enderio:item_alloy_endergy_ingot:4>", ["<industrialforegoing:pink_slime_ingot>", "<minecraft:diamond>"]],
+              ["<enderio:item_alloy_endergy_ingot:4> * 2", ["<industrialforegoing:pink_slime_ingot>", "<enderio:item_alloy_endergy_ingot:1>"]],
               ["<enderio:item_alloy_endergy_ingot:6> * 2", ["<extendedcrafting:material:36>", "<enderio:item_alloy_endergy_ingot:5>"]],
               ["<enderio:item_alloy_ingot>", ["<refinedstorage:silicon>", "<minecraft:iron_ingot>", "<thermalfoundation:material:768>"]],
-              ["<enderio:item_alloy_ingot:1> * 2", ["<enderio:item_alloy_ingot:3>", "<minecraft:gold_ingot>", "<minecraft:glowstone_dust> * 3"]],
-              ["<enderio:item_alloy_endergy_ingot:5> * 2", ["<enderio:item_alloy_ingot:3>", "<thermalfoundation:material:130>", "<minecraft:glowstone_dust> * 3"]],
+              ["<enderio:item_alloy_ingot:1> * 2", ["<enderio:item_alloy_ingot:3>", "<minecraft:gold_ingot>", "<minecraft:glowstone_dust> * 4"]],
+              ["<enderio:item_alloy_endergy_ingot:5> * 2", ["<enderio:item_alloy_ingot:3>", "<thermalfoundation:material:130>", "<minecraft:glowstone_dust> * 4"]],
               ["<enderio:item_material:39> * 4", ["<minecraft:ender_pearl> * 4", "<thermalfoundation:material:134>", "<thermalfoundation:material:131> * 3"]],
               ["<thermalfoundation:material:160>", ["<immersiveengineering:material:17>", "<minecraft:iron_ingot>"]],
               ["<thermalfoundation:material:160>", ["<thermalfoundation:material:802>", "<minecraft:iron_ingot>"]],
@@ -106,8 +106,8 @@ def alloy():
               ["<thermalfoundation:material:167> * 2", ["<enderio:item_material:39> * 2", "<minecraft:sand>"]],
               ["<futuremc:netherite_ingot>", ["<futuremc:netherite_scrap> * 4", "<minecraft:gold_ingot> * 4"]],
               ["<techguns:itemshared:84>", ["<thermalfoundation:material:770> * 4", "<thermalfoundation:material:160>"]],
-              ["<refinedstorage:quartz_enriched_iron> * 3", ["<actuallyadditions:item_misc:5>", "<thermalfoundation:material:132> * 2"]],
-              ["<extendedcrafting:material>", ["<quark:black_ash> * 2", "<minecraft:iron_ingot>"]],
+              ["<refinedstorage:quartz_enriched_iron> * 2", ["<actuallyadditions:item_misc:5>", "<thermalfoundation:material:132> * 2"]],
+              ["<extendedcrafting:material>", ["<quark:black_ash> * 4", "<minecraft:iron_ingot>"]],
               ["<extendedcrafting:material>", ["<fluxnetworks:flux> * 4", "<minecraft:iron_ingot>"]],
               ["<extendedcrafting:material:36>", ["<tp:ender_dust>", "<zcontent:cold_iron_ingot>"]],
               ["<modularmachinery:itemmodularium> * 2", ["<alchemistry:ingot:74>", "<zcontent:purple_mat_dust>", "<techguns:itemshared:96>"]],
@@ -122,7 +122,7 @@ def alloy():
               ["<zcontent:red_alloy_ingot>", ["<zcontent:red_compound>", "<minecraft:redstone> * 8"]],
               ["<zcontent:blue_alloy_ingot>", ["<zcontent:blue_compound>", "<zcontent:blue_mat_dust> * 8"]],
               ["<zcontent:nichrome_ingot> * 2", ["<alchemistry:ingot:24>", "<thermalfoundation:material:133>"]],
-              ["<zcontent:galvanized_steel_ingot> * 3", ["<alchemistry:ingot:30>", "<thermalfoundation:material:160> * 2"]],
+              ["<zcontent:galvanized_steel_ingot> * 2", ["<alchemistry:ingot:30>", "<thermalfoundation:material:160> * 2"]],
               ["<zcontent:cold_iron_ingot> * 2", ["<thermalfoundation:material:1025>", "<minecraft:iron_ingot> * 2"]],
               ["<zcontent:brass_ingot> * 4", ["<alchemistry:ingot:30>", "<thermalfoundation:material:128> * 3"]]
               ]
@@ -397,7 +397,7 @@ Centrifuge.removeRecipeMob(<entity:thermalfoundation:basalz>);\n\n''')
 
 
 def crushOres():
-    recipe = [{'in': '<biomesoplenty:gem_ore:1>', 'out': '<biomesoplenty:gem:1> * 3', 'energy': 4000},
+    recipe = ({'in': '<biomesoplenty:gem_ore:1>', 'out': '<biomesoplenty:gem:1> * 3', 'energy': 4000},
               {'in': '<biomesoplenty:gem_ore:2>', 'out': '<biomesoplenty:gem:2> * 3', 'energy': 4000},
               {'in': '<biomesoplenty:gem_ore:3>', 'out': '<biomesoplenty:gem:3> * 3', 'energy': 4000},
               {'in': '<biomesoplenty:gem_ore:4>', 'out': '<biomesoplenty:gem:4> * 3', 'energy': 4000},
@@ -433,7 +433,7 @@ def crushOres():
               {'in': '<zcontent:copper_ore>', 'out': '<thermalfoundation:material:64> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
               {'in': '<zcontent:iridium_ore>', 'out': '<thermalfoundation:material:71> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:70>', 'secondChance': 10},
               {'in': '<zcontent:lead_ore>', 'out': '<thermalfoundation:material:67> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:66>', 'secondChance': 10},
-              {'in': '<zcontent:meteor_block>', 'out': '<zcontent:meteor_dust>',  'energy': 4000},
+              {'in': '<zcontent:meteor_block>', 'out': '<zcontent:meteor_dust>', 'energy': 4000},
               {'in': '<zcontent:mithril_ore>', 'out': '<thermalfoundation:material:72> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
               {'in': '<zcontent:nickel_ore>', 'out': '<thermalfoundation:material:69> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:70>', 'secondChance': 10},
               {'in': '<zcontent:platinum_ore>', 'out': '<thermalfoundation:material:70> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:71>', 'secondChance': 10},
@@ -441,7 +441,7 @@ def crushOres():
               {'in': '<zcontent:tin_ore>', 'out': '<thermalfoundation:material:65> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
               {'in': '<zcontent:titanium_ore>', 'out': '<jaopca:item_dusttitanium> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
               {'in': '<zcontent:uranium_ore>', 'out': '<immersiveengineering:metal:14> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:67>', 'secondChance': 10}
-              ]
+              )
 
     fileName = "immersiveengineering_ores.zs"
     with open(fileName, "w") as file:
@@ -540,14 +540,14 @@ def crushOres():
 
 
 if __name__ == "__main__":
-    # crusher()
-    # print("exec crusher()")
-    # alloy()
-    # print("exec alloy()")
-    # bigCraftingTables()
-    # print("exec bigCraftingTables()")
-    # autoMobDropsCentrifuge()
-    # print("exec autoMobDrops()")
+    crusher()
+    print("exec crusher()")
+    alloy()
+    print("exec alloy()")
+    bigCraftingTables()
+    print("exec bigCraftingTables()")
+    autoMobDropsCentrifuge()
+    print("exec autoMobDrops()")
     # autoMobDropsDeep()
     # print("exec autoMobDrops()")
     crushOres()
@@ -559,7 +559,7 @@ if __name__ == "__main__":
 
 ---------------------
 
-["<actuallyadditions:item_misc:5>", ["<quark:black_ash> * 2", "<minecraft:quartz>"]],
+["<actuallyadditions:item_misc:5>", ["<quark:black_ash> * 4", "<minecraft:quartz>"]],
 ["<actuallyadditions:item_misc:5>", ["<fluxnetworks:flux> * 4", "<minecraft:quartz>"]],
 ["<zcontent:enderio_speed_upgrade_base> * 8", ["<minecraft:iron_bars>", "<minecraft:clay_ball>", "<minecraft:string> * 4"]],
 ["<enderio:item_dark_steel_upgrade>", ["<enderio:block_dark_iron_bars>", "<minecraft:clay_ball>", "<minecraft:string> * 4"]],

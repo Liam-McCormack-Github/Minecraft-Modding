@@ -1,0 +1,14 @@
+name = "ID Squeezer Tweak"
+filename = "SqueezerPatch-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "7a20f9c3b1f3374574ed4bc4f2552ed89bf2a633"
+
+[update]
+[update.curseforge]
+file-id = 2693506
+project-id = 318453

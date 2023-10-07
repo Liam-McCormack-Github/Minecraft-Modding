@@ -1,0 +1,61 @@
+{
+	icon: "minecraft:brewing_stand",
+	x: 6.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"1061a769"
+	],
+	tasks: [{
+		uid: "6b1562bb",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}]
+	},
+	{
+		uid: "1ea86eb6",
+		type: "item",
+		items: [{
+			item: "minecraft:experience_bottle"
+		}]
+	},
+	{
+		uid: "dc4b9c6d",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	},
+	{
+		uid: "e225604c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2049"
+		}]
+	},
+	{
+		uid: "4b457caf",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2051"
+		}]
+	},
+	{
+		uid: "af9d884c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2053"
+		}]
+	}],
+	rewards: [{
+		uid: "fb2ebaf8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

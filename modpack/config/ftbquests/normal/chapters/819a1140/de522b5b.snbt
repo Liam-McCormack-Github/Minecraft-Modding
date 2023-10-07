@@ -1,0 +1,131 @@
+{
+	title: "Mana Dust",
+	icon: "thermalfoundation:material 1 1028",
+	x: 1.5d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "eda8f45b",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	},
+	{
+		uid: "716e7b17",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	},
+	{
+		uid: "238541b6",
+		type: "item",
+		items: [{
+			item: "tp:ender_dust"
+		}]
+	},
+	{
+		uid: "3ea6483e",
+		type: "item",
+		items: [{
+			item: "zcontent:blue_mat_dust"
+		}]
+	},
+	{
+		uid: "e3848848",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 29"
+		}]
+	},
+	{
+		uid: "b0b2e9bc",
+		type: "item",
+		items: [{
+			item: "zcontent:meteor_dust"
+		}]
+	},
+	{
+		uid: "e5bb26cd",
+		type: "item",
+		items: [{
+			item: "zcontent:purple_mat_dust"
+		}]
+	},
+	{
+		uid: "41703018",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:fertilizer 1 2"
+		}]
+	},
+	{
+		uid: "825a8bca",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}]
+	},
+	{
+		uid: "8a4752c5",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material"
+		}]
+	},
+	{
+		uid: "2e48e3e5",
+		type: "item",
+		items: [{
+			item: "redstonerepository:material"
+		}]
+	},
+	{
+		uid: "f92b8bb3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1024"
+		}]
+	},
+	{
+		uid: "f6d32c87",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}]
+	},
+	{
+		uid: "1f856239",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1026"
+		}]
+	},
+	{
+		uid: "c4fd18c6",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1027"
+		}]
+	},
+	{
+		uid: "6b74f611",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "6f3daecc",
+		type: "item",
+		item: "thermalfoundation:material 1 1028"
+	}]
+}

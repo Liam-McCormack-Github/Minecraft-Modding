@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 12.0d,
+	y: 26.0d,
+	dependencies: [
+		"f229429c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "582d5457",
+		type: "item",
+		items: [{
+			item: "refinedstorage:network_receiver"
+		}]
+	}],
+	rewards: [{
+		uid: "b2a99d6a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

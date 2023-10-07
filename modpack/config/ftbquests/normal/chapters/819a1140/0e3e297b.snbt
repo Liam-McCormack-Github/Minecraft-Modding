@@ -1,0 +1,37 @@
+{
+	title: "Extreme Crafting Table",
+	icon: "avaritia:extreme_crafting_table",
+	x: 5.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6653601a",
+		type: "item",
+		items: [{
+			item: "avaritia:compressed_crafting_table"
+		}]
+	},
+	{
+		uid: "c7bfce4f",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource 1 2"
+		}]
+	},
+	{
+		uid: "f49a236d",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "741b6c7f",
+		type: "item",
+		item: "avaritia:extreme_crafting_table"
+	}]
+}

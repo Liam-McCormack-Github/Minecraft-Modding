@@ -1,0 +1,10 @@
+[
+  {
+    "offhanditem": {
+      "item": "zcontent:excavation_other_wand"
+    },
+    "block": ["minecraft:stone", "minecraft:netherrack"],
+    "message": "You cannot mine this!",
+    "result": "deny"
+  }
+]

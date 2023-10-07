@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 13.0d,
+	y: -10.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0785dce9",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "466cfc06",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

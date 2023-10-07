@@ -1,14 +1,15 @@
 {
 	title: "Vat",
 	icon: "enderio:block_vat",
-	x: 12.0d,
-	y: -2.0d,
+	x: 23.0d,
+	y: -4.0d,
 	description: "Vat",
 	text: [
 		"Vat"
 	],
 	dependencies: [
-		"0be2e85b"
+		"0be2e85b",
+		"b15cb882"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

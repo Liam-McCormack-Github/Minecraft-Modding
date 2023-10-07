@@ -1,0 +1,15 @@
+{
+	x: 18.0d,
+	y: -8.0d,
+	dependencies: [
+		"686e2cb5"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ad6ea7bf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime"
+		}]
+	}]
+}

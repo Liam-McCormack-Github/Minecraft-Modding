@@ -1,0 +1,7 @@
+{
+	title: "Unlockable Quests",
+	icon: "minecraft:filled_map",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

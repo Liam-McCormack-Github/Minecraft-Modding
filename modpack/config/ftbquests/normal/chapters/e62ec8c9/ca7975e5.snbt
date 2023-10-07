@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 14.0d,
+	y: -6.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "04351790",
+		type: "item",
+		items: [{
+			item: "futuremc:grindstone"
+		}]
+	}],
+	rewards: [{
+		uid: "65699db0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

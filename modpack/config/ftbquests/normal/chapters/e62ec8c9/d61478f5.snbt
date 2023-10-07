@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 29.0d,
+	y: -6.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "042dcce5",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:drying_basin"
+		}]
+	}],
+	rewards: [{
+		uid: "2b1249fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

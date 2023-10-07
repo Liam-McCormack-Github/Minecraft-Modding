@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 8.0d,
+	dependencies: [
+		"1061a769",
+		"f0b165a7"
+	],
+	tasks: [{
+		uid: "4578d0c1",
+		type: "item",
+		items: [{
+			item: "futuremc:blast_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "ec1d5a13",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

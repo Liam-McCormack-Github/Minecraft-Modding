@@ -1,7 +1,7 @@
 {
 	title: "Reaction Chamber",
-	x: 20.0d,
-	y: 4.0d,
+	x: 27.0d,
+	y: 0.0d,
 	shape: "rsquare",
 	description: "Reaction Chamber",
 	text: [
@@ -9,9 +9,8 @@
 		"144 Iridium"
 	],
 	dependencies: [
-		"49a264da",
-		"31c90eff",
-		"7954b8f7"
+		"7954b8f7",
+		"85cf1d40"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

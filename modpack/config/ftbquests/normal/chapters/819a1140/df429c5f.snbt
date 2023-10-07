@@ -1,12 +1,13 @@
 {
 	title: "Elite Crafting Table",
 	icon: "extendedcrafting:table_elite",
-	x: 1.5d,
-	y: 6.5d,
+	x: 3.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "c9073a24",
 		type: "item",

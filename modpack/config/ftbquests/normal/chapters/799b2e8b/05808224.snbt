@@ -2,6 +2,7 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "rsquare",
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "e56c4945",

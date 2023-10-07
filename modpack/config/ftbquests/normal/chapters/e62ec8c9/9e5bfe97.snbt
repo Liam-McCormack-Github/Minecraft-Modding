@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 10.0d,
+	y: 34.0d,
+	dependencies: [
+		"6358e237"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d465dd45",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_lava_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "0a14f979",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

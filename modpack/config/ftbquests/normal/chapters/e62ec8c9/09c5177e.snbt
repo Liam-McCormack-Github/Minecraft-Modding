@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 27.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a78a3e56",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "f8dc4c85",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

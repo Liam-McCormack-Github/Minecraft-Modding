@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 15.0d,
+	y: -10.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "1735f50c",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fluid_placer"
+		}]
+	}],
+	rewards: [{
+		uid: "9355fb70",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

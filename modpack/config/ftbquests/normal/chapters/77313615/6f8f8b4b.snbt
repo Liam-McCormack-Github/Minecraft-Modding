@@ -1,0 +1,26 @@
+{
+	x: 16.0d,
+	y: -6.0d,
+	dependencies: [
+		"ba90bfe7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "69dd6065",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae0cc8af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

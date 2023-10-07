@@ -1,0 +1,33 @@
+{
+	title: "Assembler",
+	disable_toast: true,
+	x: 12.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Assembler",
+	text: [
+		"Assembler"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0081740a",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 4",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "assembler"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "eb82c398",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

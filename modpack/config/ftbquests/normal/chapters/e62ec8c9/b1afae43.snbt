@@ -1,0 +1,33 @@
+{
+	title: "Mixer",
+	disable_toast: true,
+	x: 14.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Mixer",
+	text: [
+		"Mixer"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "8be6e3e1",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 15",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "mixer"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "208d6465",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

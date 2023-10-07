@@ -1,0 +1,33 @@
+{
+	title: "Coke Oven",
+	disable_toast: true,
+	x: 24.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Coke Oven",
+	text: [
+		"Coke Oven"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d429b5a0",
+		type: "observation",
+		icon: "immersiveengineering:stone_device",
+		match_type: "block_id",
+		match: "immersiveengineering:stone_device",
+		properties: {
+			type: "coke_oven"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "08eb80c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

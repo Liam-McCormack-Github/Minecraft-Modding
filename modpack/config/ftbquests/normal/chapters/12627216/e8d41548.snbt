@@ -1,7 +1,7 @@
 {
 	title: "Blast Furnace",
-	x: 2.0d,
-	y: 4.0d,
+	x: 14.0d,
+	y: 0.0d,
 	shape: "rsquare",
 	description: "Blast Furnace",
 	text: [

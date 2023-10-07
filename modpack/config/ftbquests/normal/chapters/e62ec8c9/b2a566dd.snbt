@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 18.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6a25db6d",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "e46dfd48",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

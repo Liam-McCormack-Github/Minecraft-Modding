@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "dad86f4b",
+		type: "item",
+		items: [{
+			item: "zcontent:mastersword2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

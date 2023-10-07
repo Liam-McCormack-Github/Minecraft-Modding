@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 46.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "2761045a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "eee40b5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

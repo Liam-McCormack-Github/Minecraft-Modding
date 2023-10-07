@@ -1,0 +1,25 @@
+{
+	x: 19.0d,
+	y: 12.0d,
+	shape: "rsquare",
+	dependencies: [
+		"ad731d31"
+	],
+	tasks: [{
+		uid: "9ea3865f",
+		type: "item",
+		items: [{
+			item: "eplus:decorative_book 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2d514415",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

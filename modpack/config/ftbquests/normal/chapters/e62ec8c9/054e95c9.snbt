@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 10.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "3b825600",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}],
+	rewards: [{
+		uid: "9e332be8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Solar Tower",
+	disable_toast: true,
+	x: 21.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Solar Tower",
+	text: [
+		"Solar Tower"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "cc41d38d",
+		type: "observation",
+		icon: "immersivetech:metal_multiblock 1 1",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "solar_tower"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "5f1f4921",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

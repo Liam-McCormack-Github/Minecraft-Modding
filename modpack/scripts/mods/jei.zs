@@ -719,8 +719,15 @@ JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:12>);
 JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:13>);
 JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:14>);
 JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:15>);
+JEI.hide(<thermalexpansion:cell>);
 
 JEI.addItem(<bettermagnets:magnet:4>);
+JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 10000,  RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 10000}));
+JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 40000,  RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 1 as byte, Send: 40000}));
+JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 90000,  RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 2 as byte, Send: 90000}));
+JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 160000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 3 as byte, Send: 160000}));
+JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 250000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 4 as byte, Send: 250000}));
+
 
 JEI.hideCategory("xu2_machine_extrautils2:enchanter");
 

@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"76926c68"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b85da89b",
+		type: "item",
+		items: [{
+			item: "rftools:infused_diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "0f5e4002",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

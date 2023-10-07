@@ -17,12 +17,14 @@ recipes.removeByRecipeName("mysticalagriculture:crafting_12");
 recipes.removeByRecipeName("mysticalagriculture:crafting_13");
 recipes.removeByRecipeName("mysticalagriculture:crafting_14");
 recipes.removeByRecipeName("mysticalagriculture:crafting_15");
+recipes.removeByRecipeName("mysticalagriculture:crafting_21");
+/*
 recipes.removeByRecipeName("mysticalagriculture:crafting_16");
 recipes.removeByRecipeName("mysticalagriculture:crafting_17");
 recipes.removeByRecipeName("mysticalagriculture:crafting_18");
 recipes.removeByRecipeName("mysticalagriculture:crafting_19");
 recipes.removeByRecipeName("mysticalagriculture:crafting_20");
-recipes.removeByRecipeName("mysticalagriculture:crafting_21");
+*/
 recipes.removeByRecipeName("mysticalagriculture:core/mystical_fertilizer");
 recipes.removeByRecipeName("mysticalagriculture:core/mystical_fertilizer_2");
 recipes.removeByRecipeName("mysticalagriculture:core/master_infusion_crystal");

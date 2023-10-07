@@ -1,0 +1,33 @@
+{
+	title: "Excavator",
+	disable_toast: true,
+	x: 27.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Excavator",
+	text: [
+		"Excavator"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ef526b3d",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 12",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "excavator"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "42ecc57e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

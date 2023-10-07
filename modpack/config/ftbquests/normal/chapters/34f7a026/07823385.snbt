@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "c4433f73",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "cee74677",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

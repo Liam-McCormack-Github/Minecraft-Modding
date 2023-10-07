@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 19.0d,
+	y: -10.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "dd71c8ae",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:harvester_block"
+		}]
+	}],
+	rewards: [{
+		uid: "da7c9e12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

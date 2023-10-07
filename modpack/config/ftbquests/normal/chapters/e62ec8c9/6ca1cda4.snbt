@@ -1,0 +1,35 @@
+{
+	title: "Advanced Pyrotheum Smelter",
+	disable_toast: true,
+	x: 5.0d,
+	y: -4.0d,
+	description: "Advanced Pyrotheum Smelter",
+	text: [
+		"Advanced Pyrotheum Smelter"
+	],
+	dependencies: [
+		"9ec3e458"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "9cc75707",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pyrotheum",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "90f96479",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

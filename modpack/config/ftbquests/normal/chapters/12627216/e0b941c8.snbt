@@ -1,8 +1,9 @@
 {
-	x: 8.0d,
-	y: 0.0d,
+	x: 20.0d,
+	y: -2.0d,
 	shape: "rsquare",
 	dependencies: [
+		"fc047f41",
 		"2298809f"
 	],
 	dependency_requirement: "one_started",

@@ -268,8 +268,8 @@ game.setLocalization("tile.block_wired_charger.tooltip.detailed.line1","Charges 
 
 game.setLocalization("item.wand_1.name","§eGold§r §6Wand§r");
 game.setLocalization("item.wand_2.name","§aTerraglaz§r §6Wand§r");
-game.setLocalization("item.wand_3.name","§bMana Infused§r §6Wand§r");
-game.setLocalization("item.wand_4.name","§5Ultimate§r §6Wand§r");
+game.setLocalization("item.wand_3.name","§5Draconium§r §6Wand§r");
+game.setLocalization("item.wand_4.name","§6Ultimate§r §6Wand§r");
 
 game.setLocalization("item.youmatter.thumb_drive.name","§dThumb Drive");
 game.setLocalization("item.youmatter.black_hole.name","§6§kStabilising Agent");

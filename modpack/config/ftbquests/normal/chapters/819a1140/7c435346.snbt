@@ -2,7 +2,7 @@
 	title: "Interactions Recipes",
 	icon: "techguns:itemshared 1 132",
 	x: 0.0d,
-	y: 5.0d,
+	y: 6.0d,
 	shape: "octagon",
 	description: "Interactions Recipes",
 	text: [
@@ -11,6 +11,10 @@
 		"Used to add JEI intergration"
 	],
 	hide_dependency_lines: true,
+	dependencies: [
+		"e0e691a1"
+	],
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "1a46a56e",

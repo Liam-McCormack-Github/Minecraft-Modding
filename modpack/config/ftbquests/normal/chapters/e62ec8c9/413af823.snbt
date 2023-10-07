@@ -1,0 +1,29 @@
+{
+	title: "Advanced Ore Crusher",
+	disable_toast: true,
+	x: 3.0d,
+	y: -4.0d,
+	description: "Advanced Ore Crusher",
+	text: [
+		"Advanced Ore Crusher"
+	],
+	dependencies: [
+		"9ec3e458"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "e8b27a07",
+		type: "checkmark",
+		icon: "thermalfoundation:material 1 70"
+	}],
+	rewards: [{
+		uid: "258c1862",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

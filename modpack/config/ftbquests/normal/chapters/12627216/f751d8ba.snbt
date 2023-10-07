@@ -1,17 +1,26 @@
 {
-	x: 17.0d,
-	y: 12.0d,
+	icon: "extendedcrafting:table_elite",
+	x: 15.0d,
+	y: 15.0d,
 	shape: "rsquare",
 	dependencies: [
 		"d4555c81"
 	],
 	dependency_requirement: "one_started",
+	or_tasks: true,
 	tasks: [{
 		uid: "10508913",
 		type: "item",
 		items: [{
 			item: "extendedcrafting:table_elite"
 		}]
+	},
+	{
+		uid: "d44a3618",
+		type: "observation",
+		match_type: "block_id",
+		match: "extendedcrafting:table_elite",
+		timer: 0L
 	}],
 	rewards: [{
 		uid: "b91e2c1b",

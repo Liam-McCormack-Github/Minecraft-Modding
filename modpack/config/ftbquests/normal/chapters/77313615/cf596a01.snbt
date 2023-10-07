@@ -1,0 +1,16 @@
+{
+	x: 41.0d,
+	y: -2.0d,
+	dependencies: [
+		"f4949fe1",
+		"eb6da6cc"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "22436968",
+		type: "item",
+		items: [{
+			item: "zcontent:stone_chunk"
+		}]
+	}]
+}

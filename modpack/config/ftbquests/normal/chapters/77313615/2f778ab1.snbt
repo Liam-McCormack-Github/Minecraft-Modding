@@ -6,6 +6,7 @@
 		"bb21870d",
 		"074d78a5"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "0b242587",
 		type: "item",

@@ -1,0 +1,33 @@
+{
+	title: "Steam Turbine",
+	disable_toast: true,
+	x: 17.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Steam Turbine",
+	text: [
+		"Steam Turbine"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "25e9c289",
+		type: "observation",
+		icon: "immersivetech:metal_multiblock 1 3",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "steam_turbine"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "91b9286a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

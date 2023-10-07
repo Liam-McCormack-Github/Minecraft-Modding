@@ -1,15 +1,38 @@
 {
-	x: 27.0d,
-	y: -4.0d,
+	title: "Pristine Matter",
+	x: 39.0d,
+	y: -7.0d,
+	description: "Pristine Matter",
+	text: [
+		"Pristine Matter"
+	],
 	dependencies: [
 		"d6cfb399",
 		"769d1473"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{
-		uid: "88868717",
+		uid: "191b971d",
 		type: "item",
 		items: [{
+			item: "deepmoblearning:pristine_matter_enderman"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_skeleton"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_slime"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_spider"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_witch"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_wither_skeleton"
+		},
+		{
 			item: "deepmoblearning:pristine_matter_zombie"
 		}]
 	}],

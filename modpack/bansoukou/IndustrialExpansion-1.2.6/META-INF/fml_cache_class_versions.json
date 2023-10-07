@@ -1,0 +1,15 @@
+{
+  "br/com/brforgers/mods/industrialexpansion/Events": 52,
+  "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion": 52,
+  "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion$1": 52,
+  "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion$RegistrationHandler": 52,
+  "br/com/brforgers/mods/industrialexpansion/helper/ConfigHandler": 52,
+  "br/com/brforgers/mods/industrialexpansion/helper/DurabillityHelper": 52,
+  "br/com/brforgers/mods/industrialexpansion/items/ItemBase": 52,
+  "br/com/brforgers/mods/industrialexpansion/items/QuantumArmor": 52,
+  "br/com/brforgers/mods/industrialexpansion/items/QuantumArmor$1": 52,
+  "br/com/brforgers/mods/industrialexpansion/manager/ItemManager": 52,
+  "br/com/brforgers/mods/industrialexpansion/manager/RecipeManager": 52,
+  "br/com/brforgers/mods/industrialexpansion/proxy/ClientProxy": 52,
+  "br/com/brforgers/mods/industrialexpansion/proxy/CommonProxy": 52
+}

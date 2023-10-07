@@ -1,12 +1,13 @@
 {
 	title: "Crystal Runes",
 	icon: "quark:rune 1 16",
-	x: 0.5d,
-	y: 10.5d,
+	x: 18.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "3dab24dd",
 		type: "item",

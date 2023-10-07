@@ -1,0 +1,33 @@
+{
+	title: "Coke Oven Advanced",
+	disable_toast: true,
+	x: 8.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Coke Oven Advanced",
+	text: [
+		"Coke Oven Advanced"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "f35b1b1f",
+		type: "observation",
+		icon: "immersivetech:stone_multiblock",
+		match_type: "block_id",
+		match: "immersivetech:stone_multiblock",
+		properties: {
+			type: "coke_oven_advanced"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "1086b37a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Heat Exchanger",
+	disable_toast: true,
+	x: 23.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Heat Exchanger",
+	text: [
+		"Heat Exchanger"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6ad872f3",
+		type: "observation",
+		icon: "immersivetech:metal_multiblock1 1 2",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock1",
+		properties: {
+			type: "heat_exchanger"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c84b4c13",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

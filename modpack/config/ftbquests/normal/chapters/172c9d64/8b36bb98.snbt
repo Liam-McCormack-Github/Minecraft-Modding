@@ -1,0 +1,21 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b3a492a5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c125c011",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

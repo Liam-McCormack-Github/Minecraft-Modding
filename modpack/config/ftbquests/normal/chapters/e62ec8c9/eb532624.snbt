@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 2.0d,
+	y: 48.0d,
+	dependencies: [
+		"b065c3dc"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "e2e450b4",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_phantom_booster"
+		}]
+	}],
+	rewards: [{
+		uid: "7b3a0e9d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

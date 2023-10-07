@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 20.0d,
+	y: -6.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a1c3a646",
+		type: "item",
+		items: [{
+			item: "techguns:basicmachine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6bab4daf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

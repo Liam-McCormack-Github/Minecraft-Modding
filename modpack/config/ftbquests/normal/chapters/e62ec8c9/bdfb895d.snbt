@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 44.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0c9fd232",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_washer"
+		}]
+	}],
+	rewards: [{
+		uid: "108b8472",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

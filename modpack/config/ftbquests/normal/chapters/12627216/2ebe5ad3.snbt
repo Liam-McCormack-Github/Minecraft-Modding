@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	dependencies: [
+		"8eb5d6fc",
+		"f0b165a7"
+	],
+	tasks: [{
+		uid: "5cd1d903",
+		type: "item",
+		items: [{
+			item: "minecraft:observer"
+		}]
+	}]
+}

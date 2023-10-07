@@ -1,0 +1,14 @@
+name = "Immersive Technology"
+filename = "MCTImmersiveTechnology-1.12.2-1.8.94.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "9e00005c719c07ca25973ae8308d6b039e09a3ed"
+
+[update]
+[update.curseforge]
+file-id = 3251902
+project-id = 359407

@@ -29,9 +29,11 @@ recipes.removeByRecipeName("extendedcrafting:crafting_component_ultimate");
 recipes.removeByRecipeName("extendedcrafting:crafting_component_crystaltine");
 recipes.removeByRecipeName("extendedcrafting:component_ultimate");
 recipes.removeByRecipeName("extendedcrafting:black_iron_rod");
+recipes.removeByRecipeName("extendedcrafting:black_iron_slate");
 
 
 # Add
+recipes.addShapeless(<extendedcrafting:material:2> * 4, [<jaopca:item_platedenseblackiron>, <extrautils2:glasscutter:*>]);
 recipes.addShaped(<extendedcrafting:material:3> * 4, [[<extendedcrafting:material>], [<extendedcrafting:material>]]);
 recipes.addShaped(<extendedcrafting:crafting_core>, [[<jaopca:item_plateblackiron>, <zcontent:extended_tier3>, <jaopca:item_plateblackiron>],[<techguns:itemshared:66>, <extendedcrafting:frame>, <techguns:itemshared:66>], [<jaopca:item_plateblackiron>, <zcontent:server3>, <jaopca:item_plateblackiron>]]);
 recipes.addShaped(<extendedcrafting:compressor>, [[<jaopca:item_plateblackiron>, <techguns:itemshared:131>, <jaopca:item_plateblackiron>],[<techguns:itemshared:66>, <extendedcrafting:frame>, <techguns:itemshared:66>], [<jaopca:item_plateblackiron>, <zcontent:terminalserver>, <jaopca:item_plateblackiron>]]);

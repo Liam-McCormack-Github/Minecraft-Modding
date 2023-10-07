@@ -1,8 +1,9 @@
 {
-	x: 5.0d,
+	x: 12.0d,
 	y: 8.0d,
 	dependencies: [
 		"b1e59a05",
+		"62e080d1",
 		"048d9daa"
 	],
 	dependency_requirement: "one_started",
@@ -11,7 +12,8 @@
 		type: "item",
 		items: [{
 			item: "integrateddynamics:mechanical_squeezer"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "71c1bc2e",

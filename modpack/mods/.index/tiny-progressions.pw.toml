@@ -1,0 +1,14 @@
+name = "Tiny Progressions"
+filename = "tinyprogressions-1.12.2-3.3.34-Release.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "4fc3cd9b1b7e290cd3a2d54576194c76fdda2e6f"
+
+[update]
+[update.curseforge]
+file-id = 2721018
+project-id = 250850

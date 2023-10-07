@@ -1,7 +1,7 @@
 {
 	icon: "extendedcrafting:ender_crafter",
-	x: 6.0d,
-	y: 2.0d,
+	x: 10.0d,
+	y: -4.0d,
 	shape: "rsquare",
 	hide_dependency_lines: true,
 	dependencies: [

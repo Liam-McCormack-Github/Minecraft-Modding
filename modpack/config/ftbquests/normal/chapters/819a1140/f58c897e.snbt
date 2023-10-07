@@ -4,12 +4,13 @@
 		id: "projecte:item.pe_body_stone",
 		tag: {}
 	},
-	x: 0.5d,
-	y: 8.5d,
+	x: 10.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "3823931b",
 		type: "item",

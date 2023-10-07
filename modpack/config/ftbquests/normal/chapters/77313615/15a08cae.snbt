@@ -1,7 +1,7 @@
 {
 	title: "Excavator",
-	x: 2.0d,
-	y: -2.0d,
+	x: 4.0d,
+	y: -6.0d,
 	shape: "rsquare",
 	description: "Excavator",
 	text: [

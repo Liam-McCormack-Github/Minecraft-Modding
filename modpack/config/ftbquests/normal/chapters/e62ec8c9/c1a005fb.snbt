@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 8.0d,
+	y: 38.0d,
+	dependencies: [
+		"aefb528c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ec092a6d",
+		type: "item",
+		items: [{
+			item: "rftools:invchecker_block"
+		}]
+	}],
+	rewards: [{
+		uid: "3a278fcd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

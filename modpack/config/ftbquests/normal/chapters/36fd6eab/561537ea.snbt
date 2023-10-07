@@ -1,7 +1,8 @@
 {
 	icon: "minecraft:end_stone",
-	x: 2.0d,
-	y: 0.0d,
+	x: 1.0d,
+	y: -2.0d,
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "125d1c71",

@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	dependencies: [
+		"8eb5d6fc"
+	],
+	tasks: [{
+		uid: "7a9d913e",
+		type: "item",
+		items: [{
+			item: "randomthings:igniter"
+		}]
+	}],
+	rewards: [{
+		uid: "d2e16724",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

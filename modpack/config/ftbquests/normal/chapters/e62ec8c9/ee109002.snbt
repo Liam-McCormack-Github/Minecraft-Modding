@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 4.0d,
+	y: 42.0d,
+	dependencies: [
+		"28b845b2"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "18f1e3ec",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	}],
+	rewards: [{
+		uid: "b2f89834",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

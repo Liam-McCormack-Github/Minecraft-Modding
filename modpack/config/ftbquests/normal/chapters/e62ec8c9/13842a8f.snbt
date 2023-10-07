@@ -1,0 +1,33 @@
+{
+	disable_toast: true,
+	x: 7.0d,
+	y: 0.0d,
+	dependencies: [
+		"6174fe8f"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "fbb600a0",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 5s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5801161e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

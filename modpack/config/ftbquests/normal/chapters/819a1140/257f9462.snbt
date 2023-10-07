@@ -2,14 +2,19 @@
 	title: "Get Wrench",
 	icon: "thermalfoundation:wrench",
 	disable_toast: true,
-	x: 4.5d,
-	y: -3.0d,
+	x: 8.0d,
+	y: 0.0d,
 	shape: "hexagon",
 	description: "Get Wrench",
 	text: [
 		"Get Wrench"
 	],
 	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e0e691a1"
+	],
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "e4f725da",

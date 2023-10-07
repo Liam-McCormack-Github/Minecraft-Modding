@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 27.0d,
+	y: -10.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "961ff25d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:battery"
+		}]
+	}],
+	rewards: [{
+		uid: "4c5e438e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

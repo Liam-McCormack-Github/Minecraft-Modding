@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 10.0d,
+	y: 21.0d,
+	dependencies: [
+		"054e95c9"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "28e836b2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:energy_field_addon"
+		}]
+	}],
+	rewards: [{
+		uid: "dbffec84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

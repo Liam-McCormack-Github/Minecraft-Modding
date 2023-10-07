@@ -1,0 +1,33 @@
+{
+	title: "Arc Furnace",
+	disable_toast: true,
+	x: 28.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Arc Furnace",
+	text: [
+		"Arc Furnace"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5ac810b1",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 13",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "arc_furnace"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "681c9706",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

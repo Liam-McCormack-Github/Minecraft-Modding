@@ -1,0 +1,33 @@
+{
+	disable_toast: true,
+	x: 15.5d,
+	y: 32.0d,
+	dependencies: [
+		"45062f26",
+		"99fcd7f9",
+		"d3a5e4b3",
+		"ff31d2a9",
+		"f23dd424",
+		"1683c739",
+		"a23f0092",
+		"a9754f58"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a564e4bf",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0744132f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

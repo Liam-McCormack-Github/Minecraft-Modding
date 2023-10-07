@@ -1,0 +1,26 @@
+{
+	x: 40.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependencies: [
+		"80518c3b"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6cdc99e3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "9ce35cd1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

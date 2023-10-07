@@ -1,7 +1,10 @@
 {
-	x: 6.0d,
-	y: 12.0d,
+	x: 12.0d,
+	y: 10.0d,
 	shape: "rsquare",
+	dependencies: [
+		"62e080d1"
+	],
 	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "0f1ca458",

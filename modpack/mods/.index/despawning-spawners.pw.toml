@@ -1,0 +1,14 @@
+name = "Despawning Spawners"
+filename = "despawningspawners-1.12-1.2.0-2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "a9ded5b339ecaf6e3e399419a746fbbcbccff8a9"
+
+[update]
+[update.curseforge]
+file-id = 2575608
+project-id = 274331

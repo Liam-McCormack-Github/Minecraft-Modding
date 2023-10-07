@@ -68,11 +68,11 @@ Crusher.removeRecipe(<minecraft:blaze_powder>);
 Crusher.removeRecipe(<minecraft:sand>);
 
 # Add
-AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 2,<minecraft:quartz>, 600);
+AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4,<minecraft:quartz>, 600);
 AlloySmelter.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4,<minecraft:quartz>, 600);
 ArcFurnace.addRecipe(<zcontent:silicon_boule>,<mysticaladaptations:silicon_block>, null, 200, 2048,[]);
 ArcFurnace.addRecipe(<industrialforegoing:plastic> * 2,<zcontent:polyethylene>, null, 100, 512,[<industrialforegoing:dryrubber>]);
-ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 2, null, 100, 512,[<minecraft:quartz>]);
+ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<quark:black_ash> * 4, null, 100, 512,[<minecraft:quartz>]);
 ArcFurnace.addRecipe(<actuallyadditions:item_misc:5>,<fluxnetworks:flux> * 4, null, 100, 512,[<minecraft:quartz>]);
 ArcFurnace.addRecipe(<zcontent:enderio_speed_upgrade_base> * 8,<minecraft:iron_bars>, null, 200, 512,[<minecraft:clay_ball>,<minecraft:string> * 4]);
 ArcFurnace.addRecipe(<enderio:item_dark_steel_upgrade>,<enderio:block_dark_iron_bars>, null, 200, 512,[<minecraft:clay_ball>,<minecraft:string> * 4]);
@@ -85,6 +85,8 @@ Crusher.addRecipe(<minecraft:sand:1> * 2, <minecraft:red_sandstone>,512,<thermal
 Crusher.addRecipe(<minecraft:sand> * 2, <ore:sandstone>,512,<thermalfoundation:material:772>, 0.5);
 Crusher.addRecipe(<minecraft:blaze_powder> * 4,<minecraft:blaze_rod>,2048,<thermalfoundation:material:771>, 0.5);
 MetalPress.addRecipe(<jaopca:item_platecoal>, <minecraft:coal>, <immersiveengineering:mold>, 1024);
+MetalPress.addRecipe(<jaopca:item_platediamond>, <minecraft:diamond>, <immersiveengineering:mold>, 1024);
+MetalPress.addRecipe(<jaopca:item_plateemerald>, <minecraft:emerald>, <immersiveengineering:mold>, 1024);
 MetalPress.addRecipe(<jaopca:item_platequartz>, <minecraft:quartz>, <immersiveengineering:mold>, 1024);
 MetalPress.addRecipe(<jaopca:item_platequartzblack>, <actuallyadditions:item_misc:5>, <immersiveengineering:mold>, 1024);
 MetalPress.addRecipe(<thermalfoundation:material:26>, <minecraft:diamond> * 4, <immersiveengineering:mold:1>, 1024);
@@ -94,16 +96,17 @@ MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder> * 5, <immer
 MetalPress.addRecipe(<thermalfoundation:material:2048>, <thermalfoundation:material:2049> * 5, <immersiveengineering:mold:2>, 1024);
 MetalPress.addRecipe(<thermalfoundation:material:2050>, <thermalfoundation:material:2051> * 5, <immersiveengineering:mold:2>, 1024);
 MetalPress.addRecipe(<thermalfoundation:material:2052>, <thermalfoundation:material:2053> * 5, <immersiveengineering:mold:2>, 1024);
-MetalPress.addRecipe(<extrautils2:ingredients:5>, <jaopca:item_dustmoon>, <zcontent:mold>, 250);
-MetalPress.addRecipe(<quark:sturdy_stone>, <minecraft:cobblestone>, <zcontent:mold>, 250);
-MetalPress.addRecipe(<zcontent:wood_plate>, <thermalfoundation:material:801>, <zcontent:mold>, 250);
+MetalPress.addRecipe(<extrautils2:ingredients:5>, <jaopca:item_dustmoon>, <zcontent:mold>, 256);
+MetalPress.addRecipe(<quark:sturdy_stone>, <minecraft:cobblestone>, <zcontent:mold>, 256);
+MetalPress.addRecipe(<zcontent:wood_plate>, <thermalfoundation:material:801>, <zcontent:mold>, 256);
+MetalPress.addRecipe(<quark:diamond_heart>.withTag({Unbreakable:1}), <quark:diamond_heart> * 64, <zcontent:mold>, 1024);
 MetalPress.addRecipe(<zcontent:proc_base>, <zcontent:silicon_wafer>, <zcontent:mold_proc>, 1024);
 MetalPress.addRecipe(<zcontent:proc_raw_1>, <refinedstorage:processor>, <zcontent:mold_proc>, 2048);
 MetalPress.addRecipe(<zcontent:proc_raw_2>, <refinedstorage:processor:1>, <zcontent:mold_proc>, 4096);
 MetalPress.addRecipe(<zcontent:proc_raw_3>, <refinedstorage:processor:2>, <zcontent:mold_proc>, 8192);
-Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:57>, [<thermalfoundation:material:32>, <thermalfoundation:material:193> * 3]);
-Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:58>, [<techguns:itemshared:51>, <jaopca:item_nuggetmanyullyn> * 3]);
-Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:59>, [<techguns:itemshared:53>, <enderio:item_alloy_nugget:6> * 3]);
+Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:57>, [<thermalfoundation:material:32> * 3, <thermalfoundation:material:193> * 9]);
+Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:58>, [<techguns:itemshared:51> * 3, <jaopca:item_nuggetmanyullyn> * 9]);
+Blueprint.addRecipe("Mechanical Parts", <techguns:itemshared:59>, [<techguns:itemshared:53> * 3, <enderio:item_alloy_nugget:6> * 9]);
 Blueprint.addRecipe("Proccessors", <zcontent:proc_1>, [<zcontent:proc_raw_1>, <zcontent:proc_base>, <minecraft:redstone> * 2, <minecraft:redstone> * 2]);
 Blueprint.addRecipe("Proccessors", <zcontent:proc_2>, [<zcontent:proc_raw_2>, <zcontent:proc_base>, <minecraft:redstone> * 2, <minecraft:redstone> * 2]);
 Blueprint.addRecipe("Proccessors", <zcontent:proc_3>, [<zcontent:proc_raw_3>, <zcontent:proc_base>, <minecraft:redstone> * 2, <minecraft:redstone> * 2]);

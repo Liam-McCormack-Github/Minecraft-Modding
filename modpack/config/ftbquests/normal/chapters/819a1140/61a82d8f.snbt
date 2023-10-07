@@ -1,0 +1,46 @@
+{
+	title: "Monster Spawner",
+	icon: "minecraft:mob_spawner",
+	x: 4.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "6a9c0a43",
+		type: "item",
+		items: [{
+			item: "chisel:ironpane 1 3"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c8213498",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_totemic"
+		}]
+	},
+	{
+		uid: "607a811b",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:jar_filled 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "122f0b5d",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "f645f4cd",
+		type: "item",
+		item: "minecraft:mob_spawner"
+	}]
+}

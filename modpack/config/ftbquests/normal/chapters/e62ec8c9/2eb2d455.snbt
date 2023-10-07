@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 7.0d,
+	y: 36.0d,
+	dependencies: [
+		"7543fdad"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "788c4121",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:energy_extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "91ac470a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

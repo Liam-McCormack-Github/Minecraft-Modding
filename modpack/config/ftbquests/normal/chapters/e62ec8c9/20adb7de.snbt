@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 35.0d,
+	y: 36.0d,
+	dependencies: [
+		"7543fdad"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7d9745c5",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}]
+	}],
+	rewards: [{
+		uid: "4bf8a524",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

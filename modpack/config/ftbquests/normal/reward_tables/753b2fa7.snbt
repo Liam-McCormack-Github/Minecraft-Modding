@@ -1,6 +1,11 @@
 {
 	title: "Cyclic Loot Crate",
-	icon: "cyclicmagic:laser_cannon",
+	icon: {
+		id: "cyclicmagic:laser_cannon",
+		tag: {
+			energy: 32000
+		}
+	},
 	loot_size: 3,
 	use_title: true,
 	rewards: [{
@@ -49,7 +54,12 @@
 		}
 	},
 	{
-		item: "cyclicmagic:laser_cannon"
+		item: {
+			id: "cyclicmagic:laser_cannon",
+			tag: {
+				energy: 32000
+			}
+		}
 	},
 	{
 		item: {
@@ -72,9 +82,7 @@
 	{
 		item: {
 			id: "cyclicmagic:tool_torch_launcher",
-			tag: {
-				Unbreakable: 1
-			}
+			tag: {}
 		}
 	},
 	{

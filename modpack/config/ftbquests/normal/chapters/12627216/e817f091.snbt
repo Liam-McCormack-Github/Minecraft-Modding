@@ -1,6 +1,8 @@
 {
-	x: 0.0d,
-	y: 10.0d,
+	icon: "chisel:chisel_iron",
+	x: 7.0d,
+	y: 4.0d,
+	shape: "rsquare",
 	dependencies: [
 		"1061a769"
 	],
@@ -13,14 +15,30 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "bc4268ba",
+		type: "item",
+		items: [{
+			item: "quark:polished_stone"
+		}],
+		count: 16L
+	},
+	{
+		uid: "3c4289f4",
+		type: "item",
+		items: [{
+			item: "quark:sturdy_stone"
+		}],
+		count: 16L
 	}],
 	rewards: [{
-		uid: "47fe9278",
+		uid: "a335b7b6",
 		type: "item",
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "lootcrate_1"
+				type: "lootcrate_2"
 			}
 		}
 	}]

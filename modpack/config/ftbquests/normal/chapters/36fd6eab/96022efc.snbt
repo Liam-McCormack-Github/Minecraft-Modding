@@ -1,7 +1,8 @@
 {
 	icon: "randomthings:spectreblock",
-	x: 1.0d,
-	y: 2.0d,
+	x: 0.0d,
+	y: 0.0d,
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "071e1446",

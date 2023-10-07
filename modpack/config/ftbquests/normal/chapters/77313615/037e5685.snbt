@@ -1,37 +1,20 @@
 {
 	title: "Laser Drill",
 	icon: "industrialforegoing:laser_drill",
-	x: 6.0d,
-	y: -2.0d,
+	x: 14.0d,
+	y: -6.0d,
 	shape: "rsquare",
-	hide_dependency_lines: true,
 	dependencies: [
-		"2d1680b7"
+		"daf5fae3"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{
-		uid: "c3b8d9fc",
-		type: "item",
-		items: [{
-			item: "industrialforegoing:laser_base"
-		}]
-	},
-	{
 		uid: "794644fd",
 		type: "item",
 		items: [{
 			item: "industrialforegoing:laser_drill"
 		}],
 		count: 4L
-	},
-	{
-		uid: "ad799fdb",
-		type: "item",
-		items: [{
-			item: "industrialforegoing:laser_lens"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "39ded06e",

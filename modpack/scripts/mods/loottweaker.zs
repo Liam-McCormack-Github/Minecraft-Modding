@@ -12,11 +12,6 @@ import scripts.enchantments.getEnchantID;
 
 print("---loading mods/loottweaker.zs---");
 
-<entity:minecraft:wither>.removeDrop(<unstabletools:division_sign>);
-<entity:minecraft:wither>.removeDrop(<unstabletools:division_sign>.withTag({activated: 0 as byte}));
-<entity:minecraft:wither>.addDrop(<quark:black_ash>, 1, 4);
-
-
 /*
 addLootTableEntry
 	"enderio\fallenmount"

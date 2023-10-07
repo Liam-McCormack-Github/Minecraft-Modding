@@ -282,5 +282,19 @@
   },
   "Journey Map": {},
   "Change Modes": {},
-  "Mode1": {}
+  "Mode1": {
+    "5": {
+      "title": "Noclip",
+      "icon": {
+        "name": "minecraft:stone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "overloaded.key.noclip",
+          "toggle": false
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,11 @@
+[
+  {
+    "mob": "WitherBoss",
+    "remove": "unstabletools:division_sign"
+  },
+  {
+    "mob": "WitherBoss",
+    "item": "quark:black_ash",
+    "itemcount": "1-4"
+  }
+]

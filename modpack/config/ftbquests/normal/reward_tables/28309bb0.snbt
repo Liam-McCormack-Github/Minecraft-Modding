@@ -44,26 +44,50 @@
 		}
 	},
 	{
+		icon: {
+			id: "overloaded:multi_tool",
+			tag: {
+				fromLootCrate: 1,
+				IntEnergyStorage: 2147483647
+			}
+		},
 		item: {
 			id: "overloaded:multi_tool",
 			tag: {
-				fromLootCrate: 1
+				fromLootCrate: 1,
+				IntEnergyStorage: 2147483647
 			}
 		}
 	},
 	{
+		icon: {
+			id: "overloaded:ray_gun",
+			tag: {
+				fromLootCrate: 1,
+				IntEnergyStorage: 2147483647
+			}
+		},
 		item: {
 			id: "overloaded:ray_gun",
 			tag: {
-				fromLootCrate: 1
+				fromLootCrate: 1,
+				IntEnergyStorage: 2147483647
 			}
 		}
 	},
 	{
+		icon: {
+			id: "overloaded:railgun",
+			tag: {
+				fromLootCrate: 1,
+				IntEnergyStorage: 2147483647
+			}
+		},
 		item: {
 			id: "overloaded:railgun",
 			tag: {
-				fromLootCrate: 1
+				fromLootCrate: 1,
+				IntEnergyStorage: 2147483647
 			}
 		}
 	},

@@ -1,0 +1,33 @@
+{
+	title: "Refinery",
+	disable_toast: true,
+	x: 30.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Refinery",
+	text: [
+		"Refinery"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a01f7cd2",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 9",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "refinery"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "cde25833",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

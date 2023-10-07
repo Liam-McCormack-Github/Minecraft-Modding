@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "4f2d2de0",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d49b7134",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

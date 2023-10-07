@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: 6.0d,
+	dependencies: [
+		"1061a769"
+	],
+	tasks: [{
+		uid: "2ce363a3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "1734516c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

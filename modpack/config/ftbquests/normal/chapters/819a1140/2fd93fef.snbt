@@ -2,13 +2,17 @@
 	title: "Anvil Recipes",
 	icon: "minecraft:anvil",
 	x: 0.0d,
-	y: 3.0d,
+	y: 2.0d,
 	shape: "octagon",
 	description: "Anvil Recipes",
 	text: [
 		"Anvil Recipes"
 	],
 	hide_dependency_lines: true,
+	dependencies: [
+		"e0e691a1"
+	],
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "da647de2",

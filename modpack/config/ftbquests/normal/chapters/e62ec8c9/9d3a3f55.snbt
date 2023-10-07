@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0687d81a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:petrified_fuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "f54ca02c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

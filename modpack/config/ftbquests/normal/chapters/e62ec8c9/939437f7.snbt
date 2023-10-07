@@ -1,0 +1,33 @@
+{
+	title: "Bottling Machine",
+	disable_toast: true,
+	x: 6.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Bottling Machine",
+	text: [
+		"Bottling Machine"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "60570a68",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 6",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "bottling_machine"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "d12dc99a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

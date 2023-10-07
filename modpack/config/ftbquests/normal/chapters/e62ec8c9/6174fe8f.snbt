@@ -1,0 +1,85 @@
+{
+	title: "Dynamo",
+	disable_toast: true,
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Dynamo",
+	text: [
+		"Dynamo"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "60b02ba2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		},
+		{
+			id: "thermalexpansion:dynamo",
+			Damage: 1s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		},
+		{
+			id: "thermalexpansion:dynamo",
+			Damage: 2s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		},
+		{
+			id: "thermalexpansion:dynamo",
+			Damage: 3s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		},
+		{
+			id: "thermalexpansion:dynamo",
+			Damage: 4s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		},
+		{
+			id: "thermalexpansion:dynamo",
+			Damage: 5s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1b04c841",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

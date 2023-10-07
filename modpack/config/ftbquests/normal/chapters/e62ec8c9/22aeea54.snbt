@@ -1,0 +1,29 @@
+{
+	title: "Advanced Fusion Reactor",
+	disable_toast: true,
+	x: 8.0d,
+	y: -4.0d,
+	description: "Advanced Fusion Reactor",
+	text: [
+		"Advanced Fusion Reactor"
+	],
+	dependencies: [
+		"9ec3e458"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "cc7f701e",
+		type: "checkmark",
+		icon: "techguns:itemshared 1 98"
+	}],
+	rewards: [{
+		uid: "8f82cb65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

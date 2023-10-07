@@ -1,14 +1,13 @@
 {
 	title: "Bricks",
-	x: 0.0d,
-	y: 4.0d,
+	x: 5.0d,
+	y: 0.0d,
 	description: "Bricks",
 	text: [
 		"Bricks"
 	],
 	dependencies: [
 		"d5e51dd9",
-		"5d8025e8",
 		"7cd1d773"
 	],
 	dependency_requirement: "one_started",

@@ -1,0 +1,24 @@
+{
+	x: 14.0d,
+	y: 8.0d,
+	shape: "square",
+	dependency_requirement: "one_started",
+	size: 1.15d,
+	tasks: [{
+		uid: "23aad1ca",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 69"
+		}]
+	}],
+	rewards: [{
+		uid: "ab883827",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

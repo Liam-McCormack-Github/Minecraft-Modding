@@ -1,7 +1,7 @@
 {
 	title: "Grains of...",
-	x: 13.0d,
-	y: -4.0d,
+	x: 25.0d,
+	y: -3.0d,
 	description: "Grains of...",
 	text: [
 		"Grains of..."

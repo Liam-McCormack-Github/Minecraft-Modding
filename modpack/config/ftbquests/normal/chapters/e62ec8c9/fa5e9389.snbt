@@ -1,0 +1,33 @@
+{
+	title: "Solar Reflector",
+	disable_toast: true,
+	x: 20.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Solar Reflector",
+	text: [
+		"Solar Reflector"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b44466d4",
+		type: "observation",
+		icon: "immersivetech:metal_multiblock 1 2",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "solar_reflector"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c39cd6b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

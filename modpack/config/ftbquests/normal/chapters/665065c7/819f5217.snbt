@@ -1,0 +1,59 @@
+{
+	title: "Mining Level All",
+	x: 3.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Mining Level All",
+	text: [
+		"Mining Level All"
+	],
+	dependencies: [
+		"cc89874d"
+	],
+	dependency_requirement: "one_started",
+	size: 1.5d,
+	tasks: [{
+		uid: "5ada0080",
+		type: "item",
+		title: "Mining Level All",
+		items: [{
+			item: "enderio:item_stellar_alloy_pickaxe"
+		},
+		{
+			id: "redstonerepository:tool.pickaxe_gelid",
+			tag: {
+				Energy: 0
+			}
+		},
+		{
+			id: "redstonerepository:tool.hammer_gelid",
+			tag: {
+				Energy: 0
+			}
+		},
+		{
+			item: "industrialforegoing:infinity_drill"
+		},
+		{
+			id: "draconicevolution:wyvern_pick",
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "862faf22",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

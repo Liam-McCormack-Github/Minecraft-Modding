@@ -1,15 +1,24 @@
 {
+	icon: "arcanearchives:raw_quartz",
 	x: 2.0d,
 	y: 0.0d,
 	dependencies: [
 		"9b018de8"
 	],
 	dependency_requirement: "one_started",
+	or_tasks: true,
 	tasks: [{
 		uid: "9fe05ffe",
 		type: "item",
 		items: [{
 			item: "arcanearchives:raw_quartz"
+		}]
+	},
+	{
+		uid: "0b15967f",
+		type: "item",
+		items: [{
+			item: "arcanearchives:storage_raw_quartz"
 		}]
 	}],
 	rewards: [{

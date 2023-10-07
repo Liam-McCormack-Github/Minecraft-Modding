@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 4.0d,
+	y: 17.0d,
+	dependencies: [
+		"d263ba43"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "afed070a",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "3f832b4c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

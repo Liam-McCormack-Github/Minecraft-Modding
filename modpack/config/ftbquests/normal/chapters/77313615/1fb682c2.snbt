@@ -1,0 +1,25 @@
+{
+	x: 47.0d,
+	y: 5.0d,
+	dependencies: [
+		"3a3882bf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "17f9d4fd",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem"
+		}]
+	}],
+	rewards: [{
+		uid: "683917a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

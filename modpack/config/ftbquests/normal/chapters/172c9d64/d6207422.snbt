@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "6b2e9550",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "67cabed1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

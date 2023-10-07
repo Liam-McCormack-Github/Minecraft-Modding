@@ -1,0 +1,21 @@
+{
+	x: 5.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "996bcee4",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "61c6922c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

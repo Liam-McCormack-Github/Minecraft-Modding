@@ -1,0 +1,29 @@
+{
+	title: "Energy Cell Frame",
+	disable_toast: true,
+	x: 59.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Energy Cell Frame",
+	text: [
+		"Energy Cell Frame"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "bfe8c4c4",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 128"
+		}]
+	}],
+	rewards: [{
+		uid: "18dad882",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

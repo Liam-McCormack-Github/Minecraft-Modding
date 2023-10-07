@@ -1,0 +1,29 @@
+{
+	disable_toast: true,
+	x: 3.0d,
+	y: 30.0d,
+	dependencies: [
+		"0123111e"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5878012e",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:crusher"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c8a47063",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

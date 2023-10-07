@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 17.0d,
+	y: 34.0d,
+	dependencies: [
+		"6358e237"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "435dbdb9",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_heat_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "8eaadcc6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

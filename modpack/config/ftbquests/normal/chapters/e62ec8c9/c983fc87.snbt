@@ -1,0 +1,35 @@
+{
+	title: "Advanced Primal Centrifuge",
+	disable_toast: true,
+	x: 7.0d,
+	y: -4.0d,
+	description: "Advanced Primal Centrifuge",
+	text: [
+		"Advanced Primal Centrifuge"
+	],
+	dependencies: [
+		"9ec3e458"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ebd588d9",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mana",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "715f045c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

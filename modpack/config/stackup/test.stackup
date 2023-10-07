@@ -18,6 +18,7 @@ id~="tp:asphalt_block" *= 8
 id~="minecraft:concrete" *= 8
 id~="zcontent:transistor" *= 8
 id~="minecraft:totem_of_undying" *= 8
+id~="thermalfoundation:dye" *= 8
 id~="chisel:*" *= 8
 id~="chisel:auto_chisel" -> 64
 id~="chisel:chisel_iron" -> 1

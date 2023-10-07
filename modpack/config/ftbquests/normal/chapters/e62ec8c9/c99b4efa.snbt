@@ -1,0 +1,33 @@
+{
+	title: "Cooling Tower",
+	disable_toast: true,
+	x: 10.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Cooling Tower",
+	text: [
+		"Cooling Tower"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "2e6c1f39",
+		type: "observation",
+		icon: "immersivetech:metal_multiblock 1 14",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "cooling_tower"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "ee80ba6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

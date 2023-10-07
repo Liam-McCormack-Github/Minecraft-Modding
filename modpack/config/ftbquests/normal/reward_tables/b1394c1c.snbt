@@ -1,0 +1,1201 @@
+{
+	title: "Random Loot Crate",
+	icon: "minecraft:rabbit_foot",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "villagermarket:villager_market"
+	},
+	{
+		item: "mob_grinding_utils:wither_muffler"
+	},
+	{
+		item: "mob_grinding_utils:dragon_muffler"
+	},
+	{
+		item: "actuallyadditions:block_fishing_net"
+	},
+	{
+		item: "actuallyadditions:item_misc 1 16"
+	},
+	{
+		item: "minecraft:wheat_seeds",
+		count: 4
+	},
+	{
+		item: "minecraft:pumpkin_seeds",
+		count: 4
+	},
+	{
+		item: "minecraft:melon_seeds",
+		count: 4
+	},
+	{
+		item: "minecraft:beetroot_seeds",
+		count: 4
+	},
+	{
+		item: "actuallyadditions:item_misc 1 23",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:item_misc 1 24"
+	},
+	{
+		item: "actuallyadditions:item_rice_seed",
+		count: 4
+	},
+	{
+		item: "actuallyadditions:item_canola_seed",
+		count: 4
+	},
+	{
+		item: "actuallyadditions:item_flax_seed",
+		count: 4
+	},
+	{
+		item: "actuallyadditions:item_coffee_seed",
+		count: 4
+	},
+	{
+		item: "cyclicmagic:sprout_seed"
+	},
+	{
+		item: "randomthings:lotusseeds",
+		count: 4
+	},
+	{
+		item: "randomthings:grassseeds",
+		count: 64
+	},
+	{
+		item: "quark:parrot_egg"
+	},
+	{
+		item: "quark:parrot_egg 1 1"
+	},
+	{
+		item: "quark:parrot_egg 1 2"
+	},
+	{
+		item: "quark:parrot_egg 1 3"
+	},
+	{
+		item: "quark:parrot_egg 1 4"
+	},
+	{
+		item: "quark:rope",
+		count: 16
+	},
+	{
+		item: "better_diving:diving_mask"
+	},
+	{
+		item: {
+			id: "better_diving:standard_o2_tank",
+			tag: {
+				"better_diving:oxygen": 0
+			}
+		}
+	},
+	{
+		item: "better_diving:wetsuit_leggings"
+	},
+	{
+		item: "better_diving:fins"
+	},
+	{
+		item: "quark:horse_whistle"
+	},
+	{
+		item: "quark:trowel"
+	},
+	{
+		item: "quark:arrow_ender",
+		count: 16
+	},
+	{
+		item: "quark:arrow_explosive",
+		count: 16
+	},
+	{
+		item: "quark:arrow_torch",
+		count: 16
+	},
+	{
+		item: "quark:tiny_potato"
+	},
+	{
+		item: "tp:mycelium_seeds",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:dye",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 1",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 2",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 3",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 4",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 5",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 6",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 7",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 8",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 9",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 10",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 11",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 12",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 13",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 14",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:dye 1 15",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal"
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 1"
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 2"
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 3"
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 4"
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 5"
+	},
+	{
+		item: "mysticalagriculture:fire_essence"
+	},
+	{
+		item: "mysticalagriculture:dirt_essence"
+	},
+	{
+		item: "mysticalagriculture:wood_essence"
+	},
+	{
+		item: "mysticalagriculture:water_essence"
+	},
+	{
+		item: "mysticalagriculture:nature_essence"
+	},
+	{
+		item: "mysticalagriculture:ice_essence"
+	},
+	{
+		item: "minecraft:iron_horse_armor"
+	},
+	{
+		item: "minecraft:golden_horse_armor"
+	},
+	{
+		item: "minecraft:diamond_horse_armor"
+	},
+	{
+		item: "thermalfoundation:horse_armor_copper"
+	},
+	{
+		item: "thermalfoundation:horse_armor_tin"
+	},
+	{
+		item: "thermalfoundation:horse_armor_silver"
+	},
+	{
+		item: "thermalfoundation:horse_armor_lead"
+	},
+	{
+		item: "thermalfoundation:horse_armor_aluminum"
+	},
+	{
+		item: "thermalfoundation:horse_armor_nickel"
+	},
+	{
+		item: "tp:small_bandage",
+		count: 3
+	},
+	{
+		item: "tp:large_bandage",
+		count: 3
+	},
+	{
+		item: "tp:small_med_kit",
+		count: 3
+	},
+	{
+		item: "tp:large_med_kit",
+		count: 3
+	},
+	{
+		item: "waystones:bound_scroll",
+		count: 4
+	},
+	{
+		item: "cyclicmagic:corrupted_chorus"
+	},
+	{
+		item: "minecraft:sapling"
+	},
+	{
+		item: "minecraft:sapling 1 1"
+	},
+	{
+		item: "minecraft:sapling 1 2"
+	},
+	{
+		item: "minecraft:sapling 1 3"
+	},
+	{
+		item: "minecraft:sapling 1 4"
+	},
+	{
+		item: "minecraft:sapling 1 5"
+	},
+	{
+		item: "biomesoplenty:sapling_0"
+	},
+	{
+		item: "biomesoplenty:sapling_0 1 1"
+	},
+	{
+		item: "biomesoplenty:sapling_0 1 2"
+	},
+	{
+		item: "biomesoplenty:sapling_0 1 3"
+	},
+	{
+		item: "biomesoplenty:sapling_0 1 4"
+	},
+	{
+		item: "biomesoplenty:sapling_0 1 5"
+	},
+	{
+		item: "biomesoplenty:sapling_0 1 6"
+	},
+	{
+		item: "biomesoplenty:sapling_0 1 7"
+	},
+	{
+		item: "biomesoplenty:sapling_1"
+	},
+	{
+		item: "biomesoplenty:sapling_1 1 1"
+	},
+	{
+		item: "biomesoplenty:sapling_1 1 2"
+	},
+	{
+		item: "biomesoplenty:sapling_1 1 3"
+	},
+	{
+		item: "biomesoplenty:sapling_1 1 4"
+	},
+	{
+		item: "biomesoplenty:sapling_1 1 5"
+	},
+	{
+		item: "biomesoplenty:sapling_1 1 6"
+	},
+	{
+		item: "biomesoplenty:sapling_1 1 7"
+	},
+	{
+		item: "biomesoplenty:sapling_2"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 1"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 2"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 3"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 4"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 5"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 6"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 7"
+	},
+	{
+		item: "extrautils2:ironwood_sapling"
+	},
+	{
+		item: "extrautils2:ironwood_sapling 1 1"
+	},
+	{
+		item: "integrateddynamics:menril_sapling"
+	},
+	{
+		item: "quark:variant_sapling"
+	},
+	{
+		item: "quark:variant_sapling 1 1"
+	},
+	{
+		item: "cyclicmagic:laser_cannon"
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_antidote",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_water",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_air",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_void",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_boat",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_fire",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_speed",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_wing",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_wool",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:wand_missile",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_dungeon",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:evoker_fang",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_water",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_prospector",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:boomerang",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:fire_killer",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_elevate",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_rotate",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_torch_launcher",
+			tag: {
+				Unbreakable: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_blaze",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_spawn_inspect",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_randomize",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:robot_spawner",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_spelunker",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:glove_climb",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_push",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:wand_hypno",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_auto_torch",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		}
+	},
+	{
+		item: "cyclicmagic:laser_cannon"
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_snow",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:water_freezer",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:water_spreader",
+			tag: {}
+		}
+	},
+	{
+		item: "cyclicmagic:ender_tnt_1",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:ender_tnt_2",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:ender_tnt_3",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:ender_tnt_4",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:ender_tnt_5",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:ender_tnt_6",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:dynamite_safe",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:dynamite_mining",
+		count: 3
+	},
+	{
+		item: {
+			id: "cyclicmagic:sleeping_mat",
+			tag: {}
+		}
+	},
+	{
+		item: "cyclicmagic:tool_mount_inverse"
+	},
+	{
+		item: "cyclicmagic:tool_harvest_weeds"
+	},
+	{
+		item: "cyclicmagic:tool_harvest_crops"
+	},
+	{
+		item: "cyclicmagic:tool_harvest_leaves"
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_swap",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_swap_match",
+			tag: {}
+		}
+	},
+	{
+		item: "cyclicmagic:tool_warp_home"
+	},
+	{
+		item: "cyclicmagic:tool_warp_spawn"
+	},
+	{
+		item: "cyclicmagic:horse_upgrade_type"
+	},
+	{
+		item: "cyclicmagic:horse_upgrade_variant"
+	},
+	{
+		item: "cyclicmagic:horse_upgrade_health"
+	},
+	{
+		item: "cyclicmagic:horse_upgrade_speed"
+	},
+	{
+		item: "cyclicmagic:horse_upgrade_jump"
+	},
+	{
+		item: "actuallyadditions:item_chest_to_crate_upgrade"
+	},
+	{
+		item: "actuallyadditions:item_small_to_medium_crate_upgrade"
+	},
+	{
+		item: "actuallyadditions:item_medium_to_large_crate_upgrade"
+	},
+	{
+		item: "randomthings:slimecube"
+	},
+	{
+		item: "cyclicmagic:inventory_food"
+	},
+	{
+		item: "cyclicmagic:crafting_food"
+	},
+	{
+		item: "enderio:item_material 1 78"
+	},
+	{
+		item: "enderio:item_material 1 79"
+	},
+	{
+		item: "enderio:item_material 1 80"
+	},
+	{
+		item: "darkutils:charm_agression"
+	},
+	{
+		item: "darkutils:focus_sash"
+	},
+	{
+		item: "darkutils:charm_gluttony"
+	},
+	{
+		item: "darkutils:charm_null"
+	},
+	{
+		item: "darkutils:charm_portal"
+	},
+	{
+		item: "darkutils:charm_sleep"
+	},
+	{
+		item: {
+			id: "actuallyadditions:battery_bauble",
+			tag: {
+				Energy: 200000
+			}
+		}
+	},
+	{
+		item: "actuallyadditions:item_worm",
+		count: 4
+	},
+	{
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	},
+	{
+		item: "randomthings:enderbucket"
+	},
+	{
+		item: "quark:slime_bucket"
+	},
+	{
+		item: {
+			id: "arcanearchives:slaughtergleam",
+			tag: {
+				toggle: 0b,
+				infinite: 0b,
+				charge: 30
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:murdergleam",
+			tag: {
+				toggle: 0b,
+				infinite: 0b,
+				charge: 30
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:agegleam",
+			tag: {
+				infinite: 0b,
+				charge: 30
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:cleansegleam",
+			tag: {
+				infinite: 0b,
+				charge: 30
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:switchgleam",
+			tag: {
+				infinite: 0b,
+				charge: 30
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:salvegleam",
+			tag: {
+				toggle: 0b,
+				infinite: 0b,
+				charge: 30
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:munchstone",
+			tag: {
+				infinite: 0b,
+				charge: 60
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:orderstone",
+			tag: {
+				infinite: 0b,
+				charge: 100
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:mindspindle",
+			tag: {
+				infinite: 0b,
+				charge: 800
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:elixirspindle",
+			tag: {
+				infinite: 0b,
+				charge: 5
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:mountaintear",
+			tag: {
+				infinite: 0b,
+				charge: 25
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:rivertear",
+			tag: {
+				infinite: 0b,
+				charge: 25
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:parchtear",
+			tag: {
+				infinite: 0b,
+				charge: 8000
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:phoenixway",
+			tag: {
+				infinite: 0b,
+				charge: 75
+			}
+		}
+	},
+	{
+		item: {
+			id: "arcanearchives:stormway",
+			tag: {
+				toggle: 0b,
+				infinite: 0b,
+				charge: 30
+			}
+		}
+	},
+	{
+		item: "futuremc:record_pigstep"
+	},
+	{
+		item: "enderio:item_material 1 70"
+	},
+	{
+		item: "enderio:item_capacitor_grainy"
+	},
+	{
+		item: "cyclicmagic:doorbell_simple"
+	},
+	{
+		item: "supersoundmuffler:sound_muffler"
+	},
+	{
+		item: "cyclicmagic:sound_player"
+	},
+	{
+		item: "minecraft:rabbit_foot"
+	},
+	{
+		item: "minecraft:map"
+	},
+	{
+		item: "alchemistry:periodic_diagram"
+	},
+	{
+		item: "cookingforblockheads:toaster"
+	},
+	{
+		item: "actuallyadditions:block_coffee_machine"
+	},
+	{
+		item: "extrautils2:bagofholding"
+	},
+	{
+		item: "extrautils2:boomerang"
+	},
+	{
+		item: "techguns:explosive_charge",
+		count: 8
+	},
+	{
+		item: "techguns:explosive_charge 1 1",
+		count: 4
+	},
+	{
+		item: {
+			id: "techguns:goldenrevolver",
+			tag: {
+				camo: 0b,
+				ammovariant: "default",
+				ammo: 6s
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_random"
+			}
+		}
+	},
+	{
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		}
+	},
+	{
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	},
+	{
+		item: "thermalfoundation:material 1 800",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 864"
+	},
+	{
+		item: "immersivetech:material"
+	},
+	{
+		item: "minecraft:sign"
+	},
+	{
+		item: "arcanearchives:letter_resignation"
+	},
+	{
+		item: "cyclicmagic:sign_editor"
+	},
+	{
+		item: "cyclicmagic:moon_sensor"
+	},
+	{
+		item: "engineersdecor:sign_hotwire"
+	},
+	{
+		item: "engineersdecor:sign_danger"
+	},
+	{
+		item: "engineersdecor:sign_defense"
+	},
+	{
+		item: "engineersdecor:sign_factoryarea"
+	},
+	{
+		item: "engineersdecor:sign_exit"
+	},
+	{
+		item: "engineersdecor:sign_radioactive"
+	},
+	{
+		item: "engineersdecor:sign_laser"
+	},
+	{
+		item: "engineersdecor:sign_caution"
+	},
+	{
+		item: "engineersdecor:sign_magichazard"
+	},
+	{
+		item: "engineersdecor:sign_firehazard"
+	},
+	{
+		item: "engineersdecor:sign_hotsurface"
+	},
+	{
+		item: "engineersdecor:sign_magneticfield"
+	},
+	{
+		item: "engineersdecor:sign_frost"
+	},
+	{
+		item: "yabba:upgrade_void"
+	},
+	{
+		item: "yabba:upgrade_smelting"
+	},
+	{
+		item: "yabba:upgrade_iron_tier"
+	},
+	{
+		item: "yabba:upgrade_gold_tier"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 1"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 2"
+	},
+	{
+		item: "storagedrawers:upgrade_void"
+	},
+	{
+		item: "jecalculation:item_calculator 1 1"
+	},
+	{
+		item: "jecalculation:item_calculator"
+	},
+	{
+		item: "malisisdoors:wood_sliding_door",
+		count: 4
+	},
+	{
+		item: "malisisdoors:iron_sliding_door",
+		count: 4
+	},
+	{
+		item: "malisisdoors:jail_door",
+		count: 4
+	},
+	{
+		item: "malisisdoors:laboratory_door",
+		count: 4
+	},
+	{
+		item: "malisisdoors:factory_door",
+		count: 4
+	},
+	{
+		item: "malisisdoors:shoji_door",
+		count: 4
+	},
+	{
+		item: "malisisdoors:curtain_white",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_orange",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_magenta",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_light_blue",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_yellow",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_lime",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_pink",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_gray",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_silver",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_cyan",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_purple",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_blue",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_brown",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_green",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_red",
+		count: 16
+	},
+	{
+		item: "malisisdoors:curtain_black",
+		count: 16
+	},
+	{
+		item: "malisisdoors:saloon"
+	},
+	{
+		item: "malisisdoors:sliding_trapdoor"
+	},
+	{
+		item: "malisisdoors:verticalhatch"
+	},
+	{
+		item: "malisisdoors:garage_door",
+		count: 4
+	},
+	{
+		item: "malisisdoors:big_door_iron_3x3"
+	},
+	{
+		item: "malisisdoors:big_door_rusty_3x3"
+	},
+	{
+		item: "malisisdoors:rustyhatch"
+	},
+	{
+		item: "malisisdoors:hitechdoor"
+	},
+	{
+		item: "malisisdoors:door_factory"
+	},
+	{
+		item: "minecraft:writable_book"
+	},
+	{
+		item: "cyclicmagic:soulstone"
+	},
+	{
+		item: "cyclicmagic:password_remote"
+	},
+	{
+		item: {
+			id: "cyclicmagic:book_ender",
+			tag: {
+				location_back: ""
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "lootcrate_random",
+		color: 10972703,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

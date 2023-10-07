@@ -1,0 +1,15 @@
+{
+	x: 19.0d,
+	y: -8.0d,
+	dependencies: [
+		"3b09ca36"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "439d7935",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 12"
+		}]
+	}]
+}

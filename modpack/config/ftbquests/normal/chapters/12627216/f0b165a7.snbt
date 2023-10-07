@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	dependencies: [
+		"9c8b6476"
+	],
+	tasks: [{
+		uid: "c5e751dd",
+		type: "item",
+		items: [{
+			item: "quark:polished_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "d117e485",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

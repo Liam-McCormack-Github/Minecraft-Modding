@@ -1,7 +1,8 @@
 {
 	icon: "extrautils2:teleporter 1 1",
-	x: 3.0d,
-	y: 2.0d,
+	x: 2.0d,
+	y: 0.0d,
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "ffd1dd88",

@@ -1,0 +1,60 @@
+{
+	title: "Kikoku",
+	icon: "extrautils2:lawsword",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Kikoku",
+	text: [
+		"Kikoku"
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "f67ee39b",
+		type: "item",
+		items: [{
+			id: "akashictome:tome",
+			tag: {
+				display: {
+					Lore: [
+						"Contains knowledge of a Majestic Weapon"
+					],
+					Name: "Ethereal Tome"
+				},
+				useableInCrafting: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "1b8eb790",
+		type: "xp",
+		icon: "minecraft:experience_bottle",
+		value: 242845L,
+		points: true
+	},
+	{
+		uid: "2f633826",
+		type: "kill",
+		entity: "enderiozoo:fallenknight",
+		value: 100L
+	},
+	{
+		uid: "de7cc057",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.sword_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45639a2e",
+		type: "item",
+		item: "extrautils2:lawsword"
+	}]
+}

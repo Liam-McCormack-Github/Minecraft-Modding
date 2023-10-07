@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 29.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d4feb0dc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:protein_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "16cf0713",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

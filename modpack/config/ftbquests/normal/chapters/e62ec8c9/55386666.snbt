@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 11.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "206ccb02",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "fb5a17bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

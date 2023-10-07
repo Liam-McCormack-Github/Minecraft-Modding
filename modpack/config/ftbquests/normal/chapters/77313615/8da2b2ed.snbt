@@ -1,8 +1,8 @@
 {
-	x: 6.0d,
-	y: 4.0d,
+	x: 10.0d,
+	y: 0.0d,
 	dependencies: [
-		"76926c68",
+		"0bdbc86b",
 		"abcee80d"
 	],
 	dependency_requirement: "one_started",

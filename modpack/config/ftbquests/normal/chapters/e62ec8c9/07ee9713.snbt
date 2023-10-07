@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: 24.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5781cf69",
+		type: "item",
+		items: [{
+			item: "teslacorelib:speed_tier2"
+		}]
+	}],
+	rewards: [{
+		uid: "86e08e9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

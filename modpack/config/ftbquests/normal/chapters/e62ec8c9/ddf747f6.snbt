@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 7.0d,
+	y: 11.0d,
+	dependencies: [
+		"2823ae07"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "dfcffa65",
+		type: "item",
+		items: [{
+			item: "enderio:block_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "78a5426a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

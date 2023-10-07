@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b380edd1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}],
+	rewards: [{
+		uid: "dcce3ee2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

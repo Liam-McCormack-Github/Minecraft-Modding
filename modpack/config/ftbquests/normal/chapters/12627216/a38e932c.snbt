@@ -1,0 +1,24 @@
+{
+	x: 19.0d,
+	y: 14.0d,
+	dependencies: [
+		"05846154"
+	],
+	tasks: [{
+		uid: "64f63e0a",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "5f0010aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_1"
+			}
+		}
+	}]
+}

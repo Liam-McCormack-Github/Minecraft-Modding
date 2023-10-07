@@ -1,0 +1,33 @@
+{
+	title: "Gas Turbine",
+	disable_toast: true,
+	x: 18.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Gas Turbine",
+	text: [
+		"Gas Turbine"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "56c2e0f4",
+		type: "observation",
+		icon: "immersivetech:metal_multiblock1",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock1",
+		properties: {
+			type: "gas_turbine"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "1708ecdb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

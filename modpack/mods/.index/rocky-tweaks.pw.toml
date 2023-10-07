@@ -1,0 +1,14 @@
+name = "Rocky Tweaks"
+filename = "rockytweaks-1.12.2-0.6.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d4be5ab211febc802bb599efa91c03cbf6069443"
+
+[update]
+[update.curseforge]
+file-id = 3591441
+project-id = 265461

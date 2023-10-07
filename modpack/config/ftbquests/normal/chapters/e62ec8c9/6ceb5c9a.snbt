@@ -1,0 +1,33 @@
+{
+	title: "Diesel Generator",
+	disable_toast: true,
+	x: 19.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Diesel Generator",
+	text: [
+		"Diesel Generator"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "749e499d",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 10",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "diesel_generator"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c1016ab5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

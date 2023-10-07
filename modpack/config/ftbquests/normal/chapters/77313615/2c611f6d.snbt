@@ -1,15 +1,14 @@
 {
 	title: "Cooling Tower",
-	x: 21.0d,
-	y: 0.0d,
+	x: 2.0d,
+	y: -2.0d,
 	shape: "rsquare",
 	description: "Cooling Tower",
 	text: [
 		"Cooling Tower"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"9b018de8"
+		"c9a6dfec"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

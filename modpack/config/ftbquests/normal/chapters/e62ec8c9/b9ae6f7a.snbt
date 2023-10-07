@@ -1,0 +1,35 @@
+{
+	title: "Advanced Cryotheum Cooler",
+	disable_toast: true,
+	x: 4.0d,
+	y: -4.0d,
+	description: "Advanced Cryotheum Cooler",
+	text: [
+		"Advanced Cryotheum Cooler"
+	],
+	dependencies: [
+		"9ec3e458"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7c9bc2c6",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryotheum",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "d100d55f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

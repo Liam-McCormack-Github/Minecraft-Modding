@@ -1,0 +1,33 @@
+{
+	title: "Crusher",
+	disable_toast: true,
+	x: 4.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Crusher",
+	text: [
+		"Crusher"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "219d0220",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 1",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "crusher"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "07104804",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

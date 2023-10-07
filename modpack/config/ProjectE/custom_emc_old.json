@@ -174,3 +174,179 @@
     }
   ]
 }
+
+
+
+
+{
+  "entries": [
+    {
+      "item": "OD|stone",
+      "emc": 1
+    },
+    {
+      "item": "OD|stoneAndesite",
+      "emc": 8
+    },
+    {
+      "item": "OD|stoneBasalt",
+      "emc": 8
+    },
+    {
+      "item": "OD|stoneBrimstone",
+      "emc": 64
+    },
+    {
+      "item": "OD|stoneDiorite",
+      "emc": 8
+    },
+    {
+      "item": "OD|stoneGranite",
+      "emc": 8
+    },
+    {
+      "item": "OD|stoneJasper",
+      "emc": 8
+    },
+    {
+      "item": "OD|stoneLimestone",
+      "emc": 8
+    },
+    {
+      "item": "OD|stoneMarble",
+      "emc": 8
+    },
+    {
+      "item": "OD|stonePermafrost",
+      "emc": 64
+    },
+    {
+      "item": "OD|stoneSlate",
+      "emc": 8
+    },
+    {
+      "item": "OD|grass",
+      "emc": 2
+    },
+    {
+      "item": "OD|dirt",
+      "emc": 1
+    },
+    {
+      "item": "OD|gravel",
+      "emc": 4
+    },
+    {
+      "item": "OD|sand",
+      "emc": 1
+    },
+    {
+      "item": "OD|cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "OD|plankWood",
+      "emc": 16
+    },
+    {
+      "item": "OD|logWood",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:redstone|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:glowstone_dust|0",
+      "emc": 384
+    },
+    {
+      "item": "tp:ender_dust|0",
+      "emc": 1600
+    },
+    {
+      "item": "minecraft:ender_pearl|0",
+      "emc": 1600
+    },
+    {
+      "item": "extrautils2:endershard|0",
+      "emc": 200
+    },
+    {
+      "item": "OD|gemAmber",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemAmethyst",
+      "emc": 16384
+    },
+    {
+      "item": "OD|gemCoal",
+      "emc": 128
+    },
+    {
+      "item": "OD|gemDiamond",
+      "emc": 8192
+    },
+    {
+      "item": "OD|gemDimensionalShard",
+      "emc": 512
+    },
+    {
+      "item": "OD|gemEmerald",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemEnderBiotite",
+      "emc": 512
+    },
+    {
+      "item": "OD|gemLapis",
+      "emc": 768
+    },
+    {
+      "item": "OD|gemMalachite",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemPeridot",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemPrismarine",
+      "emc": 256
+    },
+    {
+      "item": "OD|gemQuartz",
+      "emc": 256
+    },
+    {
+      "item": "OD|gemRuby",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemSapphire",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemTanzanite",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemTopaz",
+      "emc": 4096
+    },
+    {
+      "item": "OD|ingotIron",
+      "emc": 256
+    },
+    {
+      "item": "OD|ingotGold",
+      "emc": 2048
+    },
+    {
+      "item": "minecraft:iron_ingot|0",
+      "emc": 256
+    }
+  ]
+}

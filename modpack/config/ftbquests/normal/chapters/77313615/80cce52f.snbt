@@ -1,14 +1,15 @@
 {
 	title: "Alloy Smelter",
 	icon: "enderio:block_alloy_smelter",
-	x: 14.0d,
+	x: 23.0d,
 	y: -2.0d,
 	description: "Alloy Smelter",
 	text: [
 		"Alloy Smelter"
 	],
 	dependencies: [
-		"0be2e85b"
+		"0be2e85b",
+		"b15cb882"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

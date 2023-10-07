@@ -1,7 +1,7 @@
 {
 	title: "Crusher",
-	x: 10.0d,
-	y: 4.0d,
+	x: 20.0d,
+	y: 3.0d,
 	shape: "rsquare",
 	description: "Crusher",
 	text: [

@@ -1,0 +1,49 @@
+{
+	title: "Research Next Tier",
+	icon: {
+		id: "deepmoblearning:data_model_ghast",
+		tag: {
+			tier: 4
+		}
+	},
+	x: 16.5d,
+	y: 8.0d,
+	description: "Research Next Tier",
+	text: [
+		"Research Next Tier"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "907743f9",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:data_model_ghast",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6354c1a1",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "2017ebcb",
+		type: "item",
+		item: {
+			id: "deepmoblearning:data_model_ghast",
+			tag: {
+				tier: 4
+			}
+		}
+	}]
+}

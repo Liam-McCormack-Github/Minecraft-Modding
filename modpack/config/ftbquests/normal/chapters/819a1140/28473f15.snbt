@@ -1,12 +1,13 @@
 {
 	title: "Portal to the Void",
 	icon: "simplevoidworld:portal",
-	x: 2.5d,
-	y: 7.5d,
+	x: 8.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "7b4a3189",
 		type: "item",

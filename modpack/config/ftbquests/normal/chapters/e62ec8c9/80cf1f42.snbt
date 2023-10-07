@@ -1,0 +1,33 @@
+{
+	title: "Squeezer",
+	disable_toast: true,
+	x: 7.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Squeezer",
+	text: [
+		"Squeezer"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "c0d59184",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 7",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "squeezer"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "52ead6a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 9.0d,
+	y: 21.0d,
+	dependencies: [
+		"0841e574"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "34aeb327",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fortune_addon"
+		}]
+	}],
+	rewards: [{
+		uid: "5fea42c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

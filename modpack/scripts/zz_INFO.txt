@@ -256,6 +256,14 @@ charcoal block @ 4000
 
 
 
+
+
+/ranks set_permission player ftbutilities.chunkloader.max_chunks 1000
+/ranks set_permission player ftbutilities.claims.max_chunks 1000
+
+
+
+
 liquids
 	u matter
 	stabilizer

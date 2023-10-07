@@ -1,18 +1,15 @@
 {
 	title: "Compact Machinery",
 	icon: "compactmachines3:fieldprojector",
-	x: 25.0d,
-	y: 12.0d,
+	x: 31.0d,
+	y: 6.0d,
 	shape: "rsquare",
 	description: "Compact Machinery",
 	text: [
 		"Compact Machinery"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"fa526af6",
-		"2517892b",
-		"229291a8"
+		"fa526af6"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

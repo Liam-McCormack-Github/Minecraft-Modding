@@ -1,0 +1,122 @@
+{
+  "br/com/brforgers/mods/industrialexpansion/Events": {
+    "name": "br/com/brforgers/mods/industrialexpansion/Events",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "br/com/brforgers/mods/industrialexpansion/Events"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onLivingAttack(Lnet/minecraftforge/event/entity/living/LivingAttackEvent;)V"
+      }
+    ]
+  },
+  "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion": {
+    "name": "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "dependencies": {
+            "value": "required-after:thermalexpansion@[5.4.2,);"
+          },
+          "modid": {
+            "value": "industrialexpansion"
+          },
+          "name": {
+            "value": "IndustrialExpansion"
+          },
+          "useMetadata": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "version": {
+            "value": "1.2.6"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "industrialexpansion"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "br.com.brforgers.mods.industrialexpansion.proxy.ClientProxy"
+          },
+          "serverSide": {
+            "value": "br.com.brforgers.mods.industrialexpansion.proxy.CommonProxy"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      }
+    ]
+  },
+  "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion$RegistrationHandler": {
+    "name": "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion$RegistrationHandler",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "br/com/brforgers/mods/industrialexpansion/IndustrialExpansion$RegistrationHandler"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      }
+    ]
+  },
+  "br/com/brforgers/mods/industrialexpansion/helper/ConfigHandler": {
+    "name": "br/com/brforgers/mods/industrialexpansion/helper/ConfigHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onConfigurationChangedEvent(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V"
+      }
+    ]
+  },
+  "br/com/brforgers/mods/industrialexpansion/items/QuantumArmor": {
+    "name": "br/com/brforgers/mods/industrialexpansion/items/QuantumArmor",
+    "interfaces": [
+      "net/minecraftforge/common/ISpecialArmor",
+      "cofh/redstoneflux/api/IEnergyContainerItem",
+      "cofh/core/item/IEnchantableItem"
+    ]
+  }
+}

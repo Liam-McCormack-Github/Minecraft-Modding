@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 17.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "630006c4",
+		type: "item",
+		items: [{
+			item: "arcanearchives:gemcutters_table"
+		}]
+	}],
+	rewards: [{
+		uid: "029559b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

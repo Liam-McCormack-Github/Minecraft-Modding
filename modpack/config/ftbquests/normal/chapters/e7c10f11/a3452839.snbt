@@ -1,7 +1,8 @@
 {
-	x: -1.0d,
-	y: -1.0d,
+	x: -2.0d,
+	y: -2.0d,
 	can_repeat: true,
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "29d629a8",
 		type: "item",
@@ -11,6 +12,7 @@
 				fromLootCrate: 1
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 2b
 	}],
 	rewards: [{

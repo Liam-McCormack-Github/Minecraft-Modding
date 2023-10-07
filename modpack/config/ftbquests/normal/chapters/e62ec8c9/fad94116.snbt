@@ -1,0 +1,33 @@
+{
+	title: "Auto Workbench",
+	disable_toast: true,
+	x: 13.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Auto Workbench",
+	text: [
+		"Auto Workbench"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a71c52a1",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 5",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "auto_workbench"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "62b74118",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 5.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d905903c",
+		type: "item",
+		items: [{
+			item: "enderio:block_aversion_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "72603fe5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

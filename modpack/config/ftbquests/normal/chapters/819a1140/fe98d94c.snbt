@@ -1,12 +1,13 @@
 {
 	title: "Basic Crafting Table",
 	icon: "extendedcrafting:table_basic",
-	x: -0.5d,
-	y: 6.5d,
+	x: 1.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "b1dcc625",
 		type: "item",

@@ -1,0 +1,33 @@
+{
+	title: "Blast Furnace Advanced",
+	disable_toast: true,
+	x: 9.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Blast Furnace Advanced",
+	text: [
+		"Blast Furnace Advanced"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "136c0464",
+		type: "observation",
+		icon: "immersiveengineering:stone_device 1 2",
+		match_type: "block_id",
+		match: "immersiveengineering:stone_device",
+		properties: {
+			type: "blast_furnace_advanced"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c67437f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

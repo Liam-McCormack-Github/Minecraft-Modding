@@ -1,0 +1,33 @@
+{
+	title: "Sheetmetal Tank",
+	disable_toast: true,
+	x: 0.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Sheetmetal Tank",
+	text: [
+		"Sheetmetal Tank"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "8480373e",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 2",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "tank"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "f0bb1d17",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

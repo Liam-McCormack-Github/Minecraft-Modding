@@ -1,0 +1,49 @@
+{
+	title: "Mining Level Cobalt",
+	x: 3.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Mining Level Cobalt",
+	text: [
+		"Mining Level Cobalt"
+	],
+	dependencies: [
+		"4ce9c8ce"
+	],
+	dependency_requirement: "one_started",
+	size: 1.5d,
+	tasks: [{
+		uid: "451965b5",
+		type: "item",
+		title: "Mining Level Cobalt",
+		items: [{
+			item: "zcontent:stainless_steel_pick"
+		},
+		{
+			id: "mysticalagradditions:supremium_paxel",
+			tag: {}
+		},
+		{
+			id: "mysticaladaptations:insanium_pickaxe",
+			tag: {}
+		},
+		{
+			item: "enderio:item_end_steel_pickaxe"
+		},
+		{
+			item: "futuremc:netherite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19a2fbce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

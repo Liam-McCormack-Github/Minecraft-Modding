@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 8.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "56cfff88",
+		type: "item",
+		items: [{
+			item: "enderio:block_dark_steel_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "33377c3b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

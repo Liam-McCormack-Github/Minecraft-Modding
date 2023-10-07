@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 36.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5b722240",
+		type: "item",
+		items: [{
+			item: "projectedisable_toast: true,
+	x:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "908dab42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

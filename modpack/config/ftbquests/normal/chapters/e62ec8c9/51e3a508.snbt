@@ -1,0 +1,35 @@
+{
+	title: "Advanced Matter Extractor",
+	disable_toast: true,
+	x: 6.0d,
+	y: -4.0d,
+	description: "Advanced Matter Extractor",
+	text: [
+		"Advanced Matter Extractor"
+	],
+	dependencies: [
+		"9ec3e458"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7388f5ad",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pure_matter",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "d480c647",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

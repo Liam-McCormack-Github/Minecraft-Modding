@@ -1,0 +1,63 @@
+{
+	title: "Infinity Capacitor",
+	icon: "overloaded:infinite_capacitor",
+	x: 11.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "03618f8a",
+		type: "item",
+		items: [{
+			id: "yabba:upgrade_star_tier",
+			ForgeCaps: {
+				Parent: {}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "ed08e13b",
+		type: "item",
+		items: [{
+			item: "quantumstorage:quantum_battery"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82fb1aae",
+		type: "item",
+		items: [{
+			item: "overloaded:energy_core"
+		}]
+	},
+	{
+		uid: "7f8b8842",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pure_matter",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "92646ec3",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "a685d3a7",
+		type: "item",
+		item: "overloaded:infinite_capacitor"
+	}]
+}

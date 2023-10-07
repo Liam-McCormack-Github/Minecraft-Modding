@@ -1,0 +1,24 @@
+{
+	disable_toast: true,
+	x: 10.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "65497bb6",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "60513208",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

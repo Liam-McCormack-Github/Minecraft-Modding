@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 33.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "44b977b1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_resources_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "826e14a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 30.0d,
+	y: -6.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "fe6c93cc",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:mechanical_squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "034382c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

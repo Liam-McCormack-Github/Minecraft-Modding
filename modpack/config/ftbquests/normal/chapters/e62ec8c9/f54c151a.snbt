@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 3.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "698db5a7",
+		type: "item",
+		items: [{
+			item: "enderio:block_dialing_device"
+		}]
+	}],
+	rewards: [{
+		uid: "5c46628b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

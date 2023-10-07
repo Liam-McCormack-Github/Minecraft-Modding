@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 31.0d,
+	y: 2.0d,
+	dependencies: [
+		"b77d342e"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "3a73897c",
+		type: "item",
+		items: [{
+			item: "virtualmachines:augment 1 1024"
+		}]
+	}],
+	rewards: [{
+		uid: "babfbaf0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

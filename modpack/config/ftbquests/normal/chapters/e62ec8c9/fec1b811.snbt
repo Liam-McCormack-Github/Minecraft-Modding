@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 48.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "83797476",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_resource_harvester"
+		}]
+	}],
+	rewards: [{
+		uid: "34535b85",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

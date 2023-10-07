@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "8beea334",
+		type: "item",
+		items: [{
+			item: "enderio:block_attractor_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "45016ae6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

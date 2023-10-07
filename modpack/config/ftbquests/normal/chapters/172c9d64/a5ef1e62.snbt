@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "5b1fc40f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}],
+	rewards: [{
+		uid: "d0f075f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_3"
+			}
+		}
+	}]
+}

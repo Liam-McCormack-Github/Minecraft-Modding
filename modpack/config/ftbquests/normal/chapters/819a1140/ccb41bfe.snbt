@@ -1,12 +1,13 @@
 {
 	title: "Quantum  Quarry Actuator",
 	icon: "extrautils2:quarryproxy",
-	x: -0.5d,
-	y: 7.5d,
+	x: 5.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "ad58629e",
 		type: "item",

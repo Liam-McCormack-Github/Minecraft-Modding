@@ -1,0 +1,49 @@
+{
+	title: "Research Next Tier",
+	icon: {
+		id: "deepmoblearning:data_model_blaze",
+		tag: {
+			tier: 4
+		}
+	},
+	x: 12.5d,
+	y: 8.0d,
+	description: "Research Next Tier",
+	text: [
+		"Research Next Tier"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6e8ff11"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "11916df7",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:data_model_blaze",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "008939d9",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "cdba1580",
+		type: "item",
+		item: {
+			id: "deepmoblearning:data_model_blaze",
+			tag: {
+				tier: 4
+			}
+		}
+	}]
+}

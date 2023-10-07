@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 16.0d,
+	y: 34.0d,
+	dependencies: [
+		"6358e237"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "e234e422",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_furnace_solar"
+		}]
+	}],
+	rewards: [{
+		uid: "8ab865e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

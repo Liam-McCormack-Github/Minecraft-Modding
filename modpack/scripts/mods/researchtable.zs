@@ -13,7 +13,6 @@ ResearchTable.builder("testResearch1", catSTANDARD)
   .setIcons(<thermalfoundation:material:1028>)
   .setTitle("Mana Dust")
   .setDescription("What if we mix up all these dust for a little bit of fun. I mean what could possibly go wrong...")
-  .addCondition(<enderio:item_material:20>)
   .addCondition(<minecraft:redstone>)
   .addCondition(<minecraft:glowstone_dust>)
   .addCondition(<tp:ender_dust>)
@@ -21,7 +20,6 @@ ResearchTable.builder("testResearch1", catSTANDARD)
   .addCondition(<mysticalagriculture:crafting:29>)
   .addCondition(<zcontent:meteor_dust>)
   .addCondition(<enderio:item_material:61>)
-  .addCondition(<zcontent:charged_gunpowder>)
   .addCondition(<thermalfoundation:fertilizer:2>)
   .addCondition(<zcontent:purple_mat_dust>)  
   .addCondition(<fluxnetworks:flux>)
@@ -57,6 +55,29 @@ ResearchTable.builder("testResearch2", catSTANDARD)
   .setNoMaxCount()
   .build();
 
+ResearchTable.builder("spectrecoil", catSTANDARD)
+  .setIcons(<randomthings:spectrecoil_number>)
+  .setTitle("Spectre Coil")
+  .setDescription("Spectre Coil.")
+  .addCondition(<zcontent:charged_gunpowder>)
+  .addCondition(<randomthings:spectrecoil_ender>)
+  .addEnergyCondition(1000000)
+  .setRewardItems(<randomthings:spectrecoil_number>)
+  .setNoMaxCount()
+  .build();
+
+
+ResearchTable.builder("hang_glider_advanced", catSTANDARD)
+  .setIcons(<openglider:hang_glider_advanced>)
+  .setTitle("Advanced Hang Glider")
+  .setDescription("Advanced Hang Glider.")
+  .addCondition(<openglider:hang_glider_basic>)
+  .addCondition(<minecraft:elytra>)
+  .addEnergyCondition(1000000)
+  .setRewardItems(<openglider:hang_glider_advanced>)
+  .setNoMaxCount()
+  .build();
+
 
 ResearchTable.builder("infinity_drill", catSTANDARD)
   .setIcons(<industrialforegoing:infinity_drill>.withTag({Energy: 2147483648 as long, Fluid: {FluidName: "biofuel", Amount: 2147483647}, Special: 1 as byte, Selected: "ARTIFACT"}))
@@ -82,8 +103,33 @@ ResearchTable.builder("infinity_drill_refil", catSTANDARD)
   .setNoMaxCount()
   .build();
 
-// catOVERLOADED
 
+
+ResearchTable.builder("extreme_crafting_table", catSTANDARD)
+  .setIcons(<avaritia:extreme_crafting_table>)
+  .setTitle("Extreme Crafting Table")
+  .setDescription("Extreme Crafting Table.")
+  .addCondition(<avaritia:block_resource:2>)
+  .addCondition(<avaritia:double_compressed_crafting_table>)
+  .addEnergyCondition(100000000)
+  .setRewardItems(<avaritia:extreme_crafting_table>)
+  .setNoMaxCount()
+  .build();
+  
+  
+ResearchTable.builder("evil_tear", catSTANDARD)
+  .setIcons(<randomthings:ingredient:1>)
+  .setTitle("Evil Tear")
+  .setDescription("Evil Tear.")
+  .addCondition(<minecraft:ghast_tear>)
+  .addCondition(<zcontent:et_frag>)
+  .addEnergyCondition(1000000000)
+  .setRewardItems(<randomthings:ingredient:1>)
+  .setNoMaxCount()
+  .build();
+
+
+// catOVERLOADED
 ResearchTable.builder("overloaded_infinite_barrel", catOVERLOADED)
   .setIcons(<overloaded:infinite_barrel>)
   .setTitle("infinite_barrel")

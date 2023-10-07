@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 2.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "3a3dae32",
+		type: "item",
+		items: [{
+			item: "enderio:block_weather_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "f1a177b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Plates",
-	x: 11.0d,
-	y: 6.0d,
+	x: 21.0d,
+	y: 1.0d,
 	description: "Plates",
 	text: [
 		"Plates"

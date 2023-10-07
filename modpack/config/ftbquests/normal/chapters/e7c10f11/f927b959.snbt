@@ -2,6 +2,7 @@
 	x: 4.0d,
 	y: -1.0d,
 	can_repeat: true,
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "fe25e2d6",
 		type: "item",

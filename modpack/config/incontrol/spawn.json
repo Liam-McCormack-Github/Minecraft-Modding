@@ -1,0 +1,11 @@
+[
+  {
+	"block": "minecraft:concrete",
+	"result": "deny"
+  },
+  {
+	"mob": "minecraft:bat",
+	"mincount": 10,
+	"result": "deny"
+  }
+]

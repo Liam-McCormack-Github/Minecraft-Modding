@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 32.0d,
+	y: 19.0d,
+	dependencies: [
+		"feee96c3"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "e0b9005e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:biofuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "e0b4b7b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

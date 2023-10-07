@@ -1,0 +1,33 @@
+{
+	title: "Fermenter",
+	disable_toast: true,
+	x: 11.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Fermenter",
+	text: [
+		"Fermenter"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "e3191424",
+		type: "observation",
+		icon: "immersiveengineering:metal_multiblock 1 8",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "fermenter"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "948ba57f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

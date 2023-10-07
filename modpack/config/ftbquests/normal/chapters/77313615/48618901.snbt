@@ -1,8 +1,9 @@
 {
-	x: 25.0d,
-	y: -2.0d,
+	x: 11.0d,
+	y: -9.0d,
 	dependencies: [
-		"99516f18"
+		"02a528c5",
+		"5d891032"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

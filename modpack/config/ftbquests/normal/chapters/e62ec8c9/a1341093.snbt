@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 17.0d,
+	y: -6.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "bf16337d",
+		type: "item",
+		items: [{
+			item: "furnus:pulvus"
+		}]
+	}],
+	rewards: [{
+		uid: "e837ff05",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

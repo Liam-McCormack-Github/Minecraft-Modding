@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 4.0d,
+	y: 21.0d,
+	dependencies: [
+		"cd3c894d"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5ff79403",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:leaf_shearing"
+		}]
+	}],
+	rewards: [{
+		uid: "14b58192",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

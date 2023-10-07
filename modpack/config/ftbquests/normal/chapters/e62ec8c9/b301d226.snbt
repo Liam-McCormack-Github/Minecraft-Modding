@@ -1,0 +1,40 @@
+{
+	disable_toast: true,
+	x: 49.0d,
+	y: 0.0d,
+	dependencies: [
+		"ffe3c64d"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "63c49ffb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 4s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9d05071e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Mining Level",
+	icon: "minecraft:iron_pickaxe",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

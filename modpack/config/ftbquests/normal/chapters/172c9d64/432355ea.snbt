@@ -2,12 +2,13 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "rsquare",
+	dependency_requirement: "one_started",
 	size: 2.0d,
 	tasks: [{
 		uid: "89d14f4c",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 136"
+			item: "draconicevolution:draconium_ingot"
 		}]
 	}],
 	rewards: [{

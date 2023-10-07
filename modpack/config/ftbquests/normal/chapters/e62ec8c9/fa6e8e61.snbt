@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 12.0d,
+	y: -6.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d8381d85",
+		type: "item",
+		items: [{
+			item: "futuremc:stonecutter"
+		}]
+	}],
+	rewards: [{
+		uid: "62a9a079",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

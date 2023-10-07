@@ -1,12 +1,13 @@
 {
 	title: "Charcoal",
 	icon: "minecraft:coal 1 1",
-	x: -0.5d,
-	y: 10.5d,
+	x: 17.5d,
+	y: 6.0d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"7c435346"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "447d1685",
 		type: "item",

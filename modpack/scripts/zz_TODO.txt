@@ -10,6 +10,9 @@ dependency_requirement: "one_started",\n\ttasks:
 (.*)
 __PREFIX__$1__SUFFIX__
 ##########################
+(.*):(.*):(.*)
+$1:$2 1 $3
+##########################
 __Extended Find & Replace__________________________________________________________________
 
 
@@ -17,8 +20,6 @@ ore dicts
 	<minecraft:water_bucket> water ored dictironaries
 	tool ore dicts just because.....
 
-codnuits
-	infinity regent
 
 ore dril??? 
 	<techguns:orecluster:8>
@@ -27,39 +28,100 @@ ore dril???
 ------------------------------------------------------------------------------------
 as of 2023
 
+	remove free emc from ftbquest
+		wands
+		wrenches
+		books
 
-recipes.addShapeless("ct_shapeless1607494526", <minecraft:dye:15>, [<zcontent:animal_bones>]);
-recipes.addShapeless(, <minecraft:dye:15> * 9, [<minecraft:bone_block>]);
-recipes.addShapeless("minecraft:bone_meal_from_bone", <minecraft:dye:15> * 3, [<ore:bone>]);
-
-
-	
-
-	remove backpacks
-	
+	disable seeds
+		hop graphite
+		black quartz
 		
-	Move from arcane ensorsollator to research table
+		
+	consolidate recipes
+		black quartz/iron
+			use flux and wither ash
+			change so it works with ore dictironaries instead
+
+
+	new wands in zcontent mod
+
+
+
+	emc
+		covalance dust
+
+		
+	mechanical parts
 	
-			add research table to JEI
+	
+	dark steel
+		3x obsidian steel
+		1x galvanized
+
+
+	change laser drill from actually additions
+
+
+
+
+
+
+
+
+
+
+	try play one more time before nuking overloaded
+		cobble compressed in extrautil2 and tiny progression
+		
+	
+	add raw plastic to plastic recipe
+	
+	
+	get rid of blockcraftery from ftb loot crate
+
+
+
+	Immersive Engineering
+
+
+	DRILL MULTIBLOCK
+
+
+	last multiblocks in quests
+
+
+	add observation to certain tasks
+	add block/ingot support to certain tasks
+
+
+	refined storage recipes for importer and external storage do something about it maybe??/
+
+
+
+
+
+		
+	Overloaded Armour and iPad
+		quantum armour to overloaded Armour
+		
+		
+	Change texture on bottom of workbench from cyclic from stone to wood
+	
+	gear should be dense to 
+		dense plate = gear *2
 	
 	
 	
 	ftbquest
 		finish chapters
-		
-		change inital dependency for steel, e.g. spirit
-	
-	
-	change conduit upgrade path
-	
+		add more chapters to quest do everything
+
+
 	
 	
 	
 	
-	
-	
-	
-	dispenser = dropper + bow fix
 	
 	
 	deep mob learning 2????
@@ -98,10 +160,6 @@ recipes.addShapeless("minecraft:bone_meal_from_bone", <minecraft:dye:15> * 3, [<
 
 
 
-
-sort out #priority 
-	higher is first
-	lower is later
 
 
 	
@@ -385,3 +443,31 @@ for x in thisdict:
 
 
 
+
+
+
+
+
+
+recipes.addShaped(<eternalsingularity:combined_singularity:13>, [[<jaopca:item_singularitybaseessence>, <jaopca:item_singularitysoulium>, <jaopca:item_singularityinferium>],[<jaopca:item_singularityprudentium>, null, <jaopca:item_singularityintermedium>], [<jaopca:item_singularitysuperium>, <jaopca:item_singularitysupremium>, <jaopca:item_singularityinsanium>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:12>, [[<jaopca:item_singularityblackiron>, <jaopca:item_singularitycrystaltine>, <jaopca:item_singularityevilmetal>],[<jaopca:item_singularityenchantedmetal>, null, <jaopca:item_singularitydemonicmetal>], [<jaopca:item_singularitynetherite>, <jaopca:item_singularityenderbiotite>, <jaopca:item_singularityquartzblack>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:11>, [[<jaopca:item_singularityconstructionalloy>, <jaopca:item_singularityendsteel>, <jaopca:item_singularitycrystallinealloy>],[<jaopca:item_singularitymelodicalloy>, null, <jaopca:item_singularitystellaralloy>], [<jaopca:item_singularitycrystallinepinkslime>, <jaopca:item_singularityenergeticsilver>, <jaopca:item_singularityvividalloy>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:10>, [[<jaopca:item_singularityelectricalsteel>, <jaopca:item_singularityenergeticalloy>, <jaopca:item_singularityvibrantalloy>],[<jaopca:item_singularityredstonealloy>, null, <jaopca:item_singularityconductiveiron>], [<jaopca:item_singularitypulsatingiron>, <jaopca:item_singularitydarksteel>, <jaopca:item_singularitysoularium>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:9>, [[<jaopca:item_singularityelectrum>, <jaopca:item_singularityinvar>, <jaopca:item_singularitybronze>],[<jaopca:item_singularityconstantan>, null, <jaopca:item_singularitybrass>], [<jaopca:item_singularitycarbon>, <jaopca:item_singularitycoldiron>, <jaopca:item_singularitygraphite>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:8>, [[<jaopca:item_singularitymithril>, <jaopca:item_singularitysignalum>, <jaopca:item_singularitylumium>],[<jaopca:item_singularityenderium>, null, <jaopca:item_singularitysteel>], [<jaopca:item_singularitygalvanizedsteel>, <jaopca:item_singularitynichrome>, <jaopca:item_singularitystainlesssteel>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:7>, [[<jaopca:item_singularitycrystalred>, <jaopca:item_singularitycrystalorange>, <jaopca:item_singularitycrystalindigo>],[<jaopca:item_singularitycrystalgreen>, null, <jaopca:item_singularityardite>], [<jaopca:item_singularitycobalt>, <jaopca:item_singularitymanyullyn>, <jaopca:item_singularityterraglaz>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:6>, [[<jaopca:item_singularitycrystalblack>, <jaopca:item_singularitycrystalblue>, <jaopca:item_singularitycrystalyellow>],[<jaopca:item_singularitycrystalwhite>, null, <jaopca:item_singularitycrystalviolet>], [<jaopca:item_singularityfluxalloy>, <jaopca:item_singularityelectrotinealloy>, <jaopca:item_singularityelectrofluxalloy>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:4>, [[<jaopca:item_singularityamethyst>, <jaopca:item_singularityruby>, <jaopca:item_singularityperidot>],[<jaopca:item_singularitytopaz>, null, <jaopca:item_singularitytanzanite>], [<jaopca:item_singularitymalachite>, <jaopca:item_singularitysapphire>, <jaopca:item_singularityamber>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:3>, [[<avaritia:singularity:12>, <jaopca:item_singularitygelidenderium>, <jaopca:item_singularityuranium>],[<jaopca:item_singularityhopgraphite>, null, <jaopca:item_singularitydraconium>], [<jaopca:item_singularitydraconiumawakened>, <jaopca:item_singularityobsidiansteel>, <jaopca:item_singularitytitanium>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:1>, [[<avaritia:singularity:5>, <avaritia:singularity:6>, <avaritia:singularity:7>],[<avaritia:singularity:8>, null, <avaritia:singularity:9>], [<avaritia:singularity:13>, <avaritia:singularity:14>, <jaopca:item_singularityaluminium>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity>, [[<avaritia:singularity>, <avaritia:singularity:1>, <avaritia:singularity:2>],[<avaritia:singularity:3>, null, <avaritia:singularity:4>], [<avaritia:singularity:10>, <avaritia:singularity:11>, <jaopca:item_singularitycoal>]]);
+
+
+
+
+final Release changes
+
+"biomes o' plenty" {
+	# Fixes rapid inflection of regeneration effects in hot spring water
+	B:"Hot Spring Water"=true
+}

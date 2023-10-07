@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 31.0d,
+	y: -10.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ee0f9897",
+		type: "item",
+		items: [{
+			item: "randomthings:imbuingstation"
+		}]
+	}],
+	rewards: [{
+		uid: "08e6a707",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

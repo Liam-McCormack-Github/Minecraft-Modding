@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependency_requirement: "one_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "886c137f",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "8effb0e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_4"
+			}
+		}
+	}]
+}

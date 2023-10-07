@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "SASLIAM",
+      "uniqueId": "2100b460-5d93-4092-b0b1-142c67bc901b"
+    },
+    "time": 1694099864692,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XrADiMk6ga"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SASLIAM",
+      "uniqueId": "2100b460-5d93-4092-b0b1-142c67bc901b"
+    },
+    "time": 1693669190099,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QpjZ1j89WV"
+    }
+  }
+]

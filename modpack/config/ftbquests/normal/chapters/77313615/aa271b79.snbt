@@ -1,11 +1,10 @@
 {
 	icon: "extendedcrafting:crafting_core",
-	x: 19.0d,
-	y: 14.0d,
+	x: 27.0d,
+	y: 6.5d,
 	shape: "rsquare",
-	hide_dependency_lines: true,
 	dependencies: [
-		"e5a6dabf"
+		"ca0e3a51"
 	],
 	dependency_requirement: "one_started",
 	tasks: [{

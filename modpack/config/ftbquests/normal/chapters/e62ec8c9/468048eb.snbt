@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 2.0d,
+	y: -6.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "40180c9e",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "92035b95",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

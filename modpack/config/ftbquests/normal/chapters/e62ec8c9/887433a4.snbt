@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 3.0d,
+	y: 8.0d,
+	dependencies: [
+		"00f30c8c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5f61f198",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "af6bcc3d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 39.0d,
+	y: 36.0d,
+	dependencies: [
+		"7543fdad"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "455b5370",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:material_absorber"
+		}]
+	}],
+	rewards: [{
+		uid: "a4cc5eac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

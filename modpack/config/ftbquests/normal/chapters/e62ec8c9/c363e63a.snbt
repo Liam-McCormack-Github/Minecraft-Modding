@@ -1,0 +1,23 @@
+{
+	disable_toast: true,
+	x: 35.0d,
+	y: -8.0d,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "61ed8201",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk3"
+		}]
+	}],
+	rewards: [{
+		uid: "16818780",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		}
+	}]
+}

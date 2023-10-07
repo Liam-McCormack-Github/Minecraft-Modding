@@ -1,0 +1,14 @@
+name = "ComPatchedStorage"
+filename = "ComPatchedStorage-1.12.2-1.6.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "72daa4880a42aac8b728876649e6aa19483cdcd6"
+
+[update]
+[update.curseforge]
+file-id = 2705859
+project-id = 314933
