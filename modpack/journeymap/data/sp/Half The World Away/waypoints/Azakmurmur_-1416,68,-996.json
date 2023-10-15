@@ -1,0 +1,18 @@
+{
+  "id": "Azakmurmur_-1416,68,-996",
+  "name": "Azakmurmur",
+  "icon": "waypoint-normal.png",
+  "x": -1416,
+  "y": 68,
+  "z": -996,
+  "r": 201,
+  "g": 222,
+  "b": 92,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

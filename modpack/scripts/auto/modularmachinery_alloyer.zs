@@ -213,16 +213,16 @@ RecipeBuilder.newBuilder("alloyer 28", "alloyer", 1)
 
 RecipeBuilder.newBuilder("alloyer 29", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemOutput(<extendedcrafting:material>)
-	.addItemInput(<quark:black_ash> * 4)
-	.addItemInput(<minecraft:iron_ingot>)
+	.addItemOutput(<extendedcrafting:material> * 2)
+	.addItemInput(<zcontent:hot_iron_ingot> * 2)
+	.addItemInput(<quark:black_ash> * 3)
 	.build();
 
 RecipeBuilder.newBuilder("alloyer 30", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemOutput(<extendedcrafting:material>)
-	.addItemInput(<fluxnetworks:flux> * 4)
-	.addItemInput(<minecraft:iron_ingot>)
+	.addItemOutput(<extendedcrafting:material> * 2)
+	.addItemInput(<zcontent:hot_iron_ingot> * 2)
+	.addItemInput(<fluxnetworks:flux> * 3)
 	.build();
 
 RecipeBuilder.newBuilder("alloyer 31", "alloyer", 1)
@@ -242,10 +242,10 @@ RecipeBuilder.newBuilder("alloyer 32", "alloyer", 1)
 
 RecipeBuilder.newBuilder("alloyer 33", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
-	.addItemOutput(<extrautils2:ingredients:17> * 2)
+	.addItemOutput(<extrautils2:ingredients:17> * 16)
 	.addItemInput(<extrautils2:ingredients:10>)
-	.addItemInput(<minecraft:iron_ingot>)
-	.addItemInput(<alchemistry:ingot:101>)
+	.addItemInput(<extendedcrafting:material> * 16)
+	.addItemInput(<alchemistry:ingot:101> * 8)
 	.build();
 
 RecipeBuilder.newBuilder("alloyer 34", "alloyer", 1)
@@ -259,8 +259,8 @@ RecipeBuilder.newBuilder("alloyer 35", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
 	.addItemOutput(<zcontent:stainless_steel_ingot> * 9)
 	.addItemInput(<thermalfoundation:material:160> * 6)
-	.addItemInput(<alchemistry:ingot:25>)
-	.addItemInput(<alchemistry:ingot:24>)
+	.addItemInput(<zcontent:manganese_ingot>)
+	.addItemInput(<zcontent:chrome_ingot>)
 	.addItemInput(<thermalfoundation:material:133>)
 	.build();
 
@@ -268,7 +268,7 @@ RecipeBuilder.newBuilder("alloyer 36", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
 	.addItemOutput(<zcontent:stainless_steel_ingot> * 9)
 	.addItemInput(<thermalfoundation:material:160> * 6)
-	.addItemInput(<alchemistry:ingot:25>)
+	.addItemInput(<zcontent:manganese_ingot>)
 	.addItemInput(<zcontent:nichrome_ingot> * 2)
 	.build();
 
@@ -320,14 +320,14 @@ RecipeBuilder.newBuilder("alloyer 42", "alloyer", 1)
 RecipeBuilder.newBuilder("alloyer 43", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
 	.addItemOutput(<zcontent:nichrome_ingot> * 2)
-	.addItemInput(<alchemistry:ingot:24>)
+	.addItemInput(<zcontent:chrome_ingot>)
 	.addItemInput(<thermalfoundation:material:133>)
 	.build();
 
 RecipeBuilder.newBuilder("alloyer 44", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
 	.addItemOutput(<zcontent:galvanized_steel_ingot> * 2)
-	.addItemInput(<alchemistry:ingot:30>)
+	.addItemInput(<zcontent:zinc_ingot>)
 	.addItemInput(<thermalfoundation:material:160> * 2)
 	.build();
 
@@ -340,8 +340,15 @@ RecipeBuilder.newBuilder("alloyer 45", "alloyer", 1)
 
 RecipeBuilder.newBuilder("alloyer 46", "alloyer", 1)
 	.addEnergyPerTickInput(2000)
+	.addItemOutput(<zcontent:hot_iron_ingot> * 2)
+	.addItemInput(<thermalfoundation:material:1024>)
+	.addItemInput(<minecraft:iron_ingot> * 2)
+	.build();
+
+RecipeBuilder.newBuilder("alloyer 47", "alloyer", 1)
+	.addEnergyPerTickInput(2000)
 	.addItemOutput(<zcontent:brass_ingot> * 4)
-	.addItemInput(<alchemistry:ingot:30>)
+	.addItemInput(<zcontent:zinc_ingot>)
 	.addItemInput(<thermalfoundation:material:128> * 3)
 	.build();
 

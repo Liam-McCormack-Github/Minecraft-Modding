@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	shape: "square",
+	tasks: [{
+		uid: "28d8f95b",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}]
+	}]
+}

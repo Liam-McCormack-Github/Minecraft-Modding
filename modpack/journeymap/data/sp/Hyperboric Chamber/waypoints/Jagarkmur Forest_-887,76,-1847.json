@@ -1,0 +1,18 @@
+{
+  "id": "Jagarkmur Forest_-887,76,-1847",
+  "name": "Jagarkmur Forest",
+  "icon": "waypoint-normal.png",
+  "x": -887,
+  "y": 76,
+  "z": -1847,
+  "r": 28,
+  "g": 109,
+  "b": 198,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

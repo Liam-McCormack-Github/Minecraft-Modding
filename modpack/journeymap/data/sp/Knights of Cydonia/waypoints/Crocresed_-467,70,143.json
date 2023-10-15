@@ -1,0 +1,18 @@
+{
+  "id": "Crocresed_-467,70,143",
+  "name": "Crocresed",
+  "icon": "waypoint-normal.png",
+  "x": -467,
+  "y": 70,
+  "z": 143,
+  "r": 134,
+  "g": 79,
+  "b": 70,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

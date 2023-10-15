@@ -1,0 +1,18 @@
+{
+  "id": "Zurslamarmed Desert_-2263,71,-2031",
+  "name": "Zurslamarmed Desert",
+  "icon": "waypoint-normal.png",
+  "x": -2263,
+  "y": 71,
+  "z": -2031,
+  "r": 227,
+  "g": 226,
+  "b": 31,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

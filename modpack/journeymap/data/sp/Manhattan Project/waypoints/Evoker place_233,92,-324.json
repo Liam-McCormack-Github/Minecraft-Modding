@@ -1,0 +1,18 @@
+{
+  "id": "Evoker place_233,92,-324",
+  "name": "Evoker place",
+  "icon": "waypoint-normal.png",
+  "x": 233,
+  "y": 92,
+  "z": -324,
+  "r": 50,
+  "g": 168,
+  "b": 167,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

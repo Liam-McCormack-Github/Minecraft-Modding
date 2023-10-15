@@ -1,0 +1,38 @@
+{
+  "name": "steam_turbine",
+  "label": "Steam Turbine",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "c": {
+      "id": "immersiveengineering:storage",
+      "meta": 8
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 7
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "g": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	shape: "square",
+	tasks: [{
+		uid: "f9f539ca",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	}]
+}

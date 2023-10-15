@@ -1,0 +1,18 @@
+{
+  "id": "Azakmaracark Plains_1056,77,857",
+  "name": "Azakmaracark Plains",
+  "icon": "waypoint-normal.png",
+  "x": 1056,
+  "y": 77,
+  "z": 857,
+  "r": 114,
+  "g": 174,
+  "b": 162,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

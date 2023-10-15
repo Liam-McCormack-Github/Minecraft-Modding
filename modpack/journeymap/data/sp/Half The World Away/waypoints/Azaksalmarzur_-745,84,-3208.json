@@ -1,0 +1,18 @@
+{
+  "id": "Azaksalmarzur_-745,84,-3208",
+  "name": "Azaksalmarzur",
+  "icon": "waypoint-normal.png",
+  "x": -745,
+  "y": 84,
+  "z": -3208,
+  "r": 20,
+  "g": 61,
+  "b": 100,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

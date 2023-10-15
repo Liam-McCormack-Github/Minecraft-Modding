@@ -1,0 +1,18 @@
+{
+  "id": "Creoairarc Desert_-438,71,-483",
+  "name": "Creoairarc Desert",
+  "icon": "waypoint-normal.png",
+  "x": -438,
+  "y": 71,
+  "z": -483,
+  "r": 51,
+  "g": 11,
+  "b": 202,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

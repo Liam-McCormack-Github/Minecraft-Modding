@@ -1,0 +1,50 @@
+{
+  "name": "advanced_matter_extractor",
+  "label": "Advanced Matter Extractor",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "b": {
+      "id": "thermalfoundation:glass",
+      "meta": 8
+    },
+    "c": {
+      "id": "quark:iron_plate",
+      "meta": 0
+    },
+    "d": {
+      "id": "quark:iron_plate_stairs",
+      "meta": 0
+    },
+    "e": {
+      "id": "thermaldynamics:duct_64",
+      "meta": 0
+    },
+    "f": {
+      "id": "modularmachinery:blockcontroller",
+      "meta": 0
+    },
+    "g": {
+      "id": "modularmachinery:blockfluidoutputhatch",
+      "meta": 0
+    },
+    "h": {
+      "id": "overloaded:compressed_cobblestone",
+      "meta": 15
+    },
+    "i": {
+      "id": "modularmachinery:blockfluidinputhatch",
+      "meta": 0
+    },
+    "j": {
+      "id": "modularmachinery:blockenergyinputhatch",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

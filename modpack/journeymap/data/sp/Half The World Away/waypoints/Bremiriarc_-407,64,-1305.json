@@ -1,0 +1,18 @@
+{
+  "id": "Bremiriarc_-407,64,-1305",
+  "name": "Bremiriarc",
+  "icon": "waypoint-normal.png",
+  "x": -407,
+  "y": 64,
+  "z": -1305,
+  "r": 80,
+  "g": 173,
+  "b": 89,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

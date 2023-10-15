@@ -26,7 +26,7 @@
     },
     {
       "item": "alchemistry:ingot|101",
-      "emc": 1536
+      "emc": 1024
     },
     {
       "item": "actuallyadditions:item_misc|21",
@@ -55,6 +55,10 @@
     {
       "item": "biomesoplenty:gem|1",
       "emc": 4096
+    },
+    {
+      "item": "biomesoplenty:white_sand|0",
+      "emc": 1
     },
     {
       "item": "chisel:basalt2|7",
@@ -89,16 +93,20 @@
       "emc": 160000
     },
     {
+      "item": "draconicevolution:mob_soul|0",
+      "emc": 0
+    },
+    {
       "item": "extrautils2:endershard|0",
       "emc": 200
     },
     {
       "item": "extrautils2:ingredients|5",
-      "emc": 6400
+      "emc": 16384
     },
     {
       "item": "extrautils2:ingredients|10",
-      "emc": 175000
+      "emc": 245760
     },
     {
       "item": "extrautils2:unstableingots|0",
@@ -107,6 +115,10 @@
     {
       "item": "enderio:item_material|8",
       "emc": 16
+    },
+    {
+      "item": "enderio:item_material|20",
+      "emc": 32
     },
     {
       "item": "enderio:item_material|46",
@@ -127,10 +139,6 @@
     {
       "item": "enderio:item_material|61",
       "emc": 128
-    },
-    {
-      "item": "enderio:item_alloy_endergy_ingot|3",
-      "emc": 64000
     },
     {
       "item": "forge:bucketfilled|0",
@@ -397,6 +405,10 @@
       "emc": 0
     },
     {
+      "item": "minecraft:glass|0",
+      "emc": 1
+    },
+    {
       "item": "minecraft:prismarine_crystals|0",
       "emc": 512
     },
@@ -553,6 +565,10 @@
       "emc": 64
     },
     {
+      "item": "mysticalagriculture:crafting|28",
+      "emc": 200
+    },
+    {
       "item": "quark:biome_cobblestone|0",
       "emc": 64
     },
@@ -642,11 +658,11 @@
     },
     {
       "item": "thermalfoundation:material|771",
-      "emc": 32
+      "emc": 64
     },
     {
       "item": "thermalfoundation:material|772",
-      "emc": 32
+      "emc": 64
     },
     {
       "item": "thermalfoundation:material|802",
@@ -674,11 +690,11 @@
     },
     {
       "item": "zcontent:meteor_dust|0",
-      "emc": 32768
+      "emc": 49152
     },
     {
       "item": "zcontent:evil_terraglaz_ingot|0",
-      "emc": 125000
+      "emc": 51200
     },
     {
       "item": "zcontent:animal_bones|0",
@@ -699,6 +715,22 @@
     {
       "item": "zcontent:graphite_ingot|0",
       "emc": 128
+    },
+    {
+      "item": "zcontent:zinc_ingot|0",
+      "emc": 512
+    },
+    {
+      "item": "zcontent:manganese_ingot|0",
+      "emc": 1280
+    },
+    {
+      "item": "zcontent:chrome_ingot|0",
+      "emc": 3072
+    },
+    {
+      "item": "zcontent:excavation_wand|0",
+      "emc": 0
     },
     {
       "item": "projecte:item.pe_fuel|0",
@@ -970,11 +1002,11 @@
     },
     {
       "item": "thermalfoundation:material|1024",
-      "emc": 304
+      "emc": 320
     },
     {
       "item": "thermalfoundation:material|1026",
-      "emc": 304
+      "emc": 320
     },
     {
       "item": "thermalfoundation:material|1027",
@@ -1051,14 +1083,6 @@
     {
       "item": "extendedcrafting:material|7",
       "emc": 16554
-    },
-    {
-      "item": "actuallyadditions:item_misc|5",
-      "emc": 512
-    },
-    {
-      "item": "extendedcrafting:material|0",
-      "emc": 512
     },
     {
       "item": "thermalfoundation:material|160",
@@ -1145,16 +1169,40 @@
       "emc": 400
     },
     {
+      "item": "zcontent:hot_iron_ingot|0",
+      "emc": 416
+    },
+    {
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 512
+    },
+    {
+      "item": "extendedcrafting:material|0",
+      "emc": 512
+    },
+    {
       "item": "extendedcrafting:material|36",
       "emc": 2000
     },
     {
       "item": "zcontent:galvanized_steel_ingot|0",
-      "emc": 512
+      "emc": 768
     },
     {
       "item": "zcontent:silicon_boule|0",
       "emc": 2304
+    },
+    {
+      "item": "zcontent:nichrome_ingot|0",
+      "emc": 3584
+    },
+    {
+      "item": "zcontent:stainless_steel_ingot|0",
+      "emc": 1280
+    },
+    {
+      "item": "zcontent:brass_ingot|0",
+      "emc": 320
     },
     {
       "item": "enderio:item_alloy_ingot|9",
@@ -1175,6 +1223,22 @@
     {
       "item": "enderio:item_alloy_endergy_ingot|1",
       "emc": 90400
+    },
+    {
+      "item": "enderio:item_alloy_endergy_ingot|3",
+      "emc": 147456
+    },
+    {
+      "item": "mysticalagriculture:crafting|29",
+      "emc": 2024
+    },
+    {
+      "item": "mysticalagriculture:crafting|38",
+      "emc": 2024
+    },
+    {
+      "item": "enderio:item_alloy_ingot|7",
+      "emc": 2152
     },
     {
       "item": "zcontent:xp_block|0",
@@ -1206,11 +1270,11 @@
     },
     {
       "item": "enderio:item_alloy_ingot|6",
-      "emc": 560
+      "emc": 624
     },
     {
       "item": "enderio:item_alloy_ingot|8",
-      "emc": 624
+      "emc": 688
     },
     {
       "item": "randomthings:ingredient|3",
@@ -1254,11 +1318,11 @@
     },
     {
       "item": "techguns:itemshared|64",
-      "emc": 4800
+      "emc": 4832
     },
     {
       "item": "zcontent:carbon_ingot|0",
-      "emc": 4800
+      "emc": 4832
     },
     {
       "item": "extendedcrafting:material|40",
@@ -1278,7 +1342,7 @@
     },
     {
       "item": "techguns:itemshared|59",
-      "emc": 14960
+      "emc": 15120
     },
     {
       "item": "industrialforegoing:pink_slime_ingot|0",
@@ -1298,7 +1362,7 @@
     },
     {
       "item": "extrautils2:ingredients|17",
-      "emc": 88396
+      "emc": 16384
     },
     {
       "item": "draconicevolution:draconic_ingot|0",
@@ -1329,16 +1393,12 @@
       "emc": 197
     },
     {
-      "item": "mysticalagriculture:crafting|29",
-      "emc": 2009
-    },
-    {
       "item": "thermalfoundation:fertilizer|1",
-      "emc": 28
+      "emc": 36
     },
     {
       "item": "thermalfoundation:fertilizer|2",
-      "emc": 28
+      "emc": 36
     },
     {
       "item": "mysticalagriculture:crafting|5",
@@ -1437,8 +1497,12 @@
       "emc": 274877906944000
     },
     {
+      "item": "extrautils2:simpledecorative|0",
+      "emc": 73728
+    },
+    {
       "item": "thermalfoundation:material|1028",
-      "emc": 49373
+      "emc": 65812
     },
     {
       "item": "zcontent:substrate|0",
@@ -1462,7 +1526,7 @@
     },
     {
       "item": "techguns:itemshared|67",
-      "emc": 42856
+      "emc": 42936
     },
     {
       "item": "OD|dye",

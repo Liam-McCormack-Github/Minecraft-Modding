@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	shape: "square",
+	tasks: [{
+		uid: "063f0925",
+		type: "item",
+		items: [{
+			item: "chisel:laboratory"
+		}]
+	}]
+}

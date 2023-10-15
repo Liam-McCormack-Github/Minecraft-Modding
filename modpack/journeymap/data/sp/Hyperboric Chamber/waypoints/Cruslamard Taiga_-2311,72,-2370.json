@@ -1,0 +1,18 @@
+{
+  "id": "Cruslamard Taiga_-2311,72,-2370",
+  "name": "Cruslamard Taiga",
+  "icon": "waypoint-normal.png",
+  "x": -2311,
+  "y": 72,
+  "z": -2370,
+  "r": 134,
+  "g": 249,
+  "b": 176,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

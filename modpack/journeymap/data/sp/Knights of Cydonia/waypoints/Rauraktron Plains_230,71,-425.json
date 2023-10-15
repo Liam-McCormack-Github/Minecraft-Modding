@@ -1,0 +1,18 @@
+{
+  "id": "Rauraktron Plains_230,71,-425",
+  "name": "Rauraktron Plains",
+  "icon": "waypoint-normal.png",
+  "x": 230,
+  "y": 71,
+  "z": -425,
+  "r": 240,
+  "g": 253,
+  "b": 32,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

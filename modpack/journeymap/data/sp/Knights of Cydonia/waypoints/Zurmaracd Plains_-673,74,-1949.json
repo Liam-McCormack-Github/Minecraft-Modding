@@ -1,0 +1,18 @@
+{
+  "id": "Zurmaracd Plains_-673,74,-1949",
+  "name": "Zurmaracd Plains",
+  "icon": "waypoint-normal.png",
+  "x": -673,
+  "y": 74,
+  "z": -1949,
+  "r": 135,
+  "g": 192,
+  "b": 152,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -945,10 +945,16 @@
 		}
 	},
 	{
+		icon: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_random"
+			}
+		},
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "loot_random"
+				type: "lootcrate_random"
 			}
 		}
 	},
@@ -1028,27 +1034,6 @@
 	},
 	{
 		item: "engineersdecor:sign_frost"
-	},
-	{
-		item: "yabba:upgrade_void"
-	},
-	{
-		item: "yabba:upgrade_smelting"
-	},
-	{
-		item: "yabba:upgrade_iron_tier"
-	},
-	{
-		item: "yabba:upgrade_gold_tier"
-	},
-	{
-		item: "storagedrawers:upgrade_storage 1 1"
-	},
-	{
-		item: "storagedrawers:upgrade_storage 1 2"
-	},
-	{
-		item: "storagedrawers:upgrade_void"
 	},
 	{
 		item: "jecalculation:item_calculator 1 1"
@@ -1188,6 +1173,267 @@
 				location_back: ""
 			}
 		}
+	},
+	{
+		item: "architecturecraft:chisel"
+	},
+	{
+		item: "architecturecraft:hammer"
+	},
+	{
+		item: "architecturecraft:sawbench"
+	},
+	{
+		item: "storagedrawers:keybutton"
+	},
+	{
+		item: "storagedrawers:keybutton 1 1"
+	},
+	{
+		item: "storagedrawers:keybutton 1 2"
+	},
+	{
+		item: "storagedrawers:keybutton 1 3"
+	},
+	{
+		item: "storagedrawers:upgrade_template",
+		count: 2
+	},
+	{
+		item: "storagedrawers:upgrade_storage"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 1"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 2"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 3"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4"
+	},
+	{
+		item: "storagedrawers:upgrade_one_stack"
+	},
+	{
+		item: "storagedrawers:upgrade_status"
+	},
+	{
+		item: "storagedrawers:upgrade_status 1 1"
+	},
+	{
+		item: "storagedrawers:upgrade_void"
+	},
+	{
+		item: "storagedrawers:upgrade_conversion"
+	},
+	{
+		item: "storagedrawers:upgrade_redstone"
+	},
+	{
+		item: "storagedrawers:upgrade_redstone 1 1"
+	},
+	{
+		item: "storagedrawers:upgrade_redstone 1 2"
+	},
+	{
+		item: "yabba:upgrade_blank",
+		count: 2
+	},
+	{
+		item: "yabba:upgrade_iron_tier",
+		count: 2
+	},
+	{
+		item: "yabba:upgrade_gold_tier"
+	},
+	{
+		item: "yabba:upgrade_diamond_tier"
+	},
+	{
+		item: "yabba:upgrade_obsidian_shell"
+	},
+	{
+		item: "yabba:upgrade_redstone_out"
+	},
+	{
+		item: "yabba:upgrade_hopper"
+	},
+	{
+		item: "yabba:upgrade_void"
+	},
+	{
+		item: "yabba:upgrade_pickup"
+	},
+	{
+		item: "yabba:upgrade_smelting"
+	},
+	{
+		item: "yabba:hammer"
+	},
+	{
+		item: "yabba:painter"
+	},
+	{
+		item: "yabba:wrench"
+	},
+	{
+		item: "storagedrawers:drawer_key"
+	},
+	{
+		item: "storagedrawers:shroud_key"
+	},
+	{
+		item: "storagedrawers:personal_key"
+	},
+	{
+		item: "storagedrawers:quantify_key"
+	},
+	{
+		item: "storagedrawers:tape"
+	},
+	{
+		item: "bibliocraft:typewriter"
+	},
+	{
+		item: "bibliocraft:typewriter 1 1"
+	},
+	{
+		item: "bibliocraft:typewriter 1 2"
+	},
+	{
+		item: "bibliocraft:typewriter 1 3"
+	},
+	{
+		item: "bibliocraft:typewriter 1 4"
+	},
+	{
+		item: "bibliocraft:typewriter 1 5"
+	},
+	{
+		item: "bibliocraft:typewriter 1 6"
+	},
+	{
+		item: "bibliocraft:typewriter 1 7"
+	},
+	{
+		item: "bibliocraft:typewriter 1 8"
+	},
+	{
+		item: "bibliocraft:typewriter 1 9"
+	},
+	{
+		item: "bibliocraft:typewriter 1 10"
+	},
+	{
+		item: "bibliocraft:typewriter 1 11"
+	},
+	{
+		item: "bibliocraft:typewriter 1 12"
+	},
+	{
+		item: "bibliocraft:typewriter 1 13"
+	},
+	{
+		item: "bibliocraft:typewriter 1 14"
+	},
+	{
+		item: "bibliocraft:typewriter 1 15"
+	},
+	{
+		item: "bibliocraft:bell"
+	},
+	{
+		item: "bibliocraft:typesettingtable"
+	},
+	{
+		item: "bibliocraft:printingpress"
+	},
+	{
+		item: "bibliocraft:cookiejar"
+	},
+	{
+		item: "bibliocraft:dinnerplate"
+	},
+	{
+		item: "bibliocraft:discrack"
+	},
+	{
+		item: "bibliocraft:compass"
+	},
+	{
+		item: "bibliocraft:maptool"
+	},
+	{
+		item: "bibliocraft:stockroomcatalog"
+	},
+	{
+		item: "bibliocraft:plumbline"
+	},
+	{
+		item: "bibliocraft:framingsaw"
+	},
+	{
+		item: "bibliocraft:bigbook"
+	},
+	{
+		item: "bibliocraft:handdrill"
+	},
+	{
+		item: {
+			id: "bibliocraft:tapemeasure",
+			tag: {
+				distance: 0
+			}
+		}
+	},
+	{
+		item: "bibliocraft:bibliodrill"
+	},
+	{
+		item: "bibliocraft:biblioclipboard"
+	},
+	{
+		item: "bibliocraft:biblioglasses"
+	},
+	{
+		item: "bibliocraft:biblioglasses 1 1"
+	},
+	{
+		item: "bibliocraft:biblioglasses 1 2"
+	},
+	{
+		item: "bibliocraft:recipebook"
+	},
+	{
+		item: "minecraft:boat",
+		count: 64
+	},
+	{
+		item: "minecraft:spruce_boat",
+		count: 64
+	},
+	{
+		item: "minecraft:birch_boat",
+		count: 64
+	},
+	{
+		item: "minecraft:jungle_boat",
+		count: 64
+	},
+	{
+		item: "minecraft:acacia_boat",
+		count: 64
+	},
+	{
+		item: "minecraft:dark_oak_boat",
+		count: 64
+	},
+	{
+		item: "actuallyadditions:item_food 1 18",
+		count: 8192
 	}],
 	loot_crate: {
 		string_id: "lootcrate_random",

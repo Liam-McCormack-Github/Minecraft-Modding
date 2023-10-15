@@ -1,0 +1,34 @@
+{
+  "name": "refinery",
+  "label": "Refinery",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "c": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

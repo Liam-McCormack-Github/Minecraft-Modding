@@ -1,0 +1,18 @@
+{
+  "id": "Mrokarkark Plains I_-1403,87,-1320",
+  "name": "Mrokarkark Plains I",
+  "icon": "waypoint-normal.png",
+  "x": -1403,
+  "y": 87,
+  "z": -1320,
+  "r": 19,
+  "g": 216,
+  "b": 18,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "Reisalmararc_-296,76,-1726",
+  "name": "Reisalmararc",
+  "icon": "waypoint-normal.png",
+  "x": -296,
+  "y": 76,
+  "z": -1726,
+  "r": 83,
+  "g": 217,
+  "b": 142,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

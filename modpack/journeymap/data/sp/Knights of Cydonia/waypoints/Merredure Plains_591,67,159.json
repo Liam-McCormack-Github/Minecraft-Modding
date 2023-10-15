@@ -1,0 +1,18 @@
+{
+  "id": "Merredure Plains_591,67,159",
+  "name": "Merredure Plains",
+  "icon": "waypoint-normal.png",
+  "x": 591,
+  "y": 67,
+  "z": 159,
+  "r": 204,
+  "g": 92,
+  "b": 229,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,34 @@
+{
+  "name": "alternator",
+  "label": "Alternator",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 6
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 2
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device0",
+      "meta": 2
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "f": {
+      "id": "immersiveengineering:storage",
+      "meta": 8
+    }
+  },
+  "shape": [
+    []
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	shape: "square",
+	tasks: [{
+		uid: "cf049c7f",
+		type: "item",
+		items: [{
+			item: "minecraft:sand 1 1"
+		}]
+	}]
+}

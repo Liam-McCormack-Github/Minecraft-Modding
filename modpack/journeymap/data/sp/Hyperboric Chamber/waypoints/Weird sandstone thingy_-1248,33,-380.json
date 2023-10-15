@@ -1,0 +1,18 @@
+{
+  "id": "Weird sandstone thingy_-1248,33,-380",
+  "name": "Weird sandstone thingy",
+  "icon": "waypoint-normal.png",
+  "x": -1248,
+  "y": 33,
+  "z": -380,
+  "r": 199,
+  "g": 244,
+  "b": 153,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

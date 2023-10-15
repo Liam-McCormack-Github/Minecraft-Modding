@@ -1,0 +1,38 @@
+{
+  "name": "bottling_machine",
+  "label": "Bottling Machine",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "b": {
+      "id": "immersiveengineering:conveyor",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "f": {
+      "id": "minecraft:glass",
+      "meta": 0
+    },
+    "g": {
+      "id": "immersiveengineering:metal_device0",
+      "meta": 5
+    }
+  },
+  "shape": [
+    []
+  ]
+}

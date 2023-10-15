@@ -1,0 +1,34 @@
+{
+  "name": "assembler",
+  "label": "Assembler",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal_slab",
+      "meta": 9
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 0
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "f": {
+      "id": "immersiveengineering:conveyor",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

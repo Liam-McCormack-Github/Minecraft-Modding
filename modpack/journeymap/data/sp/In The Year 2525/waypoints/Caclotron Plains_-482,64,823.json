@@ -1,0 +1,18 @@
+{
+  "id": "Caclotron Plains_-482,64,823",
+  "name": "Caclotron Plains",
+  "icon": "waypoint-normal.png",
+  "x": -482,
+  "y": 64,
+  "z": 823,
+  "r": 114,
+  "g": 92,
+  "b": 54,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

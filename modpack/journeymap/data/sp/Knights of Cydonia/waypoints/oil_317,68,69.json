@@ -1,0 +1,18 @@
+{
+  "id": "oil_317,68,69",
+  "name": "oil",
+  "icon": "waypoint-normal.png",
+  "x": 317,
+  "y": 68,
+  "z": 69,
+  "r": 225,
+  "g": 103,
+  "b": 56,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

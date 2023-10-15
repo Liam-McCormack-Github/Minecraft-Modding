@@ -38,11 +38,15 @@ recipes.removeByRecipeName("extrautils2:kikoku");
 recipes.removeByRecipeName("extrautils2:machine_base");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");
 recipes.removeByRecipeName("extrautils2:klein_flash");
+recipes.removeByRecipeName("extrautils2:upgrade_speed_super");
+recipes.removeByRecipeName("extrautils2:golden_lasso_evil");
 
 
 # Add
+recipes.addShapeless(<extrautils2:goldenlasso:1>, [<extrautils2:goldenlasso>, <minecraft:skull:1>]);
+recipes.addShaped(<extrautils2:ingredients:16>, [[<minecraft:skull:1>, <extrautils2:ingredients:17>, <minecraft:skull:1>], [<extrautils2:ingredients:17>, <extrautils2:ingredients:15>, <extrautils2:ingredients:17>], [<minecraft:skull:1>, <extrautils2:ingredients:17>, <minecraft:skull:1>]]);
 recipes.addShaped(<extrautils2:unstableingots>, [[<ore:dustWhiteGlowstone>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<thermalfoundation:material:135>]]);
-recipes.addShaped(<extrautils2:ingredients:10>, [[<quark:black_ash>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<mysticalagradditions:insanium:4>]]);
+recipes.addShaped(<extrautils2:ingredients:10>, [[<biomesoplenty:terrarium:11>], [<unstabletools:division_sign>.withTag({activated: 1 as byte})], [<mysticalagradditions:insanium:4>]]);
 recipes.addShaped(<extrautils2:quarry>, [[<deepmoblearning:glitch_infused_ingot>, <extrautils2:klein>, <deepmoblearning:glitch_infused_ingot>],[<extrautils2:klein>, <ore:magic_snow_globe>, <extrautils2:klein>], [<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:machine_casing>, <deepmoblearning:glitch_infused_ingot>]]);
 recipes.addShaped(<extrautils2:ingredients:2>, [[<extrautils2:endershard>, <extrautils2:endershard>, <extrautils2:endershard>],[<extrautils2:endershard>, <extrautils2:ingredients>, <extrautils2:endershard>], [<extrautils2:endershard>, <extrautils2:endershard>, <extrautils2:endershard>]]);
 recipes.addShapeless(<extrautils2:angelring>, [<forge:bucketfilled>.withTag({FluidName: "potion", Amount: 1000, Tag: {Potion: "minecraft:long_invisibility"}}).onlyWithTag({FluidName: "potion", Amount: 1000, Tag: {Potion: "minecraft:long_invisibility"}}),<extrautils2:angelring:*>]);

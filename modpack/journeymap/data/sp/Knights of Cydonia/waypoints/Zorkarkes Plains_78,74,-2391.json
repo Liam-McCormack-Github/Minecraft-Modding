@@ -1,0 +1,18 @@
+{
+  "id": "Zorkarkes Plains_78,74,-2391",
+  "name": "Zorkarkes Plains",
+  "icon": "waypoint-normal.png",
+  "x": 78,
+  "y": 74,
+  "z": -2391,
+  "r": 212,
+  "g": 238,
+  "b": 84,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

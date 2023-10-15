@@ -1,0 +1,34 @@
+{
+  "name": "fermenter",
+  "label": "Fermenter",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "b": {
+      "id": "minecraft:cauldron",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

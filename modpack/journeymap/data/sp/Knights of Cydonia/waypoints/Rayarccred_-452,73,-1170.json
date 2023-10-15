@@ -1,0 +1,18 @@
+{
+  "id": "Rayarccred_-452,73,-1170",
+  "name": "Rayarccred",
+  "icon": "waypoint-normal.png",
+  "x": -452,
+  "y": 73,
+  "z": -1170,
+  "r": 207,
+  "g": 93,
+  "b": 162,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

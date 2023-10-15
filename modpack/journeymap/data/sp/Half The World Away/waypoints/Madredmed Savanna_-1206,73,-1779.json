@@ -1,0 +1,18 @@
+{
+  "id": "Madredmed Savanna_-1206,73,-1779",
+  "name": "Madredmed Savanna",
+  "icon": "waypoint-normal.png",
+  "x": -1206,
+  "y": 73,
+  "z": -1779,
+  "r": 158,
+  "g": 139,
+  "b": 6,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

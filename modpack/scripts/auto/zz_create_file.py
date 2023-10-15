@@ -1,6 +1,17 @@
 from os.path import dirname, join
+import csv
+
 
 current_dir = dirname(__file__)
+
+def load_csv_to_dict(filename):
+    data = []
+    with open(filename, 'r', encoding='utf-8-sig') as file:
+        csv_reader = csv.DictReader(file)
+        for row in csv_reader:
+            data.append(row)
+    return data
+    
 
 
 def crusher():
@@ -107,24 +118,25 @@ def alloy():
               ["<futuremc:netherite_ingot>", ["<futuremc:netherite_scrap> * 4", "<minecraft:gold_ingot> * 4"]],
               ["<techguns:itemshared:84>", ["<thermalfoundation:material:770> * 4", "<thermalfoundation:material:160>"]],
               ["<refinedstorage:quartz_enriched_iron> * 2", ["<actuallyadditions:item_misc:5>", "<thermalfoundation:material:132> * 2"]],
-              ["<extendedcrafting:material>", ["<quark:black_ash> * 4", "<minecraft:iron_ingot>"]],
-              ["<extendedcrafting:material>", ["<fluxnetworks:flux> * 4", "<minecraft:iron_ingot>"]],
+              ["<extendedcrafting:material> * 2", ["<zcontent:hot_iron_ingot> * 2", "<quark:black_ash> * 3"]],
+              ["<extendedcrafting:material> * 2", ["<zcontent:hot_iron_ingot> * 2", "<fluxnetworks:flux> * 3"]],
               ["<extendedcrafting:material:36>", ["<tp:ender_dust>", "<zcontent:cold_iron_ingot>"]],
               ["<modularmachinery:itemmodularium> * 2", ["<alchemistry:ingot:74>", "<zcontent:purple_mat_dust>", "<techguns:itemshared:96>"]],
-              ["<extrautils2:ingredients:17> * 2", ["<extrautils2:ingredients:10>", "<minecraft:iron_ingot>", "<alchemistry:ingot:101>"]],
+              ["<extrautils2:ingredients:17> * 16", ["<extrautils2:ingredients:10>", "<extendedcrafting:material> * 16", "<alchemistry:ingot:101> * 8"]],
               ["<zcontent:terraglaz_ingot>", ["<actuallyadditions:item_crystal_empowered:4> * 4", "<zcontent:manyullyn_ingot>"]],
-              ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<alchemistry:ingot:25>", "<alchemistry:ingot:24>", "<thermalfoundation:material:133>"]],
-              ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<alchemistry:ingot:25>", "<zcontent:nichrome_ingot> * 2"]],
+              ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<zcontent:manganese_ingot>", "<zcontent:chrome_ingot>", "<thermalfoundation:material:133>"]],
+              ["<zcontent:stainless_steel_ingot> * 9", ["<thermalfoundation:material:160> * 6", "<zcontent:manganese_ingot>", "<zcontent:nichrome_ingot> * 2"]],
               ["<zcontent:red_compound> * 2", ["<enderio:item_alloy_ingot:1>", "<enderio:item_alloy_ingot> * 2", "<minecraft:redstone> * 12"]],
               ["<zcontent:blue_compound> * 2", ["<enderio:item_alloy_endergy_ingot:5>", "<enderio:item_alloy_ingot> * 2", "<zcontent:blue_mat_dust> * 2"]],
               ["<zcontent:purple_alloy_ingot>", ["<zcontent:purple_mat_dust> * 8", "<zcontent:red_compound>", "<zcontent:blue_compound>"]],
               ["<zcontent:manyullyn_ingot>", ["<zcontent:ardite_ingot>", "<zcontent:cobalt_ingot>"]],
               ["<zcontent:red_alloy_ingot>", ["<zcontent:red_compound>", "<minecraft:redstone> * 8"]],
               ["<zcontent:blue_alloy_ingot>", ["<zcontent:blue_compound>", "<zcontent:blue_mat_dust> * 8"]],
-              ["<zcontent:nichrome_ingot> * 2", ["<alchemistry:ingot:24>", "<thermalfoundation:material:133>"]],
-              ["<zcontent:galvanized_steel_ingot> * 2", ["<alchemistry:ingot:30>", "<thermalfoundation:material:160> * 2"]],
+              ["<zcontent:nichrome_ingot> * 2", ["<zcontent:chrome_ingot>", "<thermalfoundation:material:133>"]],
+              ["<zcontent:galvanized_steel_ingot> * 2", ["<zcontent:zinc_ingot>", "<thermalfoundation:material:160> * 2"]],
               ["<zcontent:cold_iron_ingot> * 2", ["<thermalfoundation:material:1025>", "<minecraft:iron_ingot> * 2"]],
-              ["<zcontent:brass_ingot> * 4", ["<alchemistry:ingot:30>", "<thermalfoundation:material:128> * 3"]]
+              ["<zcontent:hot_iron_ingot> * 2", ["<thermalfoundation:material:1024>", "<minecraft:iron_ingot> * 2"]],
+              ["<zcontent:brass_ingot> * 4", ["<zcontent:zinc_ingot>", "<thermalfoundation:material:128> * 3"]]
               ]
 
     file = open("immersiveengineering_arcfurnace.zs", "w")
@@ -397,51 +409,7 @@ Centrifuge.removeRecipeMob(<entity:thermalfoundation:basalz>);\n\n''')
 
 
 def crushOres():
-    recipe = ({'in': '<biomesoplenty:gem_ore:1>', 'out': '<biomesoplenty:gem:1> * 3', 'energy': 4000},
-              {'in': '<biomesoplenty:gem_ore:2>', 'out': '<biomesoplenty:gem:2> * 3', 'energy': 4000},
-              {'in': '<biomesoplenty:gem_ore:3>', 'out': '<biomesoplenty:gem:3> * 3', 'energy': 4000},
-              {'in': '<biomesoplenty:gem_ore:4>', 'out': '<biomesoplenty:gem:4> * 3', 'energy': 4000},
-              {'in': '<biomesoplenty:gem_ore:5>', 'out': '<biomesoplenty:gem:5> * 3', 'energy': 4000},
-              {'in': '<biomesoplenty:gem_ore:6>', 'out': '<biomesoplenty:gem:6> * 3', 'energy': 4000},
-              {'in': '<biomesoplenty:gem_ore:7>', 'out': '<biomesoplenty:gem:7> * 3', 'energy': 4000},
-              {'in': '<biomesoplenty:gem_ore>', 'out': '<biomesoplenty:gem> * 3', 'energy': 4000},
-              {'in': '<draconicevolution:draconium_ore:1>', 'out': '<draconicevolution:draconium_dust> * 8', 'energy': 4000},
-              {'in': '<draconicevolution:draconium_ore:2>', 'out': '<draconicevolution:draconium_dust> * 8', 'energy': 4000},
-              {'in': '<futuremc:ancient_debris>'},
-              {'in': '<minecraft:coal_ore>', 'out': '<minecraft:coal> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:768>', 'secondChance': 25},
-              {'in': '<minecraft:diamond_ore>', 'out': '<minecraft:diamond> * 3', 'energy': 4000},
-              {'in': '<minecraft:emerald_ore>', 'out': '<minecraft:emerald> * 3', 'energy': 4000},
-              {'in': '<minecraft:gold_ore>', 'out': '<thermalfoundation:material:1> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:866>', 'secondChance': 10},
-              {'in': '<minecraft:iron_ore>', 'out': '<thermalfoundation:material> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:69>', 'secondChance': 10},
-              {'in': '<minecraft:lapis_ore>', 'out': '<minecraft:dye:4> * 10', 'energy': 4000, 'second': '<thermalfoundation:material:771>', 'secondChance': 20},
-              {'in': '<minecraft:quartz_ore>', 'out': '<minecraft:quartz> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:771>', 'secondChance': 15},
-              {'in': '<minecraft:redstone_ore>', 'out': '<minecraft:redstone> * 6', 'energy': 4000, 'second': '<thermalfoundation:material:866>', 'secondChance': 25},
-              {'in': '<quark:biotite_ore>', 'out': '<quark:biotite> * 3', 'energy': 4000, 'second': '<minecraft:ender_pearl>', 'secondChance': 5},
-              {'in': '<rftools:dimensional_shard_ore>', 'out': '<rftools:dimensional_shard> * 8', 'energy': 4000},
-              {'in': '<rftools:dimensional_shard_ore:1>', 'out': '<rftools:dimensional_shard> * 8', 'energy': 4000},
-              {'in': '<rftools:dimensional_shard_ore:2>', 'out': '<rftools:dimensional_shard> * 8', 'energy': 4000},
-              {'in': '<thermalfoundation:ore_fluid:1>', 'out': '<thermalfoundation:material:892> * 3', 'energy': 4000, 'second': '<minecraft:flint>', 'secondChance': 50},
-              {'in': '<thermalfoundation:ore_fluid:2>', 'out': '<thermalfoundation:material:893> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:866>', 'secondChance': 50},
-              {'in': '<thermalfoundation:ore_fluid:3>', 'out': '<thermalfoundation:material:894> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:771>', 'secondChance': 30},
-              {'in': '<thermalfoundation:ore_fluid:4>', 'out': '<thermalfoundation:material:895> * 3', 'energy': 4000},
-              {'in': '<thermalfoundation:ore_fluid:5>', 'out': '<thermalfoundation:material:892> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:833>', 'secondChance': 50},
-              {'in': '<thermalfoundation:ore_fluid>', 'out': '<thermalfoundation:material:892> * 3', 'energy': 4000, 'second': '<thermalfoundation:material:833>', 'secondChance': 50},
-              {'in': '<tp:ender_ore>', 'out': '<tp:ender_dust> * 8', 'energy': 4000},
-              {'in': '<zcontent:aluminum_ore>', 'out': '<thermalfoundation:material:68> * 2', 'energy': 4000},
-              {'in': '<zcontent:ardite_ore>', 'out': '<jaopca:item_dustardite> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
-              {'in': '<zcontent:cobalt_ore>', 'out': '<jaopca:item_dustcobalt> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
-              {'in': '<zcontent:copper_ore>', 'out': '<thermalfoundation:material:64> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
-              {'in': '<zcontent:iridium_ore>', 'out': '<thermalfoundation:material:71> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:70>', 'secondChance': 10},
-              {'in': '<zcontent:lead_ore>', 'out': '<thermalfoundation:material:67> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:66>', 'secondChance': 10},
-              {'in': '<zcontent:meteor_block>', 'out': '<zcontent:meteor_dust>', 'energy': 4000},
-              {'in': '<zcontent:mithril_ore>', 'out': '<thermalfoundation:material:72> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:1>', 'secondChance': 10},
-              {'in': '<zcontent:nickel_ore>', 'out': '<thermalfoundation:material:69> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:70>', 'secondChance': 10},
-              {'in': '<zcontent:platinum_ore>', 'out': '<thermalfoundation:material:70> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:71>', 'secondChance': 10},
-              {'in': '<zcontent:silver_ore>', 'out': '<thermalfoundation:material:66> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:67>', 'secondChance': 10},
-              {'in': '<zcontent:tin_ore>', 'out': '<thermalfoundation:material:65> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
-              {'in': '<zcontent:titanium_ore>', 'out': '<jaopca:item_dusttitanium> * 2', 'energy': 4000, 'second': '<thermalfoundation:material>', 'secondChance': 10},
-              {'in': '<zcontent:uranium_ore>', 'out': '<immersiveengineering:metal:14> * 2', 'energy': 4000, 'second': '<thermalfoundation:material:67>', 'secondChance': 10}
-              )
+    recipe = load_csv_to_dict(join(current_dir, 'data', 'crushOres.csv'))
 
     fileName = "immersiveengineering_ores.zs"
     with open(fileName, "w") as file:
@@ -451,7 +419,7 @@ def crushOres():
 
         file.write("\n# Remove\n")
         for x in recipe:
-            if x.get('in') is not None:
+            if x.get('in') != '':
                 '''
                 Crusher.removeRecipe(IItemstack output);
                 Crusher.removeRecipe(<minecraft:diamond>);
@@ -463,13 +431,13 @@ def crushOres():
 
         file.write("\n# Add\n")
         for x in recipe:
-            if x.get('out') is not None:
+            if x.get('out') != '':
                 '''
                 Crusher.addRecipe(IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance);
                 Crusher.addRecipe(<minecraft:diamond>, <ore:logWood>, 2048);
                 Crusher.addRecipe(<minecraft:diamond>, <ore:logWood>, 2048, <minecraft:dirt>, 0.5);
                 '''
-                if x.get('second') is None:
+                if x.get('second') == '':
                     file.write(f"Crusher.addRecipe({x['out']}, {x['in']}, {x['energy']});\n")
                 else:
                     file.write(f"Crusher.addRecipe({x['out']}, {x['in']}, {x['energy']}, {x['second']}, 0.{x['secondChance']});\n")
@@ -485,7 +453,7 @@ def crushOres():
 
         file.write("\n# Remove\n")
         for x in recipe:
-            if x.get('out') is not None:
+            if x.get('out') != '':
                 '''
                 Crusher.remove(IItemStack outout);
                 Crusher.remove(<minecraft:redstone>);
@@ -494,13 +462,13 @@ def crushOres():
 
         file.write("\n# Add\n")
         for x in recipe:
-            if x.get('out') is not None:
+            if x.get('out') != '':
                 '''
                 Crusher.add(IItemStack output, IItemStack input, @Optional IItemStack secondaryOutput, @Optional float secondaryChance);
                 Crusher.add(<minecraft:gold_ingot> * 9, <minecraft:gold_block>, <minecraft:iron_ingot>, 0.1f);
                 Crusher.add(<minecraft:iron_ingot> * 9, <minecraft:iron_block>);
                 '''
-                if x.get('second') is None:
+                if x.get('second') == '':
                     file.write(f"Crusher.add({x['out']}, {x['in']});\n")
                 else:
                     file.write(f"Crusher.add({x['out']}, {x['in']}, {x['second']}, 0.{x['secondChance']}f);\n")
@@ -516,7 +484,7 @@ def crushOres():
 
         file.write("\n# Remove\n")
         for x in recipe:
-            if x.get('out') is not None:
+            if x.get('out') != '':
                 '''
                 Crusher.removeRecipe(IItemStack output);
                 Crusher.removeRecipe(<minecraft:gold_ore>);
@@ -525,17 +493,150 @@ def crushOres():
 
         file.write("\n# Add\n")
         for x in recipe:
-            if x.get('out') is not None:
+            if x.get('out') != '':
                 '''
                 Crusher.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);
                 Crusher.addRecipe(<minecraft:iron_ingot>, <minecraft:iron_ore>, <minecraft:stone>, 50);
                 '''
-                if x.get('second') is None:
+                if x.get('second') == '':
                     file.write(f"Crusher.addRecipe({x['out']}, {x['in']});\n")
                 else:
                     file.write(f"Crusher.addRecipe({x['out']}, {x['in']}, {x['second']}, {x['secondChance']});\n")
 
         file.write(f"\nprint(\"---initialized {fileName}---\");")
+        file.close()
+
+
+def ingotPlateDenseGearDust():
+    recipe = load_csv_to_dict(join(current_dir, 'data', 'ingotsPlatesDenseGears.csv'))
+
+    fileName = "dust_to_ingot.zs"
+    with open(fileName, "w") as file:
+        file.write("#priority 5000\n")
+        file.write("import mods.futuremc.BlastFurnace;\n")
+        file.write(f"\nprint(\"---loading <{fileName}>---\");\n")
+
+        # file.write("\n# Remove\n")
+
+        file.write("\n# Add\n")
+
+        for x in recipe:
+            ingot = x.get('ingot')
+            dust = x.get('dust')
+            if ingot != '' and dust != '':
+                file.write(f"recipes.addShapeless(<{ingot}>, [<{dust}>, <ore:dustPyrotheum>]);\n")
+
+        for x in recipe:
+            ingot = x.get('ingot')
+            dust = x.get('dust')
+            if ingot != '' and dust != '':
+                file.write(f"BlastFurnace.addRecipe(<{dust}>, <{ingot}>);\n")
+
+        file.write(f"\nprint(\"---initialized <{fileName}>---\");")
+        file.close()
+    # ----------------------------------------------------------------
+    fileName = "ingot_to_plate.zs"
+    with open(fileName, "w") as file:
+        file.write("#priority 5000\n")
+        file.write("import mods.techguns.MetalPress;\n")
+        file.write(f"\nprint(\"---loading <{fileName}>---\");\n")
+
+        # file.write("\n# Remove\n")
+
+        file.write("\n# Add\n")
+
+        for x in recipe:
+            ingot = x.get('ingot')
+            plate = x.get('plate')
+            if ingot != '' and plate != '':
+                file.write(f"recipes.addShapeless(<{plate}>, [<ore:toolHammer>, <{ingot}>, <{ingot}>]);\n")
+
+        for x in recipe:
+            ingot = x.get('ingot')
+            plate = x.get('plate')
+            if ingot != '' and plate != '':
+                file.write(f"MetalPress.addRecipe(<{ingot}>, <{ingot}> ,<{plate}> * 2,true);\n")
+
+        file.write(f"\nprint(\"---initialized <{fileName}>---\");")
+        file.close()
+    # ----------------------------------------------------------------
+    fileName = "plate_to_dense_plate.zs"
+    with open(fileName, "w") as file:
+        file.write("#priority 5000\n")
+        file.write("import mods.immersiveengineering.MetalPress;\n")
+        file.write("import mods.thermalexpansion.Compactor;\n")
+        file.write(f"\nprint(\"---loading <{fileName}>---\");\n")
+
+        # file.write("\n# Remove\n")
+
+        file.write("\n# Add\n")
+
+        for x in recipe:
+            plate = x.get('plate')
+            dense = x.get('dense')
+            if plate != '' and dense != '':
+                file.write(f"recipes.addShapeless(<{dense}>, [<ore:toolHammer>, <{plate}>, <{plate}>, <{plate}>, <{plate}>, <{plate}>, <{plate}>, <{plate}>, <{plate}>]);\n")
+
+        for x in recipe:
+            plate = x.get('plate')
+            dense = x.get('dense')
+            if plate != '' and dense != '':
+                file.write(f"Compactor.addPressRecipe(<{dense}>, <{plate}> * 8, 6000);\n")
+
+        for x in recipe:
+            plate = x.get('plate')
+            dense = x.get('dense')
+            if plate != '' and dense != '':
+                file.write(f"MetalPress.addRecipe(<{dense}>, <{plate}> * 8, <zcontent:mold>, 8192);\n")
+
+        file.write(f"\nprint(\"---initialized <{fileName}>---\");")
+        file.close()
+    # ----------------------------------------------------------------
+    fileName = "dense_plate_to_gear.zs"
+    with open(fileName, "w") as file:
+        file.write("#priority 5000\n")
+        file.write("import mods.immersiveengineering.MetalPress;\n")
+        file.write("import mods.thermalexpansion.Compactor;\n")
+        file.write(f"\nprint(\"---loading <{fileName}>---\");\n")
+
+        file.write("\n# Remove\n")
+
+        for x in recipe:
+            gear = x.get('gear')
+            if gear != '':
+                file.write(f"recipes.remove(<{gear}>);\n")
+
+        for x in recipe:
+            gear = x.get('gear')
+            if gear != '':
+                file.write(f"MetalPress.removeRecipe(<{gear}>);\n")
+
+        for x in recipe:
+            ingot = x.get('ingot')
+            if ingot != '':
+                file.write(f"Compactor.removeGearRecipe(<{ingot}>);\n")
+
+        file.write("\n# Add\n")
+
+        for x in recipe:
+            dense = x.get('dense')
+            gear = x.get('gear')
+            if dense != '' and gear != '':
+                file.write(f"recipes.addShapeless(<{gear}> * 2, [<immersiveengineering:tool:1> | <ore:toolShears>.transformDamage(), <{dense}>]);\n")
+
+        for x in recipe:
+            dense = x.get('dense')
+            gear = x.get('gear')
+            if dense != '' and gear != '':
+                file.write(f"MetalPress.addRecipe(<{gear}> * 2, <{dense}>, <immersiveengineering:mold:1>, 2048);\n")
+
+        for x in recipe:
+            dense = x.get('dense')
+            gear = x.get('gear')
+            if dense != '' and gear != '':
+                file.write(f"Compactor.addGearRecipe(<{gear}> * 2, <{dense}>,  2000);\n")
+
+        file.write(f"\nprint(\"---initialized <{fileName}>---\");")
         file.close()
 
 
@@ -547,11 +648,11 @@ if __name__ == "__main__":
     bigCraftingTables()
     print("exec bigCraftingTables()")
     autoMobDropsCentrifuge()
-    print("exec autoMobDrops()")
-    # autoMobDropsDeep()
-    # print("exec autoMobDrops()")
+    print("exec autoMobDropsCentrifuge()")
     crushOres()
-    print('Hello')
+    print("exec crushOres()")
+    ingotPlateDenseGearDust()
+    print("exec ingotPlateDenseGearDust()")
 
 """
 ---------------------

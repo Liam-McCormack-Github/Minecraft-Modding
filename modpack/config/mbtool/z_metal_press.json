@@ -1,0 +1,30 @@
+{
+  "name": "metal_press",
+  "label": "Metal Press",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "b": {
+      "id": "immersiveengineering:conveyor",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "e": {
+      "id": "minecraft:piston",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

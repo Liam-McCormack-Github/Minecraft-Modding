@@ -1,0 +1,18 @@
+{
+  "id": "Azurzerzur Hills_1038,84,8002",
+  "name": "Azurzerzur Hills",
+  "icon": "waypoint-normal.png",
+  "x": 1038,
+  "y": 84,
+  "z": 8002,
+  "r": 75,
+  "g": 96,
+  "b": 200,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

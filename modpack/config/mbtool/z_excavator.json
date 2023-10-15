@@ -1,0 +1,38 @@
+{
+  "name": "excavator",
+  "label": "Excavator",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "c": {
+      "id": "immersiveengineering:storage",
+      "meta": 8
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 7
+    },
+    "g": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

@@ -7,8 +7,7 @@
 		uid: "5b722240",
 		type: "item",
 		items: [{
-			item: "projectedisable_toast: true,
-	x:alchemy_table"
+			item: "projectex:alchemy_table"
 		}]
 	}],
 	rewards: [{

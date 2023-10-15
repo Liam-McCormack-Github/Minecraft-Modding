@@ -1,0 +1,54 @@
+{
+  "name": "advanced_cryotheum_cooler",
+  "label": "Advanced Cryotheum Cooler",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "quark:iron_plate_stairs",
+      "meta": 0
+    },
+    "b": {
+      "id": "thermalfoundation:glass",
+      "meta": 8
+    },
+    "c": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "d": {
+      "id": "quark:iron_plate_slab",
+      "meta": 0
+    },
+    "e": {
+      "id": "quark:iron_plate",
+      "meta": 0
+    },
+    "f": {
+      "id": "modularmachinery:blockcontroller",
+      "meta": 0
+    },
+    "g": {
+      "id": "modularmachinery:blockfluidoutputhatch",
+      "meta": 0
+    },
+    "h": {
+      "id": "modularmachinery:blockfluidinputhatch",
+      "meta": 0
+    },
+    "i": {
+      "id": "modularmachinery:blockoutputbus",
+      "meta": 0
+    },
+    "j": {
+      "id": "modularmachinery:blockinputbus",
+      "meta": 0
+    },
+    "k": {
+      "id": "modularmachinery:blockenergyinputhatch",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

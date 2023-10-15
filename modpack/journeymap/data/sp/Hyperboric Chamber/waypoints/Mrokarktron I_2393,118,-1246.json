@@ -1,0 +1,18 @@
+{
+  "id": "Mrokarktron I_2393,118,-1246",
+  "name": "Mrokarktron I",
+  "icon": "waypoint-normal.png",
+  "x": 2393,
+  "y": 118,
+  "z": -1246,
+  "r": 147,
+  "g": 144,
+  "b": 92,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

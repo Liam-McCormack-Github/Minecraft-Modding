@@ -1,0 +1,25 @@
+{
+	x: 47.0d,
+	y: 4.0d,
+	dependencies: [
+		"3a3882bf"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "79f8881b",
+		type: "item",
+		items: [{
+			item: "minecraft:spawn_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "64eb2061",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lootcrate_2"
+			}
+		}
+	}]
+}

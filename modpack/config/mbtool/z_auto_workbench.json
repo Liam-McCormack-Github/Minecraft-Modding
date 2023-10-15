@@ -1,0 +1,34 @@
+{
+  "name": "auto_workbench",
+  "label": "Auto Workbench",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "c": {
+      "id": "immersiveengineering:conveyor",
+      "meta": 0
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "e": {
+      "id": "immersiveengineering:treated_wood_slab",
+      "meta": 0
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

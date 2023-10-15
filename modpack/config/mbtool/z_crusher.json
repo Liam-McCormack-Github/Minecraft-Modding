@@ -1,0 +1,30 @@
+{
+  "name": "crusher",
+  "label": "Crusher",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "c": {
+      "id": "minecraft:hopper",
+      "meta": 0
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 0
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sheetmetal_tank",
+  "label": "Sheetmetal Tank",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 9
+    },
+    "b": {
+      "id": "immersiveengineering:wooden_decoration",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

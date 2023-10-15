@@ -1,0 +1,18 @@
+{
+  "id": "Blue/Black Cave Crystals_3217,38,-2686",
+  "name": "Blue/Black Cave Crystals",
+  "icon": "waypoint-normal.png",
+  "x": 3217,
+  "y": 38,
+  "z": -2686,
+  "r": 94,
+  "g": 204,
+  "b": 26,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

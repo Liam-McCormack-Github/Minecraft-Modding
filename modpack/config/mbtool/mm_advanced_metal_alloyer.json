@@ -1,0 +1,62 @@
+{
+  "name": "advanced_metal_alloyer",
+  "label": "Advanced Metal Alloyer",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "b": {
+      "id": "quark:iron_plate_stairs",
+      "meta": 0
+    },
+    "c": {
+      "id": "quark:iron_plate_slab",
+      "meta": 0
+    },
+    "d": {
+      "id": "quark:iron_plate",
+      "meta": 0
+    },
+    "e": {
+      "id": "thermalfoundation:glass",
+      "meta": 7
+    },
+    "f": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 1
+    },
+    "g": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 0
+    },
+    "h": {
+      "id": "modularmachinery:blockcontroller",
+      "meta": 0
+    },
+    "i": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 5
+    },
+    "j": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 2
+    },
+    "k": {
+      "id": "modularmachinery:blockinputbus",
+      "meta": 0
+    },
+    "l": {
+      "id": "modularmachinery:blockenergyinputhatch",
+      "meta": 0
+    },
+    "m": {
+      "id": "modularmachinery:blockoutputbus",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

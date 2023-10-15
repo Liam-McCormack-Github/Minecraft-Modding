@@ -1,0 +1,18 @@
+{
+  "id": "Reizoires_-178,90,-242",
+  "name": "Reizoires",
+  "icon": "waypoint-normal.png",
+  "x": -178,
+  "y": 90,
+  "z": -242,
+  "r": 153,
+  "g": 168,
+  "b": 88,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

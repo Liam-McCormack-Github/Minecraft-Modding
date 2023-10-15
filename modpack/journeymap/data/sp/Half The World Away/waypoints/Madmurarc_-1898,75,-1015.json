@@ -1,0 +1,18 @@
+{
+  "id": "Madmurarc_-1898,75,-1015",
+  "name": "Madmurarc",
+  "icon": "waypoint-normal.png",
+  "x": -1898,
+  "y": 75,
+  "z": -1015,
+  "r": 246,
+  "g": 160,
+  "b": 97,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

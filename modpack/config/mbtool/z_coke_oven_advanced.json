@@ -1,0 +1,22 @@
+{
+  "name": "coke_oven_advanced",
+  "label": "Coke Oven Advanced",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersivetech:stone_decoration",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "c": {
+      "id": "minecraft:hopper",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

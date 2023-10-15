@@ -29,7 +29,7 @@ recipes.removeByRecipeName("mysticalagriculture:core/mystical_fertilizer");
 recipes.removeByRecipeName("mysticalagriculture:core/mystical_fertilizer_2");
 recipes.removeByRecipeName("mysticalagriculture:core/master_infusion_crystal");
 recipes.removeByRecipeName("mysticalagriculture:core/infusion_crystal");
-
+recipes.removeByRecipeName("mysticalagriculture:core/growth_accelerator");
 
 # Add
 recipes.addShaped(<mysticalagriculture:cobalt_seeds>, [[<ore:ingotCobalt>, <ore:essenceSuperium>, <ore:ingotCobalt>],[<ore:essenceSuperium>, <mysticalagriculture:crafting:20>, <ore:essenceSuperium>], [<ore:ingotCobalt>, <ore:essenceSuperium>, <ore:ingotCobalt>]]);

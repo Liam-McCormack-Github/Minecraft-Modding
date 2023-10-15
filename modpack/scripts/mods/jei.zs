@@ -721,6 +721,7 @@ JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:14>);
 JEI.hide(<enderio:block_not_pasture_enlightened_fused_quartz:15>);
 JEI.hide(<thermalexpansion:cell>);
 
+JEI.addItem(<zcontent:chrome_ingot>);
 JEI.addItem(<bettermagnets:magnet:4>);
 JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 10000,  RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 10000}));
 JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 40000,  RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 1 as byte, Send: 40000}));

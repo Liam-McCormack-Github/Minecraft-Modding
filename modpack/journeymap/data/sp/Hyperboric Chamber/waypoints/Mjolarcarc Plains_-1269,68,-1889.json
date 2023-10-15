@@ -1,0 +1,18 @@
+{
+  "id": "Mjolarcarc Plains_-1269,68,-1889",
+  "name": "Mjolarcarc Plains",
+  "icon": "waypoint-normal.png",
+  "x": -1269,
+  "y": 68,
+  "z": -1889,
+  "r": 233,
+  "g": 137,
+  "b": 124,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

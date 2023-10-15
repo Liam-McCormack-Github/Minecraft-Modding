@@ -1,0 +1,18 @@
+{
+  "id": "Jagcrad Plains_-517,69,-2290",
+  "name": "Jagcrad Plains",
+  "icon": "waypoint-normal.png",
+  "x": -517,
+  "y": 69,
+  "z": -2290,
+  "r": 54,
+  "g": 97,
+  "b": 203,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

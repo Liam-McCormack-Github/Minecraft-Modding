@@ -1,0 +1,18 @@
+{
+  "id": "pirate ship 50_-277,63,1567",
+  "name": "pirate ship 50",
+  "icon": "waypoint-normal.png",
+  "x": -277,
+  "y": 63,
+  "z": 1567,
+  "r": 140,
+  "g": 163,
+  "b": 200,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

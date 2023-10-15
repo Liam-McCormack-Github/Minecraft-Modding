@@ -1,0 +1,18 @@
+{
+  "id": "Cryslamard Plains_-1305,75,-999",
+  "name": "Cryslamard Plains",
+  "icon": "waypoint-normal.png",
+  "x": -1305,
+  "y": 75,
+  "z": -999,
+  "r": 104,
+  "g": 103,
+  "b": 78,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

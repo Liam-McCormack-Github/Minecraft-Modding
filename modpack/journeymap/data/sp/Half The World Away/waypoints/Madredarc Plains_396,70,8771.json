@@ -1,0 +1,18 @@
+{
+  "id": "Madredarc Plains_396,70,8771",
+  "name": "Madredarc Plains",
+  "icon": "waypoint-normal.png",
+  "x": 396,
+  "y": 70,
+  "z": 8771,
+  "r": 101,
+  "g": 101,
+  "b": 71,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

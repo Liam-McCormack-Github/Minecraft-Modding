@@ -1,0 +1,18 @@
+{
+  "id": "Cruloriarc_-2445,68,2642",
+  "name": "Cruloriarc",
+  "icon": "waypoint-normal.png",
+  "x": -2445,
+  "y": 68,
+  "z": 2642,
+  "r": 164,
+  "g": 197,
+  "b": 81,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

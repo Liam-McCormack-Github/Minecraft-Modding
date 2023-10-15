@@ -1,0 +1,18 @@
+{
+  "id": "Rayarcder River_133,64,-1183",
+  "name": "Rayarcder River",
+  "icon": "waypoint-normal.png",
+  "x": 133,
+  "y": 64,
+  "z": -1183,
+  "r": 252,
+  "g": 88,
+  "b": 50,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

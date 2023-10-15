@@ -1,0 +1,42 @@
+{
+  "name": "gas_turbine",
+  "label": "Gas Turbine",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "c": {
+      "id": "immersiveengineering:storage",
+      "meta": 8
+    },
+    "d": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 2
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "f": {
+      "id": "immersiveengineering:sheetmetal_slab",
+      "meta": 8
+    },
+    "g": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "h": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

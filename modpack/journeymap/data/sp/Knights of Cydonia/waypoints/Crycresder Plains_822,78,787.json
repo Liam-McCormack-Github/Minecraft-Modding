@@ -1,0 +1,18 @@
+{
+  "id": "Crycresder Plains_822,78,787",
+  "name": "Crycresder Plains",
+  "icon": "waypoint-normal.png",
+  "x": 822,
+  "y": 78,
+  "z": 787,
+  "r": 133,
+  "g": 142,
+  "b": 117,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

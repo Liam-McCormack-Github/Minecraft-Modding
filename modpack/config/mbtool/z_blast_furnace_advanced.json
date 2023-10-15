@@ -1,0 +1,18 @@
+{
+  "name": "blast_furnace_advanced",
+  "label": "Blast Furnace Advanced",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:stone_decoration",
+      "meta": 2
+    },
+    "b": {
+      "id": "minecraft:hopper",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "diesel_generator",
+  "label": "Diesel Generator",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 7
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 6
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

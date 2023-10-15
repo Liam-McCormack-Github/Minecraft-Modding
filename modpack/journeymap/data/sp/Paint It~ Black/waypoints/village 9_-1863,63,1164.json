@@ -1,0 +1,18 @@
+{
+  "id": "village 9_-1863,63,1164",
+  "name": "village 9",
+  "icon": "waypoint-normal.png",
+  "x": -1863,
+  "y": 63,
+  "z": 1164,
+  "r": 163,
+  "g": 183,
+  "b": 117,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

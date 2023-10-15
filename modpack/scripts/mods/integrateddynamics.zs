@@ -23,7 +23,6 @@ MechanicalSqueezer.removeRecipesWithOutput(<minecraft:blaze_powder> * 5, 1.0);
 
 # Add
 Squeezer.addRecipe(<thermalfoundation:material:801>, <zcontent:wood_plate>);
-Squeezer.addRecipe(<jaopca:item_dustmoon>, <extrautils2:ingredients:5>);
 Squeezer.addRecipe(<minecraft:cobblestone>, <quark:sturdy_stone>);
 Squeezer.addRecipe(<minecraft:redstone>, <fluxnetworks:flux>);
 Squeezer.addRecipe(<overloaded:compressed_gravel>, <jaopca:item_dustcrudesteel>);

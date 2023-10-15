@@ -1,0 +1,26 @@
+{
+  "name": "solar_reflector",
+  "label": "Solar Reflector",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:wooden_decoration",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "d": {
+      "id": "immersiveengineering:storage",
+      "meta": 3
+    }
+  },
+  "shape": [
+    []
+  ]
+}

@@ -96,7 +96,6 @@ MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder> * 5, <immer
 MetalPress.addRecipe(<thermalfoundation:material:2048>, <thermalfoundation:material:2049> * 5, <immersiveengineering:mold:2>, 1024);
 MetalPress.addRecipe(<thermalfoundation:material:2050>, <thermalfoundation:material:2051> * 5, <immersiveengineering:mold:2>, 1024);
 MetalPress.addRecipe(<thermalfoundation:material:2052>, <thermalfoundation:material:2053> * 5, <immersiveengineering:mold:2>, 1024);
-MetalPress.addRecipe(<extrautils2:ingredients:5>, <jaopca:item_dustmoon>, <zcontent:mold>, 256);
 MetalPress.addRecipe(<quark:sturdy_stone>, <minecraft:cobblestone>, <zcontent:mold>, 256);
 MetalPress.addRecipe(<zcontent:wood_plate>, <thermalfoundation:material:801>, <zcontent:mold>, 256);
 MetalPress.addRecipe(<quark:diamond_heart>.withTag({Unbreakable:1}), <quark:diamond_heart> * 64, <zcontent:mold>, 1024);
@@ -132,10 +131,19 @@ BlastFurnace.addFuel(<mysticalagriculture:coal_block:4>, 288000);
 BlastFurnace.addFuel(<mysticalagradditions:storage:2>, 576000);
 DieselHandler.addFuel(<liquid:refined_fuel>, 400);
 Refinery.addRecipe(<liquid:refined_fuel> * 45, <liquid:napalm> * 5, <liquid:refined_oil> * 30, 64);
-Distillation.addRecipe([<liquid:lubricant> * 60, <liquid:refined_oil> * 180], [<thermalfoundation:material:771>], <liquid:diesel> * 240, 2048, 4, [0.15]);
-Distillation.addRecipe([<liquid:napalm> * 60, <liquid:refined_fuel> * 180], [<zcontent:polyethylene>], <liquid:gasoline> * 240, 2048, 4, [0.15]);
-Distillation.addRecipe([<liquid:gasoline> * 80, <liquid:diesel> * 160], [<thermalfoundation:material:833>], <liquid:crude_oil> * 240, 4096, 4, [0.15]);
-Distillation.addRecipe([<liquid:gasoline> * 80, <liquid:diesel> * 160], [<thermalfoundation:material:833>], <liquid:oil> * 240, 4096, 4, [0.15]);
+/*
+Distillation.addRecipe([<liquid:lubricant> * 60, 	<liquid:refined_oil> * 180], 	[<thermalfoundation:material:771>], 		<liquid:diesel> * 240, 		2048, 4, [0.10]);
+Distillation.addRecipe([<liquid:napalm> * 60, 		<liquid:refined_fuel> * 180], 	[<zcontent:polyethylene>], 					<liquid:gasoline> * 240, 	2048, 4, [0.10]);
+Distillation.addRecipe([<liquid:gasoline> * 80, 	<liquid:diesel> * 160], 		[<thermalfoundation:material:833>], 		<liquid:crude_oil> * 240, 	4096, 4, [0.10]);
+Distillation.addRecipe([<liquid:gasoline> * 80, 	<liquid:diesel> * 160], 		[<thermalfoundation:material:833>], 		<liquid:oil> * 240, 		4096, 4, [0.10]);
+*/
+Distillation.addRecipe([<liquid:lubricant> * 300, 	<liquid:refined_oil> * 900], 	[<thermalfoundation:material:771>], 		<liquid:diesel> * 1200, 		10240, 20, [0.10]);
+Distillation.addRecipe([<liquid:napalm> * 300, 		<liquid:refined_fuel> * 900], 	[<zcontent:polyethylene>], 					<liquid:gasoline> * 1200, 	10240, 20, [0.10]);
+Distillation.addRecipe([<liquid:gasoline> * 400, 	<liquid:diesel> * 800], 		[<thermalfoundation:material:833>], 		<liquid:crude_oil> * 1200, 	20480, 20, [0.10]);
+Distillation.addRecipe([<liquid:gasoline> * 400, 	<liquid:diesel> * 800], 		[<thermalfoundation:material:833>], 		<liquid:oil> * 1200, 		20480, 20, [0.10]);
+
+
+
 Mixer.addRecipe(<liquid:nutrient_distillation> * 750, <liquid:water> * 188, [<minecraft:sugar>, <minecraft:chicken>], 20480);
 Mixer.addRecipe(<liquid:nutrient_distillation> * 750, <liquid:water> * 188, [<minecraft:sugar>, <minecraft:mutton>], 20480);
 Mixer.addRecipe(<liquid:nutrient_distillation> * 750, <liquid:water> * 188, [<minecraft:sugar>, <minecraft:beef>], 20480);

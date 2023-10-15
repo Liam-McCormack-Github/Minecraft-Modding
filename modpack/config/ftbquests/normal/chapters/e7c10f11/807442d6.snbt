@@ -1,0 +1,12 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	shape: "square",
+	tasks: [{
+		uid: "a53015e0",
+		type: "item",
+		items: [{
+			item: "chisel:factory"
+		}]
+	}]
+}

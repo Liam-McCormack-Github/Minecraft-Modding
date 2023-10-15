@@ -1,0 +1,38 @@
+{
+  "name": "squeezer",
+  "label": "Squeezer",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "b": {
+      "id": "immersiveengineering:wooden_device0",
+      "meta": 1
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 0
+    },
+    "d": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 6
+    },
+    "e": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "g": {
+      "id": "minecraft:piston",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

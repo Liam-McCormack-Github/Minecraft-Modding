@@ -1,0 +1,18 @@
+{
+  "id": "Jagslamarure Savanna_-750,69,-2472",
+  "name": "Jagslamarure Savanna",
+  "icon": "waypoint-normal.png",
+  "x": -750,
+  "y": 69,
+  "z": -2472,
+  "r": 36,
+  "g": 136,
+  "b": 142,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

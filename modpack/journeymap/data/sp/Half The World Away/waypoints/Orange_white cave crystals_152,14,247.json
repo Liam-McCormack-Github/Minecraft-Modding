@@ -1,0 +1,18 @@
+{
+  "id": "Orange/white cave crystals_152,14,247",
+  "name": "Orange/white cave crystals",
+  "icon": "waypoint-normal.png",
+  "x": 152,
+  "y": 14,
+  "z": 247,
+  "r": 13,
+  "g": 147,
+  "b": 167,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

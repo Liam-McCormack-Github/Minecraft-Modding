@@ -1,0 +1,18 @@
+{
+  "id": "Luksored_-2745,68,4176",
+  "name": "Luksored",
+  "icon": "waypoint-normal.png",
+  "x": -2745,
+  "y": 68,
+  "z": 4176,
+  "r": 105,
+  "g": 129,
+  "b": 215,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,46 @@
+{
+  "name": "advanced_fusion_reactor",
+  "label": "Advanced Fusion Reactor",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "quark:iron_plate_stairs",
+      "meta": 0
+    },
+    "b": {
+      "id": "thermalfoundation:glass",
+      "meta": 8
+    },
+    "c": {
+      "id": "thermaldynamics:duct_0",
+      "meta": 5
+    },
+    "d": {
+      "id": "modularmachinery:blockenergyinputhatch",
+      "meta": 0
+    },
+    "e": {
+      "id": "modularmachinery:blockcontroller",
+      "meta": 0
+    },
+    "f": {
+      "id": "modularmachinery:blockoutputbus",
+      "meta": 0
+    },
+    "g": {
+      "id": "modularmachinery:blockenergyoutputhatch",
+      "meta": 0
+    },
+    "h": {
+      "id": "modularmachinery:blockfluidinputhatch",
+      "meta": 0
+    },
+    "i": {
+      "id": "modularmachinery:blockinputbus",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

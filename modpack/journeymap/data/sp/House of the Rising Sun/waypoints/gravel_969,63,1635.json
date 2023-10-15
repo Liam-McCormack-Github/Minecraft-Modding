@@ -1,0 +1,18 @@
+{
+  "id": "gravel_969,63,1635",
+  "name": "gravel",
+  "icon": "waypoint-normal.png",
+  "x": 969,
+  "y": 63,
+  "z": 1635,
+  "r": 210,
+  "g": 222,
+  "b": 52,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

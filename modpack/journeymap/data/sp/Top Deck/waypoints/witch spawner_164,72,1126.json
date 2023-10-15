@@ -1,0 +1,18 @@
+{
+  "id": "witch spawner_164,72,1126",
+  "name": "witch spawner",
+  "icon": "waypoint-normal.png",
+  "x": 164,
+  "y": 72,
+  "z": 1126,
+  "r": 176,
+  "g": 196,
+  "b": 5,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

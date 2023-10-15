@@ -1,0 +1,18 @@
+{
+  "id": "Good nether fort_-2912,97,-1720",
+  "name": "Good nether fort",
+  "icon": "waypoint-normal.png",
+  "x": -2912,
+  "y": 97,
+  "z": -1720,
+  "r": 193,
+  "g": 96,
+  "b": 132,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1
+  ],
+  "persistent": true
+}

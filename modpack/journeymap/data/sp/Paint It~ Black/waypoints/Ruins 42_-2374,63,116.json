@@ -1,0 +1,18 @@
+{
+  "id": "Ruins 42_-2374,63,116",
+  "name": "Ruins 42",
+  "icon": "waypoint-normal.png",
+  "x": -2374,
+  "y": 63,
+  "z": 116,
+  "r": 244,
+  "g": 85,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

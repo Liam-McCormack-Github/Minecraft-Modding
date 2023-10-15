@@ -1,0 +1,62 @@
+{
+  "name": "advanced_ore_crusher",
+  "label": "Advanced Ore Crusher",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "quark:iron_plate_stairs",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "c": {
+      "id": "thermalfoundation:glass",
+      "meta": 8
+    },
+    "d": {
+      "id": "quark:iron_plate",
+      "meta": 0
+    },
+    "e": {
+      "id": "quark:iron_plate_slab",
+      "meta": 0
+    },
+    "f": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 0
+    },
+    "g": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 1
+    },
+    "h": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 3
+    },
+    "i": {
+      "id": "modularmachinery:blockcontroller",
+      "meta": 0
+    },
+    "j": {
+      "id": "modularmachinery:blockenergyinputhatch",
+      "meta": 0
+    },
+    "k": {
+      "id": "modularmachinery:blockoutputbus",
+      "meta": 0
+    },
+    "l": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 5
+    },
+    "m": {
+      "id": "modularmachinery:blockinputbus",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

@@ -25,16 +25,17 @@ AlloySmelter.addRecipe(<thermalfoundation:material:167> * 2,<enderio:item_materi
 AlloySmelter.addRecipe(<futuremc:netherite_ingot>,<futuremc:netherite_scrap> * 4,<minecraft:gold_ingot> * 4, 600);
 AlloySmelter.addRecipe(<techguns:itemshared:84>,<thermalfoundation:material:770> * 4,<thermalfoundation:material:160>, 600);
 AlloySmelter.addRecipe(<refinedstorage:quartz_enriched_iron> * 2,<actuallyadditions:item_misc:5>,<thermalfoundation:material:132> * 2, 600);
-AlloySmelter.addRecipe(<extendedcrafting:material>,<quark:black_ash> * 4,<minecraft:iron_ingot>, 600);
-AlloySmelter.addRecipe(<extendedcrafting:material>,<fluxnetworks:flux> * 4,<minecraft:iron_ingot>, 600);
+AlloySmelter.addRecipe(<extendedcrafting:material> * 2,<zcontent:hot_iron_ingot> * 2,<quark:black_ash> * 3, 600);
+AlloySmelter.addRecipe(<extendedcrafting:material> * 2,<zcontent:hot_iron_ingot> * 2,<fluxnetworks:flux> * 3, 600);
 AlloySmelter.addRecipe(<extendedcrafting:material:36>,<tp:ender_dust>,<zcontent:cold_iron_ingot>, 600);
 AlloySmelter.addRecipe(<zcontent:terraglaz_ingot>,<actuallyadditions:item_crystal_empowered:4> * 4,<zcontent:manyullyn_ingot>, 600);
 AlloySmelter.addRecipe(<zcontent:manyullyn_ingot>,<zcontent:ardite_ingot>,<zcontent:cobalt_ingot>, 600);
 AlloySmelter.addRecipe(<zcontent:red_alloy_ingot>,<zcontent:red_compound>,<minecraft:redstone> * 8, 600);
 AlloySmelter.addRecipe(<zcontent:blue_alloy_ingot>,<zcontent:blue_compound>,<zcontent:blue_mat_dust> * 8, 600);
-AlloySmelter.addRecipe(<zcontent:nichrome_ingot> * 2,<alchemistry:ingot:24>,<thermalfoundation:material:133>, 600);
-AlloySmelter.addRecipe(<zcontent:galvanized_steel_ingot> * 2,<alchemistry:ingot:30>,<thermalfoundation:material:160> * 2, 600);
+AlloySmelter.addRecipe(<zcontent:nichrome_ingot> * 2,<zcontent:chrome_ingot>,<thermalfoundation:material:133>, 600);
+AlloySmelter.addRecipe(<zcontent:galvanized_steel_ingot> * 2,<zcontent:zinc_ingot>,<thermalfoundation:material:160> * 2, 600);
 AlloySmelter.addRecipe(<zcontent:cold_iron_ingot> * 2,<thermalfoundation:material:1025>,<minecraft:iron_ingot> * 2, 600);
-AlloySmelter.addRecipe(<zcontent:brass_ingot> * 4,<alchemistry:ingot:30>,<thermalfoundation:material:128> * 3, 600);
+AlloySmelter.addRecipe(<zcontent:hot_iron_ingot> * 2,<thermalfoundation:material:1024>,<minecraft:iron_ingot> * 2, 600);
+AlloySmelter.addRecipe(<zcontent:brass_ingot> * 4,<zcontent:zinc_ingot>,<thermalfoundation:material:128> * 3, 600);
 
 print("---initialized immersiveengineering_alloysmelter.zs---");

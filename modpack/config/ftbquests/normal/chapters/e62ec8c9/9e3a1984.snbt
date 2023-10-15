@@ -7,8 +7,7 @@
 		uid: "ae88d390",
 		type: "item",
 		items: [{
-			item: "projectedisable_toast: true,
-	x:stone_table"
+			item: "projectex:stone_table"
 		}]
 	}],
 	rewards: [{

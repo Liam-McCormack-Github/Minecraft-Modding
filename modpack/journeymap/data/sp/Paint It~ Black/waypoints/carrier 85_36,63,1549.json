@@ -1,0 +1,18 @@
+{
+  "id": "carrier 85_36,63,1549",
+  "name": "carrier 85",
+  "icon": "waypoint-normal.png",
+  "x": 36,
+  "y": 63,
+  "z": 1549,
+  "r": 32,
+  "g": 39,
+  "b": 176,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

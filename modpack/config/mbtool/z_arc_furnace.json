@@ -1,0 +1,46 @@
+{
+  "name": "arc_furnace",
+  "label": "Arc Furnace",
+  "target-item": "minecraft:air",
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:stone_decoration",
+      "meta": 2
+    },
+    "b": {
+      "id": "immersiveengineering:sheetmetal_slab",
+      "meta": 8
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "d": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 8
+    },
+    "e": {
+      "id": "immersiveengineering:storage",
+      "meta": 8
+    },
+    "f": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "g": {
+      "id": "immersiveengineering:metal_decoration1",
+      "meta": 1
+    },
+    "h": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+    },
+    "i": {
+      "id": "minecraft:cauldron",
+      "meta": 0
+    }
+  },
+  "shape": [
+    []
+  ]
+}

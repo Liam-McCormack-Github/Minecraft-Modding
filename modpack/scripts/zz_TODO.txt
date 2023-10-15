@@ -34,8 +34,13 @@ as of 2023
 		books
 
 	disable seeds
-		hop graphite
-		black quartz
+		...?????
+		
+	cloche
+		seeds
+			all resource crops
+			
+		proabably others???
 		
 		
 	consolidate recipes
@@ -51,18 +56,11 @@ as of 2023
 	emc
 		covalance dust
 
-		
-	mechanical parts
-	
-	
-	dark steel
-		3x obsidian steel
-		1x galvanized
+
 
 
 	change laser drill from actually additions
-
-
+		did i mean industrial foregoign
 
 
 
@@ -265,7 +263,7 @@ to shop
 Overload recipes
 		|
 		---> reseacrh table
-			C:\Users\Liam McCormack\Desktop\MultiMC\instances\SevTech- Ages\minecraft\scripts\crafttweaker\recipes\mods\overloaded.zs
+			SevTech- Ages\minecraft\scripts\crafttweaker\recipes\mods\overloaded.zs
 
 
 
@@ -276,20 +274,6 @@ Overload recipes
 
 
 
-
-
-
-
-
-Alchem ingots used elsewhere
-	<mysticalagriculture:magnesium_essence>
-	<mysticalagriculture:boron_essence>
-	<mysticalagriculture:chrome_essence>
-	<mysticalagriculture:zinc_essence>
-	<mysticalagriculture:osmium_essence>
-	<mysticalagriculture:tungsten_essence>
-	<mysticalagriculture:thorium_essence>
-	<mysticalagriculture:lithium_essence>
 
 
 
@@ -453,7 +437,7 @@ recipes.addShaped(<eternalsingularity:combined_singularity:13>, [[<jaopca:item_s
 recipes.addShaped(<eternalsingularity:combined_singularity:12>, [[<jaopca:item_singularityblackiron>, <jaopca:item_singularitycrystaltine>, <jaopca:item_singularityevilmetal>],[<jaopca:item_singularityenchantedmetal>, null, <jaopca:item_singularitydemonicmetal>], [<jaopca:item_singularitynetherite>, <jaopca:item_singularityenderbiotite>, <jaopca:item_singularityquartzblack>]]);
 recipes.addShaped(<eternalsingularity:combined_singularity:11>, [[<jaopca:item_singularityconstructionalloy>, <jaopca:item_singularityendsteel>, <jaopca:item_singularitycrystallinealloy>],[<jaopca:item_singularitymelodicalloy>, null, <jaopca:item_singularitystellaralloy>], [<jaopca:item_singularitycrystallinepinkslime>, <jaopca:item_singularityenergeticsilver>, <jaopca:item_singularityvividalloy>]]);
 recipes.addShaped(<eternalsingularity:combined_singularity:10>, [[<jaopca:item_singularityelectricalsteel>, <jaopca:item_singularityenergeticalloy>, <jaopca:item_singularityvibrantalloy>],[<jaopca:item_singularityredstonealloy>, null, <jaopca:item_singularityconductiveiron>], [<jaopca:item_singularitypulsatingiron>, <jaopca:item_singularitydarksteel>, <jaopca:item_singularitysoularium>]]);
-recipes.addShaped(<eternalsingularity:combined_singularity:9>, [[<jaopca:item_singularityelectrum>, <jaopca:item_singularityinvar>, <jaopca:item_singularitybronze>],[<jaopca:item_singularityconstantan>, null, <jaopca:item_singularitybrass>], [<jaopca:item_singularitycarbon>, <jaopca:item_singularitycoldiron>, <jaopca:item_singularitygraphite>]]);
+recipes.addShaped(<eternalsingularity:combined_singularity:9>, [[<jaopca:item_singularityelectrum>, <jaopca:item_singularityinvar>, <jaopca:item_singularitybronze>],[<jaopca:item_singularityconstantan>, null, <jaopca:item_singularitybrass>], [<jaopca:item_singularitycarbon>, <jaopca:item_singularitycoldiron>, <jaopca:item_singularitychromium>]]);
 recipes.addShaped(<eternalsingularity:combined_singularity:8>, [[<jaopca:item_singularitymithril>, <jaopca:item_singularitysignalum>, <jaopca:item_singularitylumium>],[<jaopca:item_singularityenderium>, null, <jaopca:item_singularitysteel>], [<jaopca:item_singularitygalvanizedsteel>, <jaopca:item_singularitynichrome>, <jaopca:item_singularitystainlesssteel>]]);
 recipes.addShaped(<eternalsingularity:combined_singularity:7>, [[<jaopca:item_singularitycrystalred>, <jaopca:item_singularitycrystalorange>, <jaopca:item_singularitycrystalindigo>],[<jaopca:item_singularitycrystalgreen>, null, <jaopca:item_singularityardite>], [<jaopca:item_singularitycobalt>, <jaopca:item_singularitymanyullyn>, <jaopca:item_singularityterraglaz>]]);
 recipes.addShaped(<eternalsingularity:combined_singularity:6>, [[<jaopca:item_singularitycrystalblack>, <jaopca:item_singularitycrystalblue>, <jaopca:item_singularitycrystalyellow>],[<jaopca:item_singularitycrystalwhite>, null, <jaopca:item_singularitycrystalviolet>], [<jaopca:item_singularityfluxalloy>, <jaopca:item_singularityelectrotinealloy>, <jaopca:item_singularityelectrofluxalloy>]]);
