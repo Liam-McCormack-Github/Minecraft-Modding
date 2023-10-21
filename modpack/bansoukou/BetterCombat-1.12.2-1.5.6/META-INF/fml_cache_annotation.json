@@ -1,0 +1,307 @@
+{
+  "bettercombat/mod/capability/CapabilityOffhandCooldown": {
+    "name": "bettercombat/mod/capability/CapabilityOffhandCooldown",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/ICapabilityProvider",
+      "net/minecraftforge/common/util/INBTSerializable"
+    ]
+  },
+  "bettercombat/mod/capability/CapabilityOffhandCooldown$Factory": {
+    "name": "bettercombat/mod/capability/CapabilityOffhandCooldown$Factory",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "bettercombat/mod/capability/CapabilityOffhandCooldown$Storage": {
+    "name": "bettercombat/mod/capability/CapabilityOffhandCooldown$Storage",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/Capability$IStorage"
+    ]
+  },
+  "bettercombat/mod/capability/StorageOffHandAttack": {
+    "name": "bettercombat/mod/capability/StorageOffHandAttack",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/Capability$IStorage"
+    ]
+  },
+  "bettercombat/mod/capability/StorageSecondHurtTimer": {
+    "name": "bettercombat/mod/capability/StorageSecondHurtTimer",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/Capability$IStorage"
+    ]
+  },
+  "bettercombat/mod/client/gui/GUIFactory": {
+    "name": "bettercombat/mod/client/gui/GUIFactory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/IModGuiFactory"
+    ]
+  },
+  "bettercombat/mod/client/handler/EventHandlersClient": {
+    "name": "bettercombat/mod/client/handler/EventHandlersClient",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onMouseEvent(Lnet/minecraftforge/client/event/MouseEvent;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/NORMAL"
+          },
+          "receiveCanceled": {
+            "type": "BOOL",
+            "value": "true"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderGameOverlay(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Pre;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/LOWEST"
+          },
+          "receiveCanceled": {
+            "type": "BOOL",
+            "value": "true"
+          }
+        }
+      }
+    ]
+  },
+  "bettercombat/mod/combat/DefaultImplOffHandAttack": {
+    "name": "bettercombat/mod/combat/DefaultImplOffHandAttack",
+    "interfaces": [
+      "bettercombat/mod/combat/IOffHandAttack"
+    ]
+  },
+  "bettercombat/mod/combat/DefaultImplSecondHurtTimer": {
+    "name": "bettercombat/mod/combat/DefaultImplSecondHurtTimer",
+    "interfaces": [
+      "bettercombat/mod/combat/ISecondHurtTimer"
+    ]
+  },
+  "bettercombat/mod/handler/EventHandlers": {
+    "name": "bettercombat/mod/handler/EventHandlers",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/capabilities/CapabilityInject;",
+        "target": "OFFHAND_CAP",
+        "value": {
+          "type": "CLASS",
+          "value": "Lbettercombat/mod/combat/IOffHandAttack;"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/capabilities/CapabilityInject;",
+        "target": "SECONDHURTTIMER_CAP",
+        "value": {
+          "type": "CLASS",
+          "value": "Lbettercombat/mod/combat/ISecondHurtTimer;"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/capabilities/CapabilityInject;",
+        "target": "TUTO_CAP",
+        "value": {
+          "type": "CLASS",
+          "value": "Lbettercombat/mod/capability/CapabilityOffhandCooldown;"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onAttack(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onLivingUpdate(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingUpdateEvent;)V",
+        "values": {
+          "receiveCanceled": {
+            "type": "BOOL",
+            "value": "true"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEntityConstruct(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V"
+      }
+    ]
+  },
+  "bettercombat/mod/handler/EventHandlers$1": {
+    "name": "bettercombat/mod/handler/EventHandlers$1",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/ICapabilitySerializable"
+    ]
+  },
+  "bettercombat/mod/handler/EventHandlers$2": {
+    "name": "bettercombat/mod/handler/EventHandlers$2",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/ICapabilitySerializable"
+    ]
+  },
+  "bettercombat/mod/network/PacketMainhandAttack": {
+    "name": "bettercombat/mod/network/PacketMainhandAttack",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "bettercombat/mod/network/PacketMainhandAttack$Handler": {
+    "name": "bettercombat/mod/network/PacketMainhandAttack$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "bettercombat/mod/network/PacketOffhandAttack": {
+    "name": "bettercombat/mod/network/PacketOffhandAttack",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "bettercombat/mod/network/PacketOffhandAttack$Handler": {
+    "name": "bettercombat/mod/network/PacketOffhandAttack$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "bettercombat/mod/network/PacketOffhandCooldown": {
+    "name": "bettercombat/mod/network/PacketOffhandCooldown",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "bettercombat/mod/network/PacketOffhandCooldown$ClientHandler": {
+    "name": "bettercombat/mod/network/PacketOffhandCooldown$ClientHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "bettercombat/mod/network/PacketOffhandCooldown$ServerHandler": {
+    "name": "bettercombat/mod/network/PacketOffhandCooldown$ServerHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "bettercombat/mod/network/PacketSendEnergy": {
+    "name": "bettercombat/mod/network/PacketSendEnergy",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "bettercombat/mod/network/PacketSendEnergy$Handler": {
+    "name": "bettercombat/mod/network/PacketSendEnergy$Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "bettercombat/mod/util/BetterCombatMod": {
+    "name": "bettercombat/mod/util/BetterCombatMod",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "bettercombat/mod/util/BetterCombatMod",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "guiFactory": {
+            "value": "bettercombat.mod.client.gui.GUIFactory"
+          },
+          "modid": {
+            "value": "bettercombatmod"
+          },
+          "name": {
+            "value": "Better Combat"
+          },
+          "version": {
+            "value": "1.5.6"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "bettercombat.mod.client.ClientProxy"
+          },
+          "modId": {
+            "value": "bettercombatmod"
+          },
+          "serverSide": {
+            "value": "bettercombat.mod.util.CommonProxy"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "modInstance",
+        "value": {
+          "value": "bettercombatmod"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      }
+    ]
+  },
+  "bettercombat/mod/util/ConfigurationHandler": {
+    "name": "bettercombat/mod/util/ConfigurationHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onConfigurationChangedEvent(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V"
+      }
+    ]
+  },
+  "bettercombat/mod/util/ScheduledPacketTask": {
+    "name": "bettercombat/mod/util/ScheduledPacketTask",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "bettercombat/mod/util/Sounds": {
+    "name": "bettercombat/mod/util/Sounds",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "bettercombat/mod/util/Sounds",
+        "values": {
+          "modid": {
+            "value": "bettercombatmod"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      }
+    ]
+  }
+}

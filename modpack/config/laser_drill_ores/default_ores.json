@@ -1,419 +1,419 @@
 [{
 		"item": "oreGold",
-		"color": 0,
+		"color": 4,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreIron",
-		"color": 0,
+		"color": 12,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreLapis",
-		"color": 0,
+		"color": 11,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreDiamond",
-		"color": 0,
+		"color": 3,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreRedstone",
-		"color": 0,
+		"color": 14,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreEmerald",
-		"color": 0,
+		"color": 13,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreCoal",
-		"color": 0,
+		"color": 15,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreCopper",
-		"color": 0,
+		"color": 1,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreTin",
-		"color": 0,
+		"color": 7,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreSilver",
-		"color": 0,
+		"color": 8,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreLead",
-		"color": 0,
+		"color": 10,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreAluminum",
 		"color": 0,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreNickel",
-		"color": 0,
+		"color": 8,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "orePlatinum",
-		"color": 0,
+		"color": 3,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreIridium",
 		"color": 0,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreRuby",
-		"color": 0,
+		"color": 6,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "orePeridot",
-		"color": 0,
+		"color": 5,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreTopaz",
-		"color": 0,
+		"color": 1,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreTanzanite",
-		"color": 0,
+		"color": 2,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreMalachite",
-		"color": 0,
+		"color": 9,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreSapphire",
-		"color": 0,
+		"color": 11,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreAmber",
-		"color": 0,
+		"color": 1,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreUranium",
-		"color": 0,
+		"color": 5,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreTitanium",
-		"color": 0,
+		"color": 15,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreEnder",
-		"color": 0,
+		"color": 13,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "zcontent:stone_chunk",
-		"color": 0,
+		"color": 8,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 40
 		}]
 	},
 	{
 		"item": "zcontent:sand_chunk",
-		"color": 0,
+		"color": 4,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 20
 		}]
 	},
 	{
 		"item": "zcontent:clay_chunk",
-		"color": 0,
+		"color": 3,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:dirt_chunk",
-		"color": 0,
+		"color": 12,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 20
 		}]
 	},
 	{
 		"item": "zcontent:basalt_chunk",
-		"color": 0,
+		"color": 15,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:limestone_chunk",
-		"color": 0,
+		"color": 4,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:marble_chunk",
 		"color": 0,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:granite_chunk",
-		"color": 0,
+		"color": 12,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:diorite_chunk",
 		"color": 0,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:andesite_chunk",
-		"color": 0,
+		"color": 7,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:gravel_chunk",
-		"color": 0,
+		"color": 7,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:slate_chunk",
-		"color": 0,
+		"color": 10,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
 		"item": "zcontent:jasper_chunk",
-		"color": 0,
+		"color": 14,
 		"rarity": [{
-			"whitelist": "minecraft:overworld",
-			"blacklist": "",
+			"whitelist": "",
+			"blacklist": "minecraft:hell, minecraft:sky",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 10
 		}]
 	},
 	{
@@ -424,117 +424,117 @@
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreCobalt",
-		"color": 0,
+		"color": 11,
 		"rarity": [{
 			"whitelist": "minecraft:hell",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "oreArdite",
-		"color": 0,
+		"color": 1,
 		"rarity": [{
 			"whitelist": "minecraft:hell",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "zcontent:nether_chunk",
-		"color": 0,
+		"color": 6,
 		"rarity": [{
 			"whitelist": "minecraft:hell",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 40
 		}]
 	},
 	{
 		"item": "zcontent:meteor_chunk",
-		"color": 0,
+		"color": 15,
 		"rarity": [{
 			"whitelist": "minecraft:hell",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "zcontent:ancientdebris_chunk",
-		"color": 0,
+		"color": 12,
 		"rarity": [{
 			"whitelist": "minecraft:hell",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "zcontent:soulstone_chunk",
-		"color": 0,
+		"color": 12,
 		"rarity": [{
 			"whitelist": "minecraft:hell",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 20
 		}]
 	},
 	{
 		"item": "zcontent:soulsand_chunk",
-		"color": 0,
+		"color": 12,
 		"rarity": [{
 			"whitelist": "minecraft:hell",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 20
 		}]
 	},
 	{
 		"item": "oreAmethyst",
-		"color": 0,
+		"color": 2,
 		"rarity": [{
 			"whitelist": "minecraft:sky",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 5
 		}]
 	},
 	{
 		"item": "zcontent:end_chunk",
-		"color": 0,
+		"color": 4,
 		"rarity": [{
 			"whitelist": "minecraft:sky",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 40
 		}]
 	},
 	{
 		"item": "zcontent:obsidian_chunk",
-		"color": 0,
+		"color": 10,
 		"rarity": [{
 			"whitelist": "minecraft:sky",
 			"blacklist": "",
 			"depth_min": 0,
 			"depth_max": 255,
-			"weight": 1
+			"weight": 20
 		}]
 	}
 ]

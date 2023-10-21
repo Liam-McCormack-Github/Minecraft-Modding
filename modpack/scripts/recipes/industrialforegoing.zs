@@ -83,11 +83,26 @@ recipes.removeByRecipeName("industrialforegoing:black_hole_controller_reworked")
 recipes.removeByRecipeName("industrialforegoing:item_splitter");
 recipes.removeByRecipeName("industrialforegoing:energy_field_provider");
 recipes.removeByRecipeName("industrialforegoing:pitiful_fuel_generator");
-
-
-
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_0");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_1");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_2");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_3");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_4");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_5");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_6");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_7");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_8");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_9");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_10");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_11");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_12");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_13");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_14");
+recipes.removeByRecipeName("industrialforegoing:laser_lens_inverted_15");
 
 # Add
+recipes.addShapeless(<industrialforegoing:laser_lens>, [<industrialforegoing:laser_lens_inverted>]);
+recipes.addShapeless(<industrialforegoing:laser_lens_inverted>, [<industrialforegoing:laser_lens>]);
 recipes.addShaped(<industrialforegoing:pitiful_fuel_generator>, [[<quark:sturdy_stone>, <quark:sturdy_stone>, <quark:sturdy_stone>],[<quark:sturdy_stone>, <ore:gearGold>, <quark:sturdy_stone>], [<ore:ingotIron>, <ore:ingotConductiveIron>, <ore:ingotIron>]]);
 recipes.addShaped(<industrialforegoing:energy_field_provider>, [[<ore:ingotGold>, <industrialforegoing:energy_field_addon>, <ore:ingotGold>], [<ore:ingotGold>, <teslacorelib:machine_case>, <ore:ingotGold>], [<minecraft:repeater>, <ore:gearPlatinum>, <minecraft:repeater>]]);
 recipes.addShaped(<industrialforegoing:protein_reactor>, [[<ore:sheetPlastic>, <minecraft:porkchop>, <ore:sheetPlastic>], [<minecraft:egg>, <teslacorelib:machine_case>, <minecraft:egg>], [<minecraft:brick>, <minecraft:rabbit_foot>, <minecraft:brick>]]);

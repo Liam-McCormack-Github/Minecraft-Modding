@@ -133,5 +133,6 @@ modpack/config/jei/worldSettings.cfg
 modpack/config/splash.properties
 modpack/config/worldedit/worldedit.properties
 modpack/mods/mods.zip
+modpack/mods/mods.7z
 modpack/journeymap/data
 modpack/journeymap/server
